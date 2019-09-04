@@ -116,15 +116,15 @@
                         <p class="pt-1 d-none d-md-block">
                           Our team is backed by over 150 years of experience in commercial and multifamily real estate. We specialize in generating reliable, long term returns for our investors.
                         </p>
-                        <a class="button-custom m-0 dropdown-button" href="/about">Meet Our Team</a>
+                        <a class="button-custom m-0 dropdown-button" href="/service">Our Service</a>
                       </div>
                       <div class="col-12 col-sm-6 col-lg-3 pr-0 d-none d-lg-block dropdown-image-column">
                         <img class="dropdown-image" src="<?php bloginfo('template_directory'); ?>/assets/img/dropdown-image-about-us"  />
                       </div>
                       <div class="col-12 col-sm-6 col-lg-4">
                         <a class="dropdown-item" href="/about">About Placeholder</a>
+                        <a class="dropdown-item" href="/about#team">Meet The Team</a>
                         <a class="dropdown-item" href="/history">History &amp; Organization</a>
-                        <a class="dropdown-item" href="/service">Our Services</a>
                         <a class="dropdown-item" href="/partners">Partners &amp; Community</a>
                       </div>
                     </div>
@@ -149,7 +149,7 @@
                         </div>
                         <div class="col-12 col-sm-6 col-lg-4">
                           <a class="dropdown-item" href="/why-real-estate">Why Invest in Real Estate?</a>
-                          <a class="dropdown-item" href="#">Opportunity Zone Articles</a>
+                          <a class="dropdown-item" href="/resources">Opportunity Zone Articles</a>
                           <a class="dropdown-item" href="/glossary">Glossary</a>
                           <a class="dropdown-item" href="/faq">FAQ</a>
                         </div>

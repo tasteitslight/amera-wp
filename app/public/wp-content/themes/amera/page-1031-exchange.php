@@ -191,7 +191,7 @@ get_header();
           <h3>Learn More About Opportunity Funds</h3>
           <div class="row my-5">
             <div class="col-sm-7 pb-4 pb-sm-0">
-              <a class="img-link" href="#">
+              <a class="img-link" href="/opportunity-fund">
                 <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/opportunityfund-2.jpg"/>
                 <div class="img-link--gradient-dark d-flex justify-content-center">
                   <div class="my-auto">
@@ -201,11 +201,11 @@ get_header();
               </a>
             </div>
             <div class="col-sm-5">
-              <a class="img-link" href="#">
-                <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/rules.jpg"/>
+              <a class="img-link" href="/tax-advantage">
+                <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/taxadvantage.jpg"/>
                 <div class="img-link--gradient-dark d-flex justify-content-center">
                   <div class="my-auto">
-                    Rules &amp; Regulations
+                    Tax Advantages
                   </div>
                 </div>
               </a>
@@ -222,9 +222,9 @@ get_header();
           <h1 class="">Ready to invest?</h1>
           <p>
             Register for an Placeholder account to access and review all fund documents. Already have an account?
-            <br/><a href="#">Click here to sign in.</a>
+            <br/><a href="" class="show_login">Click here to sign in.</a>
           </p>
-          <button class="button-custom button-custom-1">Register</button>
+          <a class="button-custom button-custom-1 show_login">Register</a>
         </div>
         <div class="col-md-6">
           <img class="border-radius w-100 box-shadow" src="<?php bloginfo('template_directory'); ?>/assets/img/invest.jpg"/>
@@ -250,7 +250,7 @@ get_header();
               </p>
             </div>
             <div class="col-12 col-md-4 text-center text-md-left">
-              <button class="button-custom help-button">investments@placeholder.com</button>
+              <a href="mailto:investments@placeholder.com" class="button-custom help-button text-center">investments@placeholder.com</a>
             </div>
           </div>
         </div>

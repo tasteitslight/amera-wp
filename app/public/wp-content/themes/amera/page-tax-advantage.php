@@ -54,7 +54,7 @@ get_header();
             </p>
             <p>
             This is by far the biggest benefit of the opportunity zones program, and the #1 reason why 
-            Treasury Secretary Steven Mnuchin expects <a href="#">more than $100 billion in investments</a> to flow 
+            Treasury Secretary Steven Mnuchin expects <a href="https://thehill.com/hilltv/rising/408980-mnuchin-predicts-100b-in-cap-investment-from-new-opportunity-zones">more than $100 billion in investments</a> to flow 
             to opportunity zones as a result of this program.
             </p>  
           </dv>
@@ -77,7 +77,7 @@ get_header();
             <p>
               An investor with capital gains from any source, such as the sale of stock, real estate, artwork, etc. is not
               required to pay taxes on that gain until 2027 if it is placed into an Opportunity Fund. When paid in 2027,
-              this original capital gain tax is reduced 15%. <a href="">Click here for an example.</a>
+              this original capital gain tax is reduced 15%. <a href="/opportunity-fund#example">Click here for an example.</a>
             </p>  
           </dv>
         </div>
@@ -142,9 +142,9 @@ get_header();
         </div>
       </section>
 
-      <section class="container text-center">
+      <section class="container text-center" id="compare">
         <hr/>
-        <h1 class="pt-4">
+        <h1 class="pt-4 mt-5">
           After Tax Net Profit Comparison
         </h1>
         <p>
@@ -174,7 +174,7 @@ get_header();
               </p>
             </div>
             <div class="col-12 col-md-4 text-center text-md-left">
-              <button class="button-custom help-button">investments@placeholder.com</button>
+              <a href="mailto:investments@placeholder.com" class="button-custom help-button text-center">investments@placeholder.com</a>
             </div>
           </div>
         </div>

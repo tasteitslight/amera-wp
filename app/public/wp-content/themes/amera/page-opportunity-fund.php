@@ -20,8 +20,8 @@ get_header();
           <p>
             Learn why Opportunity Funds are the most exciting investment to develop in recent history.
           </p>
-          <button class="button-custom mt-2">Opportunity Zone Investments</button>
-          <button class="button-custom mt-2">Schedule A Call</button>
+          <a href="/investments" class="button-custom mt-2">Opportunity Zone Investments</a>
+          <a href="#" class="button-custom mt-2">Schedule A Call</a>
         </div>
         <svg class="svg-diagonal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
           <polygon fill="white" points="0,100 100,0 100,100" />
@@ -89,7 +89,7 @@ get_header();
 
       <!-- Section Example -->
 
-      <section class="container text-center pb-0">
+      <section id="example" class="container text-center pb-0 pt-5 mt-5">
         <h1 class="pb-5">Example</h1>
         <p class="pb-5">
             When a great stock rises to $2,000 per share, John sells. 
@@ -223,7 +223,7 @@ get_header();
             See for yourself how much money you could save investing in AAAmerican Opportunity Fund
               versus a traditionally taxed investment.
           </p>
-          <button class="button-custom mb-5 w-75 ">View My Savings</button>
+          <a href="/tax-advantage#compare" class="button-custom mb-5 w-75">View My Savings</a>
         </div>
       </section> <!-- /container -->
 
@@ -234,7 +234,7 @@ get_header();
               <h3>Learn More About Opportunity Funds</h3>
               <div class="row my-5">
                 <div class="col-sm-7 pb-4 pb-sm-0">
-                  <a class="img-link" href="#">
+                  <a class="img-link" href="/tax-advantage">
                     <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/taxadvantage.jpg"/>
                     <div class="img-link--gradient-dark d-flex justify-content-center">
                       <div class="my-auto">
@@ -244,7 +244,7 @@ get_header();
                   </a>
                 </div>
                 <div class="col-sm-5">
-                  <a class="img-link" href="#">
+                  <a class="img-link" href="/rules">
                     <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/rules.jpg"/>
                     <div class="img-link--gradient-dark d-flex justify-content-center">
                       <div class="my-auto">
@@ -266,7 +266,7 @@ get_header();
               Get an overview of the Opportunity Zone Program and how to invest in an 
               Opportunity Fund with this guide.
             </p>
-            <button class="button-custom mb-4">Download</button>
+            <a href="#" class="button-custom mb-4">Download</a>
           </div>
           <div class="col-12 col-sm-4 order-1 order-sm-2 mb-3 mb-sm-0">
             <a class="handbook--link" href="#">
@@ -285,11 +285,11 @@ get_header();
           <h2 class="mb-4">
             To Review Fund Documents &amp; Invest When You're Ready
           </h2>
-          <button class="button-custom mb-4">
+          <a class="button-custom mb-4 show_login">
             Create An Account
-          </button>
+          </a>
           <p>
-            Already have an account? <a href="#">Sign In</a>
+            Already have an account? <a href="" class="show_login">Sign In</a>
           </p>
         </div>
       </section>
@@ -314,7 +314,7 @@ get_header();
               </p>
             </div>
             <div class="col-12 col-md-4 text-center text-md-left">
-              <button class="button-custom help-button">investments@placeholder.com</button>
+              <a href="mailto:investments@placeholder.com" class="button-custom help-button text-center">investments@placeholder.com</a>
             </div>
           </div>
         </div>

@@ -26,7 +26,7 @@ get_header();
 
       <section class="container pt-5 px-0 bg-grey">
         <div class="container bg-grey">
-          <a href="#" class="resources--link"><i class="icon-chevron-left icon-small"></i>Resources</a>
+          <a href="/resources" class="resources--link"><i class="icon-chevron-left icon-small"></i>Resources</a>
         </div>
         <div class="list-group-flush d-flex flex-wrap glossary-links mt-5 w-100 justify-content-center bg-grey border-bottom">
           <a class="list-group-item glossary" href="#a">A</a>
@@ -308,7 +308,7 @@ get_header();
                 Value add properties are those which require improvements but have existing income. The improvements are of somewhat higher risk, such as larger rennovations or curing deferred maintenance. Investing in value-add properties is a moderate to high risk strategy (due to the nature of larger improvements to a property) with moderate to high returns.
               </p>
             </section>
-            <section id="y" class="scroll-pad-gloss">
+            <section id="y" class="scroll-pad-gloss mb-5">
               <h3 class="pt-4">Yield</h3>
               <div class="separator-gradient mb-3"></div>
               <p>
@@ -327,12 +327,12 @@ get_header();
               <h1 >Ready to invest?</h1>
               <p>
                 Register for an Placeholder account to access and review all fund documents. Already have an account?
-                <br/><a href="#">Click here to sign in.</a>
+                <br/><a href="" class="show_login">Click here to sign in.</a>
               </p>
-              <button class="button-custom button-custom-1 mb-5">Register</button>
+              <a href="" class="button-custom button-custom-1 mb-5 show_login">Register</a>
             </div>
             <div class="col-md-6">
-              <img class="border-radius w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/landing-farmland.jpg"/>
+              <img class="border-radius w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/invest.jpg"/>
             </div>
           </div>
         </div>        
@@ -356,7 +356,7 @@ get_header();
               </p>
             </div>
             <div class="col-12 col-md-4 text-center text-md-left">
-              <button class="button-custom help-button">investments@placeholder.com</button>
+              <a href="mailto:investments@placeholder.com" class="button-custom help-button text-center">investments@placeholder.com</a>
             </div>
           </div>
         </div>

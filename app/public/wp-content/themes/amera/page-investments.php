@@ -65,7 +65,7 @@ get_header();
           </div>
           <div class="col-7 pl-0 border-bottom">
               <h3>Create an Account</h3>
-              <p class="">Submit your contact information and investment details. <a href="#">Sign Up</a></p>
+              <p class="">Submit your contact information and investment details. <a href="" class="show_login">Sign Up</a></p>
           </div>
         </div>
         <div class="row pt-5 d-flex justify-content-center text-left">
@@ -113,7 +113,7 @@ get_header();
               </p>
             </div>
             <div class="col-12 col-md-4 text-center text-md-left">
-              <button class="button-custom help-button">investments@placeholder.com</button>
+              <a href="mailto:investments@placeholder.com" class="button-custom help-button text-center">investments@placeholder.com</a>
             </div>
           </div>
         </div>

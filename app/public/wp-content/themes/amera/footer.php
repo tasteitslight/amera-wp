@@ -47,7 +47,7 @@
           <div class="col-6 col-md-3 col-lg">
             <h6>Resources</h6>
             <ul class="footer-ul">
-              <li><a href="#">Sign In</a></li>
+              <li><a class="show_login" href="#">Sign In</a></li>
               <li><a href="#">Articles</a></li>
               <li><a href="/glossary">Glossary</a></li>
               <li><a href="/faq">FAQ</a></li>

@@ -110,7 +110,7 @@ get_header();
             <h3>Learn More About Opportunity Funds</h3>
             <div class="row my-5">
               <div class="col-sm-7 pb-4 pb-sm-0">
-                <a class="img-link" href="#">
+                <a class="img-link" href="/opportunity-fund">
                   <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/opportunityfund.jpg"/>
                   <div class="img-link--gradient-dark d-flex justify-content-center">
                     <div class="my-auto">
@@ -120,7 +120,7 @@ get_header();
                 </a>
               </div>
               <div class="col-sm-5">
-                <a class="img-link" href="#">
+                <a class="img-link" href="/tax-advantage">
                   <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/taxadvantage.jpg"/>
                   <div class="img-link--gradient-dark d-flex justify-content-center">
                     <div class="my-auto">
@@ -139,7 +139,7 @@ get_header();
         </h3>
         <div class="row justify-content-center">
           <div class="col-9 col-lg-6 col-xl-4">
-            <a class="external-links">
+            <a class="external-links" target="_blank" href="https://www.irs.gov/newsroom/irs-issues-guidance-relating-to-deferral-of-gains-for-investments-in-a-qualified-opportunity-fund">
               <div class="separator-gradient mb-3"></div>
               <div class="d-flex">
                 <i class="icon-external-link icon-2x"></i>
@@ -150,7 +150,7 @@ get_header();
               </div>
               <div class="separator-gradient mb-3"></div>
             </a>
-            <a class="external-links" href="https://eig.org/wp-content/uploads/2018/01/Tax-Benefits-of-Investing-in-Opportunity-Zones.pdf">
+            <a class="external-links" target="_blank" href="https://eig.org/wp-content/uploads/2018/01/Tax-Benefits-of-Investing-in-Opportunity-Zones.pdf">
               <div class="separator-gradient mb-3"></div>
               <div class="d-flex">
                 <i class="icon-external-link icon-2x"></i>
@@ -161,7 +161,7 @@ get_header();
               </div>
               <div class="separator-gradient mb-3"></div>
             </a>
-            <a class="external-links" href="https://www.forbes.com/sites/forbesdigitalcovers/2018/07/17/an-unlikely-group-of-billionaires-and-politicians-has-created-the-most-unbelievable-tax-break-ever/#2ecaa7d14855">
+            <a class="external-links" target="_blank" href="https://www.forbes.com/sites/forbesdigitalcovers/2018/07/17/an-unlikely-group-of-billionaires-and-politicians-has-created-the-most-unbelievable-tax-break-ever/#2ecaa7d14855">
               <div class="separator-gradient mb-3"></div>
               <div class="d-flex">
                 <i class="icon-external-link icon-2x"></i>
@@ -185,9 +185,9 @@ get_header();
               <h1 >Ready to invest?</h1>
               <p>
                 Register for an Placeholder account to access and review all fund documents. Already have an account?
-                <br/><a href="#">Click here to sign in.</a>
+                <br/><a class="show_login" href="">Click here to sign in.</a>
               </p>
-              <button class="button-custom button-custom-1 mb-5">Register</button>
+              <a class="button-custom button-custom-1 mb-5 show_login">Register</a>
             </div>
             <div class="col-md-6">
               <img class="border-radius w-100 box-shadow" src="<?php bloginfo('template_directory'); ?>/assets/img/invest.jpg"/>
@@ -214,7 +214,7 @@ get_header();
               </p>
             </div>
             <div class="col-12 col-md-4 text-center text-md-left">
-              <button class="button-custom help-button">investments@placeholder.com</button>
+              <a href="mailto:investments@placeholder.com" class="button-custom help-button text-center">investments@placeholder.com</a>
             </div>
           </div>
         </div>

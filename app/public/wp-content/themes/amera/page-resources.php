@@ -15,9 +15,9 @@ get_header();
           <h1 class="pt-4">
             Resources
           </h1>  
-          <button class="button-custom mt-4">
+          <a href="" class="button-custom mt-4">
             Subscribe to Newsletter
-          </button>
+          </a>
         </div>
         <svg class="svg-diagonal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
           <polygon fill="#ffffff" points="0,100 100,0 100,100" />
@@ -29,17 +29,17 @@ get_header();
       <section class="container">  
         <div class="row d-flex justify-content-center align-items-center text-center resources-nav">
           <div class="col-3">
-            <a href="#">
+            <a href="">
               Articles
             </a>
           </div>
           <div class="col-3">
-            <a href="#">
+            <a href="/glossary">
               Glossary
             </a>
           </div>
           <div class="col-3">
-            <a href="#">
+            <a href="/faq">
               FAQ
             </a>
           </div>
@@ -138,9 +138,9 @@ get_header();
               <h1 >Ready to invest?</h1>
               <p>
                 Register for an Placeholder account to access and review all fund documents. Already have an account?
-                <br/><a href="#">Click here to sign in.</a>
+                <br/><a href="" class="show_login">Click here to sign in.</a>
               </p>
-              <button class="button-custom button-custom-1 mb-5">Register</button>
+              <a class="button-custom button-custom-1 mb-5 show_login">Register</a>
             </div>
             <div class="col-md-6">
               <img class="border-radius w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/invest.jpg"/>
@@ -167,7 +167,7 @@ get_header();
               </p>
             </div>
             <div class="col-12 col-md-4 text-center text-md-left">
-              <button class="button-custom help-button">investments@placeholder.com</button>
+              <a href="mailto:investments@placeholder.com" class="button-custom help-button text-center">investments@placeholder.com</a>
             </div>
           </div>
         </div>

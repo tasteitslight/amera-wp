@@ -99,41 +99,40 @@ get_header();
         <h1 class="mb-5 pb-3">Earn 2x the Profits with Opportunity Funds</h1>
         <img src="<?php bloginfo('template_directory'); ?>/assets/img/graphs/comparison.png" class="w-175 mb-5"/>
         <p class="mb-5 pb-5">
-          Amounts shown are example after-tax profits of $1,000,000 invested for 10 years in a traditional stock portfolio with 8% appreciation versus that invested in an Opportunity Fund with a 8% appreciation. For illustrative purposes only. Learn more about the <a href="#">Tax Benefits of Opportunity Funds.</a>
+          Amounts shown are example after-tax profits of $1,000,000 invested for 10 years in a traditional stock portfolio with 8% appreciation versus that invested in an Opportunity Fund with a 8% appreciation. For illustrative purposes only. Learn more about the <a href="/tax-advantage">Tax Benefits of Opportunity Funds.</a>
         </p>
       </section>
 
-            <!-- More About Opportunity Zones Section -->
+      <!-- More About Opportunity Zones Section -->
 
-            <section class="container-fluid bg-grey border-top border-bottom text-center pb-5">
-                <div class="container my-5">
-                    <h3>Learn More About Opportunity Funds</h3>
-                    <div class="row my-5">
-                      <div class="col-sm-7 pb-4 pb-sm-0">
-                        <a class="img-link" href="#">
-                          <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/opportunityfund.jpg"/>
-                          <div class="img-link--gradient-dark d-flex justify-content-center">
-                            <div class="my-auto">
-                              Opportunity Fund Basics
-                            </div>
-                          </div>
-                        </a>
-                      </div>
-                      <div class="col-sm-5">
-                        <a class="img-link" href="#">
-                          <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/taxadvantage.jpg"/>
-                          <div class="img-link--gradient-dark d-flex justify-content-center">
-                            <div class="my-auto">
-                              Tax Advantages
-                            </div>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
+      <section class="container-fluid bg-grey border-top border-bottom text-center pb-5">
+        <div class="container my-5">
+          <h3>Learn More About Opportunity Funds</h3>
+          <div class="row my-5">
+            <div class="col-sm-7 pb-4 pb-sm-0">
+              <a class="img-link" href="/opportunity-fund">
+                <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/opportunityfund.jpg"/>
+                <div class="img-link--gradient-dark d-flex justify-content-center">
+                  <div class="my-auto">
+                    Opportunity Fund Basics
+                  </div>
                 </div>
-              </section>
+              </a>
+            </div>
+            <div class="col-sm-5">
+              <a class="img-link" href="/tax-advantage">
+                <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/taxadvantage.jpg"/>
+                <div class="img-link--gradient-dark d-flex justify-content-center">
+                  <div class="my-auto">
+                    Tax Advantages
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
       
-
       <!-- Section United States  -->
 
       <section class="container-fluid py-4 mt-5 text-center gradient-wtg border-bottom">
@@ -181,11 +180,11 @@ get_header();
             <h2 class="mb-4">
               To Review Fund Documents &amp; Invest When You're Ready
             </h2>
-            <button class="button-custom mb-4">
+            <a href="" class="button-custom mb-4 show_login">
               Create An Account
-            </button>
+            </a>
             <p>
-              Already have an account? <a href="#">Sign In</a>
+              Already have an account? <a href="" class="show_login">Sign In</a>
             </p>
           </div>
         </section>
@@ -208,7 +207,7 @@ get_header();
               </p>
             </div>
             <div class="col-12 col-md-4 text-center text-md-left">
-              <button class="button-custom help-button">investments@placeholder.com</button>
+              <a href="mailto:investments@placeholder.com" class="button-custom help-button text-center">investments@placeholder.com</a>
             </div>
           </div>
         </div>

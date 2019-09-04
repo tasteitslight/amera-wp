@@ -27,7 +27,7 @@ get_header();
       <section class="container position-relative">
         <div class="row pt-5">
           <div class="col-12 col-sm-4 col-md-3 sidebar-sticky pb-3">
-            <a href="#" class="resources--link"><i class="icon-chevron-left icon-small"></i>Resources</a>
+            <a href="/resources" class="resources--link"><i class="icon-chevron-left icon-small"></i>Resources</a>
             <div id="asdf" class="list-group-flush sticky-menu">
               <a class="list-group-item list-group-item-action faq bg-grey" href="#qof">Opportunity Funds</a>
               <a class="list-group-item list-group-item-action faq bg-grey" href="#investors">For Investors</a>
@@ -292,7 +292,7 @@ get_header();
               </div>
             </section>
 
-            <section id="about">
+            <section id="about" class="mb-5 pb-5">
               <h3 class="scrollspy-pad">
                 About Placeholder
               </h3>
@@ -375,9 +375,9 @@ get_header();
               <h1 >Ready to invest?</h1>
               <p>
                 Register for an Placeholder account to access and review all fund documents. Already have an account?
-                <br/><a href="#">Click here to sign in.</a>
+                <br/><a href="" class="show_login">Click here to sign in.</a>
               </p>
-              <button class="button-custom button-custom-1 mb-5">Register</button>
+              <a class="button-custom button-custom-1 mb-5 show_login">Register</a>
             </div>
             <div class="col-md-6">
               <img class="border-radius box-shadow w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/invest.jpg"/>
@@ -404,7 +404,7 @@ get_header();
               </p>
             </div>
             <div class="col-12 col-md-4 text-center text-md-left">
-              <button class="button-custom help-button">investments@placeholder.com</button>
+              <a href="mailto:investments@placeholder.com" class="button-custom help-button">investments@placeholder.com</a>
             </div>
           </div>
         </div>

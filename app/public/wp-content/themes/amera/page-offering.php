@@ -21,8 +21,8 @@ get_header();
             Accepting Investments 
           </div>
           <br/>
-          <button class="button-custom">Review Documents</button>
-          <button class="button-custom">Indicate Interest</button>
+          <a href="/offering-full" class="button-custom">Review Documents</a>
+          <a class="button-custom">Indicate Interest</a>
         </div>
         <svg class="svg-diagonal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
           <polygon fill="white" points="0,100 100,0 100,100" />
@@ -41,7 +41,7 @@ get_header();
                 </h2>
                 <div class="separator-gradient mb-3"></div>
                 <p class="mb-5">
-                  This growth fund owns and operates multifamily properties while benefiting from the preferential tax treatment of the <a href="#">Opportunity Zone Program.</a>
+                  This growth fund owns and operates multifamily properties while benefiting from the preferential tax treatment of the <a href="/opportunity-fund">Opportunity Zone Program.</a>
                 </p>
                 <h2>
                   Terms
@@ -80,11 +80,11 @@ get_header();
                 Delivering Federal Tax Free Income and Appreciation
               </h2>
               <p>
-                Choose to collect your income to live more comfortably today or automatically reinvest your distributions to increase your <a href="#">tax free</a> investment.
+                Choose to collect your income to live more comfortably today or automatically reinvest your distributions to increase your <a href="/tax-advantage">tax free</a> investment.
               </p>
-              <button class="button-custom">
+              <a class="button-custom show_login">
                 Create An Account
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -100,7 +100,7 @@ get_header();
               Zero Capital Gain Taxes
             </h2>
             <p>
-              Invest capital gains and receive tax-free compounding &amp; defer and reduce current federal capital gain taxes. <a href="#">Understanding Opportunity Fund tax benefits.</a>
+              Invest capital gains and receive tax-free compounding &amp; defer and reduce current federal capital gain taxes. <a href="/tax-advantage">Understanding Opportunity Fund tax benefits.</a>
             </p>
           </div>
           <div class="col-12 col-sm-6 text-center">
@@ -116,7 +116,7 @@ get_header();
               Reduce Portfolio Risk
             </h2>
             <p>
-              Temper your portfolio's overall volatility with real estate's low correlation to stocks and bonds. <a href="#">Learn why top investors choose real estate</a>
+              Temper your portfolio's overall volatility with real estate's low correlation to stocks and bonds. <a href="/why-real-estate">Learn why top investors choose real estate</a>
             </p>
           </div>
         </div>
@@ -144,11 +144,11 @@ get_header();
           <h2 class="mb-4">
             To Review Fund Documents &amp; Invest When You're Ready
           </h2>
-          <button class="button-custom mb-4">
+          <a class="button-custom mb-4 show_login">
             Create An Account
-          </button>
+          </a>
           <p>
-            Already have an account? <a href="#">Sign In</a>
+            Already have an account? <a href="" class="show_login">Sign In</a>
           </p>
         </div>
       </section>
@@ -171,7 +171,7 @@ get_header();
               </p>
             </div>
             <div class="col-12 col-md-4 text-center text-md-left">
-              <button class="button-custom help-button">investments@placeholder.com</button>
+              <a href="mailto:investments@placeholder.com"class="button-custom help-button text-center">investments@placeholder.com</a>
             </div>
           </div>
         </div>

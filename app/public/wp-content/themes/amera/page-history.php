@@ -224,9 +224,9 @@ get_header();
               <h1 class="">Ready to invest?</h1>
               <p>
                 Register for an Placeholder account to access and review all fund documents. Already have an account?
-                <br/><a href="#">Click here to sign in.</a>
+                <br/><a href="" class="show_login">Click here to sign in.</a>
               </p>
-              <button class="button-custom button-custom-1">Register</button>
+              <a class="button-custom button-custom-1 show_login">Register</a>
             </div>
             <div class="col-md-6">
               <img class="border-radius w-100 box-shadow" src="<?php bloginfo('template_directory'); ?>/assets/img/invest.jpg"/>

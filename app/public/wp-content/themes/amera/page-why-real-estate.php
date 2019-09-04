@@ -109,9 +109,9 @@ get_header();
               <h1 class="">Invest with Us</h1>
               <p>
                 Register for an Placeholder account to access and review all fund documents. Already have an account?
-                <br/><a href="#">Click here to sign in.</a>
+                <br/><a class="show_login" href="">Click here to sign in.</a>
               </p>
-              <button class="button-custom button-custom-1">Register</button>
+              <a class="button-custom button-custom-1 show_login">Register</a>
             </div>
             <div class="col-md-6">
               <img class="border-radius w-100 box-shadow" src="<?php bloginfo('template_directory'); ?>/assets/img/invest.jpg"/>
@@ -138,7 +138,7 @@ get_header();
               </p>
             </div>
             <div class="col-12 col-md-4 text-center text-md-left">
-              <button class="button-custom help-button">investments@placeholder.com</button>
+              <a href="mailto:investments@placeholder.com"class="button-custom help-button text-center">investments@placeholder.com</a>
             </div>
           </div>
         </div>

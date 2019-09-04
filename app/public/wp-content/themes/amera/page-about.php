@@ -34,7 +34,7 @@ get_header();
   
         </section>
 
-      <section class="container-fluid border-top py-5 text-center bg-grey">
+      <section id="team" class="container-fluid border-top py-5 text-center bg-grey">
         <div class="container container-lg">
           <h1>
             Meet The Team
