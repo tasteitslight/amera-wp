@@ -1,0 +1,57 @@
+[03-Sep-2019 16:12:56 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/SynopsisValidator.php on line 92
+[03-Sep-2019 16:59:38 UTC] PHP Parse error:  syntax error, unexpected 'bloginfo' (T_STRING) in /app/public/wp-content/themes/amerau/header.php on line 50
+[03-Sep-2019 17:35:05 UTC] PHP Parse error:  syntax error, unexpected ':' in /app/public/wp-content/themes/amerau/page-home.php on line 47
+[03-Sep-2019 22:48:52 UTC] PHP Warning:  Use of undefined constant ‘show_admin_bar’ - assumed '‘show_admin_bar’' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/amerau/functions.php on line 188
+[03-Sep-2019 22:48:52 UTC] PHP Warning:  Use of undefined constant ‘__return_false’ - assumed '‘__return_false’' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/amerau/functions.php on line 188
+[03-Sep-2019 22:48:52 UTC] PHP Warning:  Use of undefined constant ‘show_admin_bar’ - assumed '‘show_admin_bar’' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/amerau/functions.php on line 188
+[03-Sep-2019 22:48:52 UTC] PHP Warning:  Use of undefined constant ‘__return_false’ - assumed '‘__return_false’' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/amerau/functions.php on line 188
+[03-Sep-2019 22:48:52 UTC] PHP Warning:  Use of undefined constant ‘show_admin_bar’ - assumed '‘show_admin_bar’' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/amerau/functions.php on line 188
+[03-Sep-2019 22:48:52 UTC] PHP Warning:  Use of undefined constant ‘__return_false’ - assumed '‘__return_false’' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/amerau/functions.php on line 188
+[03-Sep-2019 22:49:00 UTC] PHP Warning:  Use of undefined constant ‘show_admin_bar’ - assumed '‘show_admin_bar’' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/amerau/functions.php on line 188
+[03-Sep-2019 22:49:00 UTC] PHP Warning:  Use of undefined constant ‘__return_false’ - assumed '‘__return_false’' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/amerau/functions.php on line 188
+[03-Sep-2019 22:49:00 UTC] PHP Warning:  Use of undefined constant ‘show_admin_bar’ - assumed '‘show_admin_bar’' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/amerau/functions.php on line 188
+[03-Sep-2019 22:49:00 UTC] PHP Warning:  Use of undefined constant ‘__return_false’ - assumed '‘__return_false’' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/amerau/functions.php on line 188
+[03-Sep-2019 22:49:00 UTC] PHP Warning:  Use of undefined constant ‘show_admin_bar’ - assumed '‘show_admin_bar’' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/amerau/functions.php on line 188
+[03-Sep-2019 22:49:00 UTC] PHP Warning:  Use of undefined constant ‘__return_false’ - assumed '‘__return_false’' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/amerau/functions.php on line 188
+[03-Sep-2019 22:49:53 UTC] PHP Warning:  Use of undefined constant ‘show_admin_bar’ - assumed '‘show_admin_bar’' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/amerau/functions.php on line 188
+[03-Sep-2019 22:49:53 UTC] PHP Warning:  Use of undefined constant ‘__return_false’ - assumed '‘__return_false’' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/amerau/functions.php on line 188
+[03-Sep-2019 23:28:49 UTC] PHP Warning:  Use of undefined constant some_condition - assumed 'some_condition' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/amerau/header.php on line 52
+[03-Sep-2019 23:28:49 UTC] PHP Warning:  Use of undefined constant some_condition - assumed 'some_condition' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/amerau/header.php on line 52
+[03-Sep-2019 23:28:49 UTC] PHP Warning:  Use of undefined constant some_condition - assumed 'some_condition' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/amerau/header.php on line 52
+[03-Sep-2019 23:29:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_emember_is_member_logged_in() in /app/public/wp-content/themes/amerau/header.php:52
+Stack trace:
+#0 /app/public/wp-includes/template.php(722): require_once()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/amerau/page-home.php(13): get_header()
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/amerau/header.php on line 52
+[03-Sep-2019 23:29:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_emember_is_member_logged_in() in /app/public/wp-content/themes/amerau/header.php:52
+Stack trace:
+#0 /app/public/wp-includes/template.php(722): require_once()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/amerau/404.php(10): get_header()
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/amerau/header.php on line 52
+[03-Sep-2019 23:29:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_emember_is_member_logged_in() in /app/public/wp-content/themes/amerau/header.php:52
+Stack trace:
+#0 /app/public/wp-includes/template.php(722): require_once()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/amerau/404.php(10): get_header()
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/amerau/header.php on line 52
+[04-Sep-2019 00:21:06 UTC] PHP Parse error:  syntax error, unexpected '?>' in /app/public/wp-content/themes/amerau/header.php on line 71
+[04-Sep-2019 00:21:24 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /app/public/wp-content/themes/amerau/header.php on line 71
+[04-Sep-2019 00:21:24 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /app/public/wp-content/themes/amerau/header.php on line 71
+[04-Sep-2019 00:21:24 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /app/public/wp-content/themes/amerau/header.php on line 71
