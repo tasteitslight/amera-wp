@@ -96,8 +96,8 @@ get_header();
 
       <section class="container text-center">
         <hr class="pb-5 mb-5"/>
-        <h1 class="mb-5 pb-3">Earn 2x the Profits with Opportunity Funds</h1>
-        <img src="<?php bloginfo('template_directory'); ?>/assets/img/graphs/comparison.png" class="w-175 mb-5"/>
+        <h1 class="mb-5 pb-3">Earn 2x the Profits</h1>
+        <img src="<?php bloginfo('template_directory'); ?>/assets/img/graphs/comparison.png" class="w-75 mb-5"/>
         <p class="mb-5 pb-5">
           Amounts shown are example after-tax profits of $1,000,000 invested for 10 years in a traditional stock portfolio with 8% appreciation versus that invested in an Opportunity Fund with a 8% appreciation. For illustrative purposes only. Learn more about the <a href="/tax-advantage">Tax Benefits of Opportunity Funds.</a>
         </p>

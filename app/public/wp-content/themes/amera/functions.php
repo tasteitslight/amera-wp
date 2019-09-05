@@ -175,13 +175,17 @@ if ( defined( 'JETPACK__VERSION' ) ) {
  */
 
 // Redirect to home page on login
-function loginRedirect( $redirect_to, $request_redirect_to, $user ) {
+
+/* 
+
+  function loginRedirect( $redirect_to, $request_redirect_to, $user ) {
     if ( is_a( $user, 'WP_User' ) && $user->has_cap( 'edit_posts' ) === false ) {
         return get_bloginfo( 'siteurl' );
     }
     return $redirect_to; }
 
 add_filter( 'login_redirect', 'loginRedirect', 10, 3 );
+*/
 
 // show admin bar only for admins
 
@@ -233,3 +237,15 @@ function ajax_login(){
 
   die();
 }
+
+// Block Dashboard but allowing Login page :: Redirects to homepage
+
+function block_dashboard() {
+  $file = basename($_SERVER['PHP_SELF']);
+  if (is_user_logged_in() && is_admin() && !current_user_can('edit_posts') && $file != 'admin-ajax.php'){
+      wp_redirect( home_url() );
+      exit();
+  }
+}
+
+add_action('init', 'block_dashboard');

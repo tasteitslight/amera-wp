@@ -47,7 +47,7 @@
           <div class="col-6 col-md-3 col-lg">
             <h6>Resources</h6>
             <ul class="footer-ul">
-              <li><a class="show_login" href="#">Sign In</a></li>
+              <li><a class="show_login" href="#">Schedule A Call</a></li>
               <li><a href="#">Articles</a></li>
               <li><a href="/glossary">Glossary</a></li>
               <li><a href="/faq">FAQ</a></li>
@@ -127,6 +127,23 @@
       });
     </script>
 
+    <script>
+
+      // Signup / Login Modal Pill Selector
+
+      $('#modal-login').on('show.bs.modal', function (event) {
+
+      // Button that triggered the modal
+      var link = $(event.relatedTarget)
+
+      // the modal
+      var modal = $(this);
+
+      //show tab
+      modal.find('[href="'+link.attr("href")+'"]').tab('show');
+      });
+    </script>
+    
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       // Animate on Scroll

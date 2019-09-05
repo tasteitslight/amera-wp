@@ -34,7 +34,7 @@ get_header();
           Sell your property and enjoy your principal tax-free
         </h3>
         <p class="pb-5">
-          Saavy investors are familiar with 1031 exchanges. Less known is how Opportunity Funds also provide tax benefits if you sell your property <span style="font-weight: 600; color: #33302E; text-decoration: underline;">without any obligation to reinvest in a like-kind property.</span> Here's how it works: If an investor sells their property, they can invest their gain in an Opportunity Fund to earn capital gain tax <a href="#">deferral and reduction</a> and allow their investment in the fund to <a class="color-blue" href="#">appreciate tax-free.</a> Plus, their principal is now free to invest or spend how they please! See below all the benefits of investing in an Opportunity Fund compared to performing endless 1031 exchanges.
+          Saavy investors are familiar with 1031 exchanges. Less known is how Opportunity Funds also provide tax benefits if you sell your property <span class="color-dark"><strong>without any obligation to reinvest in a like-kind property.</strong></span> Here's how it works: If an investor sells their property, they can invest their gain in an Opportunity Fund to earn capital gain tax <a href="/tax-advantage">deferral and reduction</a> and allow their investment in the fund to <a class="color-blue" href="/tax-advantage">appreciate tax-free.</a> Plus, their principal is now free to invest or spend how they please! See below all the benefits of investing in an Opportunity Fund compared to performing endless 1031 exchanges.
         </p>
         <hr class="mt-5 pt-5"/>
       </section>
@@ -186,7 +186,7 @@ get_header();
 
     <!-- More About Opportunity Zones Section -->
 
-    <section class="container-fluid gradient-gtw border-top border-bottom text-center">
+    <section class="container-fluid bg-grey border-top border-bottom text-center">
       <div class="container my-5">
           <h3>Learn More About Opportunity Funds</h3>
           <div class="row my-5">

@@ -1,18 +1,21 @@
 To Do:
 
-Edit wp-login.php styling to match website
-Hide, change, or redirect wp-admin/
 Sharpen text
 
-/Investments - Remove 'float' on 1AE and grey out on hover
-/investments - add text explaining the investments
-/tax-advantage - Add 'Create an Account' or 'View Investments' section after #compare
+/global - standarding 'Ready To Invest' - Rename as 'View Investments?'
+/global - Style /login
+
 /opportunity-fund - Edit Schedule A Call Link
 /opportunity-fund - Download PDF what PDF?
+
 /global - All 'Register' Buttons => Register Modal
 /global - All 'Need help...' links are set to investments@placeholder.Compare
-/about - Values from Marketing Plan added above 'Meet The Team'
-/global - 'How To Invest' and 'Get Started' direct to new page: Detailed Create an Account Page
-/resources - top 'Articles' link (red) needs a page
 /resources - Subscribe to Newsletter needs working link
+
 /faq - See first question in 'About' Section and note all emails listed
+
+/check numbers on graphs and charts
+
+/global - edit form styling
+
+/global - 'How To Invest' and 'Get Started' direct to new page: Detailed Create an Account Page

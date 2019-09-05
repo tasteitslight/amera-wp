@@ -96,8 +96,8 @@ get_header();
             The sale results in $1,000,000 profit and $238,000 federal capital gain taxes (23.8%).
             Instead of paying the $238,000, John invests all of his $1,000,000 
             gain into an Opportunity Fund. Assuming an annual return rate of over 8%, the post-tax value of 
-            his investment after 10 years is $2,000,000. John pays <span style="color: #08306A; font-weight:600">zero federal taxes</span> 
-            on this gain. John's only tax liability is $202,300, <span style="color: #A93831; font-weight:600">due in 2027 and reduced,</span> only 85% of the standard tax of $238,000 mentioned above. 
+            his investment after 10 years is $2,000,000. John pays <span class="color-blue"><strong>zero federal taxes</strong></span> 
+            on this gain. John's only tax liability is $202,300, <span class="color-red"><strong>deferred until 2027 and reduced,</strong></span> only 85% of the standard tax of $238,000 mentioned above. 
             As a result, John’s post-tax earnings are more than double had he had invested elsewhere.
         </p>
         <hr class="pb-4"/>
@@ -285,17 +285,15 @@ get_header();
           <h2 class="mb-4">
             To Review Fund Documents &amp; Invest When You're Ready
           </h2>
-          <a class="button-custom mb-4 show_login">
+          <a href="#pills-signup" data-toggle="modal" data-target="#modal-login" class="button-custom mb-4" >
             Create An Account
           </a>
           <p>
-            Already have an account? <a href="" class="show_login">Sign In</a>
+            Already have an account? <a href="#pills-signin" data-toggle="modal" data-target="#modal-login">Sign In</a>
           </p>
         </div>
       </section>
-
-      
-
+           
       <!-- Need Help Section  -->
 
       <section class="container-fluid border-top border-bottom--darker bg-grey pt-5 pb-2 section-help">

@@ -25,14 +25,91 @@ get_header();
       <!-- Intro  -->
 
       <section class="container text-center py-5">
-          <h3 class="pb-4">
-            The Placeholder Story
-          </h3>
-          <p>
-            Backed by over a century of investment experience, Placeholder, a subsidiary of American Group, is a commercial real estate firm connecting investors with high-quality assets in select business-friendly and high-growth locations. Meet our team and connect with us on LinkedIn.
-          </p>
-  
-        </section>
+        <h3 class="pb-4">
+          The Placeholder Story
+        </h3>
+        <p class="pb-4">
+          Backed by over a century of investment experience, Placeholder, a subsidiary of American Group, is a commercial real estate firm connecting investors with high-quality assets in select business-friendly and high-growth locations. Meet our team and connect with us on LinkedIn.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Accordion -->
+
+      <section class="container pb-5 mb-5">
+        <div class="accordion text-center" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Strategy
+                </button>
+              </h2>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                The strategy is simple: Conservative underwriting and real, dependable returns with a value-add strategy. Every acquisition deal we do is built with a going-in return and a plan to significantly boost revenue in the hold period, typically 10+ years. Being selective & patient, Placeholder has never had to do a capital call and never had a negative cash flow year.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Experience
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+              The principals in the partnership have over 150 years of experience in real estate with a proven track record of success with over X acquisitions and nearly X dispositions.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Integration
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+              From the acquisition or the sourcing of the development site to the final disposition of the asset, every facet of the investment is handled in-house. Construction, supplies, insurance, property management, leasing & sales brokerage, and asset management are all handled by an affiliated group of companies owned by the principals or closely partnered.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Integrity
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+              <div class="card-body">
+                Our principals pride themselves in serving their clients, investors, and tenants first & foremost. Investors are treated fairly and are given honest and regular reporting and access. We value and   respect people & relationships and always take the long-term view.  Each of our investments and everyone involved with each deal reflects that mentality.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFive">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Sustainability
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+              <div class="card-body">
+                We believe that sustainability is applicable within our field because it captures the full spectrum of our company’s interactions: with the economy, including the industry within which we operate; with society, from employees to partners, vendors and tenants; and with the environment. We believe this approach can drive performance towards excellence and that companies with superior environmental and social management are likely to be more successful in operating projects in today’s world.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section id="team" class="container-fluid border-top py-5 text-center bg-grey">
         <div class="container container-lg">
@@ -170,7 +247,7 @@ get_header();
               <h5>Mason Brown</h5>
               <p class="mb-5">Marketing Manager, Placeholder</p>
               <p class="text-left">
-                ...
+                With years experience in real estate investment and property management, Mason is a tremendous asset to the Placeholder team. Brought up with the idea that anything that needs getting done, he will help do it, Mr. Brown holds a degree in Communication Media and Chemistry. He started his career in Philadelphia in hospitality and entertainment, and upon moving to Los Angeles, transitioned into Property Management, which benefits greatly from his skills in event planning, marketing, and customer relations. Holding a CA Real Estate License and currently living in Hollywood, Mason is continuing his education in Property Management and the Multi-Family Industry while contributing to the Placholder initiative.
               </p>
             </div>
           </div>

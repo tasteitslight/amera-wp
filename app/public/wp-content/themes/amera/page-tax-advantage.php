@@ -127,7 +127,7 @@ get_header();
         <div class="row d-flex justify-content-center">
           <div class="col-12 col-sm-4 col-md-3 text-right order-1 order-sm-0 pt-4 pt-sm-0 text-center text-sm-right">
             <p>
-                <strong>Year 10</strong>
+                <strong>Year 10+</strong>
             </p>
           </div>
           <div class="col-sm-2 col-lg-1 order-0 order-sm-1">
@@ -153,6 +153,73 @@ get_header();
         </p>
         <div class="emptyBlocks">
 
+        </div>
+      </section>
+
+      <!-- More About Opportunity Zones Section -->
+
+      <section class="container-fluid bg-white border-top text-center">
+          <div class="container my-5">
+              <h3>Learn More About Opportunity Funds</h3>
+              <div class="row my-5">
+                <div class="col-sm-7 pb-4 pb-sm-0">
+                  <a class="img-link" href="/tax-advantage">
+                    <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/opportunityfund.jpg"/>
+                    <div class="img-link--gradient-dark d-flex justify-content-center">
+                      <div class="my-auto">
+                        Opportunity Fund Basics
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-5">
+                  <a class="img-link" href="/rules">
+                    <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/rules.jpg"/>
+                    <div class="img-link--gradient-dark d-flex justify-content-center">
+                      <div class="my-auto">
+                        Rules &amp; Regulations
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+          </div>
+        </section>
+
+      <section class="container text-center py-5 mb-5">
+        <hr class="pb-5" />
+        <div class="row mb-5">
+          <div class="col-12 col-sm-8 order-2 order-sm-1 text-right">
+            <h3>Opportunity Zone Investor Handbook</h3>
+            <p>
+              Get an overview of the Opportunity Zone Program and how to invest in an 
+              Opportunity Fund with this guide.
+            </p>
+            <a href="#" class="button-custom mb-4">Download</a>
+          </div>
+          <div class="col-12 col-sm-4 order-1 order-sm-2 mb-3 mb-sm-0">
+            <a class="handbook--link" href="#">
+              <img class="handbook--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/offering.jpg"/>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid border-top gradient-gtw pb-5">
+        <div class="container text-center">
+          <img class="d-block m-auto mockup-mac" src="<?php bloginfo('template_directory'); ?>/assets/img/mockup/invest-macbook.png"/>
+          <h1 class="mt-5 mb-4">
+            Create a Placeholder Account
+          </h1>
+          <h2 class="mb-4">
+            To Review Fund Documents &amp; Invest When You're Ready
+          </h2>
+          <a href="#pills-signup" data-toggle="modal" data-target="#modal-login" class="button-custom mb-4" >
+            Create An Account
+          </a>
+          <p>
+            Already have an account? <a href="#pills-signin" data-toggle="modal" data-target="#modal-login">Sign In</a>
+          </p>
         </div>
       </section>
 

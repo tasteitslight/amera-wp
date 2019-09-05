@@ -72,7 +72,7 @@ get_header();
       </div>
       <p class="pb-5">
         At Placeholder, we help clients invest in private market real estate. Modern Investment Theory
-        supports diversification in not only stocks and bonds, but real estate too. <a href="#">Learn more about 
+        supports diversification in not only stocks and bonds, but real estate too. <a href="/why-real-estate">Learn more about 
         the strengths of real estate.</a>
       </p>
       <hr/>

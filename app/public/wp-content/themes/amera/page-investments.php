@@ -16,6 +16,9 @@ get_header();
           <h1>
             Placeholder Offerings
           </h1>
+          <p>
+            Build wealth by investing in cash flowing Opportunity Funds
+          </p>
         </div>
         <svg class="svg-diagonal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
           <polygon fill="white" points="0,100 100,0 100,100" />
@@ -24,8 +27,14 @@ get_header();
 
       <!-- Section Offerings  -->
 
-      <section class="container mt-5">
-        <a class="img-link-2 investment-container d-flex justify-content-center w-100 my-5" href="/offering">
+      <section class="container mt-5 text-center">
+        <h3 class="mb-5">
+          View Our Current Opportunities
+        </h3>
+        <p class="pb-5">
+        Placeholder Opportunity Funds are Reg D real estate investment vehicles that create wealth by investing in cash-flowing apartment buildings and other mixed-use assets in Qualified Opportunity Zones. Our focus is on long-term capital appreciation from the renovation, development and repositioning of multi-family properties in high growth locations throughout the United States.
+        </p>
+        <a class="img-link-2 box-shadow hover-float investment-container d-flex justify-content-center w-100 my-5" href="/offering">
           <img class="img-link-2--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/offering2.jpg"/>
           <div class="img-link-2--gradient-dark d-flex justify-content-center">
             <div class="align-self-center text-center">
@@ -39,19 +48,18 @@ get_header();
           </div>
         </a>
 
-        <a class="img-link-2 investment-container d-flex justify-content-center w-100 my-5" href="">
+        <div class="img-link-2 investment-container d-flex justify-content-center w-100 my-5" href="">
           <img class="img-link-2--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/offering.jpg"/>
-          <div class="img-link-2--gradient-dark d-flex justify-content-center">
+          <div class="img-link-2--gradient-grey d-flex justify-content-center">
             <div class="align-self-center text-center">
                 <h3 class="color-white">1 American Elite</h3>
                 <p class="color-white">A Single Asset Opportunity Zone Investment</p>
-                <button class="button-custom">Learn More</button>
               </div>
           </div>
           <div class="investment-tag closed">
             Funded 
           </div>
-        </a>
+        </div>
         <hr class="my-5"/>
       </section> <!-- /container -->
 

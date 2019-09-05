@@ -29,7 +29,7 @@ get_header();
       <section class="container">  
         <div class="row d-flex justify-content-center align-items-center text-center resources-nav">
           <div class="col-3">
-            <a href="">
+            <a href="/articles">
               Articles
             </a>
           </div>

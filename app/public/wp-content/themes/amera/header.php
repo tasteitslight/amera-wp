@@ -32,11 +32,11 @@
 
   <!-- Custom CSS -->
 
-  <link rel="stylesheet" href="/assets/css/styles.css" >
+  <!-- <link rel="stylesheet" href="/assets/css/styles.css" > -->
 
   <!-- Custom JS -->
 
-  <script type="text/javascript" src="/assets/js/main.js"></script>
+  <!-- <script type="text/javascript" src="/assets/js/main.js"></script> -->
 
   <!-- AOS Animate on Scroll -->
 
@@ -47,21 +47,45 @@
 
 <body <?php body_class(); ?>>
 
-<!-- Form For AJAX Login Modal -->
+<!-- Signup/Signin Modal -->
 
-<form class="text-center" id="login" action="login" method="post">
-  <h4>Site Login</h4>
-  <p class="status"></p>
-  <label for="username">Username</label>
-  <input id="username" type="text" name="username">
-  <label for="password">Password</label>
-  <input id="password" type="password" name="password">
-  <br/>
-  <a class="lost" href="<?php echo wp_lostpassword_url(); ?>">Lost your password?</a>
-  <br/>
-  <input class="submit_button" type="submit" value="Login" name="submit">
-  <?php wp_nonce_field( 'ajax-login-nonce', 'security' ); ?>
-</form>
+<div class="modal fade" id="modal-login" tabindex="-1" role="dialog" aria-labelledby="modal-login" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-md">
+    <div class="modal-content login-modal">
+        <ul class="nav nav-pills nav-fill my-2" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link" id="pills-signin-tab" data-toggle="pill" href="#pills-signin" role="tab" aria-controls="pills-signin" aria-selected="true">Signin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-signup-tab" data-toggle="pill" href="#pills-signup" role="tab" aria-controls="pills-signup" aria-selected="false">Create an account</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade" id="pills-signin" role="tabpanel" aria-labelledby="pills-signin-tab">
+            
+            <form class="" id="login" action="login" method="post">              
+              <p class="status"></p>
+              <label for="username">Username</label>
+              <input id="username" type="text" name="username">
+              <label for="password">Password</label>
+              <input id="password" type="password" name="password">
+              <br/>
+              <a class="lost" href="<?php echo wp_lostpassword_url(); ?>">Lost your password?</a>
+              <br/>
+              <input class="submit_button" type="submit" value="Login" name="submit">
+              <?php wp_nonce_field( 'ajax-login-nonce', 'security' ); ?>
+            </form>
+
+          </div>
+          <div class="tab-pane fade" id="pills-signup" role="tabpanel" aria-labelledby="pills-signup-tab">
+            
+          <!-- Insert Signup Form Here -->
+
+          </div>
+        </div>
+    </div><!-- end modal-content -->
+  </div><!-- end modal-dialog -->
+</div><!-- end modal -->
 
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'amera' ); ?></a>
@@ -165,11 +189,11 @@
             <?php if (is_user_logged_in()) { ?>
                 <a class="nav-link py-3 login_button" href="<?php echo wp_logout_url( home_url() ); ?>">LOGOUT</a>
             <?php } else { ?>
-                <a class="nav-link py-3 login_button show_login" href="">LOGIN</a>
+                <a href="#pills-signin" data-toggle="modal" data-target="#modal-login" class="nav-link py-3">LOGIN</a>
             <?php } ?>
       
           </li>
-          <a class="button-custom dropdown-button button-custom-1" href="#">Get Started</a>
+          <a class="button-custom dropdown-button button-custom-1 text-center" href="#pills-signup" data-toggle="modal" data-target="#modal-login" >Get Started</a>
         </ul>
       </div>
     </nav>
