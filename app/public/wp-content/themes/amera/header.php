@@ -80,7 +80,9 @@
           <div class="tab-pane fade" id="pills-signup" role="tabpanel" aria-labelledby="pills-signup-tab">
           
           <!-- Insert Signup Form Here -->
-          
+
+          <?php get_template_part('ajax', 'auth'); ?>             
+
           </div>
         </div>
     </div><!-- end modal-content -->

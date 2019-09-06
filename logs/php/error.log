@@ -320,3 +320,5 @@ Stack trace:
 [06-Sep-2019 04:10:21 UTC] PHP Parse error:  syntax error, unexpected '94' (T_LNUMBER), expecting ',' or ')' in /app/public/wp-content/themes/amera/header.php on line 100
 [06-Sep-2019 04:11:08 UTC] PHP Parse error:  syntax error, unexpected '94' (T_LNUMBER), expecting ',' or ')' in /app/public/wp-content/themes/amera/header.php on line 83
 [06-Sep-2019 04:11:10 UTC] PHP Parse error:  syntax error, unexpected '94' (T_LNUMBER), expecting ',' or ')' in /app/public/wp-content/themes/amera/header.php on line 83
+[06-Sep-2019 04:30:41 UTC] PHP Fatal error:  Cannot redeclare ajax_login() (previously declared in /app/public/wp-content/themes/amera/functions.php:223) in /app/public/wp-content/themes/amera/libs/custom-ajax-auth.php on line 32
+[06-Sep-2019 04:32:31 UTC] PHP Parse error:  syntax error, unexpected '/' in /app/public/wp-content/themes/amera/libs/custom-ajax-auth.php on line 14

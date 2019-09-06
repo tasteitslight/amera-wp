@@ -423,4 +423,13 @@ INSERT INTO `wp_postmeta` VALUES
 (435,90,"_edit_last","1"),
 (436,92,"_edit_lock","1567707622:1"),
 (437,92,"_wp_page_template","page-how-to-invest.php"),
-(438,92,"_edit_last","1");
+(438,92,"_edit_last","1"),
+(439,94,"user_registration_form_setting_default_user_role","subscriber"),
+(440,94,"user_registration_form_setting_enable_strong_password","no"),
+(441,94,"user_registration_form_setting_minimum_password_strength","2"),
+(442,94,"user_registration_form_setting_redirect_options",""),
+(443,94,"user_registration_form_setting_form_submit_label","Submit"),
+(444,94,"user_registration_form_setting_enable_recaptcha_support","no"),
+(445,94,"user_registration_form_template","Default"),
+(446,94,"user_registration_form_custom_class",""),
+(447,94,"user_registration_form_row_ids","[\"0\"]");

@@ -165,77 +165,10 @@ if ( defined( 'JETPACK__VERSION' ) ) {
  $subRole->add_cap( 'read_private_posts' );
  $subRole->add_cap( 'read_private_pages' );
 
-/**
- * Redirect user after successful login.
- *
- * @param string $redirect_to URL to redirect to.
- * @param string $request URL the user is coming from.
- * @param object $user Logged user's data.
- * @return string
- */
-
-// Redirect to home page on login
-
-/* 
-
-  function loginRedirect( $redirect_to, $request_redirect_to, $user ) {
-    if ( is_a( $user, 'WP_User' ) && $user->has_cap( 'edit_posts' ) === false ) {
-        return get_bloginfo( 'siteurl' );
-    }
-    return $redirect_to; }
-
-add_filter( 'login_redirect', 'loginRedirect', 10, 3 );
-*/
-
 // show admin bar only for admins
 
 if (!current_user_can('manage_options')) {
 	add_filter('show_admin_bar', '__return_false');
-}
-
-// AJAX Login Modal 
-
-function ajax_login_init(){
-
-  wp_register_script('ajax-login-script', get_template_directory_uri() . '/ajax-login-script.js', array('jquery') ); 
-  wp_enqueue_script('ajax-login-script');
-
-  wp_localize_script( 'ajax-login-script', 'ajax_login_object', array( 
-      'ajaxurl' => admin_url( 'admin-ajax.php' ),
-      'redirecturl' => 'investments', /* Was home_url() for home page*/
-      'loadingmessage' => __('Sending user info, please wait...')
-  ));
-
-  // Enable the user with no privileges to run ajax_login() in AJAX
-  add_action( 'wp_ajax_nopriv_ajaxlogin', 'ajax_login' );
-}
-
-// Execute the action only if the user isn't logged in
-if (!is_user_logged_in()) {
-  add_action('init', 'ajax_login_init');
-}
-
-// AJAX Continued ---
-
-function ajax_login(){
-
-  // First check the nonce, if it fails the function will break
-  check_ajax_referer( 'ajax-login-nonce', 'security' );
-
-  // Nonce is checked, get the POST data and sign user on
-  $info = array();
-  $info['user_login'] = $_POST['username'];
-  $info['user_password'] = $_POST['password'];
-  $info['remember'] = true;
-
-  $user_signon = wp_signon( $info, false );
-  if ( is_wp_error($user_signon) ){
-      echo json_encode(array('loggedin'=>false, 'message'=>__('Wrong username or password.')));
-  } else {
-      echo json_encode(array('loggedin'=>true, 'message'=>__('Login successful, redirecting...')));
-  }
-
-  die();
 }
 
 // Block Dashboard but allowing Login page :: Redirects to homepage
@@ -249,3 +182,7 @@ function block_dashboard() {
 }
 
 add_action('init', 'block_dashboard');
+
+// AJAX Login & Registration
+
+require_once( get_template_directory() . '/libs/custom-ajax-auth.php' );
