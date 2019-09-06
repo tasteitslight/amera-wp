@@ -117,6 +117,6 @@ get_header();
         </p>
       </section>
     </main>
-
+    
 <?php
 get_footer();

@@ -155,7 +155,7 @@ get_header();
 
       <!-- Need Help Section  -->
 
-      <section class="container-fluid border-top border-bottom--darker bg-grey pt-5 pb-2 section-help">
+      <section class="container-fluid border-top bg-grey pt-5 pb-2 section-help">
         <div class="container">
           <div class="row ">
             <div class="col-12 col-md-3 text-center section-help-img">

@@ -25,7 +25,7 @@
 
   <!-- FontAwesome Icons -->
 
-  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" rel="stylesheet">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -65,7 +65,7 @@
             
             <form class="" id="login" action="login" method="post">              
               <p class="status"></p>
-              <label for="username">Username</label>
+              <label for="username">Email</label>
               <input id="username" type="text" name="username">
               <label for="password">Password</label>
               <input id="password" type="password" name="password">
@@ -78,9 +78,9 @@
 
           </div>
           <div class="tab-pane fade" id="pills-signup" role="tabpanel" aria-labelledby="pills-signup-tab">
-            
+          
           <!-- Insert Signup Form Here -->
-
+          
           </div>
         </div>
     </div><!-- end modal-content -->
@@ -166,7 +166,7 @@
                           <p class="pt-1 d-none d-md-block">
                             Learn why we believe Real Estate is the best investment and how when coupled with Opportunity Funds it can provide unprecedented returns.
                           </p>
-                          <a class="button-custom m-0 dropdown-button" href="#">How To Invest</a>
+                          <a class="button-custom m-0 dropdown-button" href="/how-to-invest">How To Invest</a>
                         </div>
                         <div class="col-12 col-sm-6 col-lg-3 pr-0 d-none d-lg-block dropdown-image-column">
                           <img class="dropdown-image" src="<?php bloginfo('template_directory'); ?>/assets/img/dropdown-image-resources.jpg"  />
@@ -193,7 +193,7 @@
             <?php } ?>
       
           </li>
-          <a class="button-custom dropdown-button button-custom-1 text-center" href="#pills-signup" data-toggle="modal" data-target="#modal-login" >Get Started</a>
+          <a class="button-custom dropdown-button button-custom-1 text-center" href="/how-to-invest" >Get Started</a>
         </ul>
       </div>
     </nav>

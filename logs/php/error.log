@@ -315,3 +315,8 @@ Stack trace:
 [04-Sep-2019 17:03:29 UTC] PHP Warning:  Use of undefined constant WP_ADMIN_DIR - assumed 'WP_ADMIN_DIR' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/amera/functions.php on line 242
 [04-Sep-2019 22:14:31 UTC] PHP Fatal error:  Cannot redeclare ajax_login() (previously declared in /app/public/wp-content/themes/amera/functions.php:219) in /app/public/wp-content/themes/amera/functions.php on line 280
 [04-Sep-2019 22:16:32 UTC] PHP Fatal error:  Cannot redeclare ajax_login() (previously declared in /app/public/wp-content/themes/amera/functions.php:219) in /app/public/wp-content/themes/amera/functions.php on line 280
+[06-Sep-2019 04:10:08 UTC] PHP Parse error:  syntax error, unexpected '94' (T_LNUMBER), expecting ',' or ')' in /app/public/wp-content/themes/amera/header.php on line 100
+[06-Sep-2019 04:10:10 UTC] PHP Parse error:  syntax error, unexpected '94' (T_LNUMBER), expecting ',' or ')' in /app/public/wp-content/themes/amera/header.php on line 100
+[06-Sep-2019 04:10:21 UTC] PHP Parse error:  syntax error, unexpected '94' (T_LNUMBER), expecting ',' or ')' in /app/public/wp-content/themes/amera/header.php on line 100
+[06-Sep-2019 04:11:08 UTC] PHP Parse error:  syntax error, unexpected '94' (T_LNUMBER), expecting ',' or ')' in /app/public/wp-content/themes/amera/header.php on line 83
+[06-Sep-2019 04:11:10 UTC] PHP Parse error:  syntax error, unexpected '94' (T_LNUMBER), expecting ',' or ')' in /app/public/wp-content/themes/amera/header.php on line 83

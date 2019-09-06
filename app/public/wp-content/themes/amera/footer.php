@@ -11,7 +11,7 @@
 
 ?>
 
-<footer class="container-fluid footer-container-fluid">
+<footer class="container-fluid footer-container-fluid border-top--darker">
       <div class="container footer-container">
         <div class="row">
           <div class="col-12 col-lg text-center">

@@ -8,16 +8,16 @@
 get_header();
 ?>
 
-<main role="main">
+<main role="main" class="page-howToInvest">
     
     <!-- Header -->
-    <header class="header-primary header-1031 d-flex align-items-center justify-content-center">
+    <header class="header-primary header-howtoinvest d-flex align-items-center justify-content-center">
       <div class="container text-center">
         <div>
-          <h1>
+          <h1 class="">
             Getting Started
           </h1>
-          <p>
+          <p class="strong">
             How to invest in Real Estate with Placeholder
           </p>
         </div>
@@ -31,7 +31,7 @@ get_header();
 
     <section class="container text-center pt-5">
       <p class="pb-5">
-        We aim to make the process as short and simple as possible. Understanding the <a href="/tax-advantage">tax advantages</a> of Opportunity Funds and the <a href="why-real-estate">benefits</a> of real estate is a great start. After creating an account, you can review fund documents and details, and indicate interest. Here are the steps:
+        We aim to make the process as short and simple as possible. Understanding the <a href="/tax-advantage">tax advantages</a> of Opportunity Funds and the <a href="why-real-estate">benefits</a> of real estate is a great start. You're now ready to review fund documents, details and indicate interest. Here are the steps:
       </p>
     </section>
 
@@ -40,13 +40,13 @@ get_header();
         <div class="col-12 col-md-7">
           <ul class="pl-0">
             <li>
-              <p class="d-inline pr-4"><strong>1</strong></p><a href="#">Create an Account</a>
+              <p class="d-inline pr-4"><strong>1</strong></p><a href="#create-account">Create an Account</a>
             </li>
             <li>
-            <p class="d-inline pr-4"><strong>2</strong></p><a href="#">Review Investment Details</a>
+            <p class="d-inline pr-4"><strong>2</strong></p><a href="#review-details">Review Investment Details</a>
             </li>
             <li>
-            <p class="d-inline pr-4"><strong>3</strong></p><a href="#">Indicate Interest</a>
+            <p class="d-inline pr-4"><strong>3</strong></p><a href="#indicate-interest">Indicate Interest</a>
             </li>
           </ul>
         </div>
@@ -54,14 +54,108 @@ get_header();
       <a href="" class="button-custom my-5">Get Started</a>
     </section>
 
-    <section class="container-fluid">
-      
+    <section id="create-account" class="container-fluid px-0 mt-5">
+      <div class="w-100 position-sticky how-to-invest-header">
+        <div class="container">
+          <h3>1 &nbsp;&nbsp;&nbsp; Create an Account</h3>
+        </div>
+      </div>
+      <div class="container mt-5 pt-5">
+        <h5 class="strong">
+          Fill out a brief sign up form
+        </h5>
+        <p>
+          After completing, you will receive access to our members area where additional information is provided.
+        </p>
+        <p><a href="">Sign Up</a></p>
+        <div class="separator-gradient mt-4"></div>
+      </div>    
+      <div class="container mt-5 py-5">
+        <h5 class="strong">
+          Understand Opportunity Zones and Real Estate Investing
+        </h5>
+        <p>
+          If you haven't already, take the time to familiarize yourself with the concepts specific to Qualified Opportunity Zone (QOZ) Funds, their tax benefits, and the value of investing in real estate. 
+        </p>
+        <p><a href="">Opportunity Fund Basics</a> <i class="fas fa-circle"></i> <a href="">Why Real Estate</a></p>
+        <div class="separator-gradient my-4"></div>
+      </div>     
+    </section>
+
+    <section id="review-details" class="container-fluid px-0">
+      <div class="w-100 position-sticky how-to-invest-header">
+        <div class="container">
+          <h3>2 &nbsp;&nbsp;&nbsp; Review Investment Details</h3>
+        </div>
+      </div>
+      <div class="container mt-5 pt-5">
+        <h5 class="strong">
+          Browse offerings and review investment documents
+        </h5>
+        <p>
+          Comprehensive details are provided in the private offering page. Review this information and consider the investment opportunities.
+        </p>
+        <p><a href="/investments">View Our Current Offering</a></p>
+        <div class="separator-gradient mt-4"></div>
+      </div>    
+      <div class="container mt-5 py-5">
+        <h5 class="strong">
+          Ask us anything
+        </h5>
+        <p>
+          Opportunity Funds can be a confusing topic, and investing in real estate is a serious decision. Our invesment team will be happy to provide you with additional information.
+        </p>
+        <p><a href="mailto:investments@placeholder.com">Contact Us</a></p>
+        <div class="separator-gradient mt-4 mb-5"></div>
+      </div>     
+    </section>
+
+    <section id="indicate-interest" class="container-fluid px-0">
+      <div class="w-100 position-sticky how-to-invest-header">
+        <div class="container">
+          <h3>3 &nbsp;&nbsp;&nbsp; Indicate Interest</h3>
+        </div>
+      </div>
+      <div class="container mt-5 py-5">
+        <h5 class="strong">
+          Let us know you're considering
+        </h5>
+        <p>
+          When you are ready to invest, let us know via a message, email, or phone call. Placeholder will contact you to arrange placement.
+        </p>
+        <p><a href="/investments">Submit Offer</a></p>
+        <div class="separator-gradient mt-4"></div>
+      </div>  
+      <div class="text-center mb-5">
+        <a href="" class="button-custom my-5">Get Started</a>     
+      </div>
     </section>
     
+    
 
-    <!-- More About Opportunity Zones Section -->
+    <!--  Invest Section  -->
+      
+    <section class="container-fluid border-top bg-grey">
+        <div class="container py-5 mt-5">
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <h1 class="">View Investments</h1>
+              <p>
+                Register for an Placeholder account to access and review all fund documents. Already have an account?
+                <br/><a href="" class="show_login">Click here to sign in.</a>
+              </p>
+              <a class="button-custom button-custom-1 show_login" href="/investments">View Offerings</a>
+            </div>
+            <div class="col-md-6">
+              <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/invest.png"/>
+            </div>
+          </div>
+        </div> 
+      </section> <!-- /container -->
 
-    <section class="container-fluid bg-grey border-top border-bottom text-center">
+      <!-- More About Opportunity Zones Section -->
+
+    <section class="container-fluid bg-white border-top text-center">
       <div class="container my-5">
           <h3>Learn More About Opportunity Funds</h3>
           <div class="row my-5">
@@ -89,27 +183,9 @@ get_header();
       </div>
     </section>
 
-    <!--  Invest Section  -->
+      <!-- Need Help Section  -->
 
-    <section class="container py-5 my-5">
-      <div class="row">
-        <div class="col-md-6 mb-3">
-          <h1 class="">Ready to invest?</h1>
-          <p>
-            Register for an Placeholder account to access and review all fund documents. Already have an account?
-            <br/><a href="" class="show_login">Click here to sign in.</a>
-          </p>
-          <a class="button-custom button-custom-1 show_login">Register</a>
-        </div>
-        <div class="col-md-6">
-          <img class="border-radius w-100 box-shadow" src="<?php bloginfo('template_directory'); ?>/assets/img/invest.jpg"/>
-        </div>
-      </div>
-    </section> <!-- /container -->
-
-    <!-- Need Help Section  -->
-
-    <section class="container-fluid border-top border-bottom--darker bg-grey pt-5 pb-2 section-help">
+      <section class="container-fluid border-top bg-grey pt-5 pb-2 section-help">
         <div class="container">
           <div class="row ">
             <div class="col-12 col-md-3 text-center section-help-img">
@@ -117,7 +193,7 @@ get_header();
                 <h6>Will</h6>
             </div>
             <div class="col-12 col-md-5 text-center text-md-left section-help-text">
-              <h4 class="">
+              <h4 >
                 Need help getting started?
               </h4>
               <p>              
@@ -125,7 +201,7 @@ get_header();
               </p>
             </div>
             <div class="col-12 col-md-4 text-center text-md-left">
-              <a href="mailto:investments@placeholder.com" class="button-custom help-button text-center">investments@placeholder.com</a>
+              <button class="button-custom help-button">investments@placeholder.com</button>
             </div>
           </div>
         </div>

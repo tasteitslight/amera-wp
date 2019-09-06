@@ -7,7 +7,7 @@
 get_header();
 ?>
 
-<main role="main">
+<main role="main" class="page-rules">
     
       <!-- Header -->
       <header class="header-primary header-rules d-flex align-items-center justify-content-center">
@@ -142,33 +142,33 @@ get_header();
             <a class="external-links" target="_blank" href="https://www.irs.gov/newsroom/irs-issues-guidance-relating-to-deferral-of-gains-for-investments-in-a-qualified-opportunity-fund">
               <div class="separator-gradient mb-3"></div>
               <div class="d-flex">
-                <i class="icon-external-link icon-2x"></i>
+                <i class="fas fa-external-link-alt"></i>
                 <p class="d-block">
                   IRS issues guidance relating to deferral of gains for investments in a qualified opportunity fund
                 </p>
-                <i class="icon-chevron-right icon-2x"></i>
+                <i class="fas fa-chevron-right"></i>
               </div>
               <div class="separator-gradient mb-3"></div>
             </a>
             <a class="external-links" target="_blank" href="https://eig.org/wp-content/uploads/2018/01/Tax-Benefits-of-Investing-in-Opportunity-Zones.pdf">
               <div class="separator-gradient mb-3"></div>
               <div class="d-flex">
-                <i class="icon-external-link icon-2x"></i>
+              <i class="fas fa-external-link-alt"></i>
                 <p class="d-block">
                   Economic Investment Group - Tax Benefits of Investing in Opportunity Zones
                 </p>
-                <i class="icon-chevron-right icon-2x"></i>
+                <i class="fas fa-chevron-right"></i>
               </div>
               <div class="separator-gradient mb-3"></div>
             </a>
             <a class="external-links" target="_blank" href="https://www.forbes.com/sites/forbesdigitalcovers/2018/07/17/an-unlikely-group-of-billionaires-and-politicians-has-created-the-most-unbelievable-tax-break-ever/#2ecaa7d14855">
               <div class="separator-gradient mb-3"></div>
               <div class="d-flex">
-                <i class="icon-external-link icon-2x"></i>
+                <i class="fas fa-external-link-alt"></i>
                 <p class="d-block">
                   Forbes - An unlikely group has created the most unbelievable tax break ever
                 </p>
-                <i class="icon-chevron-right icon-2x"></i>
+                <i class="fas fa-chevron-right"></i>
               </div>
               <div class="separator-gradient mb-3"></div>
             </a>
@@ -177,28 +177,28 @@ get_header();
       </section>
 
       <!--  Invest Section  -->
-
-      <section class="container-fluid py-5 bg-white border-top">
-        <div class="container pt-4">
+      
+      <section class="container-fluid border-top bg-white">
+        <div class="container py-5 mt-5">
           <div class="row">
             <div class="col-md-6 mb-3">
-              <h1 >Ready to invest?</h1>
+              <h1 class="">View Investments</h1>
               <p>
                 Register for an Placeholder account to access and review all fund documents. Already have an account?
-                <br/><a class="show_login" href="">Click here to sign in.</a>
+                <br/><a href="" class="show_login">Click here to sign in.</a>
               </p>
-              <a class="button-custom button-custom-1 mb-5 show_login">Register</a>
+              <a class="button-custom button-custom-1 show_login" href="/investments">View Offerings</a>
             </div>
             <div class="col-md-6">
-              <img class="border-radius w-100 box-shadow" src="<?php bloginfo('template_directory'); ?>/assets/img/invest.jpg"/>
+              <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/invest.png"/>
             </div>
           </div>
-        </div>        
+        </div> 
       </section> <!-- /container -->
 
       <!-- Need Help Section  -->
 
-      <section class="container-fluid border-top border-bottom--darker bg-grey pt-5 pb-2 section-help">
+      <section class="container-fluid border-top bg-grey pt-5 pb-2 section-help">
         <div class="container">
           <div class="row ">
             <div class="col-12 col-md-3 text-center section-help-img">
@@ -214,7 +214,7 @@ get_header();
               </p>
             </div>
             <div class="col-12 col-md-4 text-center text-md-left">
-              <a href="mailto:investments@placeholder.com" class="button-custom help-button text-center">investments@placeholder.com</a>
+              <button class="button-custom help-button">investments@placeholder.com</button>
             </div>
           </div>
         </div>

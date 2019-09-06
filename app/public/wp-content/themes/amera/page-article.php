@@ -31,7 +31,7 @@ get_header();
 
       <!-- Intro  -->
 
-      <section class="container position-relative mt-5">  
+      <section class="container position-relative my-5">  
         <div class="row">
           <div class="col-md-1 sidebar-sticky-2 text-center mt-2">
             <a class="d-inline-block footer-social footer-social-email my-1" href="#"></a>
@@ -77,33 +77,30 @@ get_header();
               </div>
             </div>
           </div>
-        </div>
-        
+        </div> 
       </section>
 
-      <!--  Invest Section  -->
-
-      <section class="container-fluid py-5 bg-white border-top">
-        <div class="container pt-4">
+      <section class="container-fluid border-top bg-white">
+        <div class="container py-5 mt-5">
           <div class="row">
             <div class="col-md-6 mb-3">
-              <h1 >Ready to invest?</h1>
+              <h1 class="">View Investments</h1>
               <p>
                 Register for an Placeholder account to access and review all fund documents. Already have an account?
-                <br/><a href="#">Click here to sign in.</a>
+                <br/><a href="" class="show_login">Click here to sign in.</a>
               </p>
-              <button class="button-custom button-custom-1 mb-5">Register</button>
+              <a class="button-custom button-custom-1 show_login" href="/investments">View Offerings</a>
             </div>
             <div class="col-md-6">
-              <img class="border-radius w-100 box-shadow" src="<?php bloginfo('template_directory'); ?>/assets/img/invest.jpg"/>
+              <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/invest.png"/>
             </div>
           </div>
-        </div>        
+        </div> 
       </section> <!-- /container -->
 
       <!-- Need Help Section  -->
 
-      <section class="container-fluid border-top border-bottom--darker bg-grey pt-5 pb-2 section-help">
+      <section class="container-fluid border-top bg-grey pt-5 pb-2 section-help">
         <div class="container">
           <div class="row ">
             <div class="col-12 col-md-3 text-center section-help-img">

@@ -417,4 +417,10 @@ INSERT INTO `wp_postmeta` VALUES
 (429,89,"_menu_item_classes","a:1:{i:0;s:0:\"\";}"),
 (430,89,"_menu_item_xfn",""),
 (431,89,"_menu_item_url",""),
-(432,89,"_menu_item_orphaned","1567552026");
+(432,89,"_menu_item_orphaned","1567552026"),
+(433,90,"_edit_lock","1567702799:1"),
+(434,90,"_wp_page_template","page-articles.php"),
+(435,90,"_edit_last","1"),
+(436,92,"_edit_lock","1567707622:1"),
+(437,92,"_wp_page_template","page-how-to-invest.php"),
+(438,92,"_edit_last","1");

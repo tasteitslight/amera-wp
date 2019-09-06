@@ -29,7 +29,7 @@ get_header();
 
       <section class="container mt-5 text-center">
         <h3 class="mb-5">
-          View Our Current Opportunities
+          Our Current Investments
         </h3>
         <p class="pb-5">
         Placeholder Opportunity Funds are Reg D real estate investment vehicles that create wealth by investing in cash-flowing apartment buildings and other mixed-use assets in Qualified Opportunity Zones. Our focus is on long-term capital appreciation from the renovation, development and repositioning of multi-family properties in high growth locations throughout the United States.
@@ -105,7 +105,7 @@ get_header();
 
       <!-- Need Help Section  -->
 
-      <section class="container-fluid border-top border-bottom--darker bg-grey pt-5 pb-2 section-help">
+      <section class="container-fluid border-top bg-grey pt-5 pb-2 section-help">
         <div class="container">
           <div class="row ">
             <div class="col-12 col-md-3 text-center section-help-img">

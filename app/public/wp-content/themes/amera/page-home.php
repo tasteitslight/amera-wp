@@ -89,7 +89,7 @@ get_header();
               Register for an Placeholder account to access and view Opportunity Fund investments. Already have an account?
               <a class="show_login" href="">Click here to sign in.</a>
             </p>
-            <a class="button-custom button-custom-1">Register</a>
+            <a class="button-custom button-custom-1" href="/investments">View Investments</a>
           </div>
         </div>
       </section> <!-- /container -->
@@ -191,7 +191,7 @@ get_header();
 
       <!-- Need Help Section  -->
 
-      <section class="container-fluid border-top border-bottom--darker bg-grey pt-5 pb-2 section-help">
+      <section class="container-fluid border-top bg-grey pt-5 pb-2 section-help">
         <div class="container">
           <div class="row ">
             <div class="col-12 col-md-3 text-center section-help-img">
@@ -199,7 +199,7 @@ get_header();
                 <h6>Will</h6>
             </div>
             <div class="col-12 col-md-5 text-center text-md-left section-help-text">
-              <h4 class="">
+              <h4 >
                 Need help getting started?
               </h4>
               <p>              
@@ -207,7 +207,7 @@ get_header();
               </p>
             </div>
             <div class="col-12 col-md-4 text-center text-md-left">
-              <a href="mailto:investments@placeholder.com" class="button-custom help-button text-center">investments@placeholder.com</a>
+              <button class="button-custom help-button">investments@placeholder.com</button>
             </div>
           </div>
         </div>

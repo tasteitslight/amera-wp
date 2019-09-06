@@ -376,13 +376,18 @@ strong {
   font-weight: 700;
 }
 
+.strong {
+  font-weight: 700;
+}
+
 main{
   position: relative;
 }
 
 header p {
-  font-size: calc(19px + 0.3vw);
+  font-size: calc(17px + 0.3vw);
   color: #383838;
+  font-weight: 700;
 }
 
 /*.window-frame {
@@ -407,6 +412,7 @@ body {
 h1 {
   font-size: calc(40px + 0.5vw);
   line-height: calc(1.3em + 0.5vw);
+  
 }
 
 h2 {
@@ -551,7 +557,7 @@ ul.navbar-nav > .button-custom {
   font-family: 'Source Sans Pro', sans-serif;
   letter-spacing:.5px;
   /*background: #043266;*/
-  background: linear-gradient(to right, rgb(37, 117, 236), rgb(6, 84, 201) 100%);
+  background: linear-gradient(to right, #4789ec, rgb(27, 86, 173) 100%);
   color:white;
   padding: 0px 17px;
   border: none;
@@ -766,6 +772,15 @@ background-position: 50% 35%;
   background-blend-mode: hard-light;
 }
 
+.header-howtoinvest {
+  background: 
+  linear-gradient(to top, rgba(70, 138, 241, 0.5), rgba(187, 217, 255, 0.1) 100%),
+  url("/wp-content/themes/amera/assets/img/hero/howtoinvest.jpg");
+  background-size: cover;
+  background-position: 0% 0%;
+  background-blend-mode: luminosity;
+}
+
 .header-investments {
   background: 
   linear-gradient(to top, rgba(216, 255, 234, 0.9), rgba(187, 217, 255, 0.1) 100%),
@@ -959,6 +974,10 @@ button.navbar-toggler {
 
 .border-top {
   border-top: 1px solid #E3E3E3;
+}
+
+.border-top--darker {
+  border-top: 1px solid #d3d3d3;
 }
 
 .border-all {
@@ -1963,7 +1982,8 @@ a.color-blue:hover {
   padding-right: 5px;
 }
 
-.login-modal input[type=text], input[type=password] {
+.login-modal input[type=text], 
+input[type=password], input[type=tel], #signup input[type=email] {
 width: 100%;
 padding: 12px 20px;
 margin: 8px 0;
@@ -2028,4 +2048,27 @@ letter-spacing: .2px;
 
 .color-dark-hover:hover {
   color: #33302E;
+}
+
+.how-to-invest-header {
+  background: linear-gradient(to right, #4789ec, rgb(27, 86, 173) 100%);
+  color: white;
+  padding: 20px 0px;
+}
+
+@media (min-width: 768px) {
+  .how-to-invest-header {
+    top:58px;
+    z-index: 1000;
+  }
+}
+
+.page-rules i {
+  font-size: 1.5em;
+}
+
+.page-howToInvest i {
+  font-size: .2em;
+  position: relative;
+  bottom: 4px;
 }

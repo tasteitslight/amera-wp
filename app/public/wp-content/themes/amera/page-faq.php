@@ -27,7 +27,7 @@ get_header();
       <section class="container position-relative">
         <div class="row pt-5">
           <div class="col-12 col-sm-4 col-md-3 sidebar-sticky pb-3">
-            <a href="/resources" class="resources--link"><i class="icon-chevron-left icon-small"></i>Resources</a>
+            <a href="/resources" class="resources--link"><i class="fa fa-chevron-left"></i>Resources</a>
             <div id="asdf" class="list-group-flush sticky-menu">
               <a class="list-group-item list-group-item-action faq bg-grey" href="#qof">Opportunity Funds</a>
               <a class="list-group-item list-group-item-action faq bg-grey" href="#investors">For Investors</a>
@@ -366,29 +366,27 @@ get_header();
   
         </section>
 
-      <!--  Invest Section  -->
-
-      <section class="container-fluid py-5 bg-white border-top">
-        <div class="container pt-4">
+        <section class="container-fluid border-top bg-white">
+        <div class="container py-5 mt-5">
           <div class="row">
             <div class="col-md-6 mb-3">
-              <h1 >Ready to invest?</h1>
+              <h1 class="">View Investments</h1>
               <p>
                 Register for an Placeholder account to access and review all fund documents. Already have an account?
                 <br/><a href="" class="show_login">Click here to sign in.</a>
               </p>
-              <a class="button-custom button-custom-1 mb-5 show_login">Register</a>
+              <a class="button-custom button-custom-1 show_login" href="/investments">View Offerings</a>
             </div>
             <div class="col-md-6">
-              <img class="border-radius box-shadow w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/invest.jpg"/>
+              <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/invest.png"/>
             </div>
           </div>
-        </div>        
+        </div> 
       </section> <!-- /container -->
 
       <!-- Need Help Section  -->
 
-      <section class="container-fluid border-top border-bottom--darker bg-grey pt-5 pb-2 section-help">
+      <section class="container-fluid border-top bg-grey pt-5 pb-2 section-help">
         <div class="container">
           <div class="row ">
             <div class="col-12 col-md-3 text-center section-help-img">
@@ -404,7 +402,7 @@ get_header();
               </p>
             </div>
             <div class="col-12 col-md-4 text-center text-md-left">
-              <a href="mailto:investments@placeholder.com" class="button-custom help-button text-center">investments@placeholder.com</a>
+              <button class="button-custom help-button">investments@placeholder.com</button>
             </div>
           </div>
         </div>

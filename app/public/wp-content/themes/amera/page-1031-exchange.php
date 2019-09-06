@@ -214,27 +214,27 @@ get_header();
       </div>
     </section>
 
-    <!--  Invest Section  -->
+    <section class="container-fluid border-top bg-white">
+        <div class="container py-5 mt-5">
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <h1 class="">View Investments</h1>
+              <p>
+                Register for an Placeholder account to access and review all fund documents. Already have an account?
+                <br/><a href="" class="show_login">Click here to sign in.</a>
+              </p>
+              <a class="button-custom button-custom-1 show_login" href="/investments">View Offerings</a>
+            </div>
+            <div class="col-md-6">
+              <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/invest.png"/>
+            </div>
+          </div>
+        </div> 
+      </section> <!-- /container -->
 
-    <section class="container py-5 my-5">
-      <div class="row">
-        <div class="col-md-6 mb-3">
-          <h1 class="">Ready to invest?</h1>
-          <p>
-            Register for an Placeholder account to access and review all fund documents. Already have an account?
-            <br/><a href="" class="show_login">Click here to sign in.</a>
-          </p>
-          <a class="button-custom button-custom-1 show_login">Register</a>
-        </div>
-        <div class="col-md-6">
-          <img class="border-radius w-100 box-shadow" src="<?php bloginfo('template_directory'); ?>/assets/img/invest.jpg"/>
-        </div>
-      </div>
-    </section> <!-- /container -->
+      <!-- Need Help Section  -->
 
-    <!-- Need Help Section  -->
-
-    <section class="container-fluid border-top border-bottom--darker bg-grey pt-5 pb-2 section-help">
+      <section class="container-fluid border-top bg-grey pt-5 pb-2 section-help">
         <div class="container">
           <div class="row ">
             <div class="col-12 col-md-3 text-center section-help-img">
@@ -242,7 +242,7 @@ get_header();
                 <h6>Will</h6>
             </div>
             <div class="col-12 col-md-5 text-center text-md-left section-help-text">
-              <h4 class="">
+              <h4 >
                 Need help getting started?
               </h4>
               <p>              
@@ -250,7 +250,7 @@ get_header();
               </p>
             </div>
             <div class="col-12 col-md-4 text-center text-md-left">
-              <a href="mailto:investments@placeholder.com" class="button-custom help-button text-center">investments@placeholder.com</a>
+              <button class="button-custom help-button">investments@placeholder.com</button>
             </div>
           </div>
         </div>
