@@ -51,11 +51,11 @@ get_header();
           </ul>
         </div>
       </div>
-      <a href="" class="button-custom my-5">Get Started</a>
+      <a href="#pills-signup" data-toggle="modal" data-target="#modal-login" class="button-custom my-5">Get Started</a>
     </section>
 
     <section id="create-account" class="container-fluid px-0 mt-5">
-      <div class="w-100 position-sticky how-to-invest-header">
+      <div class="w-100 position-sticky how-to-invest-header bg-blue">
         <div class="container">
           <h3>1 &nbsp;&nbsp;&nbsp; Create an Account</h3>
         </div>
@@ -67,7 +67,7 @@ get_header();
         <p>
           After completing, you will receive access to our members area where additional information is provided.
         </p>
-        <p><a href="">Sign Up</a></p>
+        <p><a href="#pills-signup" data-toggle="modal" data-target="#modal-login" >Sign Up</a></p>
         <div class="separator-gradient mt-4"></div>
       </div>    
       <div class="container mt-5 py-5">
@@ -77,13 +77,13 @@ get_header();
         <p>
           If you haven't already, take the time to familiarize yourself with the concepts specific to Qualified Opportunity Zone (QOZ) Funds, their tax benefits, and the value of investing in real estate. 
         </p>
-        <p><a href="">Opportunity Fund Basics</a> <i class="fas fa-circle"></i> <a href="">Why Real Estate</a></p>
+        <p><a href="/opportunity-fund">Opportunity Fund Basics</a> <i class="fas fa-circle"></i> <a href="/why-real-estate">Why Real Estate</a></p>
         <div class="separator-gradient my-4"></div>
       </div>     
     </section>
 
     <section id="review-details" class="container-fluid px-0">
-      <div class="w-100 position-sticky how-to-invest-header">
+      <div class="w-100 position-sticky how-to-invest-header bg-blue">
         <div class="container">
           <h3>2 &nbsp;&nbsp;&nbsp; Review Investment Details</h3>
         </div>
@@ -111,7 +111,7 @@ get_header();
     </section>
 
     <section id="indicate-interest" class="container-fluid px-0">
-      <div class="w-100 position-sticky how-to-invest-header">
+      <div class="w-100 position-sticky how-to-invest-header bg-blue">
         <div class="container">
           <h3>3 &nbsp;&nbsp;&nbsp; Indicate Interest</h3>
         </div>
@@ -127,7 +127,7 @@ get_header();
         <div class="separator-gradient mt-4"></div>
       </div>  
       <div class="text-center mb-5">
-        <a href="" class="button-custom my-5">Get Started</a>     
+        <a href="#pills-signup" data-toggle="modal" data-target="#modal-login"  class="button-custom my-5">Get Started</a>     
       </div>
     </section>
     
@@ -142,7 +142,7 @@ get_header();
               <h1 class="">View Investments</h1>
               <p>
                 Register for an Placeholder account to access and review all fund documents. Already have an account?
-                <br/><a href="" class="show_login">Click here to sign in.</a>
+                <br/><a href="#pills-signin" data-toggle="modal" data-target="#modal-login"  class="show_login">Click here to sign in.</a>
               </p>
               <a class="button-custom button-custom-1 show_login" href="/investments">View Offerings</a>
             </div>

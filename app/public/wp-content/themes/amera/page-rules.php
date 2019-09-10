@@ -45,7 +45,11 @@ get_header();
           </p>
           <div class="separator-gradient mb-3"></div>
           <p>
-            Both long term and short term Capital Gains can be invested into an Opportunity Zone Fund. 
+            Long term, short term, and net Section 1231 Capital Gains can be invested into an Opportunity Zone Fund. 
+          </p>
+          <div class="separator-gradient mb-3"></div>
+          <p>
+            Any depreciation recapture taxed as ordinary income under Secs. 1245 and 1250 is not eligible gain.
           </p>
           <div class="separator-gradient mb-3"></div>
           <p>
@@ -55,11 +59,27 @@ get_header();
           <p>
             Only investors with qualifying Capital Gains are eligible for Opportunity Fund tax benefits.
           </p>
+          <div class="separator-gradient mb-3"></div>
+          <p>
+            For Section 1231 gains, the taxpayer must wait until the end of the tax year, when the netting process is complete. Only NET Section 1231 gain for the year taxed as capital gain may be reinvested in an Opportunity Fund. The 180-day period begins on the last day of the tax year. This will actually help prolong the reinvestment period.
+          </p>
+          <div class="separator-gradient mb-3"></div>
+          <p>
+            Any taxpayer that realizes eligible gain for federal tax purposes may elect to defer that gain if all the requirements of Sec. 1400Z-2 are met.
+          </p>
+          <div class="separator-gradient mb-3"></div>
+          <p>
+            These taxpayers include individuals, C corporations (including regulated investment companies and real estate investment trusts), partnerships, S corporations, and trusts and estates.
+          </p>
+          <div class="separator-gradient mb-3"></div>
+          <p>
+            If a partnership, S corporation, trust or estate recognizes capital gain, it can choose to defer and invest in a QOF. If the entity doesn't the partners or shareholders can elect to defer by reinvesting the gain allocated to them. For these purposes, the 180-day window beings on the last day of the part
+          </p>
           <div class="separator-gradient mb-5"></div>
           <h4>Election</h4>
           <div class="separator-gradient mb-3"></div>
           <p>
-            Each Investor generally must invest Capital Gains into Opportunity Zone Fund within 180 days of realizing Capital Gains.
+            A taxpayer that wishes to defer eligible gain must reinvest the gain into a QOF within 180 days from the date of the sale or exchange that gives rise to the gain. The 180-day period generally begins on the day on which the gain would be recognized for federal income tax purposes if the taxpayer did not elect under Sec. 1400Z-2 to defer recognition of the gain.
           </p>
           <div class="separator-gradient mb-3"></div>
           <p>
@@ -67,7 +87,19 @@ get_header();
           </p>
           <div class="separator-gradient mb-3"></div>
           <p>
-            Many taxpayers can defer Capital Gains through Opportunity Fund investment including: individuals, C corporations (including REITs and RICs), partnerships and trusts.
+            A taxpayer must affirmatively elect to defer eligible gain. The election is made on Form 8949, Sales and Other Dispositions of Capital Assets, by reporting the eligible gain as a positive number before then removing the gain on a separate line as a negative adjustment.
+          </p>
+          <div class="separator-gradient mb-3"></div>
+          <p>
+            A taxpayer is not required to reinvest the entire proceeds from the sale or exchange giving rise to the eligible gain; rather, to defer the full amount of eligible gain, the taxpayer must reinvest only the gain amount. Thus, unlike a Sec. 1031 exchange, a taxpayer reinvesting in a QOF can both take cash off the table and defer the full amount of gain resulting from the sale.
+          </p>
+          <div class="separator-gradient mb-3"></div>
+          <p>
+            A taxpayer may elect to defer some or all of an eligible gain that is reinvested within the applicable 180-day period. The entire amount of the gain need not be reinvested at once; rather, a taxpayer may make multiple deferral election related to the same gain but may make a deferral election with respect to the same portion of any eligible gain only once.
+          </p>
+          <div class="separator-gradient mb-3"></div>
+          <p>
+            If a taxpayer invests more than the eligible gain amount into a QOF - or invests eligible gain but elects to defer only a portion of that eligible gain - the taxpayer is treated as having made two separate investments. The first represents only the investment of eligible gain for which a deferral election has been made. The second consists of all other amounts. 
           </p>
           <div class="separator-gradient mb-3"></div>
         </div>
@@ -81,23 +113,27 @@ get_header();
           <h4>Eligibility Requirements</h4>
           <div class="separator-gradient mb-3"></div>
           <p>
-            A Qualified Opportunity Zone Fund is an investment vehicle classified as a corporation or a partnership and that is formed for the purpose of investing in “qualified opportunity zone property.”
+           A taxpayer may defer eligible gain only if, within 180 days of the sale or exchange, some or all of the gain is reinvested into a QOF. A <a href="/glossary#q">QOF</a> is a special-purpose entity that effectively acts as a conduit, achieving the policy goal of ensuring that invested capital is ultimately employed in a business located within a QOZ.
           </p>
           <div class="separator-gradient mb-3"></div>
           <p>
-            At least 90% of the Qualified Opportunity Zone Funds assets must be invested in qualified opportunity zone property.
+            A QOF may be organized as a corporation or partnership and may be newly formed or a preexisting entity. A QOF does not need to be located within a QOF, but it must be created and organized in one of the 50 states, the District of Columbia, or a U.S. possession.
           </p>
           <div class="separator-gradient mb-3"></div>
           <p>
-            Capital Gains that are invested in an Opportunity Zone Fund money must constitute equity not debt.
+            A QOF must self-certify that it is a QOF by filling Form 8996, Qualified Opportunity Fund, with its tax return for each year the entity intends to oprate as a QOF. In the first tax year the entity intends to oprate as a QOF, the entity has the option of specifying the first month it wants to be a QOF.
           </p>
           <div class="separator-gradient mb-3"></div>
           <p>
-            Properties in which the fund invests (directly or indirectly) generally must be substantially improved within 30 months or have their original use commence with the Opportunity Fund in the Opportunity Zone.
+            A taxpayer that wishes to defer eligible gain must acquire an equity interest in a QOF. For these purposes, an equity interest includes preferred stock in a corporation or a partnership interest with special allocations but does not include any debt instrument.  In general, a taxpayer is free to use an interest in a QOF as collateral for a loan.
           </p>
           <div class="separator-gradient mb-3"></div>
           <p>
-            The Fund generally intends to engage in ground up development or "substantially improve" an existing property by investing new money into a property in the amount of the original purchase price of the property allocable to purchased building(s) on the land.
+            A taxpayer that elects to defer gain by reinvesting that gain into a QOF takes a basis in the QOF interest of zero. If a taxpayer invests money in a QOF and does not make an election to defer eligible gain with respect to that investment - or if the taxpayer invests more than the eligible gain amount into a QOF - this investment is treated as a separate investment in the QOF, and the taxpayer's basis in that investment in teh QOF is determined under general tax principles. Only investments attributable to deferred gains are eligible for the five-, seven-, and 10-year holding period exclusion provisions.
+          </p>
+          <div class="separator-gradient mb-3"></div>
+          <p>
+            A QOF must hold at least 90% of its assets in QOZ property (the "90% test"), determined by the average of the percentage of QOZ property held in the fund, as measured on: 1. The last day of the first six-month period of the tax year of the QOF, and 2. The last day of the tax year of the fund.
           </p>
           <div class="separator-gradient mb-3"></div>
         </div>

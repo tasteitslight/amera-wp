@@ -1,4 +1,6 @@
 <form id="register" class="ajax-auth"  action="register" method="post">
+<h3 class="pt-4 text-center">Create A Placeholder Account</h3>
+<p class="text-center">Review our open investment opportunities and receive our educational newsletter. </p>
   <p class="status"></p>
   <?php wp_nonce_field('ajax-register-nonce', 'signonsecurity'); ?>         
   <label for="fname">First Name</label>

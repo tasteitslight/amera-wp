@@ -75,7 +75,7 @@ get_header();
           </div>
           <div class="col-7 pl-0 border-bottom">
               <h3>Create an Account</h3>
-              <p class="">Submit your contact information and investment details. <a href="" class="show_login">Sign Up</a></p>
+              <p class="">Submit your contact information and investment details. <a href="#pills-signup" data-toggle="modal" data-target="#modal-login"  class="show_login">Sign Up</a></p>
           </div>
         </div>
         <div class="row pt-5 d-flex justify-content-center text-left">

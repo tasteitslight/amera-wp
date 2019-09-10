@@ -45,7 +45,7 @@ get_header();
           <a class="list-group-item glossary" href="#n">N</a>
           <a class="list-group-item glossary" href="#o">O</a>
           <a class="list-group-item glossary" href="#p">P</a>
-          <a class="list-group-item glossary">Q</a>
+          <a class="list-group-item glossary" href="#q">Q</a>
           <a class="list-group-item glossary" href="#r">R</a>
           <a class="list-group-item glossary" href="#s">S</a>
           <a class="list-group-item glossary" href="#t">T</a>
@@ -215,7 +215,7 @@ get_header();
               <h3 class="pt-4">Opportunity Fund</h3>
               <div class="separator-gradient mb-3"></div>
               <p>
-                Opportunity Funds are qualified investments in Opportunity Zones – under-invested communities established as part of the Investing in Opportunity Act, a component of the late-2017 tax reform bill.
+                Opportunity Funds are qualified investments in Opportunity Zones – under-invested communities established as part of the Investing in Opportunity Act, a component of the late-2017 tax reform bill. See <a href="#q">QOF definition.</a>
                 <br/><br/>
                 These investment vehicles may afford investors substantial tax advantages and deferment capabilities. For more on Opportunity Zones, Opportunity Funds, and the attendant tax benefits, please visit our <a href="#">Opportunity Zones Resource Page.</a>
               </p>
@@ -224,7 +224,7 @@ get_header();
               <p>
                 Opportunity Zones are qualified census tracts across the United States where investors can receive tax-advantaged treatment for qualifying investments (referred to as Opportunity Funds) into real estate and other assets.
                 <br/><br/>
-                Opportunity Zones were established as part of the Investing in Opportunity Act, a component of the late-2017 tax reform bill. There are over 8,700 qualified Opportunity Zones across that country that were nominated by state governors and ratified by the U.S. Department of Treasury.
+                Opportunity Zones were established as part of the Investing in Opportunity Act, a component of the late-2017 tax reform bill. There are over 8,700 qualified Opportunity Zones across that country that were nominated by state governors and ratified by the U.S. Department of Treasury. More below at <a href="#q">QOZ definition.</a>
               </p>
             </section>
             <section id="p" class="scroll-pad-gloss">
@@ -244,6 +244,33 @@ get_header();
               <div class="separator-gradient mb-3"></div>
               <p>
                 Pro Forma financial statements are financial statements prepared in advance of a planned transaction, and model the anticipated results of the transaction and business plan, with particular emphasis on the projected cash flows and net revenues.
+              </p>
+            </section>
+            <section id="q" class="scroll-pad-gloss">
+              <h3 class="pt-4" id="#qof">Qualified Opportunity Fund (QOF)</h3>
+              <div class="separator-gradient mb-3"></div>
+              <p>
+                Qualified Opportunity Fund. A taxpayer may defer "eligible gain" by investing some or all of the gain amount into a QOF within 180 days of the sale giving rise to the eligible gain. A QOF can be a C corporation, S corporation or partnership. In general, a QOF must hold at least 90% of its assets as qualified opportunity zone business property or face a penalty ("the 90% test.")
+              </p>
+              <h3 class="pt-4">Qualified Opportunity Zone (QOZ)</h3>
+              <div class="separator-gradient mb-3"></div>
+              <p>
+                Qualified Opportunity Zone. Sec 1400Z-1 allowed for the designation of certain low-income community population tracts as QOZs. In addition, a limited number of other, contiguous, census tracts could be designated as QOZs. These designations were made in 2018 and will remain in effect until Dec. 31, 2028. A listing of these zones can be found in Notice 2018-48.
+              </p>
+              <h3 class="pt-4">Qualified Opportunity Zone Business (QOZB)</h3>
+              <div class="separator-gradient mb-3"></div>
+              <p>
+                If a QOF conducts business indirectly by holding qualified opportunity zone stock or qualified opportunity zone partnership interest, the subsidiary must meet the definition of a QOZB. A QOZB, among other requirements, must hold at least 70% of its assets as qualified opportunity zone business property ("the 70% test.")
+              </p>
+              <h3 class="pt-4">Qualified Opportunity Zone Business Property (QOZBP)</h3>
+              <div class="separator-gradient mb-3"></div>
+              <p>
+                QOZBP is tangible property used in a trade or business that was purchased after 2017 from an unrelated party, and, in genera, either 1. the "original use" of the property in the QOZ begins with the QOF orQOZB, or 2. the QOF or QOZB "substantially improves" the property. In addition, during "substantially all" of the QOF or QOZB's holding period of the property, "substantially all" of the property must be in the QOZ.
+              </p>
+              <h3 class="pt-4">Qualified Opportunity Zone Property (QOZP)</h3>
+              <div class="separator-gradient mb-3"></div>
+              <p>
+                A QOF must conduct a trade or business within a QOZ, either directly - by holding qualified opportunity zone business property - or indirectly, by holding qualified opportunity zone stock or qualified opportunity zone partnership interest.
               </p>
             </section>
             <section id="r" class="scroll-pad-gloss">

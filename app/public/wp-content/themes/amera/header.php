@@ -52,39 +52,42 @@
 <div class="modal fade" id="modal-login" tabindex="-1" role="dialog" aria-labelledby="modal-login" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-md">
     <div class="modal-content login-modal">
-        <ul class="nav nav-pills nav-fill my-2" id="pills-tab" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link" id="pills-signin-tab" data-toggle="pill" href="#pills-signin" role="tab" aria-controls="pills-signin" aria-selected="true">Signin</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="pills-signup-tab" data-toggle="pill" href="#pills-signup" role="tab" aria-controls="pills-signup" aria-selected="false">Create an account</a>
-          </li>
-        </ul>
-        <div class="tab-content" id="pills-tabContent">
-          <div class="tab-pane fade" id="pills-signin" role="tabpanel" aria-labelledby="pills-signin-tab">
-            
-            <form class="" id="login" action="login" method="post">              
-              <p class="status"></p>
-              <label for="username">Email</label>
-              <input id="username" type="text" name="username">
-              <label for="password">Password</label>
-              <input id="password" type="password" name="password">
-              <br/>
-              <a class="lost" href="<?php echo wp_lostpassword_url(); ?>">Lost your password?</a>
-              <br/>
-              <input class="submit_button" type="submit" value="Login" name="submit">
-              <?php wp_nonce_field( 'ajax-login-nonce', 'security' ); ?>
-            </form>
-
-          </div>
-          <div class="tab-pane fade" id="pills-signup" role="tabpanel" aria-labelledby="pills-signup-tab">
+      <div class="w-100 d-flex justify-content-center pt-3 pb-5">
+        <img class="w-25" src="<?php bloginfo('template_directory');?>/assets/img/icon-placeholder.jpg" />
+      </div>
+      <ul class="nav nav-pills nav-fill my-2" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link" id="pills-signin-tab" data-toggle="pill" href="#pills-signin" role="tab" aria-controls="pills-signin" aria-selected="true">Signin</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-signup-tab" data-toggle="pill" href="#pills-signup" role="tab" aria-controls="pills-signup" aria-selected="false">Create an account</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade" id="pills-signin" role="tabpanel" aria-labelledby="pills-signin-tab">
           
-          <!-- Insert Signup Form Here -->
+          <form class="" id="login" action="login" method="post">              
+            <p class="status"></p>
+            <label for="username">Email</label>
+            <input id="username" type="text" name="username">
+            <label for="password">Password</label>
+            <input id="password" type="password" name="password">
+            <br/>
+            <a class="lost" href="<?php echo wp_lostpassword_url(); ?>">Lost your password?</a>
+            <br/>
+            <input class="submit_button" type="submit" value="Login" name="submit">
+            <?php wp_nonce_field( 'ajax-login-nonce', 'security' ); ?>
+          </form>
 
-          <?php get_template_part('ajax', 'auth'); ?>             
-
-          </div>
         </div>
+        <div class="tab-pane fade" id="pills-signup" role="tabpanel" aria-labelledby="pills-signup-tab">
+        
+        <!-- Insert Signup Form Here -->
+
+        <?php get_template_part('ajax', 'auth'); ?>             
+
+        </div>
+      </div>
     </div><!-- end modal-content -->
   </div><!-- end modal-dialog -->
 </div><!-- end modal -->
@@ -195,7 +198,12 @@
             <?php } ?>
       
           </li>
-          <a class="button-custom dropdown-button button-custom-1 text-center" href="/how-to-invest" >Get Started</a>
+
+            <?php if (is_user_logged_in()) { ?>
+              <a class="button-custom dropdown-button text-center" href="#" >Dashboard</a>
+            <?php } else { ?>
+              <a class="button-custom dropdown-button text-center" href="/how-to-invest" >Get Started</a>
+            <?php } ?>
         </ul>
       </div>
     </nav>

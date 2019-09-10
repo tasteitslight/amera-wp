@@ -403,7 +403,7 @@ header p {
 
 body {
   font-family:  Georgia, serif;
-  letter-spacing: .2px;
+  letter-spacing: .3px;
   color: rgb(19, 15, 13);
   margin-bottom: -15px !important;
   padding-bottom: 0px !important;
@@ -456,13 +456,13 @@ ul {
 
 a {
   font-family: 'Source Sans Pro', sans-serif;
-  color: #cf4238;
-  font-weight: 600;
+  color: #f17269;
+  font-weight: 500;
+  letter-spacing: .2px;
 }
 
 a:hover {
-  color: #2775ec;
-  font-weight: 600;
+  color: #0e8ee2;
   text-decoration: none;
 }
 
@@ -476,7 +476,6 @@ nav a {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: calc( 1rem + 0.1vw );
   text-transform: uppercase;
-  letter-spacing:calc .5px;
   font-weight: 400;
 }
 
@@ -547,44 +546,43 @@ li.nav-item:hover {
   border-right: 1px #E3E3E3 solid;
 }
 
-ul.navbar-nav > .button-custom {
-  margin: 0px 20px;
-  margin-top:9px;
-}
-
 .button-custom {
-  font-size: calc( 1rem + .1vw );
+  font-size: 1.1rem;
   font-family: 'Source Sans Pro', sans-serif;
   letter-spacing:.5px;
-  /*background: #043266;*/
-  background: linear-gradient(to right, #4789ec, rgb(27, 86, 173) 100%);
+  text-align: center;
   color:white;
   padding: 0px 17px;
+  height:40px;
+  background: linear-gradient(to right, #3493ff, #00b6ff 100%);
   border: none;
   border-radius: 2px;
-  height:40px;
   box-shadow: 0 3px 3px 0px rgba(0,0,0,0.3);
 }
 
+ul.navbar-nav > .button-custom {
+  margin: 9px 20px 10px 20px;
+}
+
 .button-custom:hover {
-  background: #015fe2;
+  background: #008cff;
 }
 
 a.button-custom {
   color:white !important;
   text-transform: none;
-  padding:6px 17px 8px 17px;
+  padding:8px 17px;
   display:inline-block;
   font-weight: 500;
 }
 
 a.button-custom:hover {
   color:white;
-  background: rgb(1, 95, 226);
+  background: #008cff;
   cursor: pointer;
 }
 
-ul.navbar-nav > a.button-custom {
+.navbar-nav  a.button-custom {
   padding: 6px 17px 8px 17px;
 }
 
@@ -1573,7 +1571,7 @@ a.color-blue:hover {
 }
 
 .bg-blue {
-  background: linear-gradient(to right, #2775ec, rgb(6, 84, 201) 100%);
+  background: linear-gradient(to right, #3493ff, #00b6ff 100%);
 }
 
 .bg-lblue {
@@ -1581,7 +1579,7 @@ a.color-blue:hover {
 }
 
 .bg-red {
-  background: linear-gradient(to left, #922921, #cf4238 100%);
+  background: linear-gradient(to left, #f17269, #cf4238 100%);
 }
 
 .bg-lred {
@@ -1991,13 +1989,14 @@ display: inline-block;
 border: 1px solid #ccc;
 border-radius: 2px;
 box-sizing: border-box;
+letter-spacing: .2px;
 }
 
 /* Style the submit button */
 .login-modal input[type=submit] {
 
 width: 100%;
-background: linear-gradient(to right, hsl(216, 84%, 54%), rgb(6, 84, 201) 100%);
+background: linear-gradient(to right, #3493ff, hsl(197, 100%, 50%) 100%);
 font-family: 'Source Sans Pro', sans-serif;
 color: white;
 padding: 12px 20px;
@@ -2005,15 +2004,17 @@ margin: 20px 0;
 border: none;
 border-radius: 2px;
 cursor: pointer;
-font-size: calc(17px + 0.1vw);
+font-size: 1.4rem;
 font-weight:500;
 letter-spacing: .2px;
 }
 
 .login-modal .nav-pills a:hover {
   color:white;
-  background: linear-gradient(to right, hsl(216, 84%, 54%), rgb(6, 84, 201) 100%);
+  border-radius: 2px;
+  background: linear-gradient(to right, #3493ff, hsl(197, 100%, 50%) 100%);
   font-weight: 500;
+  letter-spacing: .2px;
 }
 
 .modal-backdrop {
@@ -2021,7 +2022,7 @@ letter-spacing: .2px;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  background: linear-gradient(to right, hsl(216, 84%, 54%), rgb(6, 84, 201) 100%) !important ;
+  background: linear-gradient(to right, #3493ff, hsl(197, 100%, 50%) 100%);
   letter-spacing: .2px;
   font-weight: 500 !important;
   border-radius: 2px;
@@ -2051,7 +2052,6 @@ letter-spacing: .2px;
 }
 
 .how-to-invest-header {
-  background: linear-gradient(to right, #4789ec, rgb(27, 86, 173) 100%);
   color: white;
   padding: 20px 0px;
 }

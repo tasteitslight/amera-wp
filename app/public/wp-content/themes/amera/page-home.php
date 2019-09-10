@@ -87,9 +87,9 @@ get_header();
             <h1 class="">Exclusively For Accredited Investors</h1>
             <p>
               Register for an Placeholder account to access and view Opportunity Fund investments. Already have an account?
-              <a class="show_login" href="">Click here to sign in.</a>
+              <a class="show_login" href="#pills-signin" data-toggle="modal" data-target="#modal-login" >Click here to sign in.</a>
             </p>
-            <a class="button-custom button-custom-1" href="/investments">View Investments</a>
+            <a class="button-custom" href="/investments">View Investments</a>
           </div>
         </div>
       </section> <!-- /container -->
@@ -160,13 +160,13 @@ get_header();
         </p>
         <div class="row mb-4">
           <div class="col-12 col-sm-4">
-            <img class="img--stat" src="<?php bloginfo('template_directory'); ?>/assets/img/svg/svg-1B-assets.svg" />
+            <img class="img--stat" src="<?php bloginfo('template_directory'); ?>/assets/img/svg/stats-assets.svg" />
           </div>
           <div class="col-12 col-sm-4">
-              <img class="img--stat" src="<?php bloginfo('template_directory'); ?>/assets/img/svg/svg-6k-investors-02.svg" />
+              <img class="img--stat" src="<?php bloginfo('template_directory'); ?>/assets/img/svg/stats-investors.svg" />
           </div>
           <div class="col-12 col-sm-4">
-            <img class="img--stat" src="<?php bloginfo('template_directory'); ?>/assets/img/svg/svg-150-years.svg" />
+            <img class="img--stat" src="<?php bloginfo('template_directory'); ?>/assets/img/svg/stats-established.svg" />
           </div>
         </div>
       </section> <!-- /container -->
@@ -180,11 +180,11 @@ get_header();
             <h2 class="mb-4">
               To Review Fund Documents &amp; Invest When You're Ready
             </h2>
-            <a href="" class="button-custom mb-4 show_login">
+            <a href="#pills-signup" data-toggle="modal" data-target="#modal-login" class="button-custom mb-4">
               Create An Account
             </a>
             <p>
-              Already have an account? <a href="" class="show_login">Sign In</a>
+              Already have an account? <a href="#pills-signin" data-toggle="modal" data-target="#modal-login">Sign In</a>
             </p>
           </div>
         </section>

@@ -99,11 +99,11 @@
 
     <div class="svg-dot-red d-none d-lg-block">
       <svg width="25" height="25" viewbox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="20" cy="20" fill="none" r="4" stroke="#A93831" stroke-width="2.5">
+        <circle cx="20" cy="20" fill="none" r="4" stroke="#f17269" stroke-width="2.5">
           <animate attributeName="r" from="1" to="20" dur="3.5s" begin="0s" repeatCount="indefinite"/>
           <animate attributeName="opacity" from="1" to="0" dur="3.5s" begin="0s" repeatCount="indefinite"/>
         </circle>
-        <circle cx="20" cy="20" fill="#A93831" r="5"/>
+        <circle cx="20" cy="20" fill="#f17269" r="5"/>
       </svg>
     </div>
 
@@ -128,7 +128,6 @@
     </script>
 
     <script>
-
       // Signup / Login Modal Pill Selector
 
       $('#modal-login').on('show.bs.modal', function (event) {
