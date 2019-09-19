@@ -135,47 +135,14 @@ get_header();
         </div>
       </section>
 
-      <section class="container-fluid border-top gradient-gtw pb-5">
-        <div class="container text-center">
-          <img class="d-block m-auto mockup-mac" src="<?php bloginfo('template_directory'); ?>/assets/img/mockup/invest-macbook.png"/>
-          <h1 class="mt-5 mb-4">
-            Create an American Group Account
-          </h1>
-          <h2 class="mb-4">
-            To Review Fund Documents &amp; Invest When You're Ready
-          </h2>
-          <a href="#pills-signup" data-toggle="modal" data-target="#modal-login" class="button-custom mb-4">
-            Create An Account
-          </a>
-          <p class="mt-4">
-            Already have an account? <a href="#pills-signin" data-toggle="modal" data-target="#modal-login">Sign In</a>
-          </p>
-        </div>
-      </section>
+      <!-- Create Account Section -->
 
-      <!-- Need Help Section  -->
+     <?php get_template_part('section', 'createAccount'); ?>
 
-      <section class="container-fluid border-top bg-grey pt-5 pb-2 section-help">
-        <div class="container">
-          <div class="row ">
-            <div class="col-12 col-md-3 text-center section-help-img">
-                <img src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-will.png" width="100px" />
-                <h6>Will</h6>
-            </div>
-            <div class="col-12 col-md-5 text-center text-md-left section-help-text">
-              <h4 class="">
-                Need help getting started?
-              </h4>
-              <p>              
-                We are happy assist you.
-              </p>
-            </div>
-            <div class="col-12 col-md-4 text-center text-md-left d-flex align-items-middle">
-              <a href="mailto:invest@americangroupcre.com"class="button-custom help-button">invest@americangroupcre.com</a>
-            </div>
-          </div>
-        </div>
-      </section> <!-- /container -->
+     <!-- Need Help Section -->
+
+     <?php get_template_part('section', 'help'); ?>
+
     </main>
 
 <?php

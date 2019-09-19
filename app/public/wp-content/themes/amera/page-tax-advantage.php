@@ -186,25 +186,9 @@ get_header();
           </div>
         </section>
 
-      <!-- Invest -->
-           
-      <section class="container-fluid border-top bg-white">
-        <div class="container py-5 mt-5">
-          <div class="row">
-            <div class="col-md-6 mb-3">
-              <h1 class="">View Investments</h1>
-              <p>
-                Register for an Placeholder account to access and review all fund documents. Already have an account?
-                <br/><a href="" class="show_login">Click here to sign in.</a>
-              </p>
-              <a class="button-custom button-custom-1 show_login" href="/investments">View Offerings</a>
-            </div>
-            <div class="col-md-6">
-              <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/invest.png"/>
-            </div>
-          </div>
-        </div> 
-      </section> <!-- /container -->
+      <!-- View Investments Section -->
+
+      <?php get_template_part('section', 'viewInvestments'); ?>
 
       <section class="container text-center py-5 mb-5">
         <hr class="pb-5" />
@@ -225,50 +209,14 @@ get_header();
         </div>
       </section>
 
-      <section class="container-fluid border-top gradient-gtw pb-5">
-        <div class="container text-center">
-          <img class="d-block m-auto mockup-mac" src="<?php bloginfo('template_directory'); ?>/assets/img/mockup/invest-macbook.png"/>
-          <h1 class="mt-5 mb-4">
-            Create a Placeholder Account
-          </h1>
-          <h2 class="mb-4">
-            To Review Fund Documents &amp; Invest When You're Ready
-          </h2>
-          <a href="#pills-signup" data-toggle="modal" data-target="#modal-login" class="button-custom mb-4" >
-            Create An Account
-          </a>
-          <p>
-            Already have an account? <a href="#pills-signin" data-toggle="modal" data-target="#modal-login">Sign In</a>
-          </p>
-        </div>
-      </section>
+      <!-- Create Account Section -->
 
-      <!-- Need Help Section  -->
+      <?php get_template_part('section', 'createAccount'); ?>
 
-      <section class="container-fluid border-top bg-grey pt-5 pb-2 section-help">
-        <div class="container">
-          <div class="row ">
-            <div class="col-12 col-md-3 text-center section-help-img">
-                <img src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-will.png" width="100px" />
-                <h6>Will</h6>
-            </div>
-            <div class="col-12 col-md-5 text-center text-md-left section-help-text">
-              <h4 >
-                Need help getting started?
-              </h4>
-              <p>              
-                We are happy assist you.
-              </p>
-            </div>
-            <div class="col-12 col-md-4 text-center text-md-left">
-              <button class="button-custom help-button">investments@placeholder.com</button>
-            </div>
-          </div>
-        </div>
-      </section> <!-- /container -->
+      <!-- Need Help Section -->
 
+      <?php get_template_part('section', 'help'); ?>
 
-    
     </main>
 
 

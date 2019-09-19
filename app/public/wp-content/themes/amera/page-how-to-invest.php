@@ -130,82 +130,44 @@ get_header();
         <a href="#pills-signup" data-toggle="modal" data-target="#modal-login"  class="button-custom my-5">Create An Account</a>     
       </div>
     </section>
-    
-    
 
-    <!--  Invest Section  -->
-      
-    <section class="container-fluid border-top bg-grey">
-        <div class="container py-5 mt-5">
-          <div class="row">
-            <div class="col-md-6 mb-3">
-              <h1 class="">View Investments</h1>
-              <p>
-                Register for an Placeholder account to access and review all fund documents. Already have an account?
-                <br/><a href="#pills-signin" data-toggle="modal" data-target="#modal-login"  class="show_login">Click here to sign in.</a>
-              </p>
-              <a class="button-custom button-custom-1 show_login" href="/investments">View Offerings</a>
-            </div>
-            <div class="col-md-6">
-              <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/invest.png"/>
-            </div>
-          </div>
-        </div> 
-      </section> <!-- /container -->
+    <!-- View Investments Section -->
+
+    <?php get_template_part('section', 'viewInvestments'); ?>
 
       <!-- More About Opportunity Zones Section -->
 
-    <section class="container-fluid bg-white border-top text-center">
-      <div class="container my-5">
-          <h3>Learn More About Opportunity Funds</h3>
-          <div class="row my-5">
-            <div class="col-sm-7 pb-4 pb-sm-0">
-              <a class="img-link" href="/opportunity-fund">
-                <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/opportunityfund-2.jpg"/>
-                <div class="img-link--gradient-dark d-flex justify-content-center">
-                  <div class="my-auto">
-                    Opportunity Fund Basics
+      <section class="container-fluid bg-white border-top text-center">
+        <div class="container my-5">
+            <h3>Learn More About Opportunity Funds</h3>
+            <div class="row my-5">
+              <div class="col-sm-7 pb-4 pb-sm-0">
+                <a class="img-link" href="/opportunity-fund">
+                  <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/opportunityfund-2.jpg"/>
+                  <div class="img-link--gradient-dark d-flex justify-content-center">
+                    <div class="my-auto">
+                      Opportunity Fund Basics
+                    </div>
                   </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-sm-5">
-              <a class="img-link" href="/tax-advantage">
-                <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/taxadvantage.jpg"/>
-                <div class="img-link--gradient-dark d-flex justify-content-center">
-                  <div class="my-auto">
-                    Tax Advantages
+                </a>
+              </div>
+              <div class="col-sm-5">
+                <a class="img-link" href="/tax-advantage">
+                  <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/taxadvantage.jpg"/>
+                  <div class="img-link--gradient-dark d-flex justify-content-center">
+                    <div class="my-auto">
+                      Tax Advantages
+                    </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
-          </div>
-      </div>
-    </section>
+        </div>
+      </section>
 
       <!-- Need Help Section  -->
 
-      <section class="container-fluid border-top bg-grey pt-5 pb-2 section-help">
-        <div class="container">
-          <div class="row ">
-            <div class="col-12 col-md-3 text-center section-help-img">
-                <img src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-will.png" width="100px" />
-                <h6>Will</h6>
-            </div>
-            <div class="col-12 col-md-5 text-center text-md-left section-help-text">
-              <h4 >
-                Need help getting started?
-              </h4>
-              <p>              
-                We are happy assist you.
-              </p>
-            </div>
-            <div class="col-12 col-md-4 text-center text-md-left">
-              <button class="button-custom help-button">investments@placeholder.com</button>
-            </div>
-          </div>
-        </div>
-      </section> <!-- /container -->
+      <?php get_template_part('section', 'help'); ?>
 
     </main>   
 
