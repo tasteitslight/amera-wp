@@ -1,0 +1,134 @@
+/* Calculator */
+
+.calc__table {
+  text-align: right;
+  font-size: calc(16px + .3vw);
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: .03em;
+}
+
+.calc__col {
+  padding: 10px 5px;
+  border-right: 1px solid #ccc;
+  
+}
+
+.calc__row--sticky {
+  color:white;
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top:37px;
+  z-index:900;
+}
+
+@media (min-width: 768px) {
+
+  .calc__table {
+    font-size: calc(13px + 0.5vw);
+  }
+
+  .calc__row--sticky {
+    position: static;
+    top:60px;
+  }
+}
+
+.calc__col--empty {
+  border: 1px solid rgba(0,0,0,0.0);
+  background-color: transparent;
+}
+
+.calc__col--taxable {
+  background-color: #A93831;
+}
+
+.calc__col--aaa {
+  background-color: #08306A;
+}
+
+.calc__col--red {
+  background-color: #f8f8f8;
+  border-left: 1px #ccc solid;
+}
+
+.calc__col--blue {
+  background-color: #fff;
+}
+
+.calc__col--title {
+  text-align:left;
+  padding-left: 10px;
+  background-color: #f8f8f8;
+  font-weight: 700;
+  border-bottom: 1px #ccc solid;
+  border-top: 1px #ccc solid;
+  border-left:1px #ccc solid;
+}
+
+.calc__col--spacer {
+  height: 30px;
+  background-color: #f8f8f8;
+  border:none;
+}
+
+.calc__col--title.calc__col--spacer {
+  border-top: 1px solid #ccc;
+}
+
+@media (min-width: 768px) {
+  .calc__col--title {
+    background-color: transparent;
+    text-align: right;
+    padding-right: 5px;
+    border-bottom: none;
+    border-top: none;
+  }
+
+  .calc__col--red {
+    border-left: none;
+    background-color: transparent;
+  }
+
+  .calc__col--blue {
+    border-left: none;
+    background-color: transparent;
+  }
+
+  .calc__col--title.calc__col--spacer {
+    border-top: none;
+    border-right: 1px solid #ccc;
+  }
+
+  .calc__col--spacer {
+    border-right: 1px solid #ccc;
+    background-color: white;
+  }
+
+  .calc__row--bgGreytopBorder {
+    background-color: #f8f8f8;
+    border-top: 1px solid #ccc;
+  }
+
+  .calc__row--bgGreyBlueBorder{
+    background-color: #f8f8f8;
+    border-top: 2px dashed #27B0F0;
+    border-bottom: 2px dashed #27B0F0;
+  }
+
+  .calc__row--bgGreyBlueBorder:nth-child(3){
+    background-color: #f8f8f8;
+    border-right: 2px dashed #27B0F0;
+    border-left: none;
+  }
+
+  .calc__row--bgGreyBlueBorder:nth-child(2){
+    border-right: none;
+  }
+
+  .calc__row--bgGreyBlueBorder:nth-child(1){
+    background-color: #f8f8f8;
+    border-left: 2px dashed #27B0F0;
+    border-right: none;
+  }
+}

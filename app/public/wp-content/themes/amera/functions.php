@@ -186,3 +186,14 @@ add_action('init', 'block_dashboard');
 // AJAX Login & Registration
 
 require_once( get_template_directory() . '/libs/custom-ajax-auth.php' );
+
+// if a style.min.css file exists, use that, otherwise use style.css
+
+function style_or_min_style() {
+  $located = locate_template( 'style.min.css' );
+   if ($located != '' ) {
+        echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/style.min.css" />';
+   } else {
+        echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/style.css" />';
+   }
+}

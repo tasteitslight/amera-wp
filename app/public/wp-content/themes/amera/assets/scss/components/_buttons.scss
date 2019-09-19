@@ -1,0 +1,68 @@
+.button-custom {
+  font-size: 1.1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing:.5px;
+  text-align: center;
+  color:white;
+  padding: 0px 17px;
+  height:40px;
+  background: linear-gradient(to right, $blueSecond, $bluePrime 100%);
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3);
+}
+
+ul.navbar-nav > .button-custom {
+  margin: 9px 20px 10px 20px;
+}
+
+.button-custom:hover {
+  background: $blueSecond;
+}
+
+a.button-custom {
+  color:white !important;
+  text-transform: none;
+  padding:8px 17px;
+  font-weight: 500;
+}
+
+a.button-custom:hover {
+  color:white;
+  background: $blueSecond;
+  cursor: pointer;
+}
+
+.navbar-nav  a.button-custom {
+  padding: 8px 17px;  
+  line-height: 1.5em;
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 4px 4px 0px rgba(0,0,0,0.4);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 9px 6px 0px rgba(0,0,0,0.1);
+		transform: translatey(0px);
+	}
+	100% {
+		box-shadow: 0 4px 4px 0px rgba(0,0,0,0.4);
+		transform: translatey(0px);
+	}
+}
+
+.button-custom-1 {
+  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+  animation: float 3s ease-in-out infinite;
+}
+
+button.navbar-toggler {
+  border: none;
+}
+
+.help-button {
+  margin-top: 25px;
+}

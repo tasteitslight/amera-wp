@@ -26,10 +26,10 @@ get_header();
 
       <section class="container text-center py-5">
         <h3 class="pb-4">
-          The Placeholder Story
+          The American Group Story
         </h3>
         <p class="pb-4">
-          Backed by over a century of investment experience, Placeholder, a subsidiary of American Group, is a commercial real estate firm connecting investors with high-quality assets in select business-friendly and high-growth locations. Meet our team and connect with us on LinkedIn.
+          Backed by over a century of investment experience, American Group is a group of commercial real estate firms connecting investors with high-quality assets in select business-friendly and high-growth locations. Meet our team and connect with us on LinkedIn.
         </p>
         <hr />
       </section>
@@ -48,7 +48,7 @@ get_header();
             </div>
             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="card-body">
-                The strategy is simple: Conservative underwriting and real, dependable returns with a value-add strategy. Every acquisition deal we do is built with a going-in return and a plan to significantly boost revenue in the hold period, typically 10+ years. Being selective & patient, Placeholder has never had to do a capital call and never had a negative cash flow year.
+                The strategy is simple: Conservative underwriting and real, dependable returns with a value-add strategy. Every acquisition deal we do is built with a going-in return and a plan to significantly boost revenue in the hold period, typically 10+ years. Being selective & patient, American Group has never had to do a capital call and never had a negative cash flow year.
               </div>
             </div>
           </div>
@@ -114,7 +114,7 @@ get_header();
       <section id="team" class="container-fluid border-top border-bottom py-5 text-center bg-grey">
         <div class="container container-lg">
           <h1>
-            Meet The Team
+            Leadership
           </h1>
           <div class="row mt-5 justify-content-center">
             <div class="col-12 col-sm-5 col-md border-all bg-white m-1 bio-card" data-toggle="modal" data-target="#fred">
@@ -125,7 +125,7 @@ get_header();
             <div class="col-12 col-sm-5 col-md border-all bg-white m-1 bio-card" data-toggle="modal" data-target="#greg">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-greg.png" />
               <h5>Gregory L. Horton</h5>
-              <p>CEO, Placeholder</p>
+              <p>President, American Group</p>
             </div>
             <div class="col-12 col-sm-5 col-md border-all bg-white m-1 bio-card" data-toggle="modal" data-target="#jacqueline">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-jacqueline.png" />
@@ -140,17 +140,17 @@ get_header();
             <div class="col-12 col-sm-5 col-md border-all bg-white m-1 bio-card" data-toggle="modal" data-target="#will">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-will.png" />
               <h5>Will Caulfield</h5>
-              <p>Business Development, Placeholder</p>
+              <p>Director of Communications, American Group</p>
             </div>
             <div class="col-12 col-sm-5 col-md border-all bg-white m-1 bio-card" data-toggle="modal" data-target="#mason">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-mason.png" />
               <h5>Mason Brown</h5>
-              <p>Marketing Manager, Placeholder</p>
+              <p>Property &amp; Marketing Manager, American Group</p>
             </div>
             <div class="col-12 col-sm-5 col-md border-all bg-white m-1 bio-card" data-toggle="modal" data-target="#devan">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-devan.png" />
               <h5>Devan Makwana</h5>
-              <p>Lead Developer, Placeholder</p>
+              <p>Lead Developer, American Group</p>
             </div>
           </div>
           <div class="row mt-5 justify-content-center">
@@ -168,7 +168,7 @@ get_header();
             <div class="col-md-6 mb-3">
               <h1 class="">View Investments</h1>
               <p>
-                Register for an Placeholder account to access and review all fund documents. Already have an account?
+                Register for an American Group account to access and review all fund documents. Already have an account?
                 <br/><a href="" class="show_login">Click here to sign in.</a>
               </p>
               <a class="button-custom button-custom-1 show_login" href="/investments">View Offerings</a>
@@ -203,9 +203,9 @@ get_header();
             <div class="modal-body text-center">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-greg.png" />
               <h5>Gregory L. Horton</h5>
-              <p class="mb-5">CEO, Placeholder</p>
+              <p class="mb-5">President, American Group</p>
               <p class="text-left">
-                Mr. Horton received his Bachelor of Science in Mechanical Engineering from Texas A&M University and attended Arizona State University’s MBA Program. He began his career working as an engineer designing avionics for commercial aircraft at Sperry Flight Systems, prior to starting SMTEK International, Inc. As CEO, he ran this entrepreneurial company for 16 years, providing engineering, design, and automated production services in aerospace, defense, medical, and other highly regulated markets. Mr. Horton started Stellar Microelectronics in the same industry and grew it for ten years prior to selling the company. During his entrepreneurial years, Mr. Horton acquired, designed, leased, built, developed, and sold various industrial buildings for automated factories on three continents, which is what led him to join 1 American Elite™.
+                Mr. Horton received his Bachelor of Science in Mechanical Engineering from Texas A&M University and attended Arizona State University’s MBA Program. He began his career working as an engineer designing avionics for commercial aircraft at Sperry Flight Systems, prior to starting SMTEK International, Inc. As CEO, he ran this entrepreneurial company for 16 years, providing engineering, design, and automated production services in aerospace, defense, medical, and other highly regulated markets. Mr. Horton started Stellar Microelectronics in the same industry and grew it for ten years prior to selling the company. During his entrepreneurial years, Mr. Horton acquired, designed, leased, built, developed, and sold various industrial buildings for automated factories on three continents, which is what led him to join American Group.
               </p>
             </div>
           </div>
@@ -235,7 +235,7 @@ get_header();
               <h5>Raj Makwana</h5>
               <p class="mb-5">President, Regent West Corp.</p>
               <p class="text-left">
-                Raj Makwana brings 29 years of multi-family, commercial property and corporate accounting and finance experience to 1 American Elite. During his career, Mr. Makwana has been involved in the full breadth of property and corporate financial operations from day-to-day accounting and cash management to valuations, acquisition, and disposition. Mr. Makwana has also been a key player in securing property debt, working with a wide array of lending institutions including private equity funds. During his career, he has worked on optimizing the financial health of all entities through in-depth analysis and forecasting including multi-tiered assets. He is involved in annual financial audits, working with a variety of CPA firms. Mr Makwana also has an extensive technical background managing complex business networks, data, and VOIP systems. He holds several technical certifications, including the Microsoft professional designation. During his free time, Mr. Makwana enjoys spending time with his family and volunteering with local public schools.
+                Raj Makwana brings 29 years of multi-family, commercial property and corporate accounting and finance experience to American Group. During his career, Mr. Makwana has been involved in the full breadth of property and corporate financial operations from day-to-day accounting and cash management to valuations, acquisition, and disposition. Mr. Makwana has also been a key player in securing property debt, working with a wide array of lending institutions including private equity funds. During his career, he has worked on optimizing the financial health of all entities through in-depth analysis and forecasting including multi-tiered assets. He is involved in annual financial audits, working with a variety of CPA firms. Mr Makwana also has an extensive technical background managing complex business networks, data, and VOIP systems. He holds several technical certifications, including the Microsoft professional designation. During his free time, Mr. Makwana enjoys spending time with his family and volunteering with local public schools.
                 </p>
             </div>
           </div>
@@ -248,9 +248,9 @@ get_header();
             <div class="modal-body text-center">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-will.png" />
               <h5>Will Caulfield</h5>
-              <p class="mb-5">Business Development, Placeholder</p>
+              <p class="mb-5">Business Development, American Group</p>
               <p class="text-left">
-                A multidisciplinary contributor to 1 American Elite™, Will began his career working in design and development while traveling the world. Concluding his Bachelor of Arts in International Studies and Globalization, Will accepted positions in marketing, business development, and project management in residential real estate, where he played a part in launching a brokerage in Gulf Breeze, Florida. Most recently, Will acted as Managing Director of a commercial photography studio in Chicago, Illinois. He is a resident of Santa Monica, where he is actively engaged in the development of the 1 American Elite™ Opportunity Fund portfolio.
+                A multidisciplinary contributor to American Group™, Will began his career working in design and development while traveling the world. Concluding his Bachelor of Arts in International Studies and Globalization, Will accepted positions in marketing, business development, and project management in residential real estate, where he played a part in launching a brokerage in Gulf Breeze, Florida. Most recently, Will acted as Managing Director of a commercial photography studio in Chicago, Illinois. He is a resident of Santa Monica, where he is actively engaged in the development of the American Group™ Opportunity Fund portfolio.
               </p>
             </div>
           </div>
@@ -263,9 +263,9 @@ get_header();
             <div class="modal-body text-center">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-mason.png" />
               <h5>Mason Brown</h5>
-              <p class="mb-5">Marketing Manager, Placeholder</p>
+              <p class="mb-5">Property &amp; Marketing Manager, American Group</p>
               <p class="text-left">
-                With years experience in real estate investment and property management, Mason is a tremendous asset to the Placeholder team. Brought up with the idea that anything that needs getting done, he will help do it, Mr. Brown holds a degree in Communication Media and Chemistry. He started his career in Philadelphia in hospitality and entertainment, and upon moving to Los Angeles, transitioned into Property Management, which benefits greatly from his skills in event planning, marketing, and customer relations. Holding a CA Real Estate License and currently living in Hollywood, Mason is continuing his education in Property Management and the Multi-Family Industry while contributing to the Placholder initiative.
+                With years experience in real estate investment and property management, Mason is a tremendous asset to the American Group team. A natural self starter, Mr. Brown holds a degree in Communication Media and Chemistry. He started his career in Philadelphia in hospitality and entertainment, and upon moving to Los Angeles, transitioned into Property Management, which benefits greatly from his skills in event planning, marketing, and customer relations. Holding a CA Real Estate License and currently living in Hollywood, Mason is continuing his education in Property Management and the Multi-Family Industry while contributing to the American Group initiative.
               </p>
             </div>
           </div>
@@ -278,7 +278,7 @@ get_header();
             <div class="modal-body text-center">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-devan.png" />
               <h5>Devan Makwana</h5>
-              <p class="mb-5">Lead Developer, Placeholder</p>
+              <p class="mb-5">Lead Developer, American Group</p>
               <p class="text-left">
                 Since the age of 8, Devan has been learning and using several computer languages from HTML 5, Java and Java script to C++ and is now learning SQL Scripting & Python. He was also nominated to attend a national STEM conference by his instructors. As a young entrepreneur, he and a friend began their own successful online wearables company to help raise money for the ASCPA. Serving as the Chief Technology Officer, while his partner undertook the role of Chief Creative Officer, they continue to expand the reach of their work to further support non-profit, animal welfare organizations.  Devan has also helped design digital presentations for local public schools and networks for several local businesses. In his free time, he enjoys coding, traveling and playing board games.
               </p>

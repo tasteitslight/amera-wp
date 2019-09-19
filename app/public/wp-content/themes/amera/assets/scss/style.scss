@@ -1,0 +1,765 @@
+/*!
+Theme Name: Amera
+Theme URI: http://underscores.me/
+Author: Will Caulfield
+Author URI: http://caulfield.co/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: amera
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Amera is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+@import 'wordpress'; // imports _wordpress.scss
+@import 'color'; // imports _color.scss
+@import 'typography'; // imports _typography.scss
+@import 'layout'; // imports _layout.scss
+@import 'components/nav'; //imports _nav.scss from the /components/ directory
+@import 'components/headers'; //imports _headers.scss from the /components/ directory
+@import 'components/buttons'; //imports _buttons.scss from the /components/ directory
+@import 'components/footer'; //imports _footer.scss from the /components/ directory
+@import 'components/login-modal'; //imports _login-modal.scss from the /components/ directory
+@import 'components/calculator'; //imports _calculator.scss from the /components/ directory
+@import 'pages/opportunity-fund'; //imports _opportunity-fund.scss from the /components/ directory
+
+
+
+.border-bottom {
+  border-bottom: 1px solid $borderLight;
+}
+
+.border-bottom--darker {
+  border-bottom: 1px solid $borderDark;
+}
+
+.border-bottom--bold {
+  border-bottom: 1px dashed #8b8b8b;
+}
+
+.border-top {
+  border-top: 1px solid $borderLight;
+}
+
+.border-top--darker {
+  border-top: 1px solid $borderDark;
+}
+
+.border-all {
+  border: 1px solid $borderLight;
+  border-radius: 2px;
+}
+
+.border-radius {
+  border-radius: 2px; 
+}
+
+.box-shadow {
+  box-shadow: 0px 3px 3px 0px rgba(0,0,0,.3);
+}
+
+.box-shadow--light {
+  box-shadow: 0px 3px 3px 0px rgba(0,0,0,.2);
+}
+
+.svg-diagonal {
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 3vw;
+/* set height to pixels if you want angle to change with screen width */
+}
+
+.svg-dot-red {
+  position:fixed;
+  z-index:10000;
+  top:5px;
+  left:calc(392px + .3vh);
+}
+
+.svg-dot-red-map-austin {
+  width:40px;
+  position:relative;
+  top:500px;
+}
+
+.svg-dot-red-map-wpb {
+  width:40px;
+  position:relative;
+  top:520px;
+  right:-300px;
+}
+
+.svg-dot-blue {
+  position:fixed;
+  z-index:10000;
+  top:5px;
+  left:463px;
+}
+
+.lead-pad {
+  padding-top: 100px;
+}
+
+
+img.img--stat {
+  width: 60%;
+  padding:25px 0px;
+}
+
+@media (min-width: 540px) {
+  img.img--stat {
+    width:65%;
+    padding: 40px 0px 0px 0px;
+  }
+}
+
+.section-test {
+  text-align: center;
+}
+
+.section-help p {
+  color: $fontLight;
+}
+
+.section-help h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-top: 5px;
+  font-size: calc( .9em + .2vw );
+  color: $fontDark;
+}
+
+.section-help-img {
+  position: relative;
+  top:-10px;
+}
+
+.section-help-text {
+  margin-top:15px;
+}
+
+.emptyBlocks {
+	background-color: #ccc;
+	height: 400px;
+	margin: 60px auto;
+}
+
+.link-image {
+  display:block;
+  border-radius: 2px;
+  width:100%;
+  height:250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  box-shadow: 0px 5px 3px 0px rgba(0,0,0,.3);
+  -webkit-transition: box-shadow .3s; /* Safari prior 6.1 */
+  transition: box-shadow .3s;
+}
+
+.link-image:hover {
+  box-shadow: 0px 5px 8px 2px rgba(0,0,0,.3);
+}
+
+.link-image p {
+  color: white;
+  font-weight: 400;
+}
+
+.tax-benefits {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(0, 0, 0,.7) 90%),
+  url("/wp-content/themes/amera/assets/img/hero/default.jpg");
+  background-size: cover;
+  background-position: 50% 35%;
+}
+
+.img-link {
+  display:block;
+  width:100%;
+  position: relative;
+  height:25vh;
+  min-height: 200px;
+  border-radius: 2px;
+  font-size:calc(1.3em + .3vh);
+  color:white;
+  font-weight:400;
+  padding:10px;
+  transition: all .3s ;
+  box-shadow: 0px 3px 3px 0px rgba(0,0,0,.3);
+}
+
+.img-link:hover {
+  color:rgba(255, 255, 255, 0.7);
+  font-weight: 400;
+  transform: translateY(-6px);
+}
+
+.img-link-2 {
+  display:block;
+  width:100%;
+  position: relative;
+  border-radius: 2px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.img-link-2--gradient-dark {
+  position: absolute;
+  top:0;
+  left: 0;
+  height:100%;
+  width:100%;
+  border-radius: 2px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.6) 60%);
+}
+
+.img-link-2--gradient-grey {
+  position: absolute;
+  top:0;
+  left: 0;
+  height:100%;
+  width:100%;
+  border-radius: 2px;
+  background-color: rgba(99, 99, 99, 0.3);
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 15px, rgba(255,255,255,.1) 15px, rgba(255,255,255,.05) 30px);
+}
+
+.img-link-2--img {
+  position: absolute;
+  top:0;
+  left: 0;
+  width:100%;
+  height:100%;
+  border-radius: 2px;
+  object-fit:cover;
+}
+
+.hover-float {
+  transition: all .3s ;
+}
+
+.hover-float:hover {
+  transform: translateY(-6px);
+  cursor:pointer;
+}
+
+.img-link--gradient-dark {
+  position: absolute;
+  top:0;
+  left: 0;
+  height:25vh;
+  width:100%;
+  min-height:200px;
+  border-radius: 2px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.6) 60%);
+}
+
+.img-link--img {
+  position: absolute;
+  top:0;
+  left: 0;
+  width:100%;
+  height:100%;
+  min-height:200px;
+  border-radius: 2px;
+  object-fit:cover;
+}
+
+.handbook--link {
+  display:block;
+  width:100%;
+  position: relative;
+  height:25vh;
+  min-height:200px;
+}
+
+.handbook--img {
+  position: absolute;
+  top:0;
+  left: 0;
+  width:100%;
+  height:25vh;
+  min-height:200px;
+  border-radius: 2px;
+  object-fit:cover;
+}
+
+.gradient-overlay--dark {
+  position: absolute;
+  top:0;
+  left: 0;
+  height:50px;
+  width:100%;
+  border-radius: 2px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.7) 90%);
+}
+
+
+
+
+
+
+
+.investment-container {
+  position:relative;
+  height:35vh;
+  min-height:300px;
+}
+
+
+
+.investment-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: white;
+  border-radius: 2px;
+  padding: 1px 7px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #33302E;
+  box-shadow: 0 3px 3px 0px rgba(0,0,0,0.3);
+}
+
+.investment-tag.open {
+  background-color: #E3E3E3;
+}
+
+.investment-tag.closed {
+  background-color: #33302E;
+  color: #fff;
+}
+
+.investment-tag-2 {
+  display:inline-block;
+  background-color: white;
+  border-radius: 2px;
+  padding: 5px 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #33302E;
+  box-shadow: 0 3px 3px 0px rgba(0,0,0,0.3);
+}
+
+.section-quote--service {
+  border-bottom: 1px solid #E3E3E3;
+  background-color: #F8F8F8;
+  padding: 30px 0; 
+}
+
+.section-quote--service img {
+  width:100px;
+  height:auto;
+}
+
+.opacity-50 {
+  fill-opacity: 50%;
+}
+.portfolio-bar {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 10px 0px;
+  margin: 2px;
+  border-radius: 2px;
+}
+
+.section-invest-with-us {
+  background: 
+  /*linear-gradient(to right, rgba(255, 255, 255, 0.0), rgb(255, 255, 255,.9) 90%),*/
+  url("/wp-content/themes/amera/assets/img/landing-la5.jpg");
+  background-size: cover;
+  background-position: 50% 35%;
+}
+
+.section-advantage {
+  padding-bottom: 90px;
+}
+
+.test-absolute {
+  top:-25px;
+  padding:6px 25px 0px 25px;
+  border-radius: 2px;
+  min-height: 50px;
+}
+
+.advantage-text {
+  padding-top: 100px;
+  padding-left: 5px;
+}
+
+.test-line {
+  margin: 15px 0px;
+  border-left:3px solid #33302E;
+  height:20vh;
+}
+
+.team--img {
+  width:150px;
+}
+
+.history-img--usa{
+  margin-top:calc(10px + 5vh);
+  left:calc(20px + 45vw);
+  height:calc(200px + 40vw);
+  position:relative;
+}
+
+.test-row {
+  position: absolute;
+  left:500px;
+  z-index:10000;
+}
+
+.corporate-img--lg {
+  width:300px;
+}
+
+.corporate-img--md {
+  width:150px;
+}
+
+.corporate-img--sm {
+  width:80px;
+}
+
+.past-inv--section {
+  background: url("/wp-content/themes/amera/assets/img/svg/svg-usa-2.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: calc(0px + 55vw) calc(100px + 5vh);
+  min-height: 900px;
+}
+
+.portfolio-table {
+  color: #33302E;
+  font-weight: 400;
+  position:relative;
+  top:-30px;
+  line-height:2em;
+}
+
+.portfolio-table h3 {
+  font-weight: 100;
+  padding-bottom:10px;
+}
+
+.separator-gradient {
+  height:1px;
+  background: linear-gradient(to right, rgb(179, 179, 179), rgba(255, 255, 255,0.0) 100%);
+  width:100%;
+}
+
+.sticky-menu {
+  padding-top: 45px;
+}  
+
+@media (min-width: 768px) {
+
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top:0px;
+    height:100%;
+  }
+
+  .sidebar-sticky-2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top:80px;
+    height:100%;
+  }
+}
+
+.scrollspy-pad {
+  padding-top: 80px;
+}
+
+.scroll-pad-gloss {
+  padding-top: 90px;
+}
+
+.resources--link {
+  font-size:1.5em;
+}
+
+.resources--link i {
+  font-size: .5em;
+  position: relative;
+  bottom: 2px;
+  padding-right: 7px;
+}
+
+.list-group-item.faq {
+  display: inline-block;
+}
+
+.list-group-item.faq:first-child {
+  border-top:none;
+}
+
+.list-group-item.faq:last-child {
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.accordion button, 
+.accordion button:hover, 
+.accordion button:active, 
+.accordion button:visited, 
+.accordion button:focus {
+  text-decoration:none;
+  color: #73787F;
+  color: #33302E;
+  font-size:.5em;
+  padding-left: 0px;
+  margin-left: 0px;
+  font-size: calc(15px + 0.3vw);
+  line-height: calc(1.1em + 0.3vw);
+  font-weight: 100;
+}
+
+.accordion>.card {
+  border-left:none;
+  border-right: none;
+}
+
+.accordion>.card:first-child {
+  border-top:none;
+}
+
+.accordion i {
+  font-size: .6em;
+  position: relative;
+  bottom: 2px;
+  padding-right: 7px;
+}
+
+.card-body{
+  color: #73787F;
+  font-size: calc(14px + 0.2vw);
+  line-height: calc(1.2em + 0.3vw);
+}
+
+.list-group-item.glossary {
+  padding:.75rem .75rem;
+  border: none;
+  border-bottom: 1px solid #E3E3E3;
+  background-color: #f8f8f8;
+}
+
+.glossary-links {
+  margin: 0 auto;
+  box-shadow: 0px 4px 5px -3px rgba(0,0,0,.15);
+  color: $fontLight;
+}
+
+@media (min-width: 768px) {  
+  .glossary-links {
+    position: -webkit-sticky;
+    position: sticky;
+    top:58px;
+    z-index: 1000;
+  }
+}
+
+.resources-nav {
+  height:100px;
+  font-size: 1.5em;
+}
+
+.resources-nav>div {
+  border:1px solid #E3E3E3;
+  padding:10px 15px;
+}
+
+.resources-nav>div:first-child {
+  border-right:none;
+}
+
+.resources-nav>div:last-child {
+  border-left:none;
+}
+
+.article-sidebar img {
+  width:100%;
+  height: 15vh;
+  min-height:150px;
+  object-fit: cover;
+}
+
+.i-rotate-if-collapsed {
+  display:inline-block;
+  transition: all 200ms linear;
+}
+
+[data-toggle="collapse"][aria-expanded="true"] > .i-rotate-if-collapsed
+        {
+            -webkit-transform: translate( -5px, 3px) rotate(90deg);
+            -moz-transform:    translate( -5px, 3px) rotate(90deg);            
+            -ms-transform:     translate( -5px, 3px) rotate(90deg);            
+            -o-transform:      translate( -5px, 3px) rotate(90deg);            
+            transform:         translate( -5px, 3px) rotate(90deg);      
+        }
+
+.bio-card {
+  min-width:300px;
+  max-width:300px;
+}
+
+.bio-card:hover {
+  cursor: pointer;
+}
+
+.container-lg {
+  padding: 0px 0px;
+}
+
+.fund-aaa-intro-lead-section {
+    background: url("/wp-content/themes/amera/assets/img/renderings/rendering-1.jpg");
+    background-size: calc(300px + 50vw);
+    background-repeat: no-repeat;
+    background-position: calc(0px + 55vw) calc(0px + 5vh);
+}
+
+.card-white {
+  background-color: rgba(255, 255, 255, .8);
+  border-radius: 2px;
+  padding:5px;
+}
+
+.fund-table p {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.fund-table h5 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.mockup-mac {
+  position: relative;
+  top:-60px;
+  width:90%;
+  max-width:700px;
+}
+
+.fund-images a {
+  padding-bottom: 10px;
+}
+
+@media (min-width: 786px) {
+
+  .fund-images a:first-child {
+    padding-right: 0px;
+  }
+  
+  .fund-images a:nth-child(2) {
+    padding-right:7.5px;
+    padding-left: 7.5px;
+  }
+  
+  .fund-images a:last-child {
+    padding-left: 0px;
+  }
+}
+
+.fund-sidebar ul a {
+  color: #73787F;
+  font-weight: 500;
+}
+
+.fund-sidebar ul a:hover {
+  color: $blueSecond;
+}
+
+.fund-sidebar>ul>li>a>img {
+  width:20px;
+  padding-bottom:2px;
+  padding-right: 2px;
+}
+
+.fund-sidebar>ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.fund-section {
+  margin-bottom:30px;
+}
+
+.fund-sidebar--form-field {
+  height:40px;
+}
+
+.indicate-button {
+  padding-top:6px;
+
+}
+
+.how-to-menu a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: $fontDark;
+  font-size: 1.1em;
+}
+
+.how-to-menu a:hover {
+  color: $blueSecond;
+}
+
+.how-to-menu li {
+  padding: 20px 0px;
+  border-bottom: 1px solid #E3E3E3;
+}
+
+.color-dark-hover:hover {
+  color: $fontDark;
+}
+
+.how-to-invest-header {
+  color: white;
+  padding: 20px 0px;
+  box-shadow: $boxShadow;
+}
+
+@media (min-width: 768px) {
+  .how-to-invest-header {
+    top:58px;
+    z-index: 1000;
+  }
+}
+
+.page-rules i {
+  font-size: 1.5em;
+}
+
+.page-howToInvest i {
+  font-size: .2em;
+  position: relative;
+  bottom: 4px;
+}
+
+.external-links a{
+  color: $fontDark;
+}
+
+.external-links i{
+  color: $fontDark;
+  padding-top: 15px;
+  padding-right: 0px;
+}
+
+.external-links p{
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.external-links:hover {
+  cursor: pointer;
+}

@@ -14,13 +14,13 @@ get_header();
 
       <header class=" header-primary header-opportunityfund d-flex align-items-center justify-content-center">
         <div class="container text-center">
-          <h1>
+          <h1 class="mb-3">
             Opportunity Fund Intro
           </h1>
-          <p>
+          <p class="mb-4">
             Learn why Opportunity Funds are the most exciting investment to develop in recent history.
           </p>
-          <a href="/investments" class="button-custom mt-2">Opportunity Zone Investments</a>
+          <a href="/investments" class="button-custom mt-2">View Investments</a>
           <a href="#" class="button-custom mt-2">Schedule A Call</a>
         </div>
         <svg class="svg-diagonal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -265,10 +265,10 @@ get_header();
             <div class="col-md-6 mb-3">
               <h1 class="">View Investments</h1>
               <p>
-                Register for an Placeholder account to access and review all fund documents. Already have an account?
-                <br/><a href="" class="show_login">Click here to sign in.</a>
+                Register for an American Group account to access and review all fund documents. Already have an account?
+                <br/><a href="#pills-signin" data-toggle="modal" data-target="#modal-login">Click here to Sign In</a>
               </p>
-              <a class="button-custom button-custom-1 show_login" href="/investments">View Offerings</a>
+              <a class="button-custom button-custom-1" href="/investments">View Offerings</a>
             </div>
             <div class="col-md-6">
               <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/invest.png"/>
@@ -300,15 +300,15 @@ get_header();
         <div class="container text-center">
           <img class="d-block m-auto mockup-mac" src="<?php bloginfo('template_directory'); ?>/assets/img/mockup/invest-macbook.png"/>
           <h1 class="mt-5 mb-4">
-            Create a Placeholder Account
+            Create an American Group Account
           </h1>
           <h2 class="mb-4">
             To Review Fund Documents &amp; Invest When You're Ready
           </h2>
-          <a href="#pills-signup" data-toggle="modal" data-target="#modal-login" class="button-custom mb-4" >
+          <a href="#pills-signup" data-toggle="modal" data-target="#modal-login" class="button-custom" >
             Create An Account
           </a>
-          <p>
+          <p class="mt-5">
             Already have an account? <a href="#pills-signin" data-toggle="modal" data-target="#modal-login">Sign In</a>
           </p>
         </div>
@@ -332,7 +332,7 @@ get_header();
               </p>
             </div>
             <div class="col-12 col-md-4 text-center text-md-left">
-              <button class="button-custom help-button">investments@placeholder.com</button>
+              <button class="button-custom help-button">invest@americangroupcre.com</button>
             </div>
           </div>
         </div>

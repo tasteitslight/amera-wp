@@ -51,10 +51,10 @@ get_header();
     <section class="container text-center py-5">
       <h1 class="">We Strengthen Your Portfolio</h1>
       <div class="row d-flex justify-content-center pt-5 pb-3">
-        <div class="col-7 portfolio-bar bg-blue text-center align-self-center">
+        <div class="col-7 portfolio-bar bg-grey-gradient text-center align-self-center">
           70% Stocks
         </div>
-        <div class="col-3 portfolio-bar bg-red text-center align-self-center">
+        <div class="col-3 portfolio-bar bg-grey-gradient text-center align-self-center">
           30% Bonds
         </div>
       </div>
@@ -62,16 +62,16 @@ get_header();
         <div class="col-3 portfolio-bar bg-purple text-center align-self-center">
           ~30% Real Estate
         </div>
-        <div class="col-2 portfolio-bar bg-lred text-center align-self-center">
+        <div class="col-2 portfolio-bar bg-red text-center align-self-center">
           Bonds
         </div>
-        <div class="col-5 portfolio-bar bg-lblue text-center align-self-center">
+        <div class="col-5 portfolio-bar bg-blue text-center align-self-center">
           Stocks
         </div>
         
       </div>
       <p class="pb-5">
-        At Placeholder, we help clients invest in private market real estate. Modern Investment Theory
+        At American Group, we help clients invest in private market real estate. Modern Investment Theory
         supports diversification in not only stocks and bonds, but real estate too. <a href="/why-real-estate">Learn more about 
         the strengths of real estate.</a>
       </p>
@@ -82,7 +82,7 @@ get_header();
 
     <section class="container-fluid text-center gradient-wtg">
       <div class="container">
-        <h3 class="pb-5">Here's what you get when you invest with Placeholder</h3>
+        <h3 class="pb-5">Here's what you get when you invest with American Group</h3>
         <div class="row d-flex justify-content-center pb-5 ">
           <div class="col-12 col-md-4">
             <img class="w-50 pb-3" src="<?php bloginfo('template_directory'); ?>/assets/img/svg/quality.svg" />
@@ -111,7 +111,7 @@ get_header();
             <div class="col-md-6 mb-3">
               <h1 class="">View Investments</h1>
               <p>
-                Register for an Placeholder account to access and review all fund documents. Already have an account?
+                Register for an American Group account to access and review all fund documents. Already have an account?
                 <br/><a href="" class="show_login">Click here to sign in.</a>
               </p>
               <a class="button-custom button-custom-1 show_login" href="/investments">View Offerings</a>

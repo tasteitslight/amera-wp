@@ -29,7 +29,7 @@ get_header();
             We care about relationships
           </h3>
           <p>
-            Explain importance of this partner network, and these service providers to our firm.
+            And are proud to work with and support these incredible institutions.
           </p>
   
         </section>
@@ -104,8 +104,8 @@ get_header();
             <div class="col-md-6 mb-3">
               <h1 class="">View Investments</h1>
               <p>
-                Register for an Placeholder account to access and review all fund documents. Already have an account?
-                <br/><a href="" class="show_login">Click here to sign in.</a>
+                Register for an American Group account to access and review all fund documents. Already have an account?
+                <br/><a href="#pills-signin" data-toggle="modal" data-target="#modal-login">Click here to sign in.</a>
               </p>
               <a class="button-custom button-custom-1 show_login" href="/investments">View Offerings</a>
             </div>
@@ -134,7 +134,7 @@ get_header();
               </p>
             </div>
             <div class="col-12 col-md-4 text-center text-md-left">
-              <button class="button-custom help-button">investments@placeholder.com</button>
+              <button class="button-custom help-button">invest@americangroupcre.com</button>
             </div>
           </div>
         </div>

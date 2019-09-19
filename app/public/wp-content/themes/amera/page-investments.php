@@ -14,7 +14,7 @@ get_header();
       <header class="header-primary header-investments d-flex align-items-center justify-content-center">
         <div class="container text-center">
           <h1>
-            Placeholder Offerings
+            American Group Investments
           </h1>
           <p>
             Build wealth by investing in cash flowing Opportunity Funds
@@ -29,12 +29,10 @@ get_header();
 
       <section class="container mt-5 text-center">
         <h3 class="mb-5">
-          Our Current Investments
+          Our Current Offerings
         </h3>
-        <p class="">
-        <!--
-          Placeholder Opportunity Funds are Reg D real estate investment vehicles that create wealth by investing in cash-flowing apartment buildings and other mixed-use assets in Qualified Opportunity Zones. Our focus is on long-term capital appreciation from the renovation, development and repositioning of multi-family properties in high growth locations throughout the United States.
-        -->
+        <p class="mb-5">
+          American Group Opportunity Funds create wealth by investing in cash-flowing apartment buildings and other mixed-use assets in Qualified Opportunity Zones. Our focus is on long-term capital appreciation from the renovation, development and repositioning of multi-family properties in high growth locations.
         </p>
         <a class="img-link-2 box-shadow hover-float investment-container d-flex justify-content-center w-100 mb-5" href="/offering">
           <img class="img-link-2--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/offering2.jpg"/>
@@ -94,9 +92,9 @@ get_header();
               <h1 class="big-font big-font--invest">3</h1>
           </div>
           <div class="col-7 pl-0">
-              <h3>Placeholder will contact you to arrange placement</h3>
+              <h3>American Group will contact you to arrange placement</h3>
               <p class="">
-                A member of the Placeholder team will personally reach out 
+                A member of the American Group team will personally reach out 
                 to qualified investment candidates to discuss specific details &amp; next steps.
               </p>
           </div>
@@ -123,7 +121,7 @@ get_header();
               </p>
             </div>
             <div class="col-12 col-md-4 text-center text-md-left">
-              <a href="mailto:investments@placeholder.com" class="button-custom help-button text-center">investments@placeholder.com</a>
+              <a href="mailto:invest@americangroupcre.com" class="button-custom help-button text-center">invest@americangroupcre.com</a>
             </div>
           </div>
         </div>

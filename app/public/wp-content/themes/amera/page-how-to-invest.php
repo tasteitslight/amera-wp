@@ -37,7 +37,7 @@ get_header();
 
     <section class="container text-center">
       <div class="how-to-menu row d-flex justify-content-center text-left">
-        <div class="col-12 col-md-7">
+        <div class="col-12 col-md-7 mb-5">
           <ul class="pl-0">
             <li>
               <p class="d-inline pr-4"><strong>1</strong></p><a href="#create-account">Create an Account</a>
@@ -51,7 +51,7 @@ get_header();
           </ul>
         </div>
       </div>
-      <a href="#pills-signup" data-toggle="modal" data-target="#modal-login" class="button-custom my-5">Get Started</a>
+      <a href="#pills-signup" data-toggle="modal" data-target="#modal-login" class="button-custom my-5">Create An Account</a>
     </section>
 
     <section id="create-account" class="container-fluid px-0 mt-5">
@@ -127,7 +127,7 @@ get_header();
         <div class="separator-gradient mt-4"></div>
       </div>  
       <div class="text-center mb-5">
-        <a href="#pills-signup" data-toggle="modal" data-target="#modal-login"  class="button-custom my-5">Get Started</a>     
+        <a href="#pills-signup" data-toggle="modal" data-target="#modal-login"  class="button-custom my-5">Create An Account</a>     
       </div>
     </section>
     

@@ -52,8 +52,13 @@
 <div class="modal fade" id="modal-login" tabindex="-1" role="dialog" aria-labelledby="modal-login" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-md">
     <div class="modal-content login-modal">
+      <div>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
       <div class="w-100 d-flex justify-content-center pt-3 pb-5">
-        <img class="w-25" src="<?php bloginfo('template_directory');?>/assets/img/icon-placeholder.jpg" />
+        <img class="w-25" src="<?php bloginfo('template_directory');?>/assets/img/logo/logo-ag-globe.png" />
       </div>
       <ul class="nav nav-pills nav-fill my-2" id="pills-tab" role="tablist">
         <li class="nav-item">
@@ -102,7 +107,7 @@
   <?php } ?>
 
       <a class="navbar-brand" href="<?php echo home_url(); ?>">
-        <img src="<?php bloginfo('template_directory'); ?>/assets/img/logo/logo-placeholder.png" />
+        <img src="<?php bloginfo('template_directory'); ?>/assets/img/logo/logo-ag-horiz.png" />
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -117,7 +122,7 @@
                   <div class="row dropdown-row">
                     <div class="col-12 col-lg-5">
                       <p class="pt-1 d-none d-md-block">
-                        Placeholder operates commercial real estate across the country. We connect investors with high-quality assets in select business-friendly and high-growth locations.
+                        American Group operates commercial real estate across the country. We connect investors with high-quality assets in select business-friendly and high-growth locations.
                       </p>
                       <a class="button-custom m-0 dropdown-button" href="/investments">View Current Investments</a>
                     </div>
@@ -151,7 +156,7 @@
                         <img class="dropdown-image" src="<?php bloginfo('template_directory'); ?>/assets/img/dropdown-image-about-us"  />
                       </div>
                       <div class="col-12 col-sm-6 col-lg-4">
-                        <a class="dropdown-item" href="/about">About Placeholder</a>
+                        <a class="dropdown-item" href="/about">About American Group</a>
                         <a class="dropdown-item" href="/about#team">Meet The Team</a>
                         <a class="dropdown-item" href="/history">History &amp; Organization</a>
                         <a class="dropdown-item" href="/partners">Partners &amp; Community</a>

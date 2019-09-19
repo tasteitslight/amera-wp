@@ -1,0 +1,100 @@
+strong {
+  font-weight: 700;
+}
+
+.strong {
+  font-weight: 700;
+}
+
+header p {
+  font-size: calc(17px + 0.3vw);
+  color: $fontDark;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: calc(40px + 0.5vw);
+  line-height: calc(1.3em + 0.5vw);
+  
+}
+
+h2 {
+  font-size: calc(26px + 0.5vw);
+  line-height: calc(1.3em + 0.3vw);
+}
+
+h3 {
+  font-size: calc(22px + 0.5vw);
+  line-height: calc(1.3em + 0.3vw);
+}
+
+h4 {
+  font-size: calc(18px + 0.4vw);
+  line-height: calc(1.3em + 0.3vw);
+}
+
+h5 {
+  font-size: calc(17px + 0.3vw);
+  line-height: calc(1.3em + 0.3vw);
+}
+
+h6 {
+  font-size: calc(17px + 0.1vw);
+  line-height: calc(1.3em + 0.3vw);
+}
+
+p {
+  color: $fontLight;
+  font-size: calc(17px + 0.1vw);
+  line-height: calc(1.3em + 0.2vw);
+  font-weight:100;
+}
+
+ul {
+  color: $fontLight;
+  font-size: calc(17px + 0.1vw);
+  line-height: calc(1.3em + 0.2vw);
+  font-weight:100;
+}
+
+a {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: $redPrime;
+  font-weight: 600;
+  letter-spacing: .2px;
+}
+
+a:hover {
+  color: $blueSecond;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.big-font {
+  font-size: 7.5em;
+  font-weight: 700;
+}
+
+.big-font--invest {
+  line-height:.6em;
+}
+
+a.color-blue:hover {
+  color: $redPrime;
+}
+
+.font-serif {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.font-source {
+  font-family: 'Source Sans Pro',sans-serif;
+}
+
+.font-georgia {
+  font-family: Georgia, serif;
+}
+

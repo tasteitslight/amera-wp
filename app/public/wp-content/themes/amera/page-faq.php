@@ -31,7 +31,7 @@ get_header();
             <div id="asdf" class="list-group-flush sticky-menu">
               <a class="list-group-item list-group-item-action faq bg-grey" href="#qof">Opportunity Funds</a>
               <a class="list-group-item list-group-item-action faq bg-grey" href="#investors">For Investors</a>
-              <a class="list-group-item list-group-item-action faq bg-grey" href="#about">About Placeholder</a>
+              <a class="list-group-item list-group-item-action faq bg-grey" href="#about">About American Group</a>
             </div>
           </div>
           <div class="col-12 col-sm-8 col-md-9" id="scrollspytarget">
@@ -131,13 +131,13 @@ get_header();
                       <h2 class="mb-0">
                         <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#investors-0" aria-expanded="true" aria-controls="investors-0">
                             <i class="icon-chevron-right i-rotate-if-collapsed"></i> 
-                            Who can invest on Placeholder?
+                            Who can invest on American Group?
                         </button>
                       </h2>
                     </div>
                     <div id="investors-0" class="collapse show" aria-labelledby="heading--investors-0" data-parent="#faq-accordion--investors">
                       <div class="card-body">
-                        Due to federal securities laws, only <a href="#">accredited investors</a> can invest in offerings on our platform.
+                        Due to federal securities laws, only <a href="/glossary#a">accredited investors</a> can invest in offerings on our platform.
                       </div>
                     </div>
                   </div>
@@ -173,7 +173,7 @@ get_header();
                   </div>
                   <div id="investors-2" class="collapse" aria-labelledby="heading--investors-2" data-parent="#faq-accordion--investors">
                     <div class="card-body">
-                        When you create an account you’ll need to self-certify that you’re an accredited investor and will need to tell us how you qualify. We’ll ask you to re-confirm this each time you invest but otherwise we typically don’t require any documentary evidence of your financial status. Your personal financial information will be kept private in accordance with our <a href="#">privacy policy.</a>
+                        When you create an account you’ll need to self-certify that you’re an accredited investor and will need to tell us how you qualify. We’ll ask you to re-confirm this each time you invest but otherwise we typically don’t require any documentary evidence of your financial status. Your personal financial information will be kept private in accordance with our <a href="/privacy">privacy policy.</a>
                     </div>
                   </div>
                 </div>
@@ -182,13 +182,13 @@ get_header();
                     <h2 class="mb-0">
                       <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#investors-3" aria-expanded="false" aria-controls="investors-3">
                         <i class="icon-chevron-right i-rotate-if-collapsed"></i>
-                        Can non-US citizens invest in offerings on Placeholder?
+                        Can non-US citizens invest in offerings on American Group?
                       </button>
                     </h2>
                   </div>
                   <div id="investors-3" class="collapse" aria-labelledby="heading--investors-3" data-parent="#faq-accordion--investors">
                     <div class="card-body">
-                      Any person or entity with a U.S. tax identification number (social security number or Employer Identification Number), and who meets the SEC’s definition of “accredited investor” is eligible to participate in Placeholder's investments. While most of our investors are U.S. citizens, some are legal residents of the United States or foreign nationals who own or partially own an investing entity incorporated in the United States.
+                      Any person or entity with a U.S. tax identification number (social security number or Employer Identification Number), and who meets the SEC’s definition of “accredited investor” is eligible to participate in American Group's investments. While most of our investors are U.S. citizens, some are legal residents of the United States or foreign nationals who own or partially own an investing entity incorporated in the United States.
                     </div>
                   </div>
                 </div>
@@ -197,7 +197,7 @@ get_header();
                     <h2 class="mb-0">
                       <button class="btn btn-link collapsed text-left" type="button" data-toggle="collapse" data-target="#investors-4" aria-expanded="false" aria-controls="investors-4">
                         <i class="icon-chevron-right i-rotate-if-collapsed"></i>
-                        What is the minimum investment amount for projects offered on Placeholder?
+                        What is the minimum investment amount for projects offered on American Group?
                       </button>
                     </h2>
                   </div>
@@ -263,7 +263,7 @@ get_header();
                   </div>
                   <div id="investors-8" class="collapse" aria-labelledby="heading--investors-9" data-parent="#faq-accordion--investors">
                     <div class="card-body">
-                      Placeholder will control the investment vehicle through which investors commit funds. Investors will have limited voting rights with respect to the Placeholder investment vehicle, but no voting rights in the property management company.
+                      American Group will control the investment vehicle through which investors commit funds. Investors will have limited voting rights with respect to the American Group investment vehicle, but no voting rights in the property management company.
                     </div>
                   </div>
                 </div>
@@ -294,7 +294,7 @@ get_header();
 
             <section id="about" class="mb-5 pb-5">
               <h3 class="scrollspy-pad">
-                About Placeholder
+                About American Group
               </h3>
               <div class="separator-gradient mb-3"></div>
               
@@ -304,13 +304,13 @@ get_header();
                       <h2 class="mb-0">
                         <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#about-0" aria-expanded="true" aria-controls="about-0">
                             <i class="icon-chevron-right i-rotate-if-collapsed"></i>
-                            How do I ask questions on Placeholder?
+                            How do I ask questions on AmericanGroupCRE.com?
                         </button>
                       </h2>
                     </div>
                     <div id="about-0" class="collapse show" aria-labelledby="heading--about-0" data-parent="#faq-accordion--about">
                       <div class="card-body">
-                        We pride ourselves on our industry-leading customer service. You can reach support on any page of www.placeholder.com by clicking the blue circle with a question mark in the lower right-hand corner of your screen. For general support you can also reach us by email at support@placeholder.com.   If you have any feedback on how to improve Placeholder, please let us know at feedback@placeholder.com. No matter how you reach out to us we’ll make sure that your question gets answered.
+                        We pride ourselves on our industry-leading customer service. You can reach support on any page of www.americangroupcre.com by clicking the blue circle with a question mark in the lower right-hand corner of your screen. For general support you can also reach us by email at support@americangroupcre.com.   If you have any feedback on how to improve American Group, please let us know at feedback@americangroupcre.com. No matter how you reach out to us we’ll make sure that your question gets answered.
                       </div>
                     </div>
                   </div>
@@ -319,13 +319,13 @@ get_header();
                       <h2 class="mb-0">
                         <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#about-1" aria-expanded="false" aria-controls="about-1">
                             <i class="icon-chevron-right i-rotate-if-collapsed"></i>
-                            Is Placeholder a broker dealer?
+                            Is American Group a broker dealer?
                         </button>
                       </h2>
                     </div>
                     <div id="about-1" class="collapse" aria-labelledby="heading--about-1" data-parent="#faq-accordion--about">
                       <div class="card-body">
-                        No, Placeholder, Inc. is not a broker-dealer.
+                        No, American Group is not a broker-dealer.
                       </div>
                     </div>
                   </div>
@@ -334,13 +334,13 @@ get_header();
                       <h2 class="mb-0">
                         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#about-2" aria-expanded="false" aria-controls="about-2">
                           <i class="icon-chevron-right i-rotate-if-collapsed"></i>
-                          Does Placeholder pre-fund deals?
+                          Does American Group pre-fund deals?
                         </button>
                       </h2>
                     </div>
                     <div id="about-2" class="collapse" aria-labelledby="heading--about-2" data-parent="#faq-accordion--about">
                       <div class="card-body">
-                        Yes. Placeholder has pre-funded deals for decades, including its first opportunity zone deal in late 2019, and is exploring options to do so regularly in the future. Placeholder owners and employees also personally invest alongside Placeholder's investor network in some offerings.
+                        Yes. American Group has pre-funded deals for decades, including its first opportunity zone deal in late 2019, and is exploring options to do so regularly in the future. American Group owners and employees also personally invest alongside American Group's investor network in some offerings.
                       </div>
                     </div>
                   </div>
@@ -349,7 +349,7 @@ get_header();
                       <h2 class="mb-0">
                         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#about-3" aria-expanded="false" aria-controls="about-3">
                           <i class="icon-chevron-right i-rotate-if-collapsed"></i>
-                          Why should I trust Placeholder?
+                          Why should I trust American Group?
                         </button>
                       </h2>
                     </div>
@@ -372,8 +372,8 @@ get_header();
             <div class="col-md-6 mb-3">
               <h1 class="">View Investments</h1>
               <p>
-                Register for an Placeholder account to access and review all fund documents. Already have an account?
-                <br/><a href="" class="show_login">Click here to sign in.</a>
+                Register for an American Group account to access and review all fund documents. Already have an account?
+                <br/><a href="#pills-signin" data-toggle="modal" data-target="#modal-login">Click here to sign in.</a>
               </p>
               <a class="button-custom button-custom-1 show_login" href="/investments">View Offerings</a>
             </div>
@@ -402,7 +402,7 @@ get_header();
               </p>
             </div>
             <div class="col-12 col-md-4 text-center text-md-left">
-              <button class="button-custom help-button">investments@placeholder.com</button>
+              <button class="button-custom help-button">invest@americangroupcre.com</button>
             </div>
           </div>
         </div>

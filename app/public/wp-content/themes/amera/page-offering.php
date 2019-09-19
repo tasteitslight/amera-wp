@@ -82,7 +82,7 @@ get_header();
               <p>
                 Choose to collect your income to live more comfortably today or automatically reinvest your distributions to increase your <a href="/tax-advantage">tax free</a> investment.
               </p>
-              <a class="button-custom show_login">
+              <a href="#pills-signup" data-toggle="modal" data-target="#modal-login" class="button-custom mb-4">
                 Create An Account
               </a>
             </div>
@@ -139,16 +139,16 @@ get_header();
         <div class="container text-center">
           <img class="d-block m-auto mockup-mac" src="<?php bloginfo('template_directory'); ?>/assets/img/mockup/invest-macbook.png"/>
           <h1 class="mt-5 mb-4">
-            Create a Placeholder Account
+            Create an American Group Account
           </h1>
           <h2 class="mb-4">
             To Review Fund Documents &amp; Invest When You're Ready
           </h2>
-          <a class="button-custom mb-4 show_login">
+          <a href="#pills-signup" data-toggle="modal" data-target="#modal-login" class="button-custom mb-4">
             Create An Account
           </a>
-          <p>
-            Already have an account? <a href="" class="show_login">Sign In</a>
+          <p class="mt-4">
+            Already have an account? <a href="#pills-signin" data-toggle="modal" data-target="#modal-login">Sign In</a>
           </p>
         </div>
       </section>
@@ -170,8 +170,8 @@ get_header();
                 We are happy assist you.
               </p>
             </div>
-            <div class="col-12 col-md-4 text-center text-md-left">
-              <a href="mailto:investments@placeholder.com"class="button-custom help-button text-center">investments@placeholder.com</a>
+            <div class="col-12 col-md-4 text-center text-md-left d-flex align-items-middle">
+              <a href="mailto:invest@americangroupcre.com"class="button-custom help-button">invest@americangroupcre.com</a>
             </div>
           </div>
         </div>

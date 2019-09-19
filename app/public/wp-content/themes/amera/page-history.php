@@ -30,7 +30,7 @@ get_header();
             Seasoned Professionals
           </h3>
           <p>
-              Placeholder a part of American Group, more than 60 companies that work together to acquire, develop and manage multi-family housing & mixed-use projects throughout the country.
+            American Group is comprised of over than 60 companies that work together to acquire, develop and manage multi-family housing & mixed-use projects throughout the country.
           </p>          
         </div>
       </section>
@@ -44,15 +44,10 @@ get_header();
             <div class="col border-all bg-white mx-2">
               <img class="corporate-img--lg mt-5 mb-3" src="<?php bloginfo('template_directory'); ?>/assets/img/logo/logo-american-group.png" />
               <h3>American Group</h3>
-              <p>Title </p>
+              <p>Acquisitions, Investors & Development</p>
             </div>
           </div>
           <div class="row mt-3">
-            <div class="col border-all bg-white mx-2">
-              <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/logo/cal-american.png" />
-              <h5>Placeholder</h5>
-              <p>Investors & Development</p>
-            </div>
             <div class="col border-all bg-white mx-2">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/logo/cal-american.png" />
               <h5>Cal-American</h5>
@@ -221,8 +216,8 @@ get_header();
             <div class="col-md-6 mb-3">
               <h1 class="">View Investments</h1>
               <p>
-                Register for an Placeholder account to access and review all fund documents. Already have an account?
-                <br/><a href="" class="show_login">Click here to sign in.</a>
+                Register for an American Group account to access and review all fund documents. Already have an account?
+                <br/><a href="#pills-signin" data-toggle="modal" data-target="#modal-login">Click here to sign in.</a>
               </p>
               <a class="button-custom button-custom-1 show_login" href="/investments">View Offerings</a>
             </div>
@@ -251,7 +246,7 @@ get_header();
               </p>
             </div>
             <div class="col-12 col-md-4 text-center text-md-left">
-              <button class="button-custom help-button">investments@placeholder.com</button>
+              <button class="button-custom help-button">invest@americangroupcre.com</button>
             </div>
           </div>
         </div>

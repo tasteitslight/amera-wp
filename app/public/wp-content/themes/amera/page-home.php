@@ -27,8 +27,8 @@ get_header();
             <?php echo $hero_subtitle; ?>
           </h3>
           <form class="header-form">
-            <input class="input-header" type="email" placeholder="Enter your email"/>
-            <input class="button-custom header-button" type="submit" value="Request Information"/>
+            <input class="input-header font-source border-radius box-shadow" type="email" placeholder="Enter your email"/>
+            <input class="button-custom mt-2" type="submit" value="Request Information"/>
           </form>
         </div>
         <svg class="svg-diagonal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -42,14 +42,14 @@ get_header();
         <div class="row">
           <div class="col-md-6 lead-pad pb-5">
             <h1 class="">The Tax Benefit of a Lifetime</h1>
-            <h3>Introducing Placeholder's AAAmerican Opportunity Fund</h3>
+            <h3>Introducing American Group's AAAmerican Opportunity Fund</h3>
             <p>
               Our Qualified Opportunity Zone (QOZ) Fund combines the high returns and low volatility of real estate investment with unparalleled tax-savings benefits.
               <a href="/opportunity-fund">Learn More</a>
             </p>
           </div>
           <div class="col-md-6">
-            <img src="<?php bloginfo('template_directory'); ?>/assets/img/iso-geo.png" width="100%" />
+            <img src="<?php bloginfo('template_directory'); ?>/assets/img/iso-1.png" width="100%" />
           </div>
         </div>
       </section> <!-- /container -->
@@ -86,7 +86,7 @@ get_header();
           <div class="col-md-6 text-right">
             <h1 class="">Exclusively For Accredited Investors</h1>
             <p>
-              Register for an Placeholder account to access and view Opportunity Fund investments. Already have an account?
+              Register for an American Group account to access and view Opportunity Fund investments. Already have an account?
               <a class="show_login" href="#pills-signin" data-toggle="modal" data-target="#modal-login" >Click here to sign in.</a>
             </p>
             <a class="button-custom" href="/investments">View Investments</a>
@@ -141,7 +141,7 @@ get_header();
           Invest in America's Growing Markets
         </h1>
         <p class="pb-5">
-          Placeholder seeks opportunities across the country. We evaluate national demographic trends, local market health, and key transaction metrics to give our investors the highest return.
+          American Group seeks opportunities across the country. We evaluate national demographic trends, local market health, and key transaction metrics to maximize impact while giving our investors the highest return.
         </p>
         </div>
         <div class="container" >
@@ -175,7 +175,7 @@ get_header();
           <div class="container text-center">
             <img class="d-block m-auto mockup-mac" src="<?php bloginfo('template_directory'); ?>/assets/img/mockup/invest-macbook.png"/>
             <h1 class="mt-5 mb-4">
-              Create a Placeholder Account
+              Create a American Group Account
             </h1>
             <h2 class="mb-4">
               To Review Fund Documents &amp; Invest When You're Ready
@@ -183,7 +183,7 @@ get_header();
             <a href="#pills-signup" data-toggle="modal" data-target="#modal-login" class="button-custom mb-4">
               Create An Account
             </a>
-            <p>
+            <p class="mt-4">
               Already have an account? <a href="#pills-signin" data-toggle="modal" data-target="#modal-login">Sign In</a>
             </p>
           </div>
@@ -207,7 +207,7 @@ get_header();
               </p>
             </div>
             <div class="col-12 col-md-4 text-center text-md-left">
-              <button class="button-custom help-button">investments@placeholder.com</button>
+              <button class="button-custom help-button">investments@americangroupcre.com</button>
             </div>
           </div>
         </div>

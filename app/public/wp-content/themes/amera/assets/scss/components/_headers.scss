@@ -1,0 +1,223 @@
+.header-subtitle {
+  margin-top: 20px;
+}
+
+.header-form {
+  margin-top: 20px;
+}
+
+.header-button {
+  margin-top: 20px;
+}
+
+.input-header {
+  background: #fff; 
+  color: $fontDark;
+  padding: 0px 15px;
+  border: none;
+  height:40px;
+  width: 260px;
+}
+
+.header-primary {
+  position: relative;
+  height:450px;
+  background: 
+  linear-gradient(to top, rgba(195, 246, 255, 0.4), rgba(133, 127, 127, 0) 100%),
+  url("/wp-content/themes/amera/assets/img/hero/default.jpg");
+  background-blend-mode: hard-light;
+  background-size: cover;
+  background-position: 50% 35%;
+  }
+  
+  .header-secondary {
+    color: white;
+    position: relative;
+    height:290px;
+    background: 
+    linear-gradient(to right, rgba(146, 83, 209, 0.7), rgba(36, 124, 255, 0.7) 150%),
+    url("/wp-content/themes/amera/assets/img/hero/default2.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: 50% 65%;
+  }
+  
+  .header-1031 {
+    background: 
+    linear-gradient(to top, rgba(197, 237, 255, 0.8), rgba(195, 219, 255, 0.3) 100%),
+    url("/wp-content/themes/amera/assets/img/hero/1031.jpg");
+    background-size: cover;
+    background-position: 90% 5%;
+    background-blend-mode: luminosity;
+  }
+  
+  .header-about {
+    background: 
+    linear-gradient(to top, rgba(197, 237, 255, 0.8), rgba(195, 219, 255, 0.3) 100%),
+    url("/wp-content/themes/amera/assets/img/hero/about.jpg");
+    background-size: cover;
+    background-position: 50% 55%;
+    background-blend-mode: hard-light;
+  }
+  
+  .header-article {
+    background: 
+    linear-gradient(to top, rgba(236, 255, 224, 0.8), rgba(195, 219, 255, 0.3) 100%),
+    url("/wp-content/themes/amera/assets/img/hero/article.jpg");
+    background-size: cover;
+    background-position: 50% 40%;
+    background-blend-mode: hard-light;
+  }
+  
+  .header-articles {
+    background: 
+    linear-gradient(to top, rgba(222, 250, 255, 0.808), rgba(187, 217, 255, 0.1) 100%),
+    url("/wp-content/themes/amera/assets/img/hero/articles.jpg");
+    background-size: cover;
+    background-position: 40% 20%;
+    background-blend-mode: hard-light;
+  }
+  
+  .header-faq {
+    background: 
+    linear-gradient(to top, rgba(255, 255, 255, 0.9), rgba(121, 153, 194, 0.3) 100%),
+    url("/wp-content/themes/amera/assets/img/hero/faq.jpg");
+    background-size: cover;
+    background-position: 50% 40%;
+    background-blend-mode: luminosity;
+  }
+  
+  .header-glossary {
+    background: 
+    linear-gradient(to top, rgba(222, 250, 255, 0.808), rgba(187, 217, 255, 0.1) 100%),
+    url("/wp-content/themes/amera/assets/img/hero/glossary.jpg");
+    background-size: cover;
+    background-position: 50% 90%;
+    background-blend-mode: hard-light;
+  }
+  
+  .header-history {
+    background: 
+    linear-gradient(to top, rgba(250, 222, 255, 0.5), rgba(187, 217, 255, 0.1) 100%),
+    url("/wp-content/themes/amera/assets/img/hero/history.jpg");
+    background-size: cover;
+    background-position: 50% 10%;
+    background-blend-mode: hard-light;
+  }
+  
+  .header-howtoinvest {
+    background: 
+    linear-gradient(to top, rgba(70, 138, 241, 0.5), rgba(187, 217, 255, 0.1) 100%),
+    url("/wp-content/themes/amera/assets/img/hero/howtoinvest.jpg");
+    background-size: cover;
+    background-position: 0% 0%;
+    background-blend-mode: luminosity;
+  }
+  
+  .header-investments {
+    background: 
+    linear-gradient(to top, rgba(216, 255, 234, 0.9), rgba(187, 217, 255, 0.1) 100%),
+    url("/wp-content/themes/amera/assets/img/hero/investments.jpg");
+    background-size: cover;
+    background-position: 50% 40%;
+    background-blend-mode: hard-light;
+  }
+  
+  .header-offering {
+    background: 
+    linear-gradient(to top, rgba(255, 160, 160, 0.6), rgba(255, 212, 187, 0.5) 100%),
+    url("/wp-content/themes/amera/assets/img/hero/offering.jpg");
+    background-size: cover;
+    background-position: 50% 100%;
+    background-blend-mode: luminosity;
+  }
+  
+  .header-offering2 {
+    background: 
+    linear-gradient(to top, rgba(224, 224, 211, 0.7), rgba(255, 212, 187, 0.5) 100%),
+    url("/wp-content/themes/amera/assets/img/hero/offering2.jpg");
+    background-size: cover;
+    background-position: 50% 40%;
+    background-blend-mode: hard-light;
+  }
+  
+  .header-opportunityfund {
+    background: 
+    linear-gradient(to top, rgba(228, 255, 255, 0.8), rgba(255, 212, 187, 0.3) 100%),
+    url("/wp-content/themes/amera/assets/img/hero/opportunityfund.jpg");
+    background-size: cover;
+    background-position: 50% 0%;
+    background-blend-mode: luminosity;
+  }
+  
+  .header-partners {
+    background: 
+    linear-gradient(to top, rgba(41, 128, 128, 0.8), rgba(255, 212, 187, 0.3) 100%),
+    url("/wp-content/themes/amera/assets/img/hero/partners.jpg");
+    background-size: cover;
+    background-position: 50% 0%;
+    background-blend-mode: screen;
+  }
+  
+  .header-privacy {
+    background: 
+    linear-gradient(to top, rgba(41, 128, 128, 0.8), rgba(255, 212, 187, 0.3) 100%),
+    url("/wp-content/themes/amera/assets/img/hero/privacy.jpg");
+    background-size: cover;
+    background-position: 50% 40%;
+    background-blend-mode: screen;
+  }
+  
+  .header-resources {
+    background: 
+    linear-gradient(to top, rgba(41, 128, 128, 0.8), rgba(255, 212, 187, 0.3) 100%),
+    url("/wp-content/themes/amera/assets/img/hero/resources.jpg");
+    background-size: cover;
+    background-position: 50% 55%;
+    background-blend-mode: overlay;
+  }
+  
+  .header-rules {
+    background: 
+    linear-gradient(to top, rgba(166, 233, 233, 0.8), rgba(255, 212, 187, 0.3) 100%),
+    url("/wp-content/themes/amera/assets/img/hero/rules.jpg");
+    background-size: cover;
+    background-position: 50% 0%;
+    background-blend-mode: luminosity;
+  }
+  
+  .header-service {
+    background: 
+    linear-gradient(to top, rgba(166, 233, 233, 0.8), rgba(255, 212, 187, 0.3) 100%),
+    url("/wp-content/themes/amera/assets/img/hero/service.jpg");
+    background-size: cover;
+    background-position: 50% 0%;
+    background-blend-mode: luminosity;
+  }
+  
+  .header-taxadvantage {
+    background: 
+    linear-gradient(to top, rgba(166, 233, 233, 0.8), rgba(255, 212, 187, 0.3) 100%),
+    url("/wp-content/themes/amera/assets/img/hero/taxadvantage.jpg");
+    background-size: cover;
+    background-position: 50% 80%;
+    background-blend-mode: luminosity;
+  }
+  
+  .header-terms {
+    background: 
+    linear-gradient(to top, rgba(166, 233, 233, 0.8), rgba(255, 212, 187, 0.3) 100%),
+    url("/wp-content/themes/amera/assets/img/hero/terms.jpg");
+    background-size: cover;
+    background-position: 50% 70%;
+    background-blend-mode: luminosity;
+  }
+  
+  .header-whyrealestate {
+    background: 
+    linear-gradient(to top, rgba(177, 247, 247, 0.8), rgba(255, 212, 187, 0.3) 100%),
+    url("/wp-content/themes/amera/assets/img/hero/whyrealestate.jpg");
+    background-size: cover;
+    background-position: 50% 0%;
+    background-blend-mode: luminosity;
+  }
