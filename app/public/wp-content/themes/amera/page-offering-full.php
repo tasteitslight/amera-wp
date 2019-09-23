@@ -336,7 +336,7 @@ get_header();
                         <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
                     </a>
                 </div>-->
-                <div class="fund-sidebar">
+                <div class="mt-4 fund-sidebar">
                   <h4>
                     Documents
                   </h4>

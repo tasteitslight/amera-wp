@@ -72,7 +72,7 @@ get_header();
 
       <!-- Now Accepting Investors  -->
 
-      <section class="container py-5">
+      <section class="container py-3 py-sm-5">
         <div class="row">
           <div 
             class="col-md-6"
@@ -83,7 +83,7 @@ get_header();
             data-aos-once="false">
             <img  src="<?php bloginfo('template_directory'); ?>/assets/img/mockup/index-laptop.jpg" width="100%" />
           </div>
-          <div class="col-md-6 text-right">
+          <div class="col-md-6 text-right pb-4">
             <h1 class="">Exclusively For Accredited Investors</h1>
             <p>
               Register for an American Group account to access and view Opportunity Fund investments. Already have an account?
@@ -95,7 +95,7 @@ get_header();
       </section> <!-- /container -->
 
       <section class="container text-center">
-        <hr class="pb-5 mb-5"/>
+        <hr class=" mb-5"/>
         <h1 class="mb-5 pb-3">Earn 2x the Profits</h1>
         <img src="<?php bloginfo('template_directory'); ?>/assets/img/graphs/comparison.png" class="w-75 mb-5"/>
         <p class="mb-5 pb-5">
@@ -140,7 +140,7 @@ get_header();
         <h1>
           Invest in America's Growing Markets
         </h1>
-        <p class="pb-5">
+        <p class="pb-4 pb-sm-5">
           American Group seeks opportunities across the country. We evaluate national demographic trends, local market health, and key transaction metrics to maximize impact while giving our investors the highest return.
         </p>
         </div>

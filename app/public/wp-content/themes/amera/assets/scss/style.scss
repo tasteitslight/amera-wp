@@ -109,8 +109,14 @@ height: 3vw;
 }
 
 .lead-pad {
-  padding-top: 100px;
+  padding-top: 50px;
 }
+
+@media (min-width: 576px) { 
+  .lead-pad {
+    padding-top: 100px;
+  }
+ }
 
 
 img.img--stat {

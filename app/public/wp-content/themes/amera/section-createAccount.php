@@ -1,7 +1,7 @@
 <section class="container-fluid border-top gradient-gtw pb-5">
   <div class="container text-center">
     <img class="d-block m-auto mockup-mac" src="<?php bloginfo('template_directory'); ?>/assets/img/mockup/invest-macbook.png"/>
-    <h1 class="mt-5 mb-4">
+    <h1 class="mt-1 mt-sm-4 mb-4">
       Create an American Group Account
     </h1>
     <h2 class="mb-4">
