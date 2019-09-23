@@ -21,7 +21,11 @@ get_header();
             Accepting Investments 
           </div>
           <br/>
-          <a href="/offering-full" class="button-custom">Review Documents</a>
+          <?php if (is_user_logged_in()) { ?>
+            <a href="/offering-full" class="button-custom">Review Documents</a>
+          <?php } else { ?>
+            <a href="#pills-signup" data-toggle="modal" data-target="#modal-login" class="button-custom">Create Account to Access Details</a>
+          <?php } ?>
           <a class="button-custom">Indicate Interest</a>
         </div>
         <svg class="svg-diagonal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -34,15 +38,8 @@ get_header();
       <section class="container-fluid my-5 fund-aaa-intro-lead-section">
         <div class="container">
           <div class="row">
-            <div class="col-11 col-sm-6">
+            <div class="col-12 col-sm-6">
               <div class="card-white">
-                <h2>
-                  Fund Strategy
-                </h2>
-                <div class="separator-gradient mb-3"></div>
-                <p class="mb-5">
-                  This growth fund owns and operates multifamily properties while benefiting from the preferential tax treatment of the <a href="/opportunity-fund">Opportunity Zone Program.</a>
-                </p>
                 <h2>
                   Terms
                 </h2>
@@ -63,6 +60,19 @@ get_header();
                     <p>Minimum Investment</p>
                   </div>
                 </div>
+                <h2>
+                  Fund Strategy
+                </h2>
+                <div class="separator-gradient mb-3"></div>
+                <p>
+                  This growth fund owns and operates multifamily properties while benefiting from the preferential tax treatment of the <a href="/opportunity-fund">Opportunity Zone Program.</a>
+                </p>
+                <p>
+                  The AAAmerican Opportunity Fund seeks to acquire high-quality real estate properties located in designated Opportunity Zones that have strong long-term growth potential. The Fund intends to meet the requirements necessary to qualify as an Opportunity Fund as defined in the Tax Cuts and Jobs Act of 2017 in order to avail investors of the substantial tax-related benefits provided under the bill.
+                </p>
+                <p>
+                  The Fund anticipates an investment term of no less than 10 years in order to capture the full tax benefits offered under the tax code for Opportunity Funds.
+                </p>
               </div>
             </div>
           </div>
@@ -76,11 +86,11 @@ get_header();
               <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/graphs/graph-1.png" />
             </div>
             <div class="col-12 col-sm-6 text-right">
-              <h2>
+              <h2 class="mt-4">
                 Delivering Federal Tax Free Income and Appreciation
               </h2>
               <p>
-                Choose to collect your income to live more comfortably today or automatically reinvest your distributions to increase your <a href="/tax-advantage">tax free</a> investment.
+                Income distributions are automatically reinvested to increase your <a href="/tax-advantage">tax free</a> investment.
               </p>
               <a href="#pills-signup" data-toggle="modal" data-target="#modal-login" class="button-custom mb-4">
                 Create An Account
@@ -91,10 +101,10 @@ get_header();
       </section> <!-- /container -->
 
       <section class="container">
-        <h1 class="text-center my-5">
+        <h1 class="text-center my-5 pb-5">
           Key Benefits
         </h1>
-        <div class="row mb-5">
+        <div class="row mb-5 pb-5">
           <div class="col-12 col-sm-6">
             <h2>
               Zero Capital Gain Taxes
@@ -104,12 +114,12 @@ get_header();
             </p>
           </div>
           <div class="col-12 col-sm-6 text-center">
-            <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/graphs/no-tax.png"/>
+            <img class="w-50" src="<?php bloginfo('template_directory'); ?>/assets/img/graphs/no-tax.png"/>
           </div>
         </div>
-        <div class="row mb-5">
+        <div class="row mb-5 pb-5">
           <div class="col-12 col-sm-6 order-2 order-sm-1 text-center">
-            <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/graphs/volatility.png"/>
+            <img class="w-75" src="<?php bloginfo('template_directory'); ?>/assets/img/graphs/volatility.png"/>
           </div>
           <div class="col-12 col-sm-6 order-1 order-sm-2">
             <h2>
@@ -120,7 +130,7 @@ get_header();
             </p>
           </div>
         </div>
-        <div class="row mb-5 pb-5">
+        <div class="row mb-5">
           <div class="col-12 col-sm-6">
             <h2>
               Invest in High Growth Markets
@@ -129,8 +139,122 @@ get_header();
               We invest in fast-growing U.S. markets including: Atlanta, Austin, Charlotte, Dallas, Denver, Houston, Nashville, Orlando, Phoenix and Raleigh. 
             </p>
           </div>
-          <div class="col-12 col-sm-6 mb-5">
-            <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/graphs/target.png"/>
+          <div class="col-12 col-sm-6 mb-5 text-center">
+            <img class="w-75" src="<?php bloginfo('template_directory'); ?>/assets/img/graphs/target.png"/>
+          </div>
+        </div>
+        <hr />
+      </section>
+
+      <section class="container pb-5 mb-5 text-center">
+        <h1 class="text-center mt-5 pt-5 mb-3">
+          Example Business Plan
+        </h1>
+        <h4 class="mb-5 text-center">
+          New development in a growing West Palm Beach, FL neighborhood
+        </h4>
+        <div class="row mb-5">
+          <div class="col-6">
+            <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/renderings/offering-1.jpg"/>
+            <figcaption class="text-center">The existing distress lot</figcaption>
+          </div>
+          <div class="col-6">
+            <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/renderings/offering-2.jpg"/>
+            <figcaption class="text-center">Illustrative rendering of finished project</figcaption>
+          </div>
+        </div>
+        <img class="text-center m-auto offering-arrow" src="<?php bloginfo('template_directory'); ?>/assets/img/icons/arrow-fade-blue.png"/>
+        <p class="text-left neg-margin">
+          The plans from our previous Opportunity Fund, 1 American Elite, demonstrates the AAAmerican Opportunity Fund strategy.
+        </p>
+        <p class="text-left">
+          Its first acquisition was a lot in a growing area of West Palm Beach, a principal city of the Miami Metropolitan Area. Founded in 1894, it is the oldest incorporated municipality in Greater Miami, and has always attracted affluent homebuyers with its tropical tree-lined streets and a mixture of Art Deco and Spanish architecture.
+        </p>
+        <p class="text-left mb-5">
+          A thriving community, West Palm Beach Park has enjoyed significant population growth in recent years, outperforming its metropolitan neighbors. Nationwide, according to US Census Bureau data, Florida has received the most domestic inmovers. The 1 American Elite Opportunity Fund acquired the property in 2019. It plans to build a 370 unit apartment building and provide workforce housing, self storage, and retail and commercial business space.
+        </p>
+        <hr/>
+      </section>
+
+      <section class="container pb-5 text-center">
+        <h1 class="text-center mb-3">
+          About the Sponsor
+        </h1>
+        <ul class="text-left sponsor-list mb-5">
+          <li class="">
+            Founded in 1971, American Group's experienced team of over 100 professionals manages ten real estate investment vehicles.
+          </li>
+          <li>
+            American Group invested in, manages, or owns over $1 billion in real estate nationwide with over $63 million aggregate funds raised across our programs.
+          </li>
+          <li>
+            Since its inception, American Group has returned 567% of money invested in real estate to investors.
+          </li>
+        </ul>
+        <hr/>
+        <h2 class="my-5">
+          Real Estate Track Record
+        </h2>
+        <div class="row font-source sponsor-stats text-center ">
+            <div class="col-12 col-sm-3">
+              <h1>$1B</h1>
+              <p>Total value of real estate originated</p>
+            </div>
+            <div class="col-12 col-sm-3">
+              <h1>$53M</h1>
+              <p>Aggregate funds raised</p>
+            </div>
+            <div class="col-12 col-sm-3">
+              <h1>50+</h1>
+              <p>Real estate investments</p>
+            </div>
+            <div class="col-12 col-sm-3">
+              <h1>567%</h1>
+              <p>Historical return to investors</p>
+            </div>
+        </div>
+        <hr />
+      </section>
+
+      <section class="container-fluid bg-white pb-5 mb-5">
+        <h3 class="pb-5 text-center">
+          External Link Resources
+        </h3>
+        <div class="row justify-content-center">
+          <div class="col-9 col-lg-6 col-xl-4">
+            <a class="external-links" target="_blank" href="https://www.irs.gov/newsroom/irs-issues-guidance-relating-to-deferral-of-gains-for-investments-in-a-qualified-opportunity-fund">
+              <div class="separator-gradient mb-3"></div>
+              <div class="d-flex">
+                <i class="fas fa-external-link-alt"></i>
+                <p class="d-block">
+                  IRS issues guidance relating to deferral of gains for investments in a qualified opportunity fund
+                </p>
+                <i class="fas fa-chevron-right"></i>
+              </div>
+              <div class="separator-gradient mb-3"></div>
+            </a>
+            <a class="external-links" target="_blank" href="https://eig.org/wp-content/uploads/2018/01/Tax-Benefits-of-Investing-in-Opportunity-Zones.pdf">
+              <div class="separator-gradient mb-3"></div>
+              <div class="d-flex">
+              <i class="fas fa-external-link-alt"></i>
+                <p class="d-block">
+                  Economic Investment Group - Tax Benefits of Investing in Opportunity Zones
+                </p>
+                <i class="fas fa-chevron-right"></i>
+              </div>
+              <div class="separator-gradient mb-3"></div>
+            </a>
+            <a class="external-links" target="_blank" href="https://www.forbes.com/sites/forbesdigitalcovers/2018/07/17/an-unlikely-group-of-billionaires-and-politicians-has-created-the-most-unbelievable-tax-break-ever/#2ecaa7d14855">
+              <div class="separator-gradient mb-3"></div>
+              <div class="d-flex">
+                <i class="fas fa-external-link-alt"></i>
+                <p class="d-block">
+                  Forbes - An unlikely group has created the most unbelievable tax break ever
+                </p>
+                <i class="fas fa-chevron-right"></i>
+              </div>
+              <div class="separator-gradient mb-3"></div>
+            </a>
           </div>
         </div>
       </section>

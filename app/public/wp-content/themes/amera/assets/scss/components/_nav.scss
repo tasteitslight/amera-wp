@@ -50,8 +50,15 @@ textarea {
   padding: 0px 20px;
 }
 
+
 .navbar-brand > img {
-  width:192px;
+  width:177px;
+}
+
+@media (min-width: 335px)  {
+  .navbar-brand > img {
+    width:192px;
+  }
 }
 
 li.nav-item {

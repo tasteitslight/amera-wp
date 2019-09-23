@@ -72,11 +72,11 @@ get_header();
             <div class="col-3">
               <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
                 <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
-                <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#C7CCD2" stroke-width="4"></circle>
+                <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#dadada" stroke-width="4"></circle>
                 <!-- unused 10% -->
-                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#08306A" stroke-width="4" stroke-dasharray="40 60" stroke-dashoffset="0"></circle>
-                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#A93831" stroke-width="4" stroke-dasharray="20 80" stroke-dashoffset="20"></circle>
-                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#382C44" stroke-width="4" stroke-dasharray="30 70" stroke-dashoffset="50"></circle>
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#f17269" stroke-width="4" stroke-dasharray="25 75" stroke-dashoffset="0"></circle>
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#770ce2" stroke-width="4" stroke-dasharray="12 88" stroke-dashoffset="-25"></circle>
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#00b6ff" stroke-width="4" stroke-dasharray="56 44" stroke-dashoffset="-37"></circle>
               </svg>
             </div>
             <div class="col-4 portfolio-table">
@@ -141,11 +141,11 @@ get_header();
             <div class="col-3">
               <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
                 <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
-                <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#C7CCD2" stroke-width="4"></circle>
+                <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#dadada" stroke-width="4"></circle>
                 <!-- unused 10% -->
-                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#08306A" stroke-width="4" stroke-dasharray="40 60" stroke-dashoffset="0"></circle>
-                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#A93831" stroke-width="4" stroke-dasharray="20 80" stroke-dashoffset="20"></circle>
-                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#382C44" stroke-width="4" stroke-dasharray="30 70" stroke-dashoffset="50"></circle>
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#f17269" stroke-width="4" stroke-dasharray="6 94" stroke-dashoffset="0"></circle>
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#770ce2" stroke-width="4" stroke-dasharray="4 96" stroke-dashoffset="-6"></circle>
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#00b6ff" stroke-width="4" stroke-dasharray="1 99" stroke-dashoffset="-10"></circle>
               </svg>
             </div>
             <div class="col-4 portfolio-table">

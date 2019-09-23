@@ -15,7 +15,17 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
+  <link rel="profile" href="https://gmpg.org/xfn/11">
+  
+  <!-- Favicon -->
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
 
   <!-- Fonts -->
 
@@ -28,8 +38,13 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" rel="stylesheet">
 
   <!-- Bootstrap CSS -->
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+  <!-- Lightbox -->
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
+  
   <!-- Custom CSS -->
 
   <!-- <link rel="stylesheet" href="/assets/css/styles.css" > -->
@@ -62,7 +77,7 @@
       </div>
       <ul class="nav nav-pills nav-fill my-2" id="pills-tab" role="tablist">
         <li class="nav-item">
-          <a class="nav-link" id="pills-signin-tab" data-toggle="pill" href="#pills-signin" role="tab" aria-controls="pills-signin" aria-selected="true">Signin</a>
+          <a class="nav-link" id="pills-signin-tab" data-toggle="pill" href="#pills-signin" role="tab" aria-controls="pills-signin" aria-selected="true">Log in</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" id="pills-signup-tab" data-toggle="pill" href="#pills-signup" role="tab" aria-controls="pills-signup" aria-selected="false">Create an account</a>
@@ -80,7 +95,7 @@
             <br/>
             <a class="lost" href="<?php echo wp_lostpassword_url(); ?>">Lost your password?</a>
             <br/>
-            <input class="submit_button" type="submit" value="Login" name="submit">
+            <input class="submit_button" type="submit" value="Submit" name="submit">
             <?php wp_nonce_field( 'ajax-login-nonce', 'security' ); ?>
           </form>
 
@@ -205,7 +220,7 @@
           </li>
 
             <?php if (is_user_logged_in()) { ?>
-              <a class="button-custom dropdown-button text-center" href="#" >Dashboard</a>
+              <a class="button-custom dropdown-button text-center" href="/dashboard" >Dashboard</a>
             <?php } else { ?>
               <a class="button-custom dropdown-button text-center" href="/how-to-invest" >Get Started</a>
             <?php } ?>

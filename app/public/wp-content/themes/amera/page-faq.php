@@ -304,13 +304,13 @@ get_header();
                       <h2 class="mb-0">
                         <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#about-0" aria-expanded="true" aria-controls="about-0">
                             <i class="icon-chevron-right i-rotate-if-collapsed"></i>
-                            How do I ask questions on AmericanGroupCRE.com?
+                            How do I ask questions on americangroup.us?
                         </button>
                       </h2>
                     </div>
                     <div id="about-0" class="collapse show" aria-labelledby="heading--about-0" data-parent="#faq-accordion--about">
                       <div class="card-body">
-                        We pride ourselves on our industry-leading customer service. You can reach support on any page of www.americangroupcre.com by clicking the blue circle with a question mark in the lower right-hand corner of your screen. For general support you can also reach us by email at support@americangroupcre.com.   If you have any feedback on how to improve American Group, please let us know at feedback@americangroupcre.com. No matter how you reach out to us we’ll make sure that your question gets answered.
+                        We pride ourselves on our industry-leading customer service. You can reach support on any page of www.americangroup.us by clicking the blue circle with a question mark in the lower right-hand corner of your screen. For general support you can also reach us by email at support@americangroup.us.   If you have any feedback on how to improve American Group, please let us know at feedback@americangroup.us. No matter how you reach out to us we’ll make sure that your question gets answered.
                       </div>
                     </div>
                   </div>

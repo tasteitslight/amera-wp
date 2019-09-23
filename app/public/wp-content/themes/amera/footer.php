@@ -15,15 +15,15 @@
       <div class="container footer-container">
         <div class="row">
           <div class="col-12 col-lg text-center">
-            <img class="pt-0 pb-5" src="<?php bloginfo('template_directory'); ?>/assets/img/logo/logo-ag-horiz.png" width="150px"/>
+            <img class="pt-2 pb-5" src="<?php bloginfo('template_directory'); ?>/assets/img/logo/logo-ag-horiz.png" width="150px"/>
           </div>
           <div class="col-6 col-md-3 col-lg">
-            <h6>Why American Group?</h6>
+            <h6>American Group</h6>
             <ul class="footer-ul">
               <li><a href="/service">Our Service</a></li>
               <li><a href="/investments">Current Investments</a></li>
               <li><a href="/why-real-estate">Why Real Estate?</a></li>
-              <li><a href="#">How To Invest</a></li>
+              <li><a href="/how-to-invest">How To Invest</a></li>
             </ul>
           </div>
           <div class="col-6 col-md-3 col-lg">
@@ -41,7 +41,7 @@
               <li><a href="/about">About</a></li>
               <li><a href="/about#team">Team</a></li>
               <li><a href="/history">Organization</a></li>
-              <li><a href="#">Press</a></li>
+              <!--<li><a href="#">Press</a></li>-->
             </ul>
           </div>
           <div class="col-6 col-md-3 col-lg">
@@ -59,7 +59,7 @@
         <div class="row">
           <div class="col-12 col-md-7 pb-3 pb-sm-0">
             <a href="tel:310-598-7258">310-598-7258</a>
-            <a href="mailto:invest@americangroupcre.com" >invest@americangroupcre.com</a>
+            <a href="mailto:invest@americangroup.us" >invest@americangroup.us</a>
           </div>
           <div class="col-12 col-md-5">
             <a class="d-inline-block footer-social footer-social-twitter" href="#"></a>
@@ -72,7 +72,7 @@
       </div>
         <div class="container footer-disclaimer">
             <p>
-              AmericanGroupCRE.com is a website owned and operated by Placeholder Company, Inc. (“American Group”). By accessing the website and any pages thereof, you agree to be bound by the <a href="/terms">Terms of Use</a> and <a href="/privacy">Privacy Policy</a>, as each may be amended from time to time. American Group is not a registered broker, dealer, investment advisor, investment manager or registered funding portal. The securities offerings on this site are available only to <a href="/glossary#a">"Accredited Investors"</a> – generally, natural persons must have a net worth of over $1 million (exclusive of residence) or income in excess of $200,000 individually or $300,000 jointly with a spouse. The securities are offered in reliance on an exemption from the registration requirements of the Securities Act of 1933, as amended, and are not required to comply with specific disclosure requirements that apply to registration under the Securities Act. Neither the Securities and Exchange Commission nor any state regulator has passed upon the merits of or given its approval to the securities, the terms of the offerings, or the accuracy or completeness of any offering materials. The securities are subject to legal restrictions on transfer and resale and investors should not assume they will be able to resell their securities. Investing in securities involves risk, and investors should be able to bear the loss of their entire investment. All investors should make their own determination of whether or not to make any investment, based on their own independent evaluation and analysis.
+              americangroup.us is a website owned and operated by Placeholder Company, Inc. (“American Group”). By accessing the website and any pages thereof, you agree to be bound by the <a href="/terms">Terms of Use</a> and <a href="/privacy">Privacy Policy</a>, as each may be amended from time to time. American Group is not a registered broker, dealer, investment advisor, investment manager or registered funding portal. The securities offerings on this site are available only to <a href="/glossary#a">"Accredited Investors"</a> – generally, natural persons must have a net worth of over $1 million (exclusive of residence) or income in excess of $200,000 individually or $300,000 jointly with a spouse. The securities are offered in reliance on an exemption from the registration requirements of the Securities Act of 1933, as amended, and are not required to comply with specific disclosure requirements that apply to registration under the Securities Act. Neither the Securities and Exchange Commission nor any state regulator has passed upon the merits of or given its approval to the securities, the terms of the offerings, or the accuracy or completeness of any offering materials. The securities are subject to legal restrictions on transfer and resale and investors should not assume they will be able to resell their securities. Investing in securities involves risk, and investors should be able to bear the loss of their entire investment. All investors should make their own determination of whether or not to make any investment, based on their own independent evaluation and analysis.
             </p>
             <p>
               The information on the website includes historic results of certain investments made by American Group; however, past performance is no guarantee of future results. Historic returns may not reflect actual future performance, may not reflect potential deductions for fees which may reduce actual realized returns. Investors are advised that any investment with American Group may experience different results from those shown. Projected IRR and multiples are based upon the anticipated redemption or maturity date. All investments offered by American Group involve risk and may result in loss.
@@ -112,6 +112,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   
+    <!-- Lightbox -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js.map"></script>
+
+    <script>
+
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+
+    </script>
+
     <!-- Additional JavaScript -->
 
     <script>

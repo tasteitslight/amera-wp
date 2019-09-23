@@ -230,52 +230,37 @@ get_header();
       <!-- More About Opportunity Zones Section -->
 
       <section class="container-fluid bg-white border-top text-center">
-          <div class="container my-5">
-              <h3>Learn More About Opportunity Funds</h3>
-              <div class="row my-5">
-                <div class="col-sm-7 pb-4 pb-sm-0">
-                  <a class="img-link" href="/tax-advantage">
-                    <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/taxadvantage.jpg"/>
-                    <div class="img-link--gradient-dark d-flex justify-content-center">
-                      <div class="my-auto">
-                        Tax Advantages of Opportunity Funds
-                      </div>
+        <div class="container my-5">
+            <h3>Learn More About Opportunity Funds</h3>
+            <div class="row my-5">
+              <div class="col-sm-7 pb-4 pb-sm-0">
+                <a class="img-link" href="/tax-advantage">
+                  <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/taxadvantage.jpg"/>
+                  <div class="img-link--gradient-dark d-flex justify-content-center">
+                    <div class="my-auto">
+                      Tax Advantages of Opportunity Funds
                     </div>
-                  </a>
-                </div>
-                <div class="col-sm-5">
-                  <a class="img-link" href="/rules">
-                    <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/rules.jpg"/>
-                    <div class="img-link--gradient-dark d-flex justify-content-center">
-                      <div class="my-auto">
-                        Rules &amp; Regulations
-                      </div>
-                    </div>
-                  </a>
-                </div>
+                  </div>
+                </a>
               </div>
-          </div>
-        </section>
+              <div class="col-sm-5">
+                <a class="img-link" href="/rules">
+                  <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/rules.jpg"/>
+                  <div class="img-link--gradient-dark d-flex justify-content-center">
+                    <div class="my-auto">
+                      Rules &amp; Regulations
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+        </div>
+      </section>
 
-        <!-- Invest -->
-           
-      <section class="container-fluid border-top bg-white">
-        <div class="container py-5 mt-5">
-          <div class="row">
-            <div class="col-md-6 mb-3">
-              <h1 class="">View Investments</h1>
-              <p>
-                Register for an American Group account to access and review all fund documents. Already have an account?
-                <br/><a href="#pills-signin" data-toggle="modal" data-target="#modal-login">Click here to Sign In</a>
-              </p>
-              <a class="button-custom button-custom-1" href="/investments">View Offerings</a>
-            </div>
-            <div class="col-md-6">
-              <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/invest.png"/>
-            </div>
-          </div>
-        </div> 
-      </section> <!-- /container -->
+      <!-- Invest -->
+      
+      <?php get_template_part('section', 'viewInvestments'); ?>
+      
 
       <section class="container text-center py-5 mb-5">
         <hr class="pb-5" />

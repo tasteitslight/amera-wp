@@ -10,7 +10,7 @@
         <a class="button-custom button-custom-1 show_login" href="/investments">View Offerings</a>
       </div>
       <div class="col-md-6">
-        <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/invest.png"/>
+        <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/mockup/invest.png"/>
       </div>
     </div>
   </div> 

@@ -32,6 +32,9 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import 'pages/opportunity-fund'; //imports _opportunity-fund.scss from the /components/ directory
 
 
+html {
+  scroll-behavior: smooth;
+}
 
 .border-bottom {
   border-bottom: 1px solid $borderLight;
@@ -619,15 +622,16 @@ img.img--stat {
   padding: 0px 0px;
 }
 
-.fund-aaa-intro-lead-section {
-    background: url("/wp-content/themes/amera/assets/img/renderings/rendering-1.jpg");
-    background-size: calc(300px + 50vw);
-    background-repeat: no-repeat;
-    background-position: calc(0px + 55vw) calc(0px + 5vh);
+@media (min-width: 576px) { 
+  .fund-aaa-intro-lead-section {
+      background: url("/wp-content/themes/amera/assets/img/renderings/rendering-1.jpg");
+      background-size: calc(300px + 50vw);
+      background-repeat: no-repeat;
+      background-position: calc(0px + 55vw) calc(0px + 5vh);
+  }
 }
-
 .card-white {
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, 1);
   border-radius: 2px;
   padding:5px;
 }
@@ -700,7 +704,7 @@ img.img--stat {
 
 .indicate-button {
   padding-top:6px;
-
+  color:white;
 }
 
 .how-to-menu a {
@@ -762,4 +766,77 @@ img.img--stat {
 
 .external-links:hover {
   cursor: pointer;
+}
+
+.offering-arrow {
+  width:100px;
+  position:relative;
+  bottom:calc(190px);
+  padding-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .offering-arrow {
+    width:170px;
+    position:relative;
+    bottom:250px;
+  }
+}
+
+.neg-margin {
+  margin-top: -125px;
+}
+
+ul.sponsor-list {
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+ul.sponsor-list li::before {
+  content: "\f058";
+  font-family: "Font Awesome 5 Free";
+  padding: 0 10px 0 0;
+}
+
+ul.sponsor-list li {
+  padding: 20px 0px;
+  list-style-position: outside;
+}
+
+.sponsor-stats h1 {
+}
+
+.sponsor-stats p {
+  font-size: 16px;
+}
+
+.fund-sidebar li {
+  font-size: 15px;
+}
+
+.fund-section { 
+  color: $fontDark;
+}
+
+.fund-section p {
+  color: $fontMedDark
+}
+
+.fund-section li {
+  margin-left: -40px;
+  margin-bottom: 20px;
+  color: $fontMedDark
+}
+
+.ul-offering-full {
+  margin-left: 20px;
+  list-style-type: circle;
+}
+
+.dist-table thead {
+  border-bottom: 1px solid black;
+}
+
+.dist-table tbody {
+  color: $fontLight
 }

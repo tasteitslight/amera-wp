@@ -25,7 +25,7 @@ get_header();
 
       <section class="container pt-5 bg-grey">
         <p>
-          By accessing or using our website at www.AmericanGroupCRE.com, including any subdomain you have read, understood, and agreed to be bound by the terms and all terms incorporated herein by reference, regardless of whether you are a registered member of the service, as they may be amended from time to time in the future.
+          By accessing or using our website at www.AmericanGroup.us, including any subdomain you have read, understood, and agreed to be bound by the terms and all terms incorporated herein by reference, regardless of whether you are a registered member of the service, as they may be amended from time to time in the future.
         </p>
         <h4 class="pt-4">
           All Users: Consent to Electronic Transactions and Disclosures
@@ -126,7 +126,7 @@ get_header();
         </h4>
         <div class="separator-gradient mb-3"></div>
         <p>
-          You must keep us informed of any change in your e-mail address, your home mailing address, or your telephone number so that we can maintain communications with you about your authorization as a registered User and so that you can continue to receive all Disclosures in a timely fashion. You can contact us by e-mail at suppor@americangroupcre.com or by calling us at 310-598-7258. You may also reach us in writing to us at the following address: American Group, Inc., 1109 Westwood Blvd, Los Angeles, CA 90024.
+          You must keep us informed of any change in your e-mail address, your home mailing address, or your telephone number so that we can maintain communications with you about your authorization as a registered User and so that you can continue to receive all Disclosures in a timely fashion. You can contact us by e-mail at suppor@americangroup.us or by calling us at 310-598-7258. You may also reach us in writing to us at the following address: American Group, Inc., 1109 Westwood Blvd, Los Angeles, CA 90024.
         </p>
         <h4 class="pt-4">
           Links to Other Sites
@@ -241,7 +241,7 @@ get_header();
           <br/>
           Telephone: 310-598-7258
           <br/>
-          Email: support@americangroupcre.com
+          Email: support@americangroup.us
         </p>
       </section>
     </main>
