@@ -22,9 +22,33 @@ Calculator
 /opportunity-fund image
 animate buttons on hover
 
+wget https://downloads.bitnami.com/files/stacks/wordpress/5.2.3-0/bitnami-wordpress-5.2.3-0-module-linux-x64-installer.run
+chmod +x ./bitnami-wordpress-5.2.3-0-module-linux-x64-installer.run
+sudo ./bitnami-wordpress-5.2.3-0-module-linux-x64-installer.run
 
+wordpress
 
+username: ag_admin
+email: invest@americangroup.us
+pw: 7ugJ2N6MxIQcU%tHap^z^RSN
 
+AWS Lightsail Wordpress-1 Stack
+
+rnjTJ1QYFRyn
+Static IP:
+54.200.47.162
+SSH username: bitnami
+
+Wordpress
+ag_admin
+slOl#!v5HCheRm6Vx4EKLxFq
+
+AWS LAMP Instance
+
+username: bitnami
+EcS76YjD1frl
+Static IP:
+34.234.112.150
 
 
 

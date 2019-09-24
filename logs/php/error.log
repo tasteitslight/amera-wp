@@ -322,3 +322,5 @@ Stack trace:
 [06-Sep-2019 04:11:10 UTC] PHP Parse error:  syntax error, unexpected '94' (T_LNUMBER), expecting ',' or ')' in /app/public/wp-content/themes/amera/header.php on line 83
 [06-Sep-2019 04:30:41 UTC] PHP Fatal error:  Cannot redeclare ajax_login() (previously declared in /app/public/wp-content/themes/amera/functions.php:223) in /app/public/wp-content/themes/amera/libs/custom-ajax-auth.php on line 32
 [06-Sep-2019 04:32:31 UTC] PHP Parse error:  syntax error, unexpected '/' in /app/public/wp-content/themes/amera/libs/custom-ajax-auth.php on line 14
+[24-Sep-2019 17:07:58 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'install_wpct' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[24-Sep-2019 17:08:09 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'uninstall_wpct' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286

@@ -136,7 +136,7 @@
                 <div class="container-fluid dropdown-form-container">
                   <div class="row dropdown-row">
                     <div class="col-12 col-lg-5">
-                      <p class="pt-1 d-none d-md-block">
+                      <p class="pt-1 d-none d-md-block pb-2 pb-lg-0">
                         American Group operates commercial real estate across the country. We connect investors with high-quality assets in select business-friendly and high-growth locations.
                       </p>
                       <a class="button-custom m-0 dropdown-button" href="/investments">View Current Investments</a>
@@ -144,7 +144,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 pr-0 d-none d-lg-block dropdown-image-column">
                       <img class="dropdown-image" src="<?php bloginfo('template_directory'); ?>/assets/img/dropdown-image-investments.jpg"  />
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4 pt-3 pt-lg-0">
                       <a class="dropdown-item" href="/opportunity-fund">What Are Opportunity Funds?</a>
                       <a class="dropdown-item" href="/tax-advantage">Tax Advantages of QOZ Funds</a>
                       <a class="dropdown-item" href="/1031-exchange">1031 vs QOZ Funds</a>
@@ -170,7 +170,7 @@
                       <div class="col-12 col-sm-6 col-lg-3 pr-0 d-none d-lg-block dropdown-image-column">
                         <img class="dropdown-image" src="<?php bloginfo('template_directory'); ?>/assets/img/dropdown-image-about-us"  />
                       </div>
-                      <div class="col-12 col-sm-6 col-lg-4">
+                      <div class="col-12 col-sm-6 col-lg-4 pt-3 pt-lg-0">
                         <a class="dropdown-item" href="/about">About American Group</a>
                         <a class="dropdown-item" href="/about#team">Meet The Team</a>
                         <a class="dropdown-item" href="/history">History &amp; Organization</a>
@@ -196,7 +196,7 @@
                         <div class="col-12 col-sm-6 col-lg-3 pr-0 d-none d-lg-block dropdown-image-column">
                           <img class="dropdown-image" src="<?php bloginfo('template_directory'); ?>/assets/img/dropdown-image-resources.jpg"  />
                         </div>
-                        <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="col-12 col-sm-6 col-lg-4 pt-3 pt-lg-0">
                           <a class="dropdown-item" href="/why-real-estate">Why Invest in Real Estate?</a>
                           <a class="dropdown-item" href="/resources">Opportunity Zone Articles</a>
                           <a class="dropdown-item" href="/glossary">Glossary</a>
