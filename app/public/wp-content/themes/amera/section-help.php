@@ -13,8 +13,8 @@
           We are happy assist you.
         </p>
       </div>
-      <div class="col-12 col-md-4 text-center text-md-left d-flex align-items-middle">
-        <a href="mailto:invest@americangroup.us" class="button-custom help-button text-center">invest@americangroup.us</a>
+      <div class="col-12 col-md-4 d-flex align-items-middle justify-content-center">
+        <a href="mailto:invest@americangroup.us" class="button-custom help-button text-center mb-5 mb-sm-0">invest@americangroup.us</a>
       </div>
     </div>
   </div>
