@@ -198,10 +198,10 @@ get_header();
         <div class="row font-source sponsor-stats text-center ">
             <div class="col-12 col-sm-3">
               <h1>$1B</h1>
-              <p>Total value of real estate originated</p>
+              <p>Total value of real estate</p>
             </div>
             <div class="col-12 col-sm-3">
-              <h1>$53M</h1>
+              <h1>$63M</h1>
               <p>Aggregate funds raised</p>
             </div>
             <div class="col-12 col-sm-3">
@@ -210,7 +210,7 @@ get_header();
             </div>
             <div class="col-12 col-sm-3">
               <h1>567%</h1>
-              <p>Historical return to investors</p>
+              <p>Average return to investors</p>
             </div>
         </div>
         <hr />
