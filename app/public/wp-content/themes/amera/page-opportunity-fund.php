@@ -92,13 +92,7 @@ get_header();
       <section id="example" class="container text-center pb-0 pt-5 mt-5">
         <h1 class="pb-5">Example</h1>
         <p class="pb-5">
-            When a great stock rises to $2,000 per share, John sells. 
-            The sale results in $1,000,000 profit and $238,000 federal capital gain taxes (23.8%).
-            Instead of paying the $238,000, John invests all of his $1,000,000 
-            gain into an Opportunity Fund. Assuming an annual return rate of over 8%, the post-tax value of 
-            his investment after 10 years is $2,000,000. John pays <span class="color-blue"><strong>zero federal taxes</strong></span> 
-            on this gain. John's only tax liability is $202,300, <span class="color-red"><strong>deferred until 2027 and reduced,</strong></span> only 85% of the standard tax of $238,000 mentioned above. 
-            As a result, John’s post-tax earnings are more than double had he had invested elsewhere.
+            When a great stock rises to $2,000 per share, John sells. The sale results in $1,000,000 profit and $238,000 federal capital gain taxes (23.8%). Instead of paying the $238,000, John invests all of his $1,000,000 gain into an Opportunity Fund. Assuming an annual return rate of 9% simple, the post-tax value of his investment after 10 years is $1,900,000. John pays <span class="color-blue"><strong>zero federal taxes</strong></span> on this gain. John's only tax liability is $202,300, <span class="color-red"><strong>deferred until 2027 and a reduced amount,</strong></span> only 85% of the $238,000 tax mentioned above, what he would have normally paid. As a result, John’s post-tax earnings are more than <strong>double</strong> had he had invested elsewhere.
         </p>
         <hr class="pb-4"/>
         <h3 class="pb-5">Schedule of Example</h3>
@@ -168,10 +162,10 @@ get_header();
                 Value of New Investment after 10 years<br/>
               </div>
               <div class="col-6 col-md-3 calc__col calc__col--red">
-                $1,524,000
+                $1,447,800
               </div>
               <div class="col-6 col-md-3 calc__col calc__col--blue">
-                $2,000,000
+                $1,900,000
               </div>
             </div> <!--End Row-->
                       
@@ -192,22 +186,46 @@ get_header();
                 Top Federal Tax on Disposition of New Investment in 2029<br/>
               </div>
               <div class="col-6 col-md-3 calc__col calc__col--red">
-                (181,356)
+                (163,220)
               </div>
               <div class="col-6 col-md-3 calc__col calc__col--blue">
                 -
               </div>
             </div> <!--End Row-->
                       
-            <div class="row calc__row">
-              <div class="col-12 col-md-6 calc__col calc__col--title calc__row--bgGreyBlueBorder">
+            <div class="row calc__row bg-grey border-top">
+              <div class="col-12 col-md-6 calc__col calc__col--title ">
                 After Tax Proceeds
               </div>
+              <div class="col-6 col-md-3 calc__col calc__col--red ">
+                $1,284,580
+              </div>
+              <div class="col-6 col-md-3 calc__col calc__col--blue ">
+                $1,697,700
+              </div>
+            </div> <!--End Row-->
+
+            <div class="row calc__row">
+              <div class="col-12 col-md-6 calc__col calc__col--title ">
+                Less: Original Gain
+              </div>
+              <div class="col-6 col-md-3 calc__col calc__col--red ">
+                (1,000,000)
+              </div>
+              <div class="col-6 col-md-3 calc__col calc__col--blue ">
+                (1,000,000)
+              </div>
+            </div> <!--End Row-->
+
+            <div class="row calc__row">
+              <div class="col-12 col-md-6 calc__col calc__col--title calc__row--bgGreyBlueBorder">
+                Net Profit
+              </div>
               <div class="col-6 col-md-3 calc__col calc__col--red calc__row--bgGreyBlueBorder">
-                $1,342,644
+                <strong>$284,580</strong>
               </div>
               <div class="col-6 col-md-3 calc__col calc__col--blue calc__row--bgGreyBlueBorder">
-                $1,797,700
+                <strong>$697,700</strong>
               </div>
             </div> <!--End Row-->
           </div>
