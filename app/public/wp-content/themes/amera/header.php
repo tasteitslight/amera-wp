@@ -49,6 +49,10 @@
 
   <!-- <link rel="stylesheet" href="/assets/css/styles.css" > -->
 
+  <!-- SmoothScroll -->
+
+  <script type="text/javascript" src="/js/smoothscroll.min.js"></script>
+
   <!-- Custom JS -->
 
   <!-- <script type="text/javascript" src="/assets/js/main.js"></script> -->
@@ -73,7 +77,7 @@
         </button>
       </div>
       <div class="w-100 d-flex justify-content-center pt-3 pb-5">
-        <img class="w-25" src="<?php bloginfo('template_directory');?>/assets/img/logo/logo-ag-globe.png" />
+        <img class="login-logo" src="<?php bloginfo('template_directory');?>/assets/img/logo/logo-ag-globe.png" />
       </div>
       <ul class="nav nav-pills nav-fill my-2" id="pills-tab" role="tablist">
         <li class="nav-item">
@@ -144,7 +148,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 pr-0 d-none d-lg-block dropdown-image-column">
                       <img class="dropdown-image" src="<?php bloginfo('template_directory'); ?>/assets/img/dropdown-image-investments.jpg"  />
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-4 pt-3 pt-lg-0">
+                    <div class="col-12 col-sm-6 col-lg-4 pt-2 pt-lg-0">
                       <a class="dropdown-item" href="/opportunity-fund">What Are Opportunity Funds?</a>
                       <a class="dropdown-item" href="/tax-advantage">Tax Advantages of QOZ Funds</a>
                       <a class="dropdown-item" href="/1031-exchange">1031 vs QOZ Funds</a>
@@ -170,7 +174,7 @@
                       <div class="col-12 col-sm-6 col-lg-3 pr-0 d-none d-lg-block dropdown-image-column">
                         <img class="dropdown-image" src="<?php bloginfo('template_directory'); ?>/assets/img/dropdown-image-about-us"  />
                       </div>
-                      <div class="col-12 col-sm-6 col-lg-4 pt-3 pt-lg-0">
+                      <div class="col-12 col-sm-6 col-lg-4 pt-2 pt-lg-0">
                         <a class="dropdown-item" href="/about">About American Group</a>
                         <a class="dropdown-item" href="/about#team">Meet The Team</a>
                         <a class="dropdown-item" href="/history">History &amp; Organization</a>
@@ -196,7 +200,7 @@
                         <div class="col-12 col-sm-6 col-lg-3 pr-0 d-none d-lg-block dropdown-image-column">
                           <img class="dropdown-image" src="<?php bloginfo('template_directory'); ?>/assets/img/dropdown-image-resources.jpg"  />
                         </div>
-                        <div class="col-12 col-sm-6 col-lg-4 pt-3 pt-lg-0">
+                        <div class="col-12 col-sm-6 col-lg-4 pt-2 pt-lg-0">
                           <a class="dropdown-item" href="/why-real-estate">Why Invest in Real Estate?</a>
                           <a class="dropdown-item" href="/resources">Opportunity Zone Articles</a>
                           <a class="dropdown-item" href="/glossary">Glossary</a>
