@@ -146,44 +146,38 @@ get_header();
                     <table class="dist-table w-100">
                       <thead>
                         <tr>
-                        <td>Tier</td>
-                        <td>Hurdle Rate (Up to)</td>
-                        <td>&nbsp;</td>
-                        <td>QOF</td>
-                        <td>Promote</td>
+                          <td>Priority</td>
+                          <td></td>
+                          <td>Investors&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                          <td>Promote</td>
                         </tr>
                       </thead>
                       <tbody>
-                        <tr>
-                        <td>1</td>
-                        <td>9% simple</td>
-                        <td>&nbsp;</td>
-                        <td>100%</td>
-                        <td>0%</td>
+                        <tr class="bg-grey">
+                          <td>1</td>
+                          <td>100% of contribution returned to investors</td>                          
+                          <td>100%</td>
+                          <td>0%</td>
                         </tr>
-                        <tr>
-                        <td>2</td>
-                        <td>Matching 9% simple</td>
-                        <td>&nbsp;</td>
-                        <td>0%</td>
-                        <td>100%</td>
+                        <tr class="border-top border-bottom"> 
+                          <td>2</td>
+                          <td>9% simple preferred return to investors, matching 9% to MMBR</td>
+                          <td>9%</td>
+                          <td>9%</td>
                         </tr>
-                        <tr>
-                        <td>3</td>
-                        <td>Thereafter</td>
-                        <td>&nbsp;</td>
-                        <td>90%</td>
-                        <td>10%</td>
+                        <tr class="bg-grey">
+                          <td>3</td>
+                          <td>90% to investors, 10% to MMBR</td>
+                          <td>90%</td>
+                          <td>10%</td>
                         </tr>
                       </tbody>
                     </table>
                     <p class="pt-4">
-                      <strong>
-                        Distributions are made at the sole discrition of the Sponsor. Please see offering documents for additional detail.
-                      </strong>
+                      Distributions are made at the sole discrition of the MMBR.
                     </p>
                     <p>
-                      Distributions are paid following property liquidation, occuring after fund achieves tax-free status from a 10 year hold as outlined by the <a href="/opportunity-fund">Opportunity Zone program.</a>
+                      Distributions are paid as available, occuring after fund achieves tax-free status from a 10 year hold as outlined by the <a href="/opportunity-fund">Opportunity Zone program.</a>
                     </p>
                   </div>
                   <div class="tab-pane fade" id="org-chart" role="tabpanel" aria-labelledby="nav-contact-tab">
