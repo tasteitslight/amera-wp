@@ -53,7 +53,7 @@ get_header();
           <div class="img-link-2--gradient-grey d-flex justify-content-center">
             <div class="align-self-center text-center">
                 <h3 class="color-white">1 American Elite</h3>
-                <p class="color-white">A Single Asset Opportunity Zone Investment</p>
+                <p class="color-white">A Qualified Opportunity Fund</p>
               </div>
           </div>
           <div class="investment-tag closed">

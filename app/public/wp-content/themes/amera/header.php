@@ -51,7 +51,7 @@
 
   <!-- SmoothScroll -->
 
-  <script type="text/javascript" src="/js/smoothscroll.min.js"></script>
+  <!-- <script type="text/javascript" src="/js/smoothscroll.min.js"></script> -->
 
   <!-- Custom JS -->
 
@@ -176,7 +176,7 @@
                       </div>
                       <div class="col-12 col-sm-6 col-lg-4 pt-2 pt-lg-0">
                         <a class="dropdown-item" href="/about">About American Group</a>
-                        <a class="dropdown-item" href="/about#team">Meet The Team</a>
+                        <a class="dropdown-item" href="/about/#team">Meet The Team</a>
                         <a class="dropdown-item" href="/history">History &amp; Organization</a>
                         <a class="dropdown-item" href="/partners">Partners &amp; Community</a>
                       </div>
