@@ -99,132 +99,132 @@ get_header();
         <div class="container calc__container mb-5">
           <div class="calc__table">
             <div class="row calc__row--sticky">
-              <div class="col-12 col-md-6 calc__col--empty">
+              <div class="col-12 col-md-6">
               </div>
-              <div class="col-6 col-md-3 calc__col calc__col--taxable bg-red">
+              <div class="col-6 col-md-3 calc__col bg-red">
                 Taxable Investment<br/>(Stocks, Bonds, etc)
               </div>
-              <div class="col-6 col-md-3 calc__col calc__col--aaa bg-blue">
+              <div class="col-6 col-md-3 calc__col bg-blue">
                 AAAmerican<br/>Opportunity Fund
               </div>
             </div> <!--End Row-->
   
             <div class="row calc__row">
-              <div class="col-12 col-md-6 calc__col calc__col--title">
+              <div class="col-12 col-md-6 calc__col">
                 Capital Gain
               </div>
-              <div class="col-6 col-md-3 calc__col calc__col--red">
+              <div class="col-6 col-md-3 calc__col ">
                 $1,000,000
               </div>
-              <div class="col-6 col-md-3 calc__col calc__col--blue">
+              <div class="col-6 col-md-3 calc__col ">
                 $1,000,000
               </div>
             </div> <!--End Row-->
             
             <div class="row calc__row">
-              <div class="col-12 col-md-6 calc__col calc__col--title">
+              <div class="col-12 col-md-6 calc__col ">
                 Top Federal Tax Paid on Original Gain - 23.8%
               </div>
-              <div class="col-6 col-md-3 calc__col calc__col--red">
+              <div class="col-6 col-md-3 calc__col ">
                 (238,000)
               </div>
-              <div class="col-6 col-md-3 calc__col calc__col--blue">
-                -
-              </div>
-            </div> <!--End Row-->
-                      
-            <div class="row calc__row">
-              <div class="col-12 col-md-6 calc__col calc__col--title calc__row--bgGreytopBorder">
-                Capital Available for a "New Investment" in 2019
-              </div>
-              <div class="col-6 col-md-3 calc__col calc__col--red calc__row--bgGreytopBorder">
-                $762,000
-              </div>
-              <div class="col-6 col-md-3 calc__col calc__col--blue calc__row--bgGreytopBorder">
-                $1,000,000
-              </div>
-            </div> <!--End Row-->
-  
-            <div class="row">
-              <div class="col-12 col-md-6 calc__col calc__col--title calc__col--spacer">
-                 
-              </div>
-              <div class="col-6 col-md-3 calc__col calc__col--red calc__col--spacer">
-                 
-              </div>
-              <div class="col-6 col-md-3 calc__col calc__col--blue calc__col--spacer">
-                 
-              </div>
-            </div>
-                      
-            <div class="row calc__row">
-              <div class="col-12 col-md-6 calc__col calc__col--title">
-                Value of New Investment after 10 years<br/>
-              </div>
-              <div class="col-6 col-md-3 calc__col calc__col--red">
-                $1,447,800
-              </div>
-              <div class="col-6 col-md-3 calc__col calc__col--blue">
-                $1,900,000
-              </div>
-            </div> <!--End Row-->
-                      
-            <div class="row calc__row">
-              <div class="col-12 col-md-6 calc__col calc__col--title">
-                Top Federal Tax on 85% of Original Gain due 2027
-              </div>
-              <div class="col-6 col-md-3 calc__col calc__col--red">
-                -
-              </div>
-              <div class="col-6 col-md-3 calc__col calc__col--blue">
-                (202,300) 
-              </div>
-            </div> <!--End Row-->
-                      
-            <div class="row calc__row">
-              <div class="col-12 col-md-6 calc__col calc__col--title">
-                Top Federal Tax on Disposition of New Investment in 2029<br/>
-              </div>
-              <div class="col-6 col-md-3 calc__col calc__col--red">
-                (163,220)
-              </div>
-              <div class="col-6 col-md-3 calc__col calc__col--blue">
+              <div class="col-6 col-md-3 calc__col ">
                 -
               </div>
             </div> <!--End Row-->
                       
             <div class="row calc__row bg-grey border-top">
-              <div class="col-12 col-md-6 calc__col calc__col--title ">
+              <div class="col-12 col-md-6 calc__col ">
+                Capital Available for a "New Investment" in 2019
+              </div>
+              <div class="col-6 col-md-3 calc__col ">
+                $762,000
+              </div>
+              <div class="col-6 col-md-3 calc__col ">
+                $1,000,000
+              </div>
+            </div> <!--End Row-->
+  
+            <div class="row">
+              <div class="col-12 col-md-6 calc__col calc__col--spacer">
+                 
+              </div>
+              <div class="col-6 col-md-3 calc__col  calc__col--spacer">
+                 
+              </div>
+              <div class="col-6 col-md-3 calc__col  calc__col--spacer">
+                 
+              </div>
+            </div>
+                      
+            <div class="row calc__row">
+              <div class="col-12 col-md-6 calc__col ">
+                Value of New Investment after 10 years<br/>
+              </div>
+              <div class="col-6 col-md-3 calc__col ">
+                $1,447,800
+              </div>
+              <div class="col-6 col-md-3 calc__col ">
+                $1,900,000
+              </div>
+            </div> <!--End Row-->
+                      
+            <div class="row calc__row">
+              <div class="col-12 col-md-6 calc__col ">
+                Top Federal Tax on 85% of Original Gain due 2027
+              </div>
+              <div class="col-6 col-md-3 calc__col ">
+                -
+              </div>
+              <div class="col-6 col-md-3 calc__col ">
+                (202,300) 
+              </div>
+            </div> <!--End Row-->
+                      
+            <div class="row calc__row">
+              <div class="col-12 col-md-6 calc__col ">
+                Top Federal Tax on Disposition of New Investment in 2029<br/>
+              </div>
+              <div class="col-6 col-md-3 calc__col ">
+                (163,220)
+              </div>
+              <div class="col-6 col-md-3 calc__col ">
+                -
+              </div>
+            </div> <!--End Row-->
+                      
+            <div class="row calc__row bg-grey border-top">
+              <div class="col-12 col-md-6 calc__col  ">
                 After Tax Proceeds
               </div>
-              <div class="col-6 col-md-3 calc__col calc__col--red ">
+              <div class="col-6 col-md-3 calc__col  ">
                 $1,284,580
               </div>
-              <div class="col-6 col-md-3 calc__col calc__col--blue ">
+              <div class="col-6 col-md-3 calc__col  ">
                 $1,697,700
               </div>
             </div> <!--End Row-->
 
             <div class="row calc__row">
-              <div class="col-12 col-md-6 calc__col calc__col--title ">
+              <div class="col-12 col-md-6 calc__col  ">
                 Less: Original Gain
               </div>
-              <div class="col-6 col-md-3 calc__col calc__col--red ">
+              <div class="col-6 col-md-3 calc__col  ">
                 (1,000,000)
               </div>
-              <div class="col-6 col-md-3 calc__col calc__col--blue ">
+              <div class="col-6 col-md-3 calc__col  ">
                 (1,000,000)
               </div>
             </div> <!--End Row-->
 
-            <div class="row calc__row">
-              <div class="col-12 col-md-6 calc__col calc__col--title calc__row--bgGreyBlueBorder">
+            <div class="row calc__row bg-grey blueDashBorder final">
+              <div class="col-12 col-md-6 calc__col">
                 Net Profit
               </div>
-              <div class="col-6 col-md-3 calc__col calc__col--red calc__row--bgGreyBlueBorder">
+              <div class="col-6 col-md-3 calc__col ">
                 <strong>$284,580</strong>
               </div>
-              <div class="col-6 col-md-3 calc__col calc__col--blue calc__row--bgGreyBlueBorder">
+              <div class="col-6 col-md-3 calc__col ">
                 <strong>$697,700</strong>
               </div>
             </div> <!--End Row-->

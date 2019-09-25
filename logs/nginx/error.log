@@ -1,0 +1,1 @@
+2019/09/25 15:55:32 [alert] 73#0: *2615 pread() read only 8192 of 32768 from "/app/public/wp-content/themes/amera/style.css" while sending response to client, client: 127.0.0.1, server: , request: "GET /wp-content/themes/amera/style.css?ver=5.2.3 HTTP/1.0", host: "amera.local", referrer: "http://amera.local/opportunity-fund/"
