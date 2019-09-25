@@ -105,9 +105,9 @@ get_header();
                 </ul>
                 <nav>
                   <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#key-points" role="tab" aria-controls="nav-home" aria-selected="true">Key Deal Points</a>
-                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#distribution" role="tab" aria-controls="nav-profile" aria-selected="false">Distribution Strategy</a>
-                    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#org-chart" role="tab" aria-controls="nav-contact" aria-selected="false">Organizational Chart</a>
+                    <a class="nav-item nav-link offering-tab active" id="nav-home-tab" data-toggle="tab" href="#key-points" role="tab" aria-controls="nav-home" aria-selected="true">Key Deal Points</a>
+                    <a class="nav-item nav-link offering-tab" id="nav-profile-tab" data-toggle="tab" href="#distribution" role="tab" aria-controls="nav-profile" aria-selected="false">Distribution Strategy</a>
+                    <a class="nav-item nav-link offering-tab" id="nav-contact-tab" data-toggle="tab" href="#org-chart" role="tab" aria-controls="nav-contact" aria-selected="false">Organizational Chart</a>
                     <!--<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#tab-d" role="tab" aria-controls="nav-contact" aria-selected="false">Sources &amp; Uses</a>
                     <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#tab-e" role="tab" aria-controls="nav-contact" aria-selected="false">Financials</a>
                     <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#tab-f" role="tab" aria-controls="nav-contact" aria-selected="false">Sponsor Fees</a>-->
@@ -185,9 +185,6 @@ get_header();
                     <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/img/resources/org-chart-1ae.jpg" />
                   </a>
                   </div>
-                  <div class="tab-pane fade" id="tab-d" role="tabpanel" aria-labelledby="nav-contact-tab">b</div>
-                  <div class="tab-pane fade" id="tab-e" role="tabpanel" aria-labelledby="nav-contact-tab">c</div>
-                  <div class="tab-pane fade" id="tab-f" role="tabpanel" aria-labelledby="nav-contact-tab">d</div>
                 </div>
               </div><!-- End section-->
               <div class="fund-section">
