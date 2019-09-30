@@ -165,7 +165,7 @@ get_header();
         </div>
         <img class="text-center m-auto offering-arrow" src="<?php bloginfo('template_directory'); ?>/assets/img/icons/arrow-fade-blue.png"/>
         <p class="text-left neg-margin">
-          The plans from our previous Opportunity Fund, 1 American Elite, demonstrates the AAAmerican Opportunity Fund strategy.
+          Our previous Opportunity Fund, 1 American Elite, clearly demonstrates the intended AAAmerican Opportunity Fund strategy.
         </p>
         <p class="text-left">
           Its first acquisition was a lot in a growing area of West Palm Beach, a principal city of the Miami Metropolitan Area. Founded in 1894, it is the oldest incorporated municipality in Greater Miami, and has always attracted affluent homebuyers with its tropical tree-lined streets and a mixture of Art Deco and Spanish architecture.

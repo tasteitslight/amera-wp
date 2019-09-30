@@ -151,9 +151,8 @@ get_header();
           See for yourself how much money you could gain investing in AAAmerican Opportunity Fund 
           versus a traditionally taxed investment.
         </p>
-        <div class="emptyBlocks">
-
-        </div>
+        <!-- Calc Section -->
+        <?php get_template_part('sec', 'calcChart'); ?> 
       </section>
 
       <!-- More About Opportunity Zones Section -->

@@ -50,6 +50,18 @@ EcS76YjD1frl
 Static IP:
 34.234.112.150
 
+AWS SES
+ses-smtp-user.20190927-172744
+SMTP Username:
+AKIA3IAE6TLFUUC6ZURV
+SMTP Password:
+BFZR35Ov8EYmWhEkBi6pO0t8zjuBJOtAkZ0sHkOkkY4w
+
+How To: https://lightsail.aws.amazon.com/ls/docs/en_us/articles/amazon-lightsail-enabling-email-on-wordpress
+
+
+Remove .htaccess redirect on site lockout (301)
+https://really-simple-ssl.com/knowledge-base/remove-htaccess-redirect-site-lockout/
 
 
 

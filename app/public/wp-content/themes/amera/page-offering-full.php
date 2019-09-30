@@ -117,7 +117,7 @@ get_header();
                   <div class="tab-pane fade show active" id="key-points" role="tabpanel" aria-labelledby="key-points">
                     <ul class="pt-3">
                       <li>
-                        <strong>Diversified Opportunity Zone Access:</strong> The Fund will target select CRE investments located in qualified opportunity zones ("QOZ"), with the Fund representing a portion of the asset value.
+                        <strong>Diversified Opportunity Zone Access:</strong> The Fund will target select CRE investments located in qualified opportunity zones ("QOZ").
                       </li>
                       <li>
                         <strong>Identified Target Investment:</strong> The Fund has reserved investment allocations for select offmarket properties across the US, including a class-A multifamily redevelopment in FL.

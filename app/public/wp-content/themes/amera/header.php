@@ -61,6 +61,10 @@
 
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+  <!-- Calculator -->
+
+  <script type="text/javascript" src="/js/calculator.js"></script>
+
 	<?php wp_head(); ?>
 </head>
 
