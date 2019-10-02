@@ -150,7 +150,7 @@
                       <a class="button-custom m-0 dropdown-button" href="/investments">View Current Investments</a>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-3 pr-0 d-none d-lg-block dropdown-image-column">
-                      <img class="dropdown-image" src="<?php bloginfo('template_directory'); ?>/assets/img/dropdown-image-investments.jpg"  />
+                      <img class="dropdown-image" src="<?php bloginfo('template_directory'); ?>/assets/img/general/dropdown-image-investments.jpg"  />
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4 pt-2 pt-lg-0">
                       <a class="dropdown-item" href="/opportunity-fund">What Are Opportunity Funds?</a>
@@ -176,7 +176,7 @@
                         <a class="button-custom m-0 dropdown-button" href="/service">Our Service</a>
                       </div>
                       <div class="col-12 col-sm-6 col-lg-3 pr-0 d-none d-lg-block dropdown-image-column">
-                        <img class="dropdown-image" src="<?php bloginfo('template_directory'); ?>/assets/img/dropdown-image-about-us"  />
+                        <img class="dropdown-image" src="<?php bloginfo('template_directory'); ?>/assets/img/general/dropdown-image-about-us"  />
                       </div>
                       <div class="col-12 col-sm-6 col-lg-4 pt-2 pt-lg-0">
                         <a class="dropdown-item" href="/about">About American Group</a>
@@ -202,7 +202,7 @@
                           <a class="button-custom m-0 dropdown-button" href="/how-to-invest">How To Invest</a>
                         </div>
                         <div class="col-12 col-sm-6 col-lg-3 pr-0 d-none d-lg-block dropdown-image-column">
-                          <img class="dropdown-image" src="<?php bloginfo('template_directory'); ?>/assets/img/dropdown-image-resources.jpg"  />
+                          <img class="dropdown-image" src="<?php bloginfo('template_directory'); ?>/assets/img/general/dropdown-image-resources.jpg"  />
                         </div>
                         <div class="col-12 col-sm-6 col-lg-4 pt-2 pt-lg-0">
                           <a class="dropdown-item" href="/why-real-estate">Why Invest in Real Estate?</a>
