@@ -49,7 +49,7 @@ get_header();
             </p>
           </div>
           <div class="col-md-6">
-            <img src="<?php bloginfo('template_directory'); ?>/assets/img/iso-1.png" width="100%" />
+            <img src="<?php bloginfo('template_directory'); ?>/assets/img/general/iso-1.png" width="100%" />
           </div>
         </div>
       </section> <!-- /container -->
@@ -58,7 +58,7 @@ get_header();
 
       <section class="container-fluid bg-grey border-top py-5">
         <div class="container text-center">
-          <img class="w-50" src="<?php bloginfo('template_directory'); ?>/assets/img/icon-placeholder.jpg"/>
+          <img class="w-50" src="<?php bloginfo('template_directory'); ?>/assets/img/icons/icon-placeholder.jpg"/>
         </div>  
           
       </section><!-- /container --> 
