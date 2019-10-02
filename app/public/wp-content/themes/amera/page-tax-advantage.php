@@ -152,7 +152,7 @@ get_header();
           versus a traditionally taxed investment.
         </p>
         <!-- Calc Section -->
-        <?php get_template_part('sec', 'calcChart'); ?> 
+        <?php //get_template_part('sec', 'calcChart'); ?>
       </section>
 
       <!-- More About Opportunity Zones Section -->
@@ -161,7 +161,8 @@ get_header();
           <div class="container my-5">
               <h3>Learn More About Opportunity Funds</h3>
               <div class="row my-5">
-                <div class="col-sm-7 pb-4 pb-sm-0">
+                <div class="col-sm-7 pb-4 pb-sm-0 hover-rise">
+                  <div class="left-bar-red"></div>
                   <a class="img-link" href="/tax-advantage">
                     <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/opportunityfund.jpg"/>
                     <div class="img-link--gradient-dark d-flex justify-content-center">
@@ -171,7 +172,8 @@ get_header();
                     </div>
                   </a>
                 </div>
-                <div class="col-sm-5">
+                <div class="col-sm-5 hover-rise">
+                  <div class="left-bar-red"></div>
                   <a class="img-link" href="/rules">
                     <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/rules.jpg"/>
                     <div class="img-link--gradient-dark d-flex justify-content-center">
@@ -189,24 +191,9 @@ get_header();
 
       <?php get_template_part('section', 'viewInvestments'); ?>
 
-      <section class="container text-center py-5 mb-5">
-        <hr class="pb-5" />
-        <div class="row mb-5">
-          <div class="col-12 col-sm-8 order-2 order-sm-1 text-right">
-            <h3>Opportunity Zone Investor Handbook</h3>
-            <p>
-              Get an overview of the Opportunity Zone Program and how to invest in an 
-              Opportunity Fund with this guide.
-            </p>
-            <a href="#" class="button-custom mb-4">Download</a>
-          </div>
-          <div class="col-12 col-sm-4 order-1 order-sm-2 mb-3 mb-sm-0">
-            <a class="handbook--link" href="#">
-              <img class="handbook--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/offering.jpg"/>
-            </a>
-          </div>
-        </div>
-      </section>
+      <!-- Download Section -->
+
+      <?php get_template_part('section','download'); ?>
 
       <!-- Create Account Section -->
 
