@@ -20,7 +20,7 @@ get_header();
       <!-- Header -->
       <header class="header-primary d-flex align-items-center justify-content-center">
         <div class="container text-center">
-          <h1>
+          <h1 class="">
             <?php echo $hero_tagline; ?>
           </h1>
           <h3 class="pt-3">
@@ -54,10 +54,19 @@ get_header();
         </div>
       </section> <!-- /container -->
 
+      <!-- Video  -->
+
+      <section class="container-fluid bg-grey border-top py-5">
+        <div class="container text-center">
+          <img class="w-50" src="<?php bloginfo('template_directory'); ?>/assets/img/icon-placeholder.jpg"/>
+        </div>  
+          
+      </section><!-- /container --> 
+
       <!-- Quote  -->
 
-      <section class="container-fluid py-4 my-5 bg-grey border-top border-bottom section-quote">
-        <div class="container text-center">
+      <section class="container-fluid pb-4 mb-5 bg-grey border-bottom section-quote">
+        <div class="container border-top pt-4 text-center">
           <h3>
             "People...do not understand how gigantic [Opportunity Zone Funds are],
             this is the biggest [tax benefit] that anyone has ever seen in their lifetime.”
@@ -96,10 +105,15 @@ get_header();
 
       <section class="container text-center">
         <hr class=" mb-5"/>
-        <h1 class="mb-5 pb-3">Earn 2x the Profits</h1>
-        <img src="<?php bloginfo('template_directory'); ?>/assets/img/graphs/comparison.png" class="w-75 mb-5"/>
+        <h1 class="mb-3 mb-sm-4 pb-3">Earn 2x the Profits</h1>
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-10">
+          <img src="<?php bloginfo('template_directory'); ?>/assets/img/graphs/comparison.jpg" class="w-100 mb-5"/>
+          </div>  
+        </div>
+        
         <p class="mb-5 pb-5">
-          Amounts shown are example after-tax profits of $1,000,000 invested for 10 years in a traditional stock portfolio with 8% appreciation versus that invested in an Opportunity Fund with a 8% appreciation. For illustrative purposes only. Learn more about the <a href="/tax-advantage">Tax Benefits of Opportunity Funds.</a>
+          Amounts shown are example after-tax profits of $1,000,000 invested for 10 years in a traditional stock portfolio with 9% simple appreciation versus that invested in an Opportunity Fund with 9% simple appreciation. For illustrative purposes only. Learn more about the <a href="/tax-advantage">Tax Benefits of Opportunity Funds.</a>
         </p>
       </section>
 
@@ -109,7 +123,8 @@ get_header();
         <div class="container my-5">
           <h3>Learn More About Opportunity Funds</h3>
           <div class="row my-5">
-            <div class="col-sm-7 pb-4 pb-sm-0">
+            <div class="hover-rise col-sm-7 mb-4 mb-sm-0">
+              <div class="left-bar-red"></div>
               <a class="img-link" href="/opportunity-fund">
                 <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/opportunityfund.jpg"/>
                 <div class="img-link--gradient-dark d-flex justify-content-center">
@@ -119,7 +134,8 @@ get_header();
                 </div>
               </a>
             </div>
-            <div class="col-sm-5">
+            <div class="hover-rise col-sm-5">
+              <div class="left-bar-red"></div>
               <a class="img-link" href="/tax-advantage">
                 <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/taxadvantage.jpg"/>
                 <div class="img-link--gradient-dark d-flex justify-content-center">
