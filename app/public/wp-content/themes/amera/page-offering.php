@@ -20,13 +20,18 @@ get_header();
           <div class="investment-tag-2 text-center mb-4">
             Accepting Investments 
           </div>
-          <br/>
-          <?php if (is_user_logged_in()) { ?>
-            <a href="/offering-full" class="button-custom">Review Documents</a>
-          <?php } else { ?>
-            <a href="#pills-signup" data-toggle="modal" data-target="#modal-login" class="button-custom">Create Account to Access Details</a>
-          <?php } ?>
-          <a class="button-custom">Indicate Interest</a>
+          <div class="row">
+            <div class="col-12 mb-3 m-sm-0 col-sm-6 text-center text-sm-right">
+              <?php if (is_user_logged_in()) { ?>
+                <a href="/offering-full" class="button-custom mt-2">Review Documents</a>
+             <?php } else { ?>
+                <a href="#pills-signup" data-toggle="modal" data-target="#modal-login" class="button-custom">Create Account to Access Details</a>
+              <?php } ?>
+            </div>
+            <div class="col-12 col-sm-6 text-center text-sm-left">
+              <a href="#" class="button-custom">Indicate Interest</a>
+            </div>
+          </div>
         </div>
         <svg class="svg-diagonal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
           <polygon fill="white" points="0,100 100,0 100,100" />
@@ -48,13 +53,13 @@ get_header();
                   <div class="col-6">
                     <h5>10+ years</h5>
                     <p>Hold Period</p>
-                    <h5>Growth</h5>
+                    <h5>Result Growth</h5>
                     <p>Investment Type</p>
-                    <h5>Multifamily</h5>
+                    <h5>Income Property, Multifamily</h5>
                     <p>Asset Type</p>
                   </div>
                   <div class="col-6">
-                    <h5>Development &amp; Value Add</h5>
+                    <h5>Development &amp; Value-Add Existing</h5>
                     <p>Investment Profile</p>
                     <h5>$100,000</h5>
                     <p>Minimum Investment</p>
@@ -65,10 +70,10 @@ get_header();
                 </h2>
                 <div class="separator-gradient mb-3"></div>
                 <p>
-                  This growth fund owns and operates multifamily properties while benefiting from the preferential tax treatment of the <a href="/opportunity-fund">Opportunity Zone Program.</a>
+                  AAAmerican Opportunity Fund intends to acquire, develop and improve a portfolio of real estate properties while benefiting from the preferential tax treatment of the <a href="/opportunity-fund">Opportunity Zone Program.</a>
                 </p>
                 <p>
-                  The AAAmerican Opportunity Fund seeks to acquire high-quality real estate properties located in designated Opportunity Zones that have strong long-term growth potential. The Fund intends to meet the requirements necessary to qualify as an Opportunity Fund as defined in the Tax Cuts and Jobs Act of 2017 in order to avail investors of the substantial tax-related benefits provided under the bill.
+                  The AAAmerican Opportunity Fund seeks to acquire high-quality real estate properties located in designated Opportunity Zones that have strong long-term growth potential. The Fund will meet the requirements necessary to qualify as an Opportunity Fund as defined in the Tax Cuts and Jobs Act of 2017 in order to avail investors of the substantial tax-related benefits provided under the bill.
                 </p>
                 <p>
                   The Fund anticipates an investment term of no less than 10 years in order to capture the full tax benefits offered under the tax code for Opportunity Funds.
@@ -87,10 +92,10 @@ get_header();
             </div>
             <div class="col-12 col-sm-6 text-right">
               <h2 class="mt-4">
-                Delivering Federal Tax Free Income and Appreciation
+                Delivering Federal Tax Free Appreciation and Depreciation
               </h2>
               <p>
-                Income distributions are automatically reinvested to increase your <a href="/tax-advantage">tax free</a> investment.
+                Distributions are automatically reinvested to increase your <a href="/tax-advantage">tax free</a> investment.
               </p>
               <a href="#pills-signup" data-toggle="modal" data-target="#modal-login" class="button-custom mb-4">
                 Create An Account
@@ -114,12 +119,12 @@ get_header();
             </p>
           </div>
           <div class="col-12 col-sm-6 text-center">
-            <img class="w-50" src="<?php bloginfo('template_directory'); ?>/assets/img/graphs/no-tax.png"/>
+            <img class="w-50" src="<?php bloginfo('template_directory'); ?>/assets/img/icons/no-tax.jpg"/>
           </div>
         </div>
         <div class="row mb-5 pb-5">
           <div class="col-12 col-sm-6 order-2 order-sm-1 text-center">
-            <img class="w-75" src="<?php bloginfo('template_directory'); ?>/assets/img/graphs/volatility.png"/>
+            <img class="w-75" src="<?php bloginfo('template_directory'); ?>/assets/img/graphs/reduce-risk.jpg"/>
           </div>
           <div class="col-12 col-sm-6 order-1 order-sm-2">
             <h2>
@@ -140,13 +145,13 @@ get_header();
             </p>
           </div>
           <div class="col-12 col-sm-6 mb-5 text-center">
-            <img class="w-75" src="<?php bloginfo('template_directory'); ?>/assets/img/graphs/target.png"/>
+            <img class="w-75" src="<?php bloginfo('template_directory'); ?>/assets/img/icons/growth.jpg"/>
           </div>
         </div>
         <hr />
       </section>
 
-      <section class="container pb-5 mb-5 text-center">
+      <section class="container pb-5 text-center">
         <h1 class="text-center mt-5 pt-5 mb-3">
           Example Business Plan
         </h1>
@@ -155,7 +160,7 @@ get_header();
         </h4>
         <div class="row mb-5">
           <div class="col-6">
-            <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/renderings/offering-1.jpg"/>
+            <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/general/before.jpg"/>
             <figcaption class="text-center">The existing distress lot</figcaption>
           </div>
           <div class="col-6">
@@ -165,13 +170,10 @@ get_header();
         </div>
         <img class="text-center m-auto offering-arrow" src="<?php bloginfo('template_directory'); ?>/assets/img/icons/arrow-fade-blue.png"/>
         <p class="text-left neg-margin">
-          Our previous Opportunity Fund, 1 American Elite, clearly demonstrates the intended AAAmerican Opportunity Fund strategy.
-        </p>
-        <p class="text-left">
-          Its first acquisition was a lot in a growing area of West Palm Beach, a principal city of the Miami Metropolitan Area. Founded in 1894, it is the oldest incorporated municipality in Greater Miami, and has always attracted affluent homebuyers with its tropical tree-lined streets and a mixture of Art Deco and Spanish architecture.
+          Our first Opportunity Fund, 1 American Elite, acquired this property in a growing area of West Palm Beach, a principal city of the Miami Metropolitan Area. Founded in 1894, it is the oldest incorporated municipality in Greater Miami, and has always attracted affluent homebuyers with its tropical tree-lined streets and a mixture of Art Deco and Spanish architecture.
         </p>
         <p class="text-left mb-5">
-          A thriving community, West Palm Beach Park has enjoyed significant population growth in recent years, outperforming its metropolitan neighbors. Nationwide, according to US Census Bureau data, Florida has received the most domestic inmovers. The 1 American Elite Opportunity Fund acquired the property in 2019. It plans to build a 370 unit apartment building and provide workforce housing, self storage, and retail and commercial business space.
+          A thriving community, West Palm Beach Park has enjoyed significant population growth in recent years, outperforming its metropolitan neighbors. Nationwide, according to US Census Bureau data, Florida has received the most domestic inmovers. The 1 American Elite Opportunity Fund acquired the property in 2019. It plans to build a 376 unit apartment building, self storage, and retail and commercial business space.
         </p>
         <hr/>
       </section>

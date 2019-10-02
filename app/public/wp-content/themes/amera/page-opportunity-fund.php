@@ -28,8 +28,6 @@ get_header();
               <a href="#" class="button-custom mt-2">Schedule A Call</a>
             </div>
           </div>
-          
-          
         </div>
         <svg class="svg-diagonal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
           <polygon fill="white" points="0,100 100,0 100,100" />
