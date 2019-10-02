@@ -35,7 +35,8 @@ get_header();
           American Group Opportunity Funds create wealth by investing in cash-flowing apartment buildings and other mixed-use assets in Qualified Opportunity Zones. Our focus is on long-term capital appreciation from the renovation, development and repositioning of multi-family properties in high growth locations.
         </p>
         <a class="img-link-2 box-shadow hover-float investment-container d-flex justify-content-center w-100 mb-5" href="/offering">
-          <img class="img-link-2--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/offering2.jpg"/>
+        <div class="left-bar-red--investments"></div>  
+          <img class="img-link-2--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/offering.jpg"/>
           <div class="img-link-2--gradient-dark d-flex justify-content-center">
             <div class="align-self-center text-center">
                 <h3 class="color-white">AAAmerican Opportunity Fund</h3>
@@ -49,7 +50,8 @@ get_header();
         </a>
 
         <div class="img-link-2 investment-container d-flex justify-content-center w-100 my-5" href="">
-          <img class="img-link-2--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/offering.jpg"/>
+          <div class="left-bar-red--investments"></div>  
+          <img class="img-link-2--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/offering2.jpg"/>
           <div class="img-link-2--gradient-grey d-flex justify-content-center">
             <div class="align-self-center text-center">
                 <h3 class="color-white">1 American Elite</h3>

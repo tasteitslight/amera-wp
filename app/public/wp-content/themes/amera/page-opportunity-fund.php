@@ -20,8 +20,16 @@ get_header();
           <p class="mb-4">
             Learn why Opportunity Funds are the most exciting investment to develop in recent history.
           </p>
-          <a href="/investments" class="button-custom mt-2">View Investments</a>
-          <a href="#" class="button-custom mt-2">Schedule A Call</a>
+          <div class="row">
+            <div class="col-12 mb-3 m-sm-0 col-sm-6 text-center text-sm-right">
+              <a href="/investments" class="button-custom mt-2">View Investments</a>
+            </div>
+            <div class="col-12 col-sm-6 text-center text-sm-left">
+              <a href="#" class="button-custom mt-2">Schedule A Call</a>
+            </div>
+          </div>
+          
+          
         </div>
         <svg class="svg-diagonal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
           <polygon fill="white" points="0,100 100,0 100,100" />
@@ -47,7 +55,7 @@ get_header();
             </p>
           </div>
           <div class="d-none d-md-block col-md-5 text-center">
-            <img class="w-75" src="<?php bloginfo('template_directory'); ?>/assets/img/aerial.png" />
+            <img class="w-75" src="<?php bloginfo('template_directory'); ?>/assets/img/aerial.jpg" />
           </div>
         </div>
         <hr/>
@@ -251,7 +259,8 @@ get_header();
         <div class="container my-5">
             <h3>Learn More About Opportunity Funds</h3>
             <div class="row my-5">
-              <div class="col-sm-7 pb-4 pb-sm-0">
+              <div class="hover-rise col-sm-7 pb-4 pb-sm-0">
+              <div class="left-bar-red"></div>
                 <a class="img-link" href="/tax-advantage">
                   <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/taxadvantage.jpg"/>
                   <div class="img-link--gradient-dark d-flex justify-content-center">
@@ -261,7 +270,8 @@ get_header();
                   </div>
                 </a>
               </div>
-              <div class="col-sm-5">
+              <div class="col-sm-5 hover-rise">
+                <div class="left-bar-red"></div>
                 <a class="img-link" href="/rules">
                   <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/rules.jpg"/>
                   <div class="img-link--gradient-dark d-flex justify-content-center">
@@ -286,14 +296,13 @@ get_header();
           <div class="col-12 col-sm-8 order-2 order-sm-1 text-right">
             <h3>Opportunity Zone Investor Handbook</h3>
             <p>
-              Get an overview of the Opportunity Zone Program and how to invest in an 
-              Opportunity Fund with this guide.
+              Learn about our offering and get an overview of the Opportunity Zone Program with this guide.
             </p>
-            <a href="#" class="button-custom mb-4">Download</a>
+            <a href="<?php bloginfo('template_directory'); ?>/assets/pdf/American-Group-Opportunity-Fund-Guide-Web.pdf" target="_blank" class="button-custom mb-4">Download</a>
           </div>
-          <div class="col-12 col-sm-4 order-1 order-sm-2 mb-3 mb-sm-0">
-            <a class="handbook--link" href="#">
-              <img class="handbook--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/offering.jpg"/>
+          <div class="col-12 col-sm-4 hover-rise order-1 order-sm-2 mb-3 mb-sm-0">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/pdf/American-Group-Opportunity-Fund-Guide-Web.pdf" target="_blank">
+              <img class="handbook--img" src="<?php bloginfo('template_directory'); ?>/assets/img/pdf-img.jpg"/>
             </a>
           </div>
         </div>

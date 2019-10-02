@@ -233,7 +233,7 @@ img.img--stat {
   height:100%;
   width:100%;
   border-radius: 2px;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.6) 60%);
+  background: linear-gradient(90deg, rgb(52, 147, 255), rgba(52, 147, 255, 0.336) 100%),
 }
 
 .img-link-2--gradient-grey {
@@ -297,14 +297,8 @@ img.img--stat {
 }
 
 .handbook--img {
-  position: absolute;
-  top:0;
-  left: 0;
   width:100%;
-  height:25vh;
-  min-height:200px;
   border-radius: 2px;
-  object-fit:cover;
 }
 
 .gradient-overlay--dark {
@@ -334,7 +328,7 @@ img.img--stat {
 .investment-tag {
   position: absolute;
   top: 10px;
-  left: 10px;
+  left: 20px;
   background-color: white;
   border-radius: 2px;
   padding: 1px 7px;
@@ -344,7 +338,8 @@ img.img--stat {
 }
 
 .investment-tag.open {
-  background-color: #E3E3E3;
+  background: linear-gradient(to top, #cb9b51, #f6e27a 100%);
+  color: #fff;
 }
 
 .investment-tag.closed {
@@ -864,6 +859,18 @@ ul.sponsor-list li {
   position: absolute;
   top:0;
   left:15px;
+  z-index: 1000;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.left-bar-red--investments {
+  width:10px;
+  background-color: $redPrime;
+  height:100%;
+  position: absolute;
+  top:0;
+  left:0;
   z-index: 1000;
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
