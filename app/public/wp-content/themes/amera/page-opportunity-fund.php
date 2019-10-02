@@ -287,6 +287,7 @@ get_header();
       
       <?php get_template_part('section', 'viewInvestments'); ?>
       
+      <!-- Download -->
 
       <section class="container text-center py-5 mb-5">
         <hr class="pb-5" />
