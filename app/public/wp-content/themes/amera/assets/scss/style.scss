@@ -811,10 +811,16 @@ ul.sponsor-list li {
 }
 
 .sponsor-stats h1 {
+  font-size: calc(60px + 0.5vw);
 }
 
 .sponsor-stats p {
-  font-size: 16px;
+  font-family: 'Source Sans', sans-serif;
+  font-size: calc(15px + 0.1vw);
+  color: $blueSecond;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2.5px;
 }
 
 .fund-sidebar li {
@@ -878,4 +884,9 @@ ul.sponsor-list li {
 
 .section-home-video {
   box-shadow: $boxShadow;
+}
+
+.sponsor-bullets .row {
+  margin-bottom: 35px;
+  color: grey;
 }

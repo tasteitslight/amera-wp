@@ -179,32 +179,53 @@ get_header();
       </section>
 
       <section class="container pb-5 text-center">
-        <h1 class="text-center mb-3">
+        <h1 class="text-center mb-5">
           About the Sponsor
         </h1>
-        <ul class="text-left sponsor-list mb-5">
-          <li class="">
-            Founded in 1971, American Group's experienced team of over 100 professionals manages ten real estate investment vehicles.
-          </li>
-          <li>
-            American Group invested in, manages, or owns over $1 billion in real estate nationwide with over $63 million aggregate funds raised across our programs.
-          </li>
-          <li>
-            Since its inception, American Group has returned 567% of money invested in real estate to investors.
-          </li>
-        </ul>
+        <div class="sponsor-bullets">
+          <div class="row">
+            <div class="col-1">
+                <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/icons/gold-badge.jpg" />
+            </div>
+            <div class="col-11 text-left">
+                <h5>
+                  Founded in 1971, American Group's experienced team of over 100 professionals manages ten real estate investment vehicles.
+                </h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1">
+                <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/icons/gold-badge.jpg" />
+            </div>
+            <div class="col-11 text-left">
+                <h5>
+                  American Group invested in, manages, or owns over $1 billion in real estate nationwide with over $63 million aggregate funds raised across our programs.
+                </h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1">
+                <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/icons/gold-badge.jpg" />
+            </div>
+            <div class="col-11 text-left">
+                <h5>
+                Since its inception, American Group has returned 567% of money invested in real estate to investors.
+                </h5>
+            </div>
+          </div>
+        </div>
         <hr/>
         <h2 class="my-5">
           Real Estate Track Record
         </h2>
-        <div class="row font-source sponsor-stats text-center ">
+        <div class="row font-georgia color-red sponsor-stats text-center ">
             <div class="col-12 col-sm-3">
               <h1>$1B</h1>
-              <p>Total value of real estate</p>
+              <p>Total value<br/>of real estate</p>
             </div>
             <div class="col-12 col-sm-3">
-              <h1>$63M</h1>
-              <p>Aggregate funds raised</p>
+              <h1>6000+</h1>
+              <p>investors in partnership</p>
             </div>
             <div class="col-12 col-sm-3">
               <h1>50+</h1>
@@ -212,7 +233,7 @@ get_header();
             </div>
             <div class="col-12 col-sm-3">
               <h1>567%</h1>
-              <p>Average return to investors</p>
+              <p>Average return<br/>to investors</p>
             </div>
         </div>
         <hr />
