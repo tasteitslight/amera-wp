@@ -53,7 +53,7 @@ get_header();
             </p>
           </div>
           <div class="d-none d-md-block col-md-5 text-center">
-            <img class="w-75" src="<?php bloginfo('template_directory'); ?>/assets/img/aerial.jpg" />
+            <img class="w-75" src="<?php bloginfo('template_directory'); ?>/assets/img/general/aerial.jpg" />
           </div>
         </div>
         <hr/>
@@ -63,7 +63,7 @@ get_header();
 
       <section class="container-fluid gradient-wtg border-bottom pb-5 mb-5">
         <div class="container">
-          <img class="mt-5 d-block d-md-none w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/aerialhoriz.jpg" />
+          <img class="mt-5 d-block d-md-none w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/general/aerialhoriz.jpg" />
           <h2 class="mt-5">
             How Does it Work?
           </h2>
@@ -289,23 +289,7 @@ get_header();
       
       <!-- Download -->
 
-      <section class="container text-center py-5 mb-5">
-        <hr class="pb-5" />
-        <div class="row mb-5">
-          <div class="col-12 col-sm-8 order-2 order-sm-1 text-right">
-            <h3>Opportunity Zone Investor Handbook</h3>
-            <p>
-              Learn about our offering and get an overview of the Opportunity Zone Program with this guide.
-            </p>
-            <a href="<?php bloginfo('template_directory'); ?>/assets/pdf/American-Group-Opportunity-Fund-Guide-Web.pdf" target="_blank" class="button-custom mb-4">Download</a>
-          </div>
-          <div class="col-12 col-sm-4 hover-rise order-1 order-sm-2 mb-3 mb-sm-0">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/pdf/American-Group-Opportunity-Fund-Guide-Web.pdf" target="_blank">
-              <img class="handbook--img" src="<?php bloginfo('template_directory'); ?>/assets/img/pdf-img.jpg"/>
-            </a>
-          </div>
-        </div>
-      </section>
+      <?php get_template_part('section', 'download'); ?>
 
       <!-- Create Account Section -->
 

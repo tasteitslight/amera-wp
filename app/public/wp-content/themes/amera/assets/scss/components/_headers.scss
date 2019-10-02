@@ -116,16 +116,15 @@
   
   .header-howtoinvest {
     background: 
-    linear-gradient(to top, rgba(70, 138, 241, 0.5), rgba(187, 217, 255, 0.1) 100%),
+    linear-gradient(90deg, rgba(52, 147, 255,.9), rgba(52, 147, 255, 0.0) 100%),
     url("/wp-content/themes/amera/assets/img/hero/howtoinvest.jpg");
     background-size: cover;
-    background-position: 0% 0%;
-    background-blend-mode: luminosity;
+    background-position: 50% 0%;
   }
   
   .header-investments {
     background: 
-    //linear-gradient(90deg, rgb(52, 147, 255), rgba(241, 114, 105, 0.336) 100%),
+    linear-gradient(90deg, rgba(52, 147, 255,.9), rgba(52, 147, 255, 0.0) 100%),
     url("/wp-content/themes/amera/assets/img/hero/investments.jpg");
     background-size: cover;
     background-position: 50% 0%;
@@ -151,11 +150,10 @@
   
   .header-opportunityfund {
     background: 
-    //linear-gradient(to top, rgba(228, 255, 255, 0.8), rgba(255, 212, 187, 0.3) 100%),
+    linear-gradient(90deg, rgba(52, 147, 255,.9), rgba(52, 147, 255, 0.0) 100%),
     url("/wp-content/themes/amera/assets/img/hero/opportunityfund.jpg");
     background-size: cover;
     background-position: 50% 0%;
-    background-blend-mode: luminosity;
   }
   
   .header-partners {
