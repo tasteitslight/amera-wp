@@ -51,7 +51,7 @@ get_header();
 
         <div class="img-link-2 investment-container d-flex justify-content-center w-100 my-5" href="">
           <div class="left-bar-red--investments"></div>  
-          <img class="img-link-2--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/offering2.jpg"/>
+          <img class="img-link-2--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/1ae.jpg"/>
           <div class="img-link-2--gradient-grey d-flex justify-content-center">
             <div class="align-self-center text-center">
                 <h3 class="color-white">1 American Elite</h3>

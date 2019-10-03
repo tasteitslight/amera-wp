@@ -175,11 +175,10 @@ get_header();
         <p class="text-left mb-5">
           A thriving community, West Palm Beach Park has enjoyed significant population growth in recent years, outperforming its metropolitan neighbors. Nationwide, according to US Census Bureau data, Florida has received the most domestic inmovers. The 1 American Elite Opportunity Fund acquired the property in 2019. It plans to build a 376 unit apartment building, self storage, and retail and commercial business space.
         </p>
-        <hr/>
       </section>
 
-      <section class="container pb-5 text-center">
-        <h1 class="text-center mb-5">
+      <section class="container border-top text-center">
+        <h1 class="text-center pt-5 mb-5">
           About the Sponsor
         </h1>
         <div class="sponsor-bullets">
@@ -235,11 +234,14 @@ get_header();
               <h1>567%</h1>
               <p>Average return<br/>to investors</p>
             </div>
-        </div>
-        <hr />
+          </div>
       </section>
 
-      <section class="container-fluid bg-white pb-5 mb-5">
+      <!-- Download Section -->
+
+      <?php get_template_part('section', 'download'); ?>
+
+      <section class="container-fluid border-top bg-white pt-5 pb-5 mb-5">
         <h3 class="pb-5 text-center">
           External Link Resources
         </h3>
@@ -276,7 +278,7 @@ get_header();
                 </p>
                 <i class="fas fa-chevron-right"></i>
               </div>
-              <div class="separator-gradient mb-3"></div>
+              <div class="separator-gradient mb-5"></div>
             </a>
           </div>
         </div>

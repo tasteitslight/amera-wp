@@ -147,7 +147,7 @@ get_header();
             </div>
           </div>
         </div>
-      </section>
+      </section><!-- /container  -->
       
       <!-- Section United States  -->
 
