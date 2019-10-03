@@ -15,7 +15,7 @@ get_header();
       <div class="container text-center">
         <div>
           <h1>
-            1031 Exchange vs Opportunity Fund
+            1031 Exchange vs Opportunity Funds
           </h1>
           <p>
             Opportunity Funds, the superior alternative
