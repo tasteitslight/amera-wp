@@ -107,11 +107,11 @@
   
   .header-history {
     background: 
-    linear-gradient(to top, rgba(250, 222, 255, 0.5), rgba(187, 217, 255, 0.1) 100%),
+    linear-gradient(to top, rgba(250, 222, 255, 0.2), rgba(187, 217, 255, 0.1) 100%),
     url("/wp-content/themes/amera/assets/img/hero/history.jpg");
     background-size: cover;
     background-position: 50% 10%;
-    background-blend-mode: hard-light;
+    //background-blend-mode: hard-light;
   }
   
   .header-howtoinvest {
@@ -220,9 +220,10 @@
   
   .header-whyrealestate {
     background: 
-    linear-gradient(to top, rgba(177, 247, 247, 0.8), rgba(255, 212, 187, 0.3) 100%),
+    linear-gradient(-90deg, rgba(52, 147, 255,.9), rgba(52, 147, 255, 0.0) 100%),
+    //linear-gradient(to top, rgba(177, 247, 247, 0.8), rgba(255, 212, 187, 0.3) 100%),
     url("/wp-content/themes/amera/assets/img/hero/whyrealestate.jpg");
     background-size: cover;
     background-position: 50% 0%;
-    background-blend-mode: luminosity;
+    //background-blend-mode: luminosity;
   }
