@@ -80,7 +80,7 @@ get_header();
 
     <!-- Lead  -->
 
-    <section class="container-fluid text-center gradient-wtg">
+    <section class="container-fluid text-center">
       <div class="container">
         <h3 class="pb-5">Here's what you get when you invest with American Group</h3>
         <div class="row d-flex justify-content-center pb-5 ">
@@ -102,6 +102,12 @@ get_header();
         </div>
       </div>
     </section> <!-- /container -->
+
+    <!-- Learn Opportunity Funds Section -->
+      
+    <section class="container-fluid bg-grey border-top text-center py-5">
+      <?php get_template_part('section','learnMoreA'); ?>
+    </section>
 
     <!-- View Investments Section -->
 
