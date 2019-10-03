@@ -18,7 +18,7 @@ get_header();
             Getting Started
           </h1>
           <p class="strong">
-            How to invest in Real Estate with Placeholder
+            How to invest in Real Estate with American Group
           </p>
         </div>
       </div>
@@ -105,7 +105,7 @@ get_header();
         <p>
           Opportunity Funds can be a confusing topic, and investing in real estate is a serious decision. Our invesment team will be happy to provide you with additional information.
         </p>
-        <p><a href="mailto:investments@placeholder.com">Contact Us</a></p>
+        <p><a href="mailto:invest@americangroup.com">Contact Us</a></p>
         <div class="separator-gradient mt-4 mb-5"></div>
       </div>     
     </section>
@@ -121,7 +121,7 @@ get_header();
           Let us know you're considering
         </h5>
         <p>
-          When you are ready to invest, let us know via a message, email, or phone call. Placeholder will contact you to arrange placement.
+          When you are ready to invest, let us know via a message, email, or phone call. American Group will contact you to arrange placement.
         </p>
         <p><a href="/investments">Submit Offer</a></p>
         <div class="separator-gradient mt-4"></div>
