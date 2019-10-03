@@ -91,42 +91,6 @@ get_header();
             </p>
           </div>
         </div>
-        <div class="row my-5">
-          <div class="col-sm-6">
-            <a class="img-link" href="#">
-              <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/resources/3.jpg"/>
-              <div class="d-flex justify-content-center"> <!-- img-link--gradient for gradients over image-->
-                <!-- <div class="my-auto"> Overlay Text </div> -->
-              </div>
-            </a>
-            <h6 class="pt-4">
-              Article Category
-            </h6>
-            <h4>
-              Top 5 Generic Blog Article Titles
-            </h4>
-            <p>
-              This is a short blip of text from the beginning of the article...
-            </p>
-          </div>
-          <div class="col-sm-6">
-            <a class="img-link" href="#">
-              <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/resources/1.jpg"/>
-              <div class="d-flex justify-content-center"> <!-- img-link--gradient for gradients over image-->
-                <!-- <div class="my-auto"> Overlay Text </div> -->
-              </div>
-            </a>
-            <h6 class="pt-4">
-              Article Category
-            </h6>
-            <h4>
-              Top 5 Generic Blog Article Titles
-            </h4>
-            <p>
-              This is a short blip of text from the beginning of the article...
-            </p>
-          </div>
-        </div>
       </section>
 
       <!-- View Investments Section -->

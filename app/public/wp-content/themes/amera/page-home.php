@@ -18,7 +18,7 @@ get_header();
       <div class="window-frame"></div>
     
       <!-- Header -->
-      <header class="header-home d-flex align-items-center justify-content-center">
+      <header class="header-primary header-home d-flex align-items-center justify-content-center">
         <div class="container text-center">
           <h1 class="">
             <?php echo $hero_tagline; ?>
