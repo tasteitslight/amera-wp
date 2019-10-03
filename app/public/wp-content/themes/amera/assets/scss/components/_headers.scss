@@ -34,20 +34,17 @@
   
   .header-1031 {
     background: 
-    //linear-gradient(to top, rgba(197, 237, 255, 0.8), rgba(195, 219, 255, 0.3) 100%),
+    linear-gradient(-90deg, rgba(52, 147, 255,.9), rgba(52, 147, 255, 0.0) 100%),
     url("/wp-content/themes/amera/assets/img/hero/1031.jpg");
     background-size: cover;
     background-position: 50% 50%;
-    //background-blend-mode: luminosity;
   }
   
   .header-about {
     background: 
-    //linear-gradient(to top, rgba(197, 237, 255, 0.8), rgba(195, 219, 255, 0.3) 100%),
     url("/wp-content/themes/amera/assets/img/hero/about.jpg");
     background-size: cover;
     background-position: 50% 50%;
-    //background-blend-mode: hard-light;
   }
   
   .header-article {
@@ -175,20 +172,17 @@
   
   .header-rules {
     background: 
-    linear-gradient(to top, rgba(166, 233, 233, 0.8), rgba(255, 212, 187, 0.3) 100%),
+    linear-gradient(-90deg, rgba(52, 147, 255,1.0), rgba(52, 147, 255, 0.0) 100%),
     url("/wp-content/themes/amera/assets/img/hero/rules.jpg");
     background-size: cover;
     background-position: 50% 0%;
-    background-blend-mode: luminosity;
   }
   
   .header-service {
     background: 
-    //linear-gradient(to top, rgba(166, 233, 233, 0.8), rgba(255, 212, 187, 0.3) 100%),
     url("/wp-content/themes/amera/assets/img/hero/service.jpg");
     background-size: cover;
     background-position: 50% 50%;
-    //background-blend-mode: luminosity;
   }
   
   .header-taxadvantage {

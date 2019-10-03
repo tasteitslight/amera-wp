@@ -155,6 +155,10 @@ get_header();
         <?php //get_template_part('sec', 'calcChart'); ?>
       </section>
 
+      <!-- View Investments Section -->
+
+      <?php get_template_part('section', 'viewInvestments'); ?>
+
       <!-- More About Opportunity Zones Section -->
 
       <section class="container-fluid bg-white border-top text-center">
@@ -186,10 +190,6 @@ get_header();
               </div>
           </div>
         </section>
-
-      <!-- View Investments Section -->
-
-      <?php get_template_part('section', 'viewInvestments'); ?>
 
       <!-- Download Section -->
 
