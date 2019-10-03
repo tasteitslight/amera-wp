@@ -53,11 +53,11 @@
   
   .header-about {
     background: 
-    linear-gradient(to top, rgba(197, 237, 255, 0.8), rgba(195, 219, 255, 0.3) 100%),
+    //linear-gradient(to top, rgba(197, 237, 255, 0.8), rgba(195, 219, 255, 0.3) 100%),
     url("/wp-content/themes/amera/assets/img/hero/about.jpg");
     background-size: cover;
-    background-position: 50% 55%;
-    background-blend-mode: hard-light;
+    background-position: 50% 50%;
+    //background-blend-mode: hard-light;
   }
   
   .header-article {
