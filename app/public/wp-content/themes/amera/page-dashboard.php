@@ -11,7 +11,7 @@ get_header();
 <main role="main" class="bg-grey">
     
       <!-- Header -->
-      <header class="header-primary header-articles d-flex align-items-center justify-content-center">
+      <header class="header-secondary d-flex align-items-center justify-content-center">
         <div class="container text-center">
           <h1 class="pt-4">
             Member Area

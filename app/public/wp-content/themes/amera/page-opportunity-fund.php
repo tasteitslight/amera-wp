@@ -25,7 +25,11 @@ get_header();
               <a href="/investments" class="button-custom mt-2">View Investments</a>
             </div>
             <div class="col-12 col-sm-6 text-center text-sm-left">
-              <a href="#" class="button-custom mt-2">Schedule A Call</a>
+              <!-- Calendly link widget begin -->
+              <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+              <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+              <a class="button-custom mt-2" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/will-american-group/discovery-call'});return false;">Schedule A Call</a>
+              <!-- Calendly link widget end -->
             </div>
           </div>
         </div>
@@ -298,6 +302,8 @@ get_header();
       <!-- Need Help Section -->
 
       <?php get_template_part('section', 'help'); ?>
+
+      
 
     
     </main>
