@@ -1,10 +1,3 @@
-<?php
-	
-	wp_register_script('calc-script', get_template_directory_uri() . '/js/calculator.js', '', '', true ); 
-  wp_enqueue_script('calc-script');
-
-?>
-
 <section class="container-fluid border-top gradient-gtw pb-5">
   <div class="container text-center">
     <img class="d-block m-auto mockup-mac" src="<?php bloginfo('template_directory'); ?>/assets/img/mockup/invest-macbook.png"/>

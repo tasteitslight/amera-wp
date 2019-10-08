@@ -151,7 +151,27 @@ get_header();
           See for yourself how much money you could gain investing in AAAmerican Opportunity Fund 
           versus a traditionally taxed investment.
         </p>
-        <?php get_template_part('sec', 'calcChart'); ?>
+
+        <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="pills-short-tab" data-toggle="pill" href="#pills-short" role="tab" aria-controls="pills-short" aria-selected="true">
+              Short Term gains
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-long-tab" data-toggle="pill" href="#pills-long" role="tab" aria-controls="pills-long" aria-selected="false">
+              Long Term Gains
+            </a>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-short" role="tabpanel" aria-labelledby="pills-short-tab">
+            <?php get_template_part('section', 'calcShort'); ?>
+          </div>
+          <div class="tab-pane fade" id="pills-long" role="tabpanel" aria-labelledby="pills-long-tab">
+            <?php get_template_part('section', 'calcLong'); ?>
+          </div>
+        </div>
       </section>
 
       <!-- View Investments Section -->
