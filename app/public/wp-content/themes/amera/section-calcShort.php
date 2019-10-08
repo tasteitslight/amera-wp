@@ -1,24 +1,3 @@
-<?php
-	
-	wp_register_script('calc-script', get_template_directory_uri() . '/js/calculator.js', '', '', true ); 
-  wp_enqueue_script('calc-script');
-
-?>
-
-<form class="pb-4" id="" onsubmit="return updateCalc();">
-    <input 
-      class=""
-      type="text"
-      id="initialGain"
-      placeholder="1,000,000"
-      value=""
-    />
-  <input
-  class=""
-  type="submit"
-  value="Calculate" />
-</form>
-
 <div class="container calc__container mb-5">
   <div class="calc__table">
     <div class="row calc__row--sticky">
@@ -46,10 +25,10 @@
     
     <div class="row calc__row">
       <div class="col-12 col-md-6 calc__col ">
-        Top Federal Tax Paid on Original Gain - 23.8%
+        Top Federal Tax Paid on Original Gain - 40.8%
       </div>
-      <div class="col-6 col-md-3 calc__col" id="initialFedTax">
-        (238,000)
+      <div class="col-6 col-md-3 calc__col" id="initialFedTaxS">
+        (408,000)
       </div>
       <div class="col-6 col-md-3 calc__col ">
         -
@@ -60,8 +39,8 @@
       <div class="col-12 col-md-6 calc__col ">
         Capital Available for a "New Investment" in 2019
       </div>
-      <div class="col-6 col-md-3 calc__col" id="capAvail">
-        $762,000
+      <div class="col-6 col-md-3 calc__col" id="capAvailS">
+        $592,000
       </div>
       <div class="col-6 col-md-3 calc__col capGain">
         $1,000,000
@@ -84,10 +63,10 @@
       <div class="col-12 col-md-6 calc__col ">
         Value of New Investment after 10 years<br/>
       </div>
-      <div class="col-6 col-md-3 calc__col" id="newValue" >
-        $1,447,800
+      <div class="col-6 col-md-3 calc__col" id="newValueS" >
+        $1,124,800
       </div>
-      <div class="col-6 col-md-3 calc__col" id="newValueB">
+      <div class="col-6 col-md-3 calc__col" id="newValueBS">
         $1,900,000
       </div>
     </div> <!--End Row-->
@@ -99,8 +78,8 @@
       <div class="col-6 col-md-3 calc__col ">
         -
       </div>
-      <div class="col-6 col-md-3 calc__col" id="tax85">
-        (202,300) 
+      <div class="col-6 col-md-3 calc__col" id="tax85S">
+        (346,800) 
       </div>
     </div> <!--End Row-->
               
@@ -108,8 +87,8 @@
       <div class="col-12 col-md-6 calc__col ">
         Top Federal Tax on Disposition of New Investment in 2029<br/>
       </div>
-      <div class="col-6 col-md-3 calc__col" id="tax2029">
-        (163,220)
+      <div class="col-6 col-md-3 calc__col" id="tax2029S">
+        (126,806)
       </div>
       <div class="col-6 col-md-3 calc__col ">
         -
@@ -120,11 +99,11 @@
       <div class="col-12 col-md-6 calc__col  ">
         After Tax Proceeds
       </div>
-      <div class="col-6 col-md-3 calc__col" id="afterTax">
-        $1,284,580
+      <div class="col-6 col-md-3 calc__col" id="afterTaxS">
+        $997,994
       </div>
-      <div class="col-6 col-md-3 calc__col" id="afterTaxB">
-        $1,697,700
+      <div class="col-6 col-md-3 calc__col" id="afterTaxBS">
+        $1,553,200
       </div>
     </div> <!--End Row-->
 
@@ -142,22 +121,14 @@
 
     <div class="row calc__row bg-grey blueDashBorder final">
       <div class="col-12 col-md-6 calc__col">
-        Net Profit
+        Net Loss / Net Profit
       </div>
-      <div class="col-6 col-md-3 calc__col" id="netProfit">
-        <strong>$284,580</strong>
+      <div class="col-6 col-md-3 calc__col" id="netProfitS">
+        <strong>-$2,006</strong>
       </div>
-      <div class="col-6 col-md-3 calc__col" id="netProfitB">
-        <strong>$697,700</strong>
+      <div class="col-6 col-md-3 calc__col" id="netProfitBS">
+        <strong>$553,200</strong>
       </div>
     </div> <!--End Row-->
   </div>
 </div>
-
-<script>
-  let input = document.getElementById('initialGain');
-      input.addEventListener('keyup', function(){
-        let n = parseInt(this.value.replace(/\D/g,''),10);
-        if( n > 3 ) { input.value = n.toLocaleString(); }
-    }, false);
-</script>

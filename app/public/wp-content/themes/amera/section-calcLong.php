@@ -1,17 +1,3 @@
-<form class="pb-4" id="" onsubmit="return updateCalc();">
-    <input 
-      class=""
-      type="text"
-      id="initialGain"
-      placeholder="1,000,000"
-      value=""
-    />
-  <input
-  class=""
-  type="submit"
-  value="Calculate" />
-</form>
-
 <div class="container calc__container mb-5">
   <div class="calc__table">
     <div class="row calc__row--sticky">
@@ -146,11 +132,3 @@
     </div> <!--End Row-->
   </div>
 </div>
-
-<script>
-  let input = document.getElementById('initialGain');
-      input.addEventListener('keyup', function(){
-        let n = parseInt(this.value.replace(/\D/g,''),10);
-        if( n > 3 ) { input.value = n.toLocaleString(); }
-    }, false);
-</script>

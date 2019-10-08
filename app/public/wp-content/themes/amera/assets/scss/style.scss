@@ -890,3 +890,12 @@ ul.sponsor-list li {
   margin-bottom: 35px;
   color: grey;
 }
+
+#compare li.nav-item {
+  border-left:none;
+  padding:0;
+}
+
+#compare .nav-link {
+  border: solid 1px $borderLight;
+}

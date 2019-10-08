@@ -152,7 +152,36 @@ get_header();
           versus a traditionally taxed investment.
         </p>
 
-        <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
+        <?php
+
+          wp_register_script('calc-script', get_template_directory_uri() . '/js/calculator.js', '', '', true ); 
+          wp_enqueue_script('calc-script');
+
+        ?>
+
+        <h5 class="mb-4">
+          Input Capital Gains:
+        </h5>
+
+        <form class="pb-4 mb-4" id="" onsubmit="return updateCalc();">
+          <input 
+            class="input-header box-shadow border-radius font-source"
+            type="text"
+            id="initialGain"
+            placeholder="1,000,000"
+            value=""
+          />
+          <input
+          class="button-custom"
+          type="submit"
+          value="Calculate" />
+        </form>
+
+        <h5 class="mb-4">
+          Select Type:
+        </h5>
+
+        <ul class="nav nav-pills nav-justified mb-5" id="pills-tab" role="tablist">
           <li class="nav-item">
             <a class="nav-link active" id="pills-short-tab" data-toggle="pill" href="#pills-short" role="tab" aria-controls="pills-short" aria-selected="true">
               Short Term gains
@@ -172,6 +201,13 @@ get_header();
             <?php get_template_part('section', 'calcLong'); ?>
           </div>
         </div>
+        <script>
+          let input = document.getElementById('initialGain');
+            input.addEventListener('keyup', function(){
+              let n = parseInt(this.value.replace(/\D/g,''),10);
+              if( n > 3 ) { input.value = n.toLocaleString(); }
+          }, false);
+        </script>
       </section>
 
       <!-- View Investments Section -->

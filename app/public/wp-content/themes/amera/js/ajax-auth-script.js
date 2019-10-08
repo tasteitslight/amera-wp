@@ -46,7 +46,8 @@ jQuery(document).ready(function ($) {
 	
 	// Client side form validation
     if (jQuery("#register").length) 
-		jQuery("#register").validate();
+    return
+		//jQuery("#register").validate();
     else if (jQuery("#login").length) 
 		jQuery("#login").validate();
 });
