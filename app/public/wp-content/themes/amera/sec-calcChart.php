@@ -1,4 +1,4 @@
-<form id="" onsubmit="return updateCalc();">
+<form class="pb-4" id="" onsubmit="return updateCalc();">
     <input 
       class=""
       type="text"

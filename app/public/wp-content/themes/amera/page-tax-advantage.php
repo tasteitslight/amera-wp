@@ -142,17 +142,17 @@ get_header();
         </div>
       </section>
 
-      <!--<section class="container text-center" id="compare">
+      <section class="container text-center" id="compare">
         <hr/>
-        <h1 class="pt-4 mt-5">
+        <h1 class="py-4 mt-5">
           After Tax Net Profit Comparison
         </h1>
-        <p>
+        <p class="pb-4">
           See for yourself how much money you could gain investing in AAAmerican Opportunity Fund 
           versus a traditionally taxed investment.
         </p>
-        <?php //get_template_part('sec', 'calcChart'); ?>
-      </section>-->
+        <?php get_template_part('sec', 'calcChart'); ?>
+      </section>
 
       <!-- View Investments Section -->
 

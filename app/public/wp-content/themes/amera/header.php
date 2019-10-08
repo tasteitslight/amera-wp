@@ -63,7 +63,7 @@
 
   <!-- Calculator -->
 
-  <script type="text/javascript" src="/js/calculator.js"></script>
+  <!--<script type="text/javascript" src="/calculator.js"></script>-->
 
 	<?php wp_head(); ?>
 </head>
