@@ -26,10 +26,14 @@ get_header();
           <h3 class="pt-3">
             <?php echo $hero_subtitle; ?>
           </h3>
-          <form class="header-form">
+          <!--<form class="header-form">
             <input class="input-header font-source border-radius box-shadow" type="email" placeholder="Enter your email"/>
             <input class="button-custom mt-2" type="submit" value="Request Information"/>
-          </form>
+          </form>-->
+
+          <!-- AC Form -->
+
+          <?php get_template_part('ac', 'form'); ?>   
         </div>
         <svg class="svg-diagonal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
           <polygon fill="white" points="0,100 100,0 100,100" />
