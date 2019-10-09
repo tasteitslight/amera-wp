@@ -923,6 +923,12 @@ ul.sponsor-list li {
   top:37px;
 }
 
+@media (min-width:992px) {
+  .page-howToInvest .sticky-top {
+    top:60px;
+  }
+}
+
 #page-about .modal-content button {
   padding:20px;
 }
