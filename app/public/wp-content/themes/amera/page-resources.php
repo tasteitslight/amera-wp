@@ -15,9 +15,9 @@ get_header();
           <h1 class="pt-4">
             Resources
           </h1>  
-          <a href="" class="button-custom mt-4">
-            Subscribe to Newsletter
-          </a>
+          <!-- AC Form -->
+
+          <?php get_template_part('ac', 'formR'); ?>   
         </div>
         <svg class="svg-diagonal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
           <polygon fill="#ffffff" points="0,100 100,0 100,100" />
