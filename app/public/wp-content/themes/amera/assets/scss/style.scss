@@ -916,3 +916,13 @@ ul.sponsor-list li {
 #compare input.button-custom {
   box-shadow:none;
 }
+
+.page-howToInvest .sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top:37px;
+}
+
+#page-about .modal-content button {
+  padding:20px;
+}

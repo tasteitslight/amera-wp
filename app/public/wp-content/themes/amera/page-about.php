@@ -8,7 +8,7 @@
 get_header();
 ?>
 
-<main role="main">
+<main role="main" id="page-about">
     
       <!-- Header -->
       <header class="header-primary header-about d-flex align-items-center justify-content-center">
@@ -179,6 +179,11 @@ get_header();
       <div class="modal fade" id="fred" tabindex="-1" role="dialog" aria-labelledby="FredHameetmanModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
           <div class="modal-content">
+            <div>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
             <div class="modal-body text-center">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-fred.png" />
               <h5>Fred Hameetman</h5>
@@ -194,6 +199,11 @@ get_header();
       <div class="modal fade" id="greg" tabindex="-1" role="dialog" aria-labelledby="gregModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
           <div class="modal-content">
+            <div>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
             <div class="modal-body text-center">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-greg.png" />
               <h5>Gregory L. Horton</h5>
@@ -209,6 +219,11 @@ get_header();
       <div class="modal fade" id="jacqueline" tabindex="-1" role="dialog" aria-labelledby="JacquelineModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
           <div class="modal-content">
+            <div>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
             <div class="modal-body text-center">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-jacqueline.png" />
               <h5>Jacqueline S. Miller</h5>
@@ -224,6 +239,11 @@ get_header();
       <div class="modal fade" id="raj" tabindex="-1" role="dialog" aria-labelledby="RajModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
           <div class="modal-content">
+            <div>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
             <div class="modal-body text-center">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-raj.png" />
               <h5>Raj Makwana</h5>
@@ -239,6 +259,11 @@ get_header();
       <div class="modal fade" id="will" tabindex="-1" role="dialog" aria-labelledby="WillModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
           <div class="modal-content">
+            <div>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
             <div class="modal-body text-center">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-will.png" />
               <h5>Will Caulfield</h5>
@@ -254,6 +279,11 @@ get_header();
       <div class="modal fade" id="mason" tabindex="-1" role="dialog" aria-labelledby="MasonModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
           <div class="modal-content">
+            <div>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
             <div class="modal-body text-center">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-mason.png" />
               <h5>Mason Brown</h5>
@@ -269,6 +299,11 @@ get_header();
       <div class="modal fade" id="devan" tabindex="-1" role="dialog" aria-labelledby="DevanModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
           <div class="modal-content">
+            <div>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
             <div class="modal-body text-center">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-devan.png" />
               <h5>Devan Makwana</h5>
