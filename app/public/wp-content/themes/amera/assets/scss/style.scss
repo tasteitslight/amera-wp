@@ -938,3 +938,18 @@ ul.sponsor-list li {
 #page-about .modal-content button {
   padding:20px;
 }
+
+.home-video-container {
+  overflow: hidden;
+  padding-top: 565px;
+  position: relative;
+}
+
+.home-video-container iframe, .home-video-container img {
+  border: 0;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  height:100%;
+}
