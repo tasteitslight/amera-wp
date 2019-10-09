@@ -12,8 +12,17 @@ get_header();
 <main role="main">
     
       <!-- Header -->
-      <header class="header-secondary header-article-2 d-flex align-items-center justify-content-center">
+      <header class="header-primary header-article-2 d-flex align-items-center justify-content-center">
         <div class="container text-left">
+          <h6 class="font-source">
+            Opportunity Funds
+          </h6>
+          <h1>
+            The Benefits of Opportunity Fund Investing
+          </h1>
+          <h6 class="font-source">
+            American Group Staff, September 19, 2019
+          </h6> 
         </div>
         <svg class="svg-diagonal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
           <polygon fill="#ffffff" points="0,100 100,0 100,100" />
@@ -25,21 +34,12 @@ get_header();
       <section class="container position-relative my-5">  
         <div class="row">
           <div class="col-md-1 sidebar-sticky-2 text-center mt-2">
-            <a class="d-inline-block footer-social footer-social-email my-1" href="#"></a>
-            <a class="d-inline-block footer-social footer-social-twitter my-1" href="#"></a>
-            <a class="d-inline-block footer-social footer-social-fb my-1 mb-3" href="#"></a>
+            <a class="d-inline-block footer-social footer-social-email my-1" href="mailto:example@email.com?&cc=&bcc=&subject=I think you'll like this article about Opportunity Funds&body="></a>
+            <a class="d-inline-block footer-social footer-social-twitter my-1" href="https://twitter.com/home?status=https://americangroup.us/articles/benefits-of-opportunity-fund-investing/ "></a>
+            <a class="d-inline-block footer-social footer-social-fb my-1 mb-3" href="https://www.facebook.com/sharer/sharer.php?u=https://americangroup.us/articles/benefits-of-opportunity-fund-investing/"></a>
           </div>
           <div class="col-12 col-md-8">
-          <h6 class="font-source">
-            Opportunity Funds
-          </h6>
-          <h1>
-            The Benefits of Opportunity Fund Investing
-          </h1>
-          <h6 class="font-source">
-            American Group Staff, September 19, 2019
-          </h6> 
-            <p class="pt-5">
+            <p>
               An Opportunity Fund is an investment vehicle designed for business and real estate investment in areas known as Opportunity Zones. Investors in Opportunity Funds are eligible to receive incredible tax benefits for their capital gains contributions.
             </p>
             <h3>
@@ -87,7 +87,7 @@ get_header();
               As long as an opportunity fund investment is held for at least 10 or more years, the basis of the investment will be adjusted in order to the fair market value of the investment on the exact date on which it was sold. In simpler words, zero capital gain taxes are due on the profit you made from the sale of the opportunity fund investment after 10 years.
             </p>
             <h3>
-              For the community
+              Community Benefits
             </h3>
             <h5>
               Impact Benefits of Opportunity Fund Investing

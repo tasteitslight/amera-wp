@@ -70,8 +70,7 @@ get_header();
             <h1 class="pb-2 pb-sm-3">Deferral &amp; Reduction</h1>
             <p class="color-dark">
               <span style="font-weight: 700">
-                Any capital gain rolled into an opportunity fund within 180 days will be tax deferred until 2027.
-                This capital gain tax payment is reduced 15% when paid.
+                Any capital gain rolled into an opportunity fund within 180 days will be tax deferred, this capital gain tax payment is reduced 15% when paid in 2027 (in inflated dollars).
               </span>
             </p>
             <p>

@@ -579,7 +579,13 @@ img.img--stat {
 
 .resources-nav {
   height:100px;
-  font-size: 1.5em;
+  font-size: .9em;
+}
+
+@media (min-width: 768px) {
+  .resources-nav {
+    font-size: 1.1em;
+  }
 }
 
 .resources-nav>div {
