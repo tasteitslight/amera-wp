@@ -893,9 +893,26 @@ ul.sponsor-list li {
 
 #compare li.nav-item {
   border-left:none;
-  padding:0;
+  padding:0 10px 10px 0;
 }
 
-#compare .nav-link {
+#compare .nav-link{
   border: solid 1px $borderLight;
+  background-color: $backgroundGrey;
+  color: $fontDark;
+}
+
+#compare .nav-link.active{
+  color:white;
+}
+
+#compare input#initialGain {
+  height:40px;
+  border:1px solid $borderLight;
+  padding-left:10px;
+  margin-bottom:10px;
+}
+
+#compare input.button-custom {
+  box-shadow:none;
 }

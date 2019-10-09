@@ -145,7 +145,7 @@ get_header();
       <section class="container text-center" id="compare">
         <hr/>
         <h1 class="py-4 mt-5">
-          After Tax Net Profit Comparison
+          After-Tax Net Profit Comparison
         </h1>
         <p class="pb-4">
           See for yourself how much money you could gain investing in AAAmerican Opportunity Fund 
@@ -159,40 +159,48 @@ get_header();
 
         ?>
 
-        <h5 class="mb-4">
-          Input Capital Gains:
-        </h5>
+        <div class="row justify-content-center mb-5">
+          <div class="col-8">
 
-        <form class="pb-4 mb-4" id="" onsubmit="return updateCalc();">
-          <input 
-            class="input-header box-shadow border-radius font-source"
-            type="text"
-            id="initialGain"
-            placeholder="1,000,000"
-            value=""
-          />
-          <input
-          class="button-custom"
-          type="submit"
-          value="Calculate" />
-        </form>
+            <h5 class="mb-4 text-left">
+              Input Capital Gains:
+            </h5>
 
-        <h5 class="mb-4">
-          Select Type:
-        </h5>
+            <form class="pb-4 mb-4 text-left" id="" onsubmit="return updateCalc();">
+              <input 
+                class="border-radius font-source"
+                type="text"
+                id="initialGain"
+                placeholder="1,000,000"
+                value=""
+              />
+              <input
+              class="button-custom"
+              type="submit"
+              value="Calculate" />
+            </form>
 
-        <ul class="nav nav-pills nav-justified mb-5" id="pills-tab" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link active" id="pills-short-tab" data-toggle="pill" href="#pills-short" role="tab" aria-controls="pills-short" aria-selected="true">
-              Short Term gains
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="pills-long-tab" data-toggle="pill" href="#pills-long" role="tab" aria-controls="pills-long" aria-selected="false">
-              Long Term Gains
-            </a>
-          </li>
-        </ul>
+            <h5 class="mb-4 text-left">
+              Select Type:
+            </h5>
+
+            <ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="pills-short-tab" data-toggle="pill" href="#pills-short" role="tab" aria-controls="pills-short" aria-selected="true">
+                  Short Term gains
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-long-tab" data-toggle="pill" href="#pills-long" role="tab" aria-controls="pills-long" aria-selected="false">
+                  Long Term Gains
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="mb-5" />
+
         <div class="tab-content" id="pills-tabContent">
           <div class="tab-pane fade show active" id="pills-short" role="tabpanel" aria-labelledby="pills-short-tab">
             <?php get_template_part('section', 'calcShort'); ?>
