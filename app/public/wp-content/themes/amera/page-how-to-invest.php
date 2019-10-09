@@ -55,7 +55,7 @@ get_header();
     </section>
 
     <section id="create-account" class="container-fluid px-0 mt-5">
-      <div class="w-100 position-sticky how-to-invest-header bg-blue">
+      <div class="w-100 sticky-top how-to-invest-header bg-blue">
         <div class="container">
           <h3>1 &nbsp;&nbsp;&nbsp; Create an Account</h3>
         </div>
@@ -83,7 +83,7 @@ get_header();
     </section>
 
     <section id="review-details" class="container-fluid px-0">
-      <div class="w-100 position-sticky how-to-invest-header bg-blue">
+      <div class="w-100 sticky-top how-to-invest-header bg-blue">
         <div class="container">
           <h3>2 &nbsp;&nbsp;&nbsp; Review Investment Details</h3>
         </div>
@@ -111,7 +111,7 @@ get_header();
     </section>
 
     <section id="indicate-interest" class="container-fluid px-0">
-      <div class="w-100 position-sticky how-to-invest-header bg-blue">
+      <div class="w-100 sticky-top how-to-invest-header bg-blue">
         <div class="container">
           <h3>3 &nbsp;&nbsp;&nbsp; Indicate Interest</h3>
         </div>
