@@ -92,7 +92,7 @@ get_header();
             </p>
           </div>
           <div class="col-sm-2 col-lg-1 order-0 order-sm-1">
-            <img style="width:90%" src="<?php bloginfo('template_directory'); ?>/assets/img/svg/calendar.svg" />
+            <img class="w-50" src="<?php bloginfo('template_directory'); ?>/assets/img/svg/calendar.svg" />
           </div>
           <div class="col-sm-4 col-md-3 text-left order-2">
             <p>
@@ -112,7 +112,7 @@ get_header();
             </p>
           </div>
           <div class="col-sm-2 col-lg-1 order-0 order-sm-1">
-            <img style="width:90%" src="<?php bloginfo('template_directory'); ?>/assets/img/svg/reduce.svg" />
+            <img class="w-50" src="<?php bloginfo('template_directory'); ?>/assets/img/svg/reduce.svg" />
           </div>
           <div class="col-sm-4 col-md-3 text-left order-2">
             <p>
@@ -131,7 +131,7 @@ get_header();
             </p>
           </div>
           <div class="col-sm-2 col-lg-1 order-0 order-sm-1">
-            <img style="width:90%" src="<?php bloginfo('template_directory'); ?>/assets/img/svg/moneybuilding.svg" />
+            <img class="w-50" src="<?php bloginfo('template_directory'); ?>/assets/img/svg/moneybuilding.svg" />
           </div>
           <div class="col-sm-4 col-md-3 text-left order-2">
             <p>
