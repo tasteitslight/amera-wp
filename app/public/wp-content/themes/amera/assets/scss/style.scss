@@ -941,8 +941,32 @@ ul.sponsor-list li {
 
 .home-video-container {
   overflow: hidden;
-  padding-top: 565px;
   position: relative;
+  padding-top:calc(8/16*100vw);
+}
+
+@media (min-width:576px) {
+  .home-video-container {
+    padding-top: 304px;
+  }
+}
+
+@media (min-width:768px) {
+  .home-video-container {
+    padding-top: 405px;
+  }
+}
+
+@media (min-width:992px) {
+  .home-video-container {
+    padding-top: 540px;
+  }
+}
+
+@media (min-width:1200px) {
+  .home-video-container {
+    padding-top: 563px;
+  }
 }
 
 .home-video-container iframe, .home-video-container img {
