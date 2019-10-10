@@ -4,7 +4,7 @@
     <div class="col-12 col-sm-8 order-2 order-sm-1 text-right">
       <h3>Opportunity Zone Investor Handbook</h3>
       <p>
-        Learn about our offering and get an overview of the Opportunity Zone Program with this guide.
+        Learn about our offering and get an<br/>overview of the Opportunity Zone Program with this guide.
       </p>
       <a href="<?php bloginfo('template_directory'); ?>/assets/pdf/American-Group-Opportunity-Fund-Guide-Web.pdf" target="_blank" class="button-custom mb-4">Download</a>
     </div>

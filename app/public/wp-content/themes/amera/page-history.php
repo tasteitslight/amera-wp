@@ -30,7 +30,7 @@ get_header();
             Seasoned Professionals
           </h3>
           <p>
-            American Group is comprised of over than 60 companies that work together to acquire, develop and manage multi-family housing & mixed-use projects throughout the country.
+            American Group is comprised of over than 60 companies that work together to acquire, develop and manage multi-family housing & other income properties throughout growing parts of the country.
           </p>          
         </div>
       </section>
@@ -55,7 +55,7 @@ get_header();
             </div>
             <div class="col border-all bg-white mx-2">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/logo/regent-west.png" />
-              <h5>Regent West</h5>
+              <h5>American Law Group</h5>
               <p>Finance & Lending</p>
             </div>
           </div>
@@ -97,7 +97,7 @@ get_header();
                     San Francisco, CA
                   </div>
                   <div class="col-3">
-                    749
+                    721
                   </div>
                   <div class="col-2">
                     25%

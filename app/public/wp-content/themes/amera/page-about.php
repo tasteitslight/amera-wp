@@ -48,7 +48,7 @@ get_header();
             </div>
             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="card-body">
-                The strategy is simple: Conservative underwriting and real, dependable returns with a value-add strategy. Every acquisition deal we do is built with a going-in return and a plan to significantly boost revenue in the hold period, typically 10+ years. Being selective & patient, American Group has never had to do a capital call and never had a negative cash flow year.
+                The strategy is simple: We are comparatively small and focus on acquiring the best of what is available, delivering real, dependable returns with a value-add strategy. Every acquisition deal we do is built with a going-in return and a plan to significantly boost revenue in the hold period, typically 10+ years.
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@ get_header();
             </div>
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
               <div class="card-body">
-              The principals in the partnership have over 150 years of experience in real estate with a proven track record of success with over X acquisitions and nearly X dispositions.
+                The principals in American Group have over 150 years of experience in real estate with a proven track record of success with over 60 acquisitions and nearly 30 dispositions.
               </div>
             </div>
           </div>
@@ -76,7 +76,7 @@ get_header();
             </div>
             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
               <div class="card-body">
-              From the acquisition or the sourcing of the development site to the final disposition of the asset, every facet of the investment is handled in-house. Construction, supplies, insurance, property management, leasing & sales brokerage, and asset management are all handled by an affiliated group of companies owned by the principals or closely partnered.
+                From the acquisition of the investment or development site to the final disposition of the asset, multiple facets of the investment are handled in-house. Construction, insurance, property management, leasing & sales, and asset management are all handled by an experienced group of invdividuals and companies.
               </div>
             </div>
           </div>
@@ -104,7 +104,7 @@ get_header();
             </div>
             <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
               <div class="card-body">
-                We believe that sustainability is applicable within our field because it captures the full spectrum of our company’s interactions: with the economy, including the industry within which we operate; with society, from employees to partners, vendors and tenants; and with the environment. We believe this approach can drive performance towards excellence and that companies with superior environmental and social management are likely to be more successful in operating projects in today’s world.
+                We believe that sustainability is applicable within our field because it captures the full spectrum of our company’s interactions: with the economy, including the industry within which we operate; with society, from employees to partners, vendors and tenants; and with the land and environment. We believe this approach can drive performance towards excellence and that companies with superior environmental and social management are likely to be more successful in operating projects in today’s world.
               </div>
             </div>
           </div>
@@ -132,20 +132,10 @@ get_header();
               <h5>Jacqueline S. Miller</h5>
               <p>CEO, Cal-American</p>
             </div>
-            <div class="col-12 col-sm-5 col-md border-all bg-white m-1 bio-card" data-toggle="modal" data-target="#raj">
-              <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-raj.png" />
-              <h5>Raj Makwana</h5>
-              <p>CEO, Regent West Corp.</p>
-            </div>
             <div class="col-12 col-sm-5 col-md border-all bg-white m-1 bio-card" data-toggle="modal" data-target="#will">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-will.png" />
               <h5>Will Caulfield</h5>
               <p>Director of Communications, American Group</p>
-            </div>
-            <div class="col-12 col-sm-5 col-md border-all bg-white m-1 bio-card" data-toggle="modal" data-target="#mason">
-              <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-mason.png" />
-              <h5>Mason Brown</h5>
-              <p>Property &amp; Marketing Manager, American Group</p>
             </div>
             <div class="col-12 col-sm-5 col-md border-all bg-white m-1 bio-card" data-toggle="modal" data-target="#devan">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-devan.png" />

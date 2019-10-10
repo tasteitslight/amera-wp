@@ -18,7 +18,7 @@
             <img class="pt-2 pb-5" src="<?php bloginfo('template_directory'); ?>/assets/img/logo/logo-ag-horiz.png" width="150px"/>
           </div>
           <div class="col-6 col-md-3 col-lg">
-            <h6>American Group</h6>
+            <h6>Invest With Us</h6>
             <ul class="footer-ul">
               <li><a href="/service">Our Service</a></li>
               <li><a href="/investments">Current Investments</a></li>
@@ -36,7 +36,7 @@
             </ul>
           </div>
           <div class="col-6 col-md-3 col-lg">
-            <h6>Company</h6>
+            <h6>American Group</h6>
             <ul class="footer-ul">
               <li><a href="/about">About</a></li>
               <li><a href="/about#team">Team</a></li>

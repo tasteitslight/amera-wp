@@ -41,7 +41,7 @@ get_header();
           <h4 >Eligible Capital Gains</h4>
           <div class="separator-gradient mb-3"></div>
           <p>
-            Eligible Capital Gains for investment into the Opportunity Zone Fund include gains recognizable from taxable exchanges such as: the sale of stocks or bonds, the sale of a property, or the sale of an interest in a partnership.
+            Eligible Capital Gains for investment into the Opportunity Zone Fund include gains recognizable from taxable sales such as: the sale of stocks or bonds, the sale of a property, or the sale of an interest in a partnership.
           </p>
           <div class="separator-gradient mb-3"></div>
           <p>
@@ -61,19 +61,15 @@ get_header();
           </p>
           <div class="separator-gradient mb-3"></div>
           <p>
-            For Section 1231 gains, the taxpayer must wait until the end of the tax year, when the netting process is complete. Only NET Section 1231 gain for the year taxed as capital gain may be reinvested in an Opportunity Fund. The 180-day period begins on the last day of the tax year. This will actually help prolong the reinvestment period.
+            Only NET Section 1231 gain taxed as capital gain may be reinvested in an Opportunity Fund. The 180-day period begins on the last day of the tax year. This prolongs the allowable reinvestment period.
           </p>
           <div class="separator-gradient mb-3"></div>
           <p>
-            Any taxpayer that realizes eligible gain for federal tax purposes may elect to defer that gain if all the requirements of Sec. 1400Z-2 are met.
+            Taxpayers that realize eligible gain for federal tax purposes may elect to defer that gain. These taxpayers include individuals, C corporations (including regulated investment companies and real estate investment trusts), partnerships, S corporations, trusts and estates.
           </p>
           <div class="separator-gradient mb-3"></div>
           <p>
-            These taxpayers include individuals, C corporations (including regulated investment companies and real estate investment trusts), partnerships, S corporations, and trusts and estates.
-          </p>
-          <div class="separator-gradient mb-3"></div>
-          <p>
-            If a partnership, S corporation, trust or estate recognizes capital gain, it can choose to defer and invest in a QOF. If the entity doesn't the partners or shareholders can elect to defer by reinvesting the gain allocated to them. For these purposes, the 180-day window beings on the last day of the part
+            If a partnership, S corporation, trust or estate recognizes capital gain, it can choose to invest in a QOF and defer. If the entity doesn't, the partners or shareholders can elect to defer by reinvesting the gain allocated to them. For these purposes, the 180-day window beings on the last day of the partnership's tax year.
           </p>
           <div class="separator-gradient mb-5"></div>
           <h4>Election</h4>
@@ -83,7 +79,7 @@ get_header();
           </p>
           <div class="separator-gradient mb-3"></div>
           <p>
-            Investor generally must make an election to defer gain in the tax return for the year of the Capital Gains and the investment in the Opportunity Fund and are solely responsible for ensuring eligibility and qualification in each Investor's individual circumstances.
+            Investor generally must make an election to defer gain in the tax return for the year of the Capital Gains, they are solely responsible for ensuring eligibility and qualification in each individual circumstances.
           </p>
           <div class="separator-gradient mb-3"></div>
           <p>
@@ -91,11 +87,11 @@ get_header();
           </p>
           <div class="separator-gradient mb-3"></div>
           <p>
-            A taxpayer is not required to reinvest the entire proceeds from the sale or exchange giving rise to the eligible gain; rather, to defer the full amount of eligible gain, the taxpayer must reinvest only the gain amount. Thus, unlike a Sec. 1031 exchange, a taxpayer reinvesting in a QOF can both take cash off the table and defer the full amount of gain resulting from the sale.
+            A taxpayer is not required to reinvest the entire proceeds from the sale or exchange giving rise to the eligible gain; rather, to defer the full amount of eligible gain, the taxpayer must reinvest only the gain amount. Thus, unlike a Sec. 1031 exchange, a taxpayer reinvesting in a QOF can both take cash off the table and defer the full amount of gain resulting from a sale.
           </p>
           <div class="separator-gradient mb-3"></div>
           <p>
-            A taxpayer may elect to defer some or all of an eligible gain that is reinvested within the applicable 180-day period. The entire amount of the gain need not be reinvested at once; rather, a taxpayer may make multiple deferral election related to the same gain but may make a deferral election with respect to the same portion of any eligible gain only once.
+            A taxpayer may elect to defer some or all of an eligible gain that is reinvested within the applicable 180-day period. The entire amount of the gain need not be reinvested at once; rather, a taxpayer may make multiple deferral elections related to the same gain but may make a deferral election with respect to the same portion of any eligible gain only once.
           </p>
           <div class="separator-gradient mb-3"></div>
           <p>
@@ -125,7 +121,7 @@ get_header();
           </p>
           <div class="separator-gradient mb-3"></div>
           <p>
-            A taxpayer that wishes to defer eligible gain must acquire an equity interest in a QOF. For these purposes, an equity interest includes preferred stock in a corporation or a partnership interest with special allocations but does not include any debt instrument.  In general, a taxpayer is free to use an interest in a QOF as collateral for a loan.
+            A taxpayer that wishes to defer eligible gain must acquire membership or an equity interest in a QOF. For these purposes, an equity interest includes preferred stock in a corporation or a partnership interest with special allocations but does not include any debt instrument.  In general, a taxpayer is free to use an interest in a QOF as collateral for a loan.
           </p>
           <div class="separator-gradient mb-3"></div>
           <p>

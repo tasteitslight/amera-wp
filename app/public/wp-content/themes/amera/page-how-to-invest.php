@@ -62,7 +62,7 @@ get_header();
       </div>
       <div class="container mt-5 pt-5">
         <h5 class="strong">
-          Fill out a brief sign up form
+          Fill out a brief sign up form for Accredited Investors
         </h5>
         <p>
           After completing, you will receive access to our members area where additional information is provided.
@@ -75,7 +75,7 @@ get_header();
           Understand Opportunity Zones and Real Estate Investing
         </h5>
         <p>
-          If you haven't already, take the time to familiarize yourself with the concepts specific to Qualified Opportunity Zone (QOZ) Funds, their tax benefits, and the value of investing in real estate. 
+          If you haven't already, take the time to familiarize yourself with the concepts specific to Qualified Opportunity Zone (QOZ) Funds, their tax benefits, and the value of investing in the IDEAL&trade; Investment, real estate. 
         </p>
         <p><a href="/opportunity-fund">Opportunity Fund Basics</a> <i class="fas fa-circle"></i> <a href="/why-real-estate">Why Real Estate</a></p>
         <div class="separator-gradient my-4"></div>
@@ -103,7 +103,7 @@ get_header();
           Ask us anything
         </h5>
         <p>
-          Opportunity Funds can be a confusing topic, and investing in real estate is a serious decision. Our invesment team will be happy to provide you with additional information.
+          Opportunity Funds can be a confusing topic, and investing in real estate is an important decision. Our invesment team will be happy to provide you with additional information.
         </p>
         <p><a href="mailto:invest@americangroup.com">Contact Us</a></p>
         <div class="separator-gradient mt-4 mb-5"></div>
@@ -118,12 +118,12 @@ get_header();
       </div>
       <div class="container mt-5 py-5">
         <h5 class="strong">
-          Let us know you're considering
+          Let us know you're considering, then...
         </h5>
         <p>
-          When you are ready to invest, let us know via a message, email, or phone call. American Group will contact you to arrange placement.
+          When you are ready to invest, let us know via a message, email, or phone call. American Group will be glad to arrange placement.
         </p>
-        <p><a href="/investments">Submit Offer</a></p>
+        <p><a href="/investments">Submit Info</a></p>
         <div class="separator-gradient mt-4"></div>
       </div>  
       <div class="text-center mb-5">

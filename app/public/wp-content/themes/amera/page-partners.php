@@ -80,16 +80,16 @@ get_header();
               <h4>University of California</h4>
             </div>
             <div class="col-4 col-sm-3 border-all bg-white mx-2 my-2 box-shadow--light">
-              <img class="w-100 my-4" src="<?php bloginfo('template_directory'); ?>/assets/img/logo/imc.jpg" />
-              <h4>Int Medical Corp</h4>
+              <img class="w-100 my-4" src="<?php bloginfo('template_directory'); ?>/assets/img/logo/caltech.jpg" />
+              <h4>Cal Tech</h4>
             </div>
             <div class="col-4 col-sm-3 border-all bg-white mx-2 my-2 box-shadow--light">
               <img class="w-100 my-4" src="<?php bloginfo('template_directory'); ?>/assets/img/logo/csu.jpg" />
               <h4>California State University</h4>
             </div>
             <div class="col-4 col-sm-3 border-all bg-white mx-2 my-2 box-shadow--light">
-              <img class="w-100 my-4" src="<?php bloginfo('template_directory'); ?>/assets/img/logo/caltech.jpg" />
-              <h4>Cal Tech</h4>
+              <img class="w-100 my-4" src="<?php bloginfo('template_directory'); ?>/assets/img/logo/imc.jpg" />
+              <h4>Int Medical Corp</h4>
             </div>
           </div>
         </div>

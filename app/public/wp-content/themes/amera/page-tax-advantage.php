@@ -33,8 +33,8 @@ get_header();
             <h3 class="py-5">To encourage capital deployment in Opportunity Zones, two main tax advantages 
               were created:
             </h3>
-            <p><span class="color-blue" style="font-weight:700">1. Elimination</span> - No taxes owed on profits from an opportunity fund when held 10+ years</p>
-            <p><span class="color-red" style="font-weight:700">2. Deferment and Reduction</span> of original (non opportunity fund) capital gain taxes: Not due until 2027 with a 15% reduction</p>
+            <p><span class="color-blue" style="font-weight:700">1. Elimination</span> - No federal taxes on profits from an opportunity fund when held 10+ years</p>
+            <p><span class="color-red" style="font-weight:700">2. Deferment and Reduction</span> of original capital gain taxes: Not due until 2027 with a 15% reduction</p>
           </div>
         </div>
       </section> <!-- /container -->
@@ -48,14 +48,11 @@ get_header();
             <h1 class="pb-2 pb-sm-3">Elimination</h1>
             <p class="color-dark">
               <span style="font-weight: 700">
-              So long as an opportunity fund investment is held for at least 10 years, there is 
-              zero capital gain taxes due on any profits from it's sale.
+              If an opportunity fund investment is held for at least 10 years, there is no federal capital gains tax due on any profits from it's sale.
               </span>
             </p>
             <p>
-            This is by far the biggest benefit of the opportunity zones program, and the #1 reason why 
-            Treasury Secretary Steven Mnuchin expects <a href="https://thehill.com/hilltv/rising/408980-mnuchin-predicts-100b-in-cap-investment-from-new-opportunity-zones">more than $100 billion in investments</a> to flow 
-            to opportunity zones as a result of this program.
+            This is by far the biggest benefit of the opportunity zones program, and the #1 reason why Treasury Secretary Steven Mnuchin expects <a href="https://thehill.com/hilltv/rising/408980-mnuchin-predicts-100b-in-cap-investment-from-new-opportunity-zones">more than $100 billion in investments</a> to flow to opportunity zones as a result of this program. (This ~$100 billion will push up the value of early QOZ investments.)
             </p>  
           </dv>
         </div>
@@ -70,13 +67,11 @@ get_header();
             <h1 class="pb-2 pb-sm-3">Deferral &amp; Reduction</h1>
             <p class="color-dark">
               <span style="font-weight: 700">
-                Any capital gain rolled into an opportunity fund within 180 days will be tax deferred, this capital gain tax payment is reduced 15% when paid in 2027 (in inflated dollars).
+                Any capital gain invested into an opportunity fund within 180 days of realization will be tax deferred. This current capital gain tax obligation is reduced 15% when paid in 2027 (with inflated dollars).
               </span>
             </p>
             <p>
-              An investor with capital gains from any source, such as the sale of stock, real estate, artwork, etc. is not
-              required to pay taxes on that gain until 2027 if it is placed into an Opportunity Fund. When paid in 2027,
-              this original capital gain tax is reduced 15%. <a href="/opportunity-fund#example">Click here for an example.</a>
+              An investor with capital gains from any source, such as the sale of stock, real estate, jewelry, artwork, etc. is not required to pay taxes on that gain until 2027 if it is placed into an Opportunity Fund. When paid in 2027, this original capital gain tax is reduced 15% and paid in inflated dollars. <a href="/opportunity-fund#example">Click here for an example.</a>
             </p>  
           </dv>
         </div>
@@ -115,8 +110,8 @@ get_header();
           </div>
           <div class="col-sm-4 col-md-3 text-left order-2">
             <p>
-              <span class="color-dark"><strong>2027</strong></span> - Deferred tax on original gain is paid April 2027
-              and payment is <span class="color-red"><strong>REDUCED</strong></span> by 15%.
+              <span class="color-dark"><strong>2027</strong></span> - Deferred tax on original gain is paid in April 2027 dollars
+              and <span class="color-red"><strong>REDUCED</strong></span> by 15%.
             </p>
           </div>
         </div>
@@ -147,8 +142,7 @@ get_header();
           After-Tax Net Profit Comparison
         </h1>
         <p class="pb-4">
-          See for yourself how much money you could gain investing in AAAmerican Opportunity Fund 
-          versus a traditionally taxed investment.
+          See for yourself how much money you could gain by investing in AAAmerican Opportunity Fund versus a traditionally taxed investment.
         </p>
 
         <?php
@@ -224,34 +218,34 @@ get_header();
       <!-- More About Opportunity Zones Section -->
 
       <section class="container-fluid bg-white border-top text-center">
-          <div class="container my-5">
-              <h3>Learn More About Opportunity Funds</h3>
-              <div class="row my-5">
-                <div class="col-sm-7 pb-4 pb-sm-0 hover-rise">
-                  <div class="left-bar-red"></div>
-                  <a class="img-link" href="/tax-advantage">
-                    <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/opportunityfund.jpg"/>
-                    <div class="img-link--gradient-dark d-flex justify-content-center">
-                      <div class="my-auto">
-                        Opportunity Fund Basics
-                      </div>
-                    </div>
-                  </a>
+        <div class="container mt-5">
+          <h3>Learn About Opportunity Funds</h3>
+          <div class="row my-5">
+            <div class="hover-rise col-sm-7 mb-4 mb-sm-0">
+              <div class="left-bar-red"></div>
+              <a class="img-link" href="/opportunity-fund">
+                <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/opportunityfund.jpg"/>
+                <div class="img-link--gradient-dark d-flex justify-content-center">
+                  <div class="my-auto">
+                    Opportunity Fund Basics
+                  </div>
                 </div>
-                <div class="col-sm-5 hover-rise">
-                  <div class="left-bar-red"></div>
-                  <a class="img-link" href="/rules">
-                    <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/rules.jpg"/>
-                    <div class="img-link--gradient-dark d-flex justify-content-center">
-                      <div class="my-auto">
-                        Rules &amp; Regulations
-                      </div>
-                    </div>
-                  </a>
+              </a>
+            </div>
+            <div class="hover-rise col-sm-5">
+              <div class="left-bar-red"></div>
+              <a class="img-link" href="/rules">
+                <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/rules.jpg"/>
+                <div class="img-link--gradient-dark d-flex justify-content-center">
+                  <div class="my-auto">
+                    Rules & Regulations
+                  </div>
                 </div>
-              </div>
+              </a>
+            </div>
           </div>
-        </section>
+        </div>
+      </section>
 
       <!-- Download Section -->
 

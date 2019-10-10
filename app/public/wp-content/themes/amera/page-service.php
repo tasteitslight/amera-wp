@@ -87,7 +87,7 @@ get_header();
           <div class="col-12 col-md-4">
             <img class="w-50 pb-3" src="<?php bloginfo('template_directory'); ?>/assets/img/svg/quality.svg" />
             <h4 class="py-3">Quality</h4>
-            <p>We specialize in high end acquisitions, choosing only the best properties to invest.</p>
+            <p>We specialize in high end acquisitions, choosing the best properties in which to invest.</p>
           </div>
           <div class="col-12 col-md-4">
             <img class="w-50 pb-3" src="<?php bloginfo('template_directory'); ?>/assets/img/svg/expert.svg" />
@@ -97,7 +97,7 @@ get_header();
           <div class="col-12 col-md-4">
             <img class="w-50 pb-3" src="<?php bloginfo('template_directory'); ?>/assets/img/svg/diversification.svg" />
             <h4 class="py-3">Diversification</h4>
-            <p>Properties are diversified across select high growth areas in the United States</p>
+            <p>Properties are diversified across select higher growth areas in the United States</p>
           </div>
         </div>
       </div>
