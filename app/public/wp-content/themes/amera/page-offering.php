@@ -52,11 +52,11 @@ get_header();
                 <div class="row fund-table">
                   <div class="col-6">
                     <h5>10+ years</h5>
-                    <p>Hold Period</p>
-                    <h5>Result Growth</h5>
+                    <p>Minimum Hold Period</p>
+                    <h5>IDEAL&trade; Property</h5>
                     <p>Investment Type</p>
                     <h5>Income Property, Multifamily</h5>
-                    <p>Asset Type</p>
+                    <p>Primary Asset Type</p>
                   </div>
                   <div class="col-6">
                     <h5>Development &amp; Value-Add Existing</h5>
@@ -115,7 +115,7 @@ get_header();
               Zero Capital Gain Taxes
             </h2>
             <p>
-              Invest capital gains and receive tax-free compounding &amp; defer and reduce current federal capital gain taxes. <a href="/tax-advantage">Understanding Opportunity Fund tax benefits.</a>
+              Invest capital gains to receive tax-free growth &amp; defer and reduce current federal capital gain taxes. <a href="/tax-advantage">Understanding Opportunity Fund tax benefits.</a>
             </p>
           </div>
           <div class="col-12 col-sm-6 text-center">
@@ -131,7 +131,7 @@ get_header();
               Reduce Portfolio Risk
             </h2>
             <p>
-              Temper your portfolio's overall volatility with real estate's low correlation to stocks and bonds. <a href="/why-real-estate">Learn why top investors choose real estate</a>
+              Temper your portfolio's overall volatility with IDEAL&trade;real estate's low correlation to stocks and bonds. <a href="/why-real-estate">Learn why top investors choose real estate</a>
             </p>
           </div>
         </div>
@@ -141,7 +141,7 @@ get_header();
               Invest in High Growth Markets
             </h2>
             <p>
-              We invest in fast-growing U.S. markets including: Atlanta, Austin, Charlotte, Dallas, Denver, Houston, Nashville, Orlando, Phoenix and Raleigh. 
+              We will invest in growing U.S. markets including: Atlanta, Austin, Charlotte, Dallas, Denver, Houston, Nashville, Orlando, Phoenix and Raleigh. 
             </p>
           </div>
           <div class="col-12 col-sm-6 mb-5 text-center">
@@ -161,7 +161,7 @@ get_header();
         <div class="row mb-5">
           <div class="col-6">
             <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/general/before.jpg"/>
-            <figcaption class="text-center">The existing distress lot</figcaption>
+            <figcaption class="text-center">The existing "distressed" lot</figcaption>
           </div>
           <div class="col-6">
             <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/renderings/offering-2.jpg"/>
@@ -170,10 +170,10 @@ get_header();
         </div>
         <img class="text-center m-auto offering-arrow" src="<?php bloginfo('template_directory'); ?>/assets/img/icons/arrow-fade-blue.png"/>
         <p class="text-left neg-margin">
-          Our first Opportunity Fund, 1 American Elite, acquired this property in a growing area of West Palm Beach, a principal city of the Miami Metropolitan Area. Founded in 1894, it is the oldest incorporated municipality in Greater Miami, and has always attracted affluent homebuyers with its tropical tree-lined streets and a mixture of Art Deco and Spanish architecture.
+          Our first Opportunity Fund acquired this property in a growing area of West Palm Beach, a principal city of the Miami Metropolitan Area. Founded in 1894, it is the oldest incorporated municipality in Greater Miami, and has always attracted affluent homeowners with its tropical tree-lined streets and a mixture of Art Deco and Spanish architecture.
         </p>
         <p class="text-left mb-5">
-          A thriving community, West Palm Beach Park has enjoyed significant population growth in recent years, outperforming its metropolitan neighbors. Nationwide, according to US Census Bureau data, Florida has received the most domestic inmovers. The 1 American Elite Opportunity Fund acquired the property in 2019. It plans to build a 376 unit apartment building, self storage, and retail and commercial business space.
+          A thriving community, West Palm Beach Park has enjoyed significant population growth in recent years, outperforming its metropolitan neighbors. Nationwide, according to US Census Bureau data, Florida has received the most domestic inmovers. Our first Opportunity Fund acquired the property in 2019. It plans to build a 376 unit apartment building, self storage, and retail and commercial business space.
         </p>
       </section>
 
@@ -188,7 +188,7 @@ get_header();
             </div>
             <div class="col-11 text-left">
                 <h5>
-                  Founded in 1971, American Group's experienced team of over 100 professionals manages ten real estate investment vehicles.
+                  Founded in 1971, American Group's experienced team of over 100 professionals manages ten real estate investment fimds and a REIT.
                 </h5>
             </div>
           </div>
@@ -198,7 +198,7 @@ get_header();
             </div>
             <div class="col-11 text-left">
                 <h5>
-                  American Group invested in, manages, or owns over $1 billion in real estate nationwide with over $63 million aggregate funds raised across our programs.
+                  American Group invested in, manages, and owns over $1 billion in real estate nationwide with over $63 million from investors.
                 </h5>
             </div>
           </div>
@@ -208,7 +208,7 @@ get_header();
             </div>
             <div class="col-11 text-left">
                 <h5>
-                Since its inception, American Group has returned 567% of money invested in real estate to investors.
+                  The American Group has returned an average 567% of money invested in real estate to our investors.
                 </h5>
             </div>
           </div>

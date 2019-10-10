@@ -17,7 +17,7 @@ get_header();
             American Group Investments
           </h1>
           <p>
-            Build wealth by investing in cash flowing Opportunity Funds
+            Build wealth by investing in IDEAL&trade; cash flowing Real Estate
           </p>
         </div>
         <svg class="svg-diagonal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -32,7 +32,7 @@ get_header();
           Our Current Offerings
         </h3>
         <p class="mb-5">
-          American Group Opportunity Funds create wealth by investing in cash-flowing apartment buildings and other mixed-use assets in Qualified Opportunity Zones. Our focus is on long-term capital appreciation from the renovation, development and repositioning of multi-family properties in high growth locations.
+          American Group Opportunity Funds create wealth by investing in IDEAL&trade; apartment buildings and other assets in Qualified Opportunity Zones. Our focus is on long-term capital appreciation from the renovation, development and repositioning of multi-family and other properties in high-growth locations.
         </p>
         <a class="img-link-2 box-shadow hover-float investment-container d-flex justify-content-center w-100 mb-5" href="/offering">
         <div class="left-bar-red--investments"></div>  
@@ -40,7 +40,7 @@ get_header();
           <div class="img-link-2--gradient-dark d-flex justify-content-center">
             <div class="align-self-center text-center">
                 <h3 class="color-white">AAAmerican Opportunity Fund</h3>
-                <p class="color-white">A long term growth fund seeking to maximize tax efficiency</p>
+                <p class="color-white">A long term growth fund seeking to maximize tax benefits</p>
                 <button class="button-custom">Learn More</button>
               </div>
           </div>
@@ -68,7 +68,7 @@ get_header();
       <!-- Section Investment Process -->
 
       <section class="container invest-process text-center pb-0">
-        <h1>Investment Process</h1>
+        <h1>Investment Process<br/>For Accredited Investors</h1>
         <div class="row pt-5 d-flex justify-content-center text-left">
           <div class="col-2 col-md-1 mr-5">
               <h1 class="big-font big-font--invest">1</h1>
@@ -94,7 +94,7 @@ get_header();
               <h1 class="big-font big-font--invest">3</h1>
           </div>
           <div class="col-7 pl-0">
-              <h3>American Group will contact you to arrange placement</h3>
+              <h3>American Group will arrange your placement</h3>
               <p class="">
                 A member of the American Group team will personally reach out 
                 to qualified investment candidates to discuss specific details &amp; next steps.

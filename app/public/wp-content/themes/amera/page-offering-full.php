@@ -17,7 +17,7 @@ get_header();
       <header class="header-primary header-offering2 d-flex align-items-center">
         <div class="container">
           <div class="investment-tag-2 text-center mb-4">
-            Accepting Investments 
+            Now Accepting Investments 
           </div>
           <h1 class="mb-3">
             AAAmerican Opportunity Fund
@@ -41,15 +41,15 @@ get_header();
                     <div class="col-6">
                       <h5>10+ years</h5>
                       <p>Hold Period</p>
-                      <h5>Growth</h5>
+                      <h5>Growth & Income</h5>
                       <p>Investment Type</p>
-                      <h5>Income Property: Primarily Multifamily</h5>
+                      <h5>Income Property:<br/>Primarily Multifamily</h5>
                       <p>Asset Type</p>
                     </div>
                     <div class="col-6">
                       <h5>Development &amp; <br/>Existing Value-Add</h5>
                       <p>Investment Profile</p>
-                      <h5>9% simple / 90%</h5>
+                      <h5>100% + 9% simple / 90%</h5>
                       <p>Preferred return / Thereafter</p>
                       <h5>$100,000</h5>
                       <p>Minimum Investment</p>
@@ -62,13 +62,13 @@ get_header();
                 </h3>
                 <div class="separator-gradient mb-3"></div>
                 <p>
-                  The AAAmerican Opportunity Fund seeks to acquire high-quality real estate properties located in designated Opportunity Zones that have strong long-term growth potential. The Fund intends to meet the requirements necessary to qualify as an Opportunity Fund as defined in the Tax Cuts and Jobs Act of 2017 in order to avail investors of the substantial tax-related benefits provided under the bill.
+                  The AAAmerican Opportunity Fund seeks to acquire high-quality real estate properties located in designated Opportunity Zones that have strong long-term growth potential. The Fund intends to meet the requirements necessary to qualify as an Opportunity Fund as defined in the Tax Cuts and Jobs Act of 2017 in order to avail investors of the substantial tax-related benefits provided under the law.
                 </p>
                 <p>
-                  The Fund is managed by American Group, a dba for American Consolidated Inc., and a term which has come to include its sister corporation, Cal American Corp. and their subsidiary corporations and partnerships. As of 2019, American Group, as a sponsor, has originated and invested in real estate with an aggregate value of over $1 billion, and has managed ten proprietary real estate investment vehicles.
+                  The Fund is managed by American Group, a dba for American Consolidated Inc., and a term which includes its sister corporation, Cal American Corp. and some 50 corporations and partnerships. As of 2019, American Group, has invested in real estate with an aggregate value of over $1 billion, and has managed ten proprietary real estate investment funds.
                 </p>
                 <p>
-                  The Fund anticipates an investment term of no less than 10 years in order to capture the full tax benefits offered under the tax code for Opportunity Funds.
+                  The AAAmerican Fund anticipates an investment term of no less than 10 years in order to capture the full tax benefits offered under the tax code for Opportunity Funds.
                 </p>
                 <h3>
                   The Investment
@@ -78,29 +78,29 @@ get_header();
                   The Tax Cuts and Jobs Act of 2017 created significant tax benefits to encourage long-term investments in low-income urban and rural communities. These benefits include permanent exclusion from taxable income if the investment is held for at least 10 years, and deferrment and reduction of taxes for investors with qualifying capital gains.
                 </p>
                 <p>
-                  Following the capital raise for its initial Opportunity Fund, a single asset vehicle, American Group heard from its investor community that many investors prefer to invest into diversified vehicles for a variety of reasons including mitigating risks and providing tax-free dispursements of 10-15% to assist payment of taxes in 2027.
+                  During the capital raise for its initial Opportunity Fund, The American Group heard from its investor community that many investors prefer to invest into diversified vehicles for a variety of reasons including mitigating risks, liquidity and providing tax-free dispursements of 15% to assist payment of their current taxes in 2027.
                 </p>
                 <p class="strong">
                 American Group developed the AAAmerican Opportunity Fund with the intent to:
                 </p>
                 <ul class="ul-offering-full">
                   <li>
-                    Provide an investment option that targets commercial real estate ("CRE") to generate income, capital appreciation, mortgage reduction and tax benefits, by leveraging American Group's expertise and proprietary investment strategy.
+                    Provide an investment option that targets commercial real estate ("CRE") to generate income, capital appreciation, mortgage reduction and tax benefits, by leveraging American Group's expertise and proprietary IDEAL&trade; investment strategy.
                   </li>
                   <li>
-                    Allow investors with qualifying capital gains from within the last 180 days to invest in a Qualified Opportunity Fund ("QOF") to take advantage of tax benefits.
+                    Allow investors with qualifying capital gains within the last 180 days to invest in a Qualified Opportunity Fund ("QOF") to take advantage of extraordinary new tax benefits.
                   </li>
                   <li>
-                    Diversify the real estate portfolios across several opportunity zone properties.
+                    Diversify the real estate portfolios across several opportunity zones.
                   </li>
                   <li>
-                    Provide investors an avenue to easily deploy qualifying capital gains within their 180 day reinvestment requirement.
+                    Provide investors a vehicle to easily and responsibly deploy qualifying capital gains within the required 180 day reinvestment period allowed by law.
                   </li>
                   <li>
                     Leverage American Group's team of experienced commercial real estate professionals to identify and evaluate investments.
                   </li>
                   <li>
-                    Provide 10-15% of investment as capital dispursement to assist with tax expense in 2027
+                    Provide 15% of investment as tax-free capital dispursement to assist with tax payment in 2027
                   </li>
                 </ul>
                 <nav>
@@ -117,16 +117,16 @@ get_header();
                   <div class="tab-pane fade show active" id="key-points" role="tabpanel" aria-labelledby="key-points">
                     <ul class="pt-3">
                       <li>
-                        <strong>Diversified Opportunity Zone Access:</strong> The Fund will target select CRE investments located in qualified opportunity zones ("QOZ").
+                        <strong>Diversified Opportunity Zone Access:</strong> The Fund will target select CRE investments in qualified opportunity zones ("QOZ").
                       </li>
                       <li>
-                        <strong>Identified Target Investment:</strong> The Fund has reserved investment allocations for select offmarket properties across the US, including a class-A multifamily redevelopment in FL.
+                        <strong>Identified Target Investment:</strong> The Fund has reserved investment allocations for select properties across the US.
                       </li>
                       <li>
-                        <strong>Terms: </strong> The Fund will provide a preferred return for investors. Investors receive 100% of their investment plus 9% simple first money out. Management receives a matching 9%. Thereafter, investors receive 90% of the remaining profits, at Management receives 10%.
+                        <strong>Terms: </strong> The Fund will provide a preferred return for investors. Investors receive 100% of their investment plus 9% simple first money out. Management receives a matching 9% simple. Thereafter, investors receive 90% of the remaining profits, Management receives 10%.
                       </li>
                       <li>
-                        <strong>Investment Strategy:</strong> The Fund will leverage proprietary research data to target select "Secondary Cities" with superior opportunity zones. The Managing Member ("MMBR") believes this strategy aligns well with attractive opportunities and can result in exceptional deal flow for investors in the AAAmerican Opportunity Fund.
+                        <strong>Investment Strategy:</strong> The Fund will leverage proprietary research data to target select primary and "Secondary Cities" with superior opportunity zones. The Managing Member ("MMBR") believes this strategy aligns well with attractive investment opportunities and can result in exceptional deal flow for investors in the AAAmerican Opportunity Fund.
                       </li>
                       <li>
                         <strong>Tax Benefits:</strong> Investors can invest capital gains to take advantage of significant and unprecedented tax benefits including elimination of future capital gains taxes and tax deferral and reduction of existing taxes.
@@ -141,7 +141,7 @@ get_header();
                   </div>
                   <div class="tab-pane fade" id="distribution" role="tabpanel" aria-labelledby="nav-profile-tab">
                     <h5 class="mt-4">
-                      Distribution of Available Cash from Project Entity
+                      Distribution of Available Cash from AAAmerican Opportunity Fund
                     </h5>
                     <table class="dist-table w-100">
                       <thead>
@@ -149,7 +149,7 @@ get_header();
                           <td>Priority</td>
                           <td></td>
                           <td>Investors&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                          <td>Promote</td>
+                          <td>Manager</td>
                         </tr>
                       </thead>
                       <tbody>
@@ -177,7 +177,7 @@ get_header();
                       Distributions are made at the sole discrition of the MMBR.
                     </p>
                     <p>
-                      Distributions are paid as available, occuring after fund achieves tax-free status from a 10 year hold as outlined by the <a href="/opportunity-fund">Opportunity Zone program.</a>
+                      Distributions are paid as available, occuring after Investor achieves tax-free status from a 10 year hold as outlined by the <a href="/opportunity-fund">Opportunity Zone program.</a>
                     </p>
                   </div>
                   <div class="tab-pane fade" id="org-chart" role="tabpanel" aria-labelledby="nav-contact-tab">
@@ -193,22 +193,22 @@ get_header();
                 </h3>
                 <div class="separator-gradient mb-3"></div>
                 <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/renderings/rendering-1.jpg"/>
-                <figcaption>Development under construction, from American Group's previous Opportunity Fund, 1 American Elite.</figcaption>
+                <figcaption>Property under development from American Group's previous Opportunity Fund, 1 American Elite.</figcaption>
                 <p class="mt-4">
-                  The Fund’s investment goals are to provide investors with the ability to participate in a diversified range of real estate development or existing projects that will offer current cash flow, the opportunity for capital appreciation and to take advantage of the tax benefits offered by the Opportunity Zone Program.
+                  The Fund’s investment goals are to provide investors with the ability to participate in a diversified range of real estate development or existing projects that will offer attractive cash flow, the opportunity for capital appreciation and to take advantage of the tax benefits offered by the new Opportunity Zone law.
                 </p>
                 <p>
-                  American Group has qualified the most attractive opportunity zone markets based on recent demographic and economic growth. Specifically, the qualifying criteria for the most attractive opportunity zones are based on average household income, population and employment growth. Some of the most attractive opportunity zone markets according to our demographic and economic analysis are in Florida, Texas, and Virginia.
+                  American Group has identified the most attractive opportunity zone markets based on recent demographic and economic growth. Specifically, the qualifying criteria for the most attractive opportunity zones are based on average household income, population and employment growth. Some of the most attractive opportunity zone markets according to our demographic and economic analysis are in Florida, Texas, Arizona and Virginia.
                 </p>
                 <p>
-                  The Fund will generally target the most attractive opportunity zone markets that demonstrate above-average urban population growth and offer a lower cost of living and lower cost of doing business in comparison to gateway cities such as New York or Los Angeles. American has been tracking these "Secondary Cities", measuring the growth of millennial population, influx of institutional capital and employment growth.
+                  The Fund will generally target the most attractive opportunity zone markets that demonstrate above-average urban population growth and offer a lower cost of living and lower cost of doing business in comparison to high priced cities such as New York or Los Angeles. American has been tracking these "Secondary Cities", measuring the growth of the millennial population, influx of institutional capital and employment growth.
                 </p>
                 <p>
                   We have identified target markets that are aligned with macroeconomic and demographic trends that we believe support excellent Opportunity Zone investments: above average growth in population, income and employment.
                 </p>
                 <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/img/svg/svg-usa-2.svg" />
                 <p>
-                  The Fund will attempt to construct a portfolio that produces stable and attractive returns by spreading risk across different Investments. To the extent that American Group can meet with Qualified Opportunity Fund requirements under the Code, the Fund’s portfolio composition may vary from what it initially expects. 
+                  The Fund will attempt to construct a portfolio that produces stable and attractive returns by spreading risk across different investments and locations. To the extent that American Group can meet with Qualified Opportunity Fund requirements under the Code, the Fund’s portfolio composition may vary from what it initially expects. 
                 </p>
                 <p>
                   American Group maintains discretion concerning the selection of specific Investments. In selecting a potential Investment, the American Group real estate experts will consider a number of factors, including, but not limited to, the following:
@@ -256,16 +256,16 @@ get_header();
                 </p>
                 <ul class="ul-offering-full">
                 <li>
-                Seek commercial real estate (CRE) investments that generate value through ground-up development and redevelopment, and generate stable income upon asset stabilization.
+                Seek commercial real estate (CRE) investments that generate value through ground-up development and redevelopment, and generate growing income upon asset stabilization.
                 </li>
                 <li>
                 Maximize tax benefits by making timely investments and abiding by regulated guidelines of operating as a Qualified Opportunity Fund.
                 </li>
                 <li>
-                Create a diversified portfolio of investments all within an opportunity zone designed to spur economic growth in communities of economic distress.
+                Create a diversified portfolio of investments all within an opportunity zone designed to spur economic growth in communities of low economic performance.
                 </li>
                 <li>
-                Provide a tax-free distribution of 10-15% investors' contribution for their tax liability in 2027.
+                Provide a tax-free distribution of 15% investors' contribution for their tax liability in 2027.
                 </li>
                 </ul>
               </div>

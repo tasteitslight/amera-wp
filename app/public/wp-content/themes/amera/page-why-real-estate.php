@@ -15,7 +15,7 @@ get_header();
         <div class="container text-center">
           <h1>Why Invest in Real Estate?</h1>
           <p class="text-center">
-              Real Estate is a distinct asset class that can enhance the risk &amp; return of your portfolio.
+              Real Estate is a distinct asset class that can reduce the risk &amp; enhance the return of your portfolio.
             </p>
         </div>
         <svg class="svg-diagonal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -36,7 +36,7 @@ get_header();
             <div class="col-12 col-sm-6">
               <h1>Over 145 Years</h1>
               <p>
-                Real Estate outperforms stocks &amp; bonds with 53% less risk than stocks.
+                Real Estate outperforms stocks &amp; bonds<br/>with 53% less risk than stocks.
               </p>
             </div>
             <div class="col-12 col-sm-6 pt-3 pt-sm-0 text-left text-sm-right">
@@ -54,7 +54,7 @@ get_header();
             <div class="col-12 col-sm-6">
               <h1>Over 20 Years</h1>
               <p>
-                Real Estate beat S&amp;P 500 by 255%
+                Real Estate beat S&amp;P 500 by 2.5x
               </p>
             </div>
             <div class="col-12 col-sm-6 pt-3 pt-sm-0 text-left text-sm-right">
