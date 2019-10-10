@@ -72,7 +72,7 @@ get_header();
             <div class="col-12 col-sm-6">
               <h1>First Quarter 2019</h1>
               <p>
-                Real Estate emerges as major player in stock market's best recent period.
+                Real Estate emerges as major player in stock market's most recent period.
               </p>
             </div>
             <div class="col-12 col-sm-6 pt-3 pt-sm-0 text-left text-sm-right">
