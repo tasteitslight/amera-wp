@@ -69,7 +69,7 @@ get_header();
             Portfolio
           </h1>
           <div class="row my-5">
-            <div class="col-3">
+            <div class="col-12 col-sm-3 mb-5 mb-sm-0">
               <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
                 <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
                 <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#dadada" stroke-width="4"></circle>
@@ -79,7 +79,7 @@ get_header();
                 <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#00b6ff" stroke-width="4" stroke-dasharray="56 44" stroke-dashoffset="-37"></circle>
               </svg>
             </div>
-            <div class="col-4 portfolio-table">
+            <div class="col-12 col-sm-4 portfolio-table">
               <h3>BY LOCATION</h3>
                 <div class="row border-bottom">
                   <div class="col-7">
@@ -138,7 +138,7 @@ get_header();
             </div>
           </div>
           <div class="row my-5">
-            <div class="col-3">
+            <div class="col-12 col-sm-3 mb-5 mb-sm-0">
               <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
                 <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
                 <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#dadada" stroke-width="4"></circle>
@@ -148,7 +148,7 @@ get_header();
                 <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#00b6ff" stroke-width="4" stroke-dasharray="1 99" stroke-dashoffset="-10"></circle>
               </svg>
             </div>
-            <div class="col-4 portfolio-table">
+            <div class="col-12 col-sm-4 portfolio-table">
                 <h3>BY PROPERTY TYPE</h3>
                   <div class="row border-bottom">
                     <div class="col-7">
