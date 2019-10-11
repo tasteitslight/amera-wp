@@ -61,22 +61,36 @@ background-position: 50% 50%;
   background-blend-mode: hard-light;
 }
 
-.header-article-2 {
+.header-article-benefits {
   background: 
-  linear-gradient(to top, rgba(236, 255, 224, 0.8), rgba(195, 219, 255, 0.3) 100%),
-  url("/wp-content/themes/amera/assets/img/hero/article.jpg");
+  linear-gradient(90deg, rgba(52, 147, 255,.9), rgba(52, 147, 255, 0.0) 100%),
+  url("/content/benefits.jpg");
   background-size: cover;
-  background-position: 50% 40%;
-  background-blend-mode: hard-light;
+  background-position: 50% 0%;
+}
+
+.header-article-intro {
+  background: 
+  linear-gradient(90deg, rgba(52, 147, 255,.9), rgba(52, 147, 255, 0.0) 100%),
+  url("/content/intro.jpg");
+  background-size: cover;
+  background-position: 50% 0%;
+}
+
+.header-article-mpt {
+  background: 
+  linear-gradient(90deg, rgba(52, 147, 255,.9), rgba(52, 147, 255, 0.0) 100%),
+  url("/content/mpt.jpg");
+  background-size: cover;
+  background-position: 50% 0%;
 }
 
 .header-articles {
-  background: 
-  linear-gradient(to top, rgba(222, 250, 255, 0.808), rgba(187, 217, 255, 0.1) 100%),
+  background:
+  linear-gradient(90deg, rgba(52, 147, 255,.9), rgba(52, 147, 255, 0.0) 100%), 
   url("/wp-content/themes/amera/assets/img/hero/articles.jpg");
   background-size: cover;
   background-position: 40% 20%;
-  background-blend-mode: hard-light;
 }
 
 .header-faq {

@@ -12,15 +12,15 @@ get_header();
 <main role="main">
     
       <!-- Header -->
-      <header class="header-primary header-article-2 d-flex align-items-center justify-content-center">
+      <header class="header-primary header-article-intro d-flex align-items-center justify-content-center">
         <div class="container text-left">
-          <h6 class="font-source">
+          <h6 class="font-source color-white">
             Opportunity Funds
           </h6>
           <h1>
             Start Here: An Introduction To Opportunity Zones
           </h1>
-          <h6 class="font-source">
+          <h6 class="font-source color-white">
             American Group Staff, October 19, 2019
           </h6> 
         </div>
@@ -34,9 +34,9 @@ get_header();
       <section class="container position-relative my-5">  
         <div class="row">
           <div class="col-md-1 sidebar-sticky-2 text-center mt-2">
-            <a class="d-inline-block footer-social footer-social-email my-1" href="#"></a>
-            <a class="d-inline-block footer-social footer-social-twitter my-1" href="#"></a>
-            <a class="d-inline-block footer-social footer-social-fb my-1 mb-3" href="#"></a>
+          <a class="d-inline-block footer-social footer-social-email my-1" href="mailto:example@email.com?&cc=&bcc=&subject=I think you'll like this article about Opportunity Funds&body="></a>
+            <a class="d-inline-block footer-social footer-social-twitter my-1" href="https://twitter.com/home?status=https://americangroup.us/articles/benefits-of-opportunity-fund-investing/ "></a>
+            <a class="d-inline-block footer-social footer-social-fb my-1 mb-3" href="https://www.facebook.com/sharer/sharer.php?u=https://americangroup.us/articles/benefits-of-opportunity-fund-investing/"></a>
           </div>
           <div class="col-12 col-md-8">
             <h5>
@@ -122,23 +122,23 @@ get_header();
             </p>
           </div>
           <div class="col-12 col-sm-6 col-md-3 article-sidebar sidebar-sticky-2 mb-2">
-            <div class="">
-              <h5 class="">
+            <div>
+              <h5>
                 Related
               </h5>
               <div class="separator-gradient mb-3"></div>
-              <div class="article-sidebar--article pb-2">
-                <img src="<?php bloginfo('template_directory'); ?>/assets/img/resources/1.jpg" class="border-radius box-shadow" />
-                <h6 class="pt-2">
-                  Article Name
+              <a href="/articles/benefits-of-opportunity-zone-investing" class="article-sidebar--article">
+                <img src="<?php home_url(); ?>/content/benefits.jpg" class="border-radius box-shadow" />
+                <h6 class="pt-2 font-georgia color-black">
+                The Benefits of Opportunity Zone Investing
                 </h6>
-              </div>
-              <div class="article-sidebar--article">
-                <img src="<?php bloginfo('template_directory'); ?>/assets/img/resources/2.jpg" class="border-radius box-shadow" />
-                <h6 class="pt-2">
-                  Article Name
+              </a>
+              <a href="/articles/modern-portfolio-theory-why-you-should-invest-in-real-estate" class="article-sidebar--article">
+                <img src="<?php home_url(); ?>/content/mpt.jpg" class="border-radius box-shadow" />
+                <h6 class="pt-2 font-georgia color-black">
+                  Modern Portfolio Theory & Real Estate
                 </h6>
-              </div>
+              </a>
             </div>
           </div>
         </div> 

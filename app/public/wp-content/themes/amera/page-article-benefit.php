@@ -12,15 +12,15 @@ get_header();
 <main role="main">
     
       <!-- Header -->
-      <header class="header-primary header-article-2 d-flex align-items-center justify-content-center">
+      <header class="header-primary header-article-benefits d-flex align-items-center justify-content-center">
         <div class="container text-left">
-          <h6 class="font-source">
+          <h6 class="font-source color-white">
             Opportunity Funds
           </h6>
           <h1>
-            The Benefits of Opportunity Fund Investing
+            The Benefits of Opportunity Zone Investing
           </h1>
-          <h6 class="font-source">
+          <h6 class="font-source color-white">
             American Group Staff, September 19, 2019
           </h6> 
         </div>
@@ -129,23 +129,23 @@ get_header();
             <p>
           </div>
           <div class="col-12 col-sm-6 col-md-3 article-sidebar sidebar-sticky-2 mb-2">
-            <div class="">
-              <h5 class="">
+            <div>
+              <h5>
                 Related
               </h5>
               <div class="separator-gradient mb-3"></div>
-              <div class="article-sidebar--article pb-2">
-                <img src="<?php bloginfo('template_directory'); ?>/assets/img/resources/1.jpg" class="border-radius box-shadow" />
-                <h6 class="pt-2">
-                  Article Name
+              <a href="/articles/intro-to-opportunity-zones" class="article-sidebar--article pb-2">
+                <img src="<?php home_url(); ?>/content/intro.jpg" class="border-radius box-shadow" />
+                <h6 class="pt-2 font-georgia color-black">
+                An Introduction To Opportunity Zones
                 </h6>
-              </div>
-              <div class="article-sidebar--article">
-                <img src="<?php bloginfo('template_directory'); ?>/assets/img/resources/2.jpg" class="border-radius box-shadow" />
-                <h6 class="pt-2">
-                  Article Name
+              </a>
+              <a href="/articles/modern-portfolio-theory-why-you-should-invest-in-real-estate" class="article-sidebar--article">
+                <img src="<?php home_url(); ?>/content/mpt.jpg" class="border-radius box-shadow" />
+                <h6 class="pt-2 font-georgia color-black">
+                  Modern Portfolio Theory & Real Estate
                 </h6>
-              </div>
+              </a>
             </div>
           </div>
         </div> 

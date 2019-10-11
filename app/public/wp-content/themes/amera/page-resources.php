@@ -47,47 +47,47 @@ get_header();
         <h2 class="text-center py-5">
           Featured Articles
         </h2>
-        <a class="img-link" href="#">
-          <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/taxadvantage.jpg"/>
-          <div class="img-link--gradient-dark d-flex justify-content-center">
+        <a class="img-link hover-float" href="/articles/intro-to-opportunity-zones">
+          <img class="img-link--img" src="<?php home_url(); ?>/content/intro.jpg"/>
+          <div class="img-link--gradient-dark-2 d-flex justify-content-center">
             <div class="my-auto">
-              Featured Article Name
+              Start Here: An Introduction To Opportunity Zones
             </div>
           </div>
         </a>
         <div class="row my-5">
-          <div class="col-sm-6">
-            <a class="img-link" href="#">
-              <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/resources/1.jpg"/>
+          <div class="col-sm-6 hover-float">
+            <a class="img-link" href="/articles/benefits-of-opportunity-zone-investing">
+              <img class="img-link--img" src="<?php home_url(); ?>/content/benefits.jpg"/>
               <div class="d-flex justify-content-center"> <!-- img-link--gradient for gradients over image-->
                 <!-- <div class="my-auto"> Overlay Text </div> -->
               </div>
             </a>
             <h6 class="pt-4">
-              Article Category
+              Opportunity Funds
             </h6>
             <h4>
-              Top 5 Generic Blog Article Titles
+             The Benefits of Opportunity Zone Investing
             </h4>
             <p>
-              This is a short blip of text from the beginning of the article...
+              Learn why Opportunity Funds are such an attractive investment option for Capital Gains...
             </p>
           </div>
-          <div class="col-sm-6">
-            <a class="img-link" href="#">
-              <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/resources/2.jpg"/>
+          <div class="col-sm-6 hover-float">
+            <a class="img-link" href="/articles/modern-portfolio-theory-why-you-should-invest-in-real-estate">
+              <img class="img-link--img" src="<?php home_url(); ?>/content/mpt.jpg"/>
               <div class="d-flex justify-content-center"> <!-- img-link--gradient for gradients over image-->
                 <!-- <div class="my-auto"> Overlay Text </div> -->
               </div>
             </a>
             <h6 class="pt-4">
-              Article Category
+              Investing
             </h6>
             <h4>
-              Top 5 Generic Blog Article Titles
+              Modern Portfolio Theory & Why You Should Invest in Real Estate
             </h4>
             <p>
-              This is a short blip of text from the beginning of the article...
+              What is Modern Portfolio Theory? Today we'll explain the origins of this fundamental...
             </p>
           </div>
         </div>
