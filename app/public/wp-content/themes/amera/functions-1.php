@@ -197,19 +197,3 @@ function style_or_min_style() {
         echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/style.css" />';
    }
 }
-
-// Custom Login Page
-
-function amera_login_logo() { ?>
-  <style type="text/css">
-    #login h1 a, .login h1 a {
-      background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo/logo-american-group.png);
-      height:182px;
-	  	width:200px;
-      background-size: 200px 182px;
-      background-repeat: no-repeat;
-      padding-bottom: 30px;
-    }
-  </style>
-<?php }
-add_action( 'login_enqueue_scripts', 'amera_login_logo' );
