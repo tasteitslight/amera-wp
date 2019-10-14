@@ -106,18 +106,9 @@
       <div class="tab-content" id="pills-tabContent">
         <div class="tab-pane fade" id="pills-signin" role="tabpanel" aria-labelledby="pills-signin-tab">
           
-          <form class="" id="login" action="login" method="post">              
-            <p class="status"></p>
-            <label for="username">Email</label>
-            <input id="username" type="text" name="username">
-            <label for="password">Password</label>
-            <input id="password" type="password" name="password">
-            <br/>
-            <a class="lost" href="<?php echo wp_lostpassword_url(); ?>">Lost your password?</a>
-            <br/>
-            <input class="submit_button" type="submit" value="Submit" name="submit">
-            <?php wp_nonce_field( 'ajax-login-nonce', 'security' ); ?>
-          </form>
+        <!-- Insert Signin Form Here -->
+
+        <?php get_template_part('ajax', 'signin'); ?>    
 
         </div>
         <div class="tab-pane fade" id="pills-signup" role="tabpanel" aria-labelledby="pills-signup-tab">

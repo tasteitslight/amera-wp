@@ -11,6 +11,7 @@ jQuery(document).ready(function ($) {
       firstname = '';
       lastname = '';
       security = $('form#login #security').val();
+
 		if ($(this).attr('id') == 'register') {
 			action = 'ajaxregister';
 			username = $('#email').val();
@@ -19,7 +20,8 @@ jQuery(document).ready(function ($) {
       firstname = $('#fname').val();
       lastname = $('#lname').val();
       security = $('#signonsecurity').val();	
-		}  
+    }  
+    
 		ctrl = $(this);
 		$.ajax({
             type: 'POST',
