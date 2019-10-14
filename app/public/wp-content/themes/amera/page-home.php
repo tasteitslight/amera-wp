@@ -73,7 +73,7 @@ get_header();
       <section class="container-fluid bg-grey border-top py-5">
         <div class="container text-center home-video-container">
         <!--<a id="video-img" onclick="toggle_visibility('video-img');"><img src="<?php bloginfo('template_directory'); ?>/assets/img/general/iso-1.png" width="100%" /></a>-->
-        <iframe id="video-iframe" src="https://www.youtube.com/embed/gqUgr4purTU?rel=0&modestbranding=1&autohide=1&fs=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe id="video-iframe" src="https://www.youtube.com/embed/gnoU7EppUAI?rel=0&modestbranding=1&autohide=1&fs=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>  
           
       </section><!-- /container --> 
