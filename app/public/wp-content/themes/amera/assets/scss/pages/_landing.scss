@@ -55,3 +55,51 @@ hr.landing {
 .cardbody.landing {
   background-color: $backgroundLanding;
 }
+
+li.nav-item:hover {
+  background-color: transparent !important;
+}
+
+.landing-pills li {
+  padding:0px;
+  margin-bottom:10px;
+}
+
+.landing-pills li a.nav-link{
+  background-color: #efefef;
+  border-radius:2px;
+  border: 1px white solid;
+}
+
+.landing-gold-std .card{
+  background-color: transparent;
+  border:none;
+}
+
+.landing-gold-std .card-body {
+  text-align: center;
+}
+
+.landing-gold-std h4 {
+  font-family: 'Source Sans', sans-serif;
+  text-transform: uppercase;
+  color: $bluePrime;
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
+.landing-calculator .calc__col--spacer {
+  background-color: white;
+}
+
+.landing-calculator .calc__col {
+  background-color: white !important;
+}
+
+.landing-calculator .calc__row.bg-grey .calc__col {
+  background-color: transparent !important;
+}
+
+.landing-calculator .calc__row--sticky {
+  top:79px;
+}
