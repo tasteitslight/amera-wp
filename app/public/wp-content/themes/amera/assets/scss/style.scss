@@ -30,6 +30,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import 'components/login-modal'; //imports _login-modal.scss from the /components/ directory
 @import 'components/calculator'; //imports _calculator.scss from the /components/ directory
 @import 'pages/opportunity-fund'; //imports _opportunity-fund.scss from the /components/ directory
+@import 'pages/landing'; //imports _opportunity-fund.scss from the /components/ directory
 
 
 html {
@@ -44,6 +45,10 @@ html {
   border-bottom: 1px solid $borderDark;
 }
 
+.border-bottom--light {
+  border-bottom: 1px solid #fff;
+}
+
 .border-bottom--bold {
   border-bottom: 1px dashed #8b8b8b;
 }
@@ -54,6 +59,10 @@ html {
 
 .border-top--darker {
   border-top: 1px solid $borderDark;
+}
+
+.border-top--light {
+  border-top: 1px solid #fff;
 }
 
 .border-all {
@@ -772,6 +781,18 @@ img.img--stat {
 @media (min-width: 768px) {
   .how-to-invest-header {
     top:58px;
+    z-index: 1000;
+  }
+}
+
+.landing-sticky-header {
+  color: white;
+  padding: 20px 0px;
+  box-shadow: $boxShadow;
+}
+
+@media (min-width: 768px) {
+  .landing-sticky-header {
     z-index: 1000;
   }
 }

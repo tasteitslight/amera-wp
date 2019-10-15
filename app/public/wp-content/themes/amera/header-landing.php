@@ -123,5 +123,5 @@
   </div><!-- end modal-dialog -->
 </div><!-- end modal -->
 
-<div id="page landing" class="site">
+<div id="page landing" class="site bg-landing">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'amera' ); ?></a>

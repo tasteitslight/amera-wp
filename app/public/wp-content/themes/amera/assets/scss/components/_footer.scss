@@ -9,6 +9,13 @@ footer a:hover {
   margin-bottom: -40px !important;
 }
 
+.footer-container-fluid--landing {
+  padding-top:40px;
+  background-color: $backgroundDarkGrey;
+  color: $fontLightFooter;
+  margin-bottom: -40px !important;
+}
+
 .footer-email {
   border-top: 1px #C7CCD2 solid;
   border-bottom: 1px #C7CCD2 solid;

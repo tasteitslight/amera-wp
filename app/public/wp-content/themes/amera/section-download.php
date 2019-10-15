@@ -2,7 +2,7 @@
   <hr class="pb-5" />
   <div class="row mb-5">
     <div class="col-12 col-sm-8 order-2 order-sm-1 text-right">
-      <h3>Opportunity Zone Investor Handbook</h3>
+      <h3>Opportunity Zone Investment Guide</h3>
       <p>
         Learn about our offering and get an<br/>overview of the Opportunity Zone Program with this guide.
       </p>

@@ -91,7 +91,6 @@ get_header();
           </p>
           <img src="<?php bloginfo('template_directory'); ?>/assets/img/logo/CNN-Business-01.svg" style="width:100px;"/>
         </div>  
-          
       </section><!-- /container --> 
 
       <!-- Now Accepting Investors  -->

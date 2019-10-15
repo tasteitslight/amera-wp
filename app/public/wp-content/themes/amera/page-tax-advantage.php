@@ -39,43 +39,7 @@ get_header();
         </div>
       </section> <!-- /container -->
 
-      <section class="container-fluid bg-grey border-top section-advantage">
-        <div class="container position-relative ">
-          <div class="position-absolute test-absolute font-source color-white bg-blue align-middle">
-            <h3 class="">Advantage 1</h3>
-          </div>
-          <div class="advantage-text">
-            <h1 class="pb-2 pb-sm-3">Elimination</h1>
-            <p class="color-dark">
-              <span style="font-weight: 700">
-              If an opportunity fund investment is held for at least 10 years, there is no federal capital gains tax due on any profits from it's sale.
-              </span>
-            </p>
-            <p>
-            This is by far the biggest benefit of the opportunity zones program, and the #1 reason why Treasury Secretary Steven Mnuchin expects <a href="https://thehill.com/hilltv/rising/408980-mnuchin-predicts-100b-in-cap-investment-from-new-opportunity-zones">more than $100 billion in investments</a> to flow to opportunity zones as a result of this program. (This ~$100 billion will push up the value of early QOZ investments.)
-            </p>  
-          </dv>
-        </div>
-      </section>
-
-      <section class="container-fluid border-top section-advantage">
-        <div class="container position-relative ">
-          <div class="position-absolute test-absolute font-source color-white bg-red align-middle">
-            <h3 class="">Advantage 2</h3>
-          </div>
-          <div class="advantage-text">
-            <h1 class="pb-2 pb-sm-3">Deferral &amp; Reduction</h1>
-            <p class="color-dark">
-              <span style="font-weight: 700">
-                Any capital gain invested into an opportunity fund within 180 days of realization will be tax deferred. This current capital gain tax obligation is reduced 15% when paid in 2027 (with inflated dollars).
-              </span>
-            </p>
-            <p>
-              An investor with capital gains from any source, such as the sale of stock, real estate, jewelry, artwork, etc. is not required to pay taxes on that gain until 2027 if it is placed into an Opportunity Fund. When paid in 2027, this original capital gain tax is reduced 15% and paid in inflated dollars. <a href="/opportunity-fund#example">Click here for an example.</a>
-            </p>  
-          </dv>
-        </div>
-      </section>
+      
 
       <section class="container-fluid gradient-gtw border-top text-center py-5">
         <h1 class="pb-5">Timeline</h1>
