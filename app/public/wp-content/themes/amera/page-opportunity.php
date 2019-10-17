@@ -225,19 +225,12 @@ get_header('landing');
               <img class="w-75" src="<?php bloginfo('template_directory'); ?>/assets/img/general/aerial.jpg" />
             </div>
           </div>
-
-
         </div>      
-      </section>
 
-      <section class="container-fluid px-0">
-        <div class="w-100 sticky-top landing-sticky-header bg-blue">
-          <div class="container">
-            <h3>4 &nbsp;&nbsp;&nbsp; Tax Benefits</h3>
-          </div>
-        </div>
         <div class="container">
-          <h4 style="color: #73787F;" class="mt-5 pt-4 pb-5">
+          <div class="separator-gradient my-4"></div>
+          <h2 class="pb-2">Tax Benefits</h2>
+          <h4 style="color: #73787F;" class="pb-5">
             An investor with a captial gain from any sale (such as stocks, real estate, cars, jewelry, artwork, etc.) receives the following tax benefits if they invest that gain into an Opportunity Fund <span style="font-weight: 700; color: #33302E">within 180 days:</span>
           </h4>
           <div class="pb-5">
@@ -288,7 +281,7 @@ get_header('landing');
 
         <div class="w-100 sticky-top landing-sticky-header bg-blue">
           <div class="container">
-            <h3>5 &nbsp;&nbsp;&nbsp; Example</h3>
+            <h3>4 &nbsp;&nbsp;&nbsp; Example</h3>
           </div>
         </div>
 
@@ -368,7 +361,7 @@ get_header('landing');
       <section class="container-fluid px-0">
         <div class="w-100 sticky-top landing-sticky-header bg-blue">
           <div class="container">
-            <h3>6 &nbsp;&nbsp;&nbsp; Get Started</h3>
+            <h3>5 &nbsp;&nbsp;&nbsp; Get Started</h3>
           </div>
         </div>
         <div class="container mt-5 pt-5 text-center">
