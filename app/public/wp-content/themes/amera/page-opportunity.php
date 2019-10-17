@@ -5,7 +5,7 @@
   
  */
 
-get_header();
+get_header('landing');
 ?>
 
 <main role="main" class="">
@@ -108,7 +108,6 @@ get_header();
               <div class="separator-gradient mb-3"></div>
               <h4>10+ years</h4>
               <p>Minimum Hold Period</p>
-              <div class="d-none d-sm-block separator-gradient mb-3"></div>
             </div>
             <div class="col-12 col-sm-6">
               <div class="separator-gradient mb-3"></div>
@@ -120,9 +119,13 @@ get_header();
               <div class="separator-gradient mb-3"></div>
               <h4>Development &amp; Value-Add Existing</h4>
               <p>Investment Profile</p>
-              <div class="separator-gradient mb-3"></div>
             </div>
           </div>
+
+          <!-- Download -->
+
+          <?php get_template_part('section', 'download'); ?>
+
         </div>      
       </section>
 
@@ -223,9 +226,6 @@ get_header();
             </div>
           </div>
 
-          <!-- Download -->
-
-          <?php get_template_part('section', 'download'); ?>
 
         </div>      
       </section>
