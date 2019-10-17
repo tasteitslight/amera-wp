@@ -1,11 +1,11 @@
 <?php
 /*
 
-  Template Name: Landing
+  Template Name: Opportunity
   
  */
 
-get_header('landing');
+get_header();
 ?>
 
 <main role="main" class="">

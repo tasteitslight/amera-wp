@@ -186,10 +186,10 @@ get_header();
                   Hail Mary
                 </div>
                 <div class="col-6 col-md-5 calc__col calc__col--red">
-                  Unattractive options within 180 days
+                  Unattractive options within 180 days? IMMEDIATELY INVEST GAIN ONLY IN AAAMERICAN OZ FUND
                 </div>
                 <div class="col-6 col-md-5 calc__col calc__col--blue">
-                  Still time to invest in AAAmerican Opportunity Fund
+                  CURRENT Federal taxes on CAPITAL GAINS DISCOUNTED AND deferred until SALE
                 </div>
               </div> <!--End Row-->
             </div>

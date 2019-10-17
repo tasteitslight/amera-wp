@@ -143,9 +143,9 @@ get_header();
                 <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
                 <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#dadada" stroke-width="4"></circle>
                 <!-- unused 10% -->
-                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#f17269" stroke-width="4" stroke-dasharray="6 94" stroke-dashoffset="0"></circle>
-                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#770ce2" stroke-width="4" stroke-dasharray="4 96" stroke-dashoffset="-6"></circle>
-                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#00b6ff" stroke-width="4" stroke-dasharray="1 99" stroke-dashoffset="-10"></circle>
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#f17269" stroke-width="4" stroke-dasharray="68 32" stroke-dashoffset="0"></circle>
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#770ce2" stroke-width="4" stroke-dasharray="20 80" stroke-dashoffset="-68"></circle>
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#00b6ff" stroke-width="4" stroke-dasharray="4 96" stroke-dashoffset="-88"></circle>
               </svg>
             </div>
             <div class="col-12 col-sm-4 portfolio-table">
@@ -155,10 +155,10 @@ get_header();
                       MULTIFAMILY
                     </div>
                     <div class="col-3">
-                      2682
+                      1,988,567
                     </div>
                     <div class="col-2">
-                      89%
+                      68%
                     </div>
                   </div> 
                   <div class="row border-bottom">
@@ -166,10 +166,10 @@ get_header();
                       RETAIL
                     </div>
                     <div class="col-3">
-                      170
+                      592,072
                     </div>
                     <div class="col-2">
-                      6%
+                      20%
                     </div>
                   </div>
                   <div class="row border-bottom">
@@ -177,7 +177,7 @@ get_header();
                       OFFICE
                     </div>
                     <div class="col-3">
-                      134
+                      128,931
                     </div>
                     <div class="col-2">
                       4%
@@ -185,20 +185,20 @@ get_header();
                   </div>  
                   <div class="row border-bottom--bold">
                     <div class="col-7">
-                      MIXED/OTHER
+                      INDUSTRIAL/OTHER
                     </div>
                     <div class="col-3">
-                      42
+                      234,680
                     </div>
                     <div class="col-2">
-                      1%
+                      8%
                     </div>
                   </div>  
                   <div class="row color-grey">
                     <div class="col-7">
                      </div>
                     <div class="col-3">
-                      Units
+                      SQFT
                     </div>
                     <div class="col-2">
                       %
