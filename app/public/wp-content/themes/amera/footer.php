@@ -47,8 +47,11 @@
           <div class="col-6 col-md-3 col-lg">
             <h6>Resources</h6>
             <ul class="footer-ul">
-              <li><a class="show_login" href="#">Schedule A Call</a></li>
-              <li><a href="#">Articles</a></li>
+              <!-- Calendly link widget begin -->
+              <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+              <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+              <li><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/will-american-group/discovery-call'});return false;">Schedule A Call</a></li>
+              <li><a href="/articles">Articles</a></li>
               <li><a href="/glossary">Glossary</a></li>
               <li><a href="/faq">FAQ</a></li>
             </ul>
@@ -58,15 +61,15 @@
       <div class="container text-center footer-email">
         <div class="row">
           <div class="col-12 col-md-7 pb-3 pb-sm-0">
-            <a href="tel:310-598-7258">310-598-7258</a>
+            <a href="tel:888-945-4242">888-945-4242</a>
             <a href="mailto:invest@americangroup.us" >invest@americangroup.us</a>
           </div>
           <div class="col-12 col-md-5">
-            <a class="d-inline-block footer-social footer-social-twitter" href="#"></a>
-            <a class="d-inline-block footer-social footer-social-fb" href="#"></a>
-            <a class="d-inline-block footer-social footer-social-linkedin" href="#"></a>
-            <a class="d-inline-block footer-social footer-social-insta" href="#"></a>
-            <a class="d-inline-block footer-social footer-social-youtube" href="#"></a>
+            <a class="d-inline-block footer-social footer-social-twitter" href="https://twitter.com/americangroupre" target="_blank"></a>
+            <a class="d-inline-block footer-social footer-social-fb" href="https://www.facebook.com/americangroupre" target="_blank"></a>
+            <a class="d-inline-block footer-social footer-social-linkedin" href="https://www.linkedin.com/company/americangroupre" target="_blank"></a>
+            <a class="d-inline-block footer-social footer-social-insta" href="https://www.instagram.com/americangroupre/" target="_blank"></a>
+            <a class="d-inline-block footer-social footer-social-youtube" href="https://www.youtube.com/channel/UCuOkgyZTfWA3BjzQk47MPrA" target="_blank"></a>
           </div>
         </div>
       </div>
