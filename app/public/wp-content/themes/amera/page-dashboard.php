@@ -29,9 +29,12 @@ get_header();
           Review Fund Details
         </h3>
         <div class="row hover-float my-5 pb-5">
-          <div class="col-4">
-            <a href="/offering-full">
-              <img class="border-radius w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/resources/1.jpg"/>
+          <div class="col-4 dashboard-img">
+          <div class="left-bar-red"></div>
+            <a class="img-link" href="/offering-full">
+              <img class="img-link--img" src="<?php bloginfo('template_directory'); ?>/assets/img/hero/offering.jpg"/>
+              <div class="d-flex justify-content-center">
+              </div>
             </a>
           </div>
           <div class="col-8">
