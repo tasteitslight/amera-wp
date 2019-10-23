@@ -48,10 +48,12 @@ get_header();
           <script type="text/javascript">
           window.cfields = [];
           window._show_thank_you = function(id, message, trackcmp_url) {
+            $('#exampleModalCenter').modal('hide');
+            window.scroll(0, 0);
             var form = document.getElementById('_form_' + id + '_'), thank_you = form.querySelector('._form-thank-you');
             form.querySelector('._form-content').style.display = 'none';
             thank_you.innerHTML = message;
-            thank_you.style.display = 'block';
+            thank_you.style.display = 'none';
             if (typeof(trackcmp_url) != 'undefined' && trackcmp_url) {
               // Site tracking URL to use after inline form submission.
               _load_script(trackcmp_url);
@@ -361,11 +363,11 @@ get_header();
     </div>
   </div>
 
-        <embed 
+        <iframe 
         type="application/pdf"
-        src="https://drive.google.com/file/d/1W365ISgG3mV5YeDua8gv0MIeJuZyXo5s/preview"
+        src="https://drive.google.com/file/d/1rOLLxHUMyAxZQ9dbPax2rh_sENwhl77E/preview"
         class="w-100 pdf-term"
-        >
+        ></iframe>
 
 </div>
 

@@ -6,7 +6,7 @@
       <p>
         Learn about our offering and get an<br/>overview of the Opportunity Zone Program with this guide.
       </p>
-      <a href="<?php bloginfo('template_directory'); ?>/assets/pdf/American-Group-Opportunity-Fund-Guide-Web.pdf" target="_blank" class="button-custom mb-4">Download</a>
+      <a href="/deck" class="button-custom mb-4">View Deck</a>
     </div>
     <div class="col-12 col-sm-4 hover-rise order-1 order-sm-2 mb-3 mb-sm-0">
       <a href="<?php bloginfo('template_directory'); ?>/assets/pdf/American-Group-Opportunity-Fund-Guide-Web.pdf" target="_blank">
