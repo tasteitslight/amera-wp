@@ -21,7 +21,7 @@ get_header('landing');
             Invest in Real Estate and pay as little as $0 in Capital Gains Tax
           </p>
           <!-- AC Form -->
-          <?php get_template_part('ac', 'form'); ?>   
+          <?php get_template_part('ac', 'formLanding'); ?>   
           <div class="scroll-down"></div>
         </div>
         <svg class="svg-diagonal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
