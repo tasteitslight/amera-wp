@@ -41,7 +41,7 @@
               <li><a href="/about">About</a></li>
               <li><a href="/about#team">Team</a></li>
               <li><a href="/history">Organization</a></li>
-              <!--<li><a href="#">Press</a></li>-->
+              <li><a href="/contact">Contact</a></li>
             </ul>
           </div>
           <div class="col-6 col-md-3 col-lg">

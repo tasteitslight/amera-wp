@@ -63,6 +63,8 @@ get_header();
                     <p>Investment Profile</p>
                     <h5>$100,000</h5>
                     <p>Minimum Investment</p>
+                    <h5>1%</h5>
+                    <p>Management Fee</p>
                   </div>
                 </div>
                 <h2>

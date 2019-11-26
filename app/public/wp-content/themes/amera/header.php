@@ -214,9 +214,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       </div>
                       <div class="col-12 col-sm-6 col-lg-4 pt-2 pt-lg-0">
                         <a class="dropdown-item" href="/about">About American Group</a>
-                        <a class="dropdown-item" href="/about/#team">Meet The Team</a>
                         <a class="dropdown-item" href="/history">History &amp; Organization</a>
                         <a class="dropdown-item" href="/partners">Partners &amp; Community</a>
+                        <a class="dropdown-item" href="/contact">Contact</a>
                       </div>
                     </div>
                   </div>
