@@ -41,33 +41,23 @@ get_header();
                   </div>
                 </div>
               </div>
+              <div class="mt-5 card-white">
+                <h2>
+                  Direct
+                </h2>
+                <div class="separator-gradient mb-3"></div>
+                <div class="row fund-table">
+                  <div class="col-6">
+                    <h5><a href="tel:8889454242">888-945-4242</a></h5>
+                    <h5><a href="mailto:invest@americangroup.us" target="_blank">invest@americangroup.us</a></h5>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-
-      <section class="container-fluid bg-grey border-top border-bottom">
-        <div class="container mt-5">
-          <div class="row pb-5">
-            <div class="col-12 col-sm-6">
-              <img class="w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/graphs/graph-1.png" />
-            </div>
-            <div class="col-12 col-sm-6 text-right">
-              <h2 class="mt-4">
-                Delivering Federal Tax Free Appreciation and Depreciation
-              </h2>
-              <p>
-                Distributions are automatically reinvested to increase your <a href="/tax-advantage">tax free</a> investment.
-              </p>
-              <a href="#pills-signup" data-toggle="modal" data-target="#modal-login" class="button-custom mb-4">
-                Create An Account
-              </a>
-            </div>
-          </div>
-        </div>
-      </section> <!-- /container -->
-
-     
+      
 
      <!-- Need Help Section -->
 
