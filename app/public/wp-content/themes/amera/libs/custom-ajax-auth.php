@@ -13,6 +13,19 @@ function ajax_auth_init(){
       'loadingmessage' => __('Sending user info, please wait...')
   ));
 
+  // Start Test AJAX
+
+  wp_register_script('ajax-auth-scriptB', get_template_directory_uri() . '/js/ajax-auth-scriptB.js', array('jquery') ); 
+  wp_enqueue_script('ajax-auth-scriptB');
+
+  wp_localize_script( 'ajax-auth-scriptB', 'ajax_auth_objectB', array( 
+      'ajaxurl' => admin_url( 'admin-ajax.php' ),
+      'redirecturlB' => '/faq',
+      'loadingmessage' => __('Sending user info, please wait...')
+  ));
+
+  // End Test AJAX
+
   // Enable the user with no privileges to run ajax_login() in AJAX
   add_action( 'wp_ajax_nopriv_ajaxlogin', 'ajax_login' );
 	// Enable the user with no privileges to run ajax_register() in AJAX

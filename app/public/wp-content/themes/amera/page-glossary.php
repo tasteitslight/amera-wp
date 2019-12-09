@@ -26,7 +26,7 @@ get_header();
 
       <section class="container pt-5 px-0 bg-grey">
         <div class="container bg-grey">
-          <a href="/resources" class="resources--link"><i class="icon-chevron-left icon-small"></i>Resources</a>
+          <a href="/resources" class="resources--link"><i class="fa fa-chevron-left"></i>Resources</a>
         </div>
         <div class="list-group-flush d-flex flex-wrap glossary-links mt-5 w-100 justify-content-center bg-grey border-bottom">
           <a class="list-group-item glossary" href="#a">A</a>

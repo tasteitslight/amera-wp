@@ -1,7 +1,7 @@
 jQuery(document).ready(function ($) {
     
 	// Perform AJAX login/register on form submit
-	$('form#login, form#register').on('submit', function (e) {
+	$('form#login').on('submit', function (e) {
     if (!$(this).valid()) return false;
     $('p.status', this).show().text(ajax_auth_object.loadingmessage);
       action = 'ajaxlogin';
