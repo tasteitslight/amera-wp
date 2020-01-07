@@ -177,7 +177,7 @@ get_header();
                   Upon death
                 </div>
                 <div class="col-6 col-md-5 calc__col calc__col--blue">
-                  Basis step-ups of up to 15% in year 7
+                  Basis step-ups of up to 10% in year 5
                 </div>
               </div> <!--End Row-->
 

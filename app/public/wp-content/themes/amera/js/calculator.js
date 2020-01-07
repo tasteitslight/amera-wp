@@ -18,7 +18,7 @@ function calculate () {
   let capAvail = initialGain - initialFedTax;
   let newValue = capAvail * (1+ .09 * 10);
   let newValueB = initialGain * (1+ .09 * 10);
-  let tax85 = initialFedTax * .85
+  let tax85 = initialFedTax * .9
   let tax2029 = (newValue - capAvail) * .238;
   let afterTax = newValue - tax2029;
   let afterTaxB = newValueB - tax85;
@@ -74,7 +74,7 @@ function calculate () {
   let capAvailS = initialGain - initialFedTaxS;
   let newValueS = capAvailS * (1+ .09 * 10);
   let newValueBS = initialGain * (1+ .09 * 10);
-  let tax85S = initialFedTaxS * .85
+  let tax85S = initialFedTaxS * .9;
   let tax2029S = (newValueS - capAvailS) * .238;
   let afterTaxS = newValueS - tax2029S;
   let afterTaxBS = newValueBS - tax85S;

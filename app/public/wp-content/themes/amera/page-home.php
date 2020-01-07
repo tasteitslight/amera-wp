@@ -13,16 +13,6 @@
 get_header();
 ?>
 
-<script type="text/javascript">
-      <!--
-          function toggle_visibility(id) {
-            var e = document.getElementById(id);
-                e.style.display = 'none';
-                document.getElementById("video-iframe").style.display = 'block';
-          }
-      //-->
-      </script>
-
 <main role="main">
 
       <div class="window-frame"></div>
@@ -72,7 +62,6 @@ get_header();
 
       <section id="video" class="container-fluid bg-grey border-top py-5">
         <div class="container text-center home-video-container mt-5">
-        <!--<a id="video-img" onclick="toggle_visibility('video-img');"><img src="<?php bloginfo('template_directory'); ?>/assets/img/general/iso-1.png" width="100%" /></a>-->
         <iframe id="video-iframe" src="https://www.youtube.com/embed/4frFUJLN_2g?rel=0&modestbranding=1&autohide=1&fs=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
           

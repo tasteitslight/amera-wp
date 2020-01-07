@@ -53,7 +53,7 @@ get_header();
             </p>
             <h2 class="pb-2">Why Invest in Opportunity Funds?</h2>
             <p class="pb-2">
-              Opportunity Funds allow investors to (1) pay zero federal taxes on profits from an Opportunity Fund if held for 10 years and (2) defer federal taxes on any current capital gain taxes until 2027 while reducing that tax payment by 15%.
+              Opportunity Funds allow investors to (1) pay zero federal taxes on profits from an Opportunity Fund if held for 10 years and (2) defer federal taxes on any current capital gain taxes until 2027 while reducing that tax payment by 10%.
             </p>
           </div>
           <div class="d-none d-md-block col-md-5 text-center">
@@ -87,7 +87,7 @@ get_header();
                 <h5 class="card-header card-header-two bg-red"><span style="font-weight:700">Defer &amp; Reduce</span> Current Federal Capital Gain Taxes</h5>
                 <div class="card-body">
                   <h5 class="card-title">Capital gains from the prior 180 days placed into an Opportunity Fund are allowed to defer
-                    federal tax payment until 2027 and reduce that payment by 15%.
+                    federal tax payment until 2027 and reduce that payment by 10%.
                   </h5>
                 </div>
               </div>
@@ -102,7 +102,7 @@ get_header();
       <section id="example" class="container text-center pb-0 pt-5 mt-5">
         <h1 class="pb-5">Example</h1>
         <p class="pb-5">
-            If a long term sale results in $1,000,000 profit and $238,000 federal capital gain taxes (23.8%), invest all of the $1,000,000 gain into an Opportunity Fund. Assuming an annual return rate of 9% simple, the post-tax value of the investment after 10 years is $1,900,000. The investor pays <span class="color-blue"><strong>zero federal taxes</strong></span> on this gain. The only tax liability is $202,300, <span class="color-red"><strong>deferred until 2027 and a 15% reduced amount,</strong></span> from what would have currently been paid. As a result, post-tax earnings are more than <strong>double</strong> had they invested elsewhere.
+            If a long term sale results in $1,000,000 profit and $238,000 federal capital gain taxes (23.8%), invest all of the $1,000,000 gain into an Opportunity Fund. Assuming an annual return rate of 9% simple, the post-tax value of the investment after 10 years is $1,900,000. The investor pays <span class="color-blue"><strong>zero federal taxes</strong></span> on this gain. The only tax liability is $214,200, <span class="color-red"><strong>deferred until 2027 and a 10% reduced amount,</strong></span> from what would have currently been paid. As a result, post-tax earnings are more than <strong>double</strong> had they invested elsewhere.
         </p>
         <hr class="pb-4"/>
         <div class="container calc__container mb-5">
@@ -180,13 +180,13 @@ get_header();
                       
             <div class="row calc__row">
               <div class="col-12 col-md-6 calc__col ">
-                Top Federal Tax on 85% of Original Gain due 2027
+                Top Federal Tax on 90% of Original Gain due 2027
               </div>
               <div class="col-6 col-md-3 calc__col ">
                 -
               </div>
               <div class="col-6 col-md-3 calc__col ">
-                (202,300) 
+                (214,200) 
               </div>
             </div> <!--End Row-->
                       
@@ -210,7 +210,7 @@ get_header();
                 $1,284,580
               </div>
               <div class="col-6 col-md-3 calc__col  ">
-                $1,697,700
+                $1,685,800
               </div>
             </div> <!--End Row-->
 
@@ -234,7 +234,7 @@ get_header();
                 <strong>$284,580</strong>
               </div>
               <div class="col-6 col-md-3 calc__col ">
-                <strong>$697,700</strong>
+                <strong>$685,800</strong>
               </div>
             </div> <!--End Row-->
           </div>

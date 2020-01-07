@@ -218,7 +218,7 @@ get_header('landing');
               <div class="separator-gradient my-4"></div>
               <h2 class="pb-2">Why Invest in Opportunity Funds?</h2>
               <p class="">
-                Opportunity Funds allow investors to (1) pay zero federal taxes on profits from an Opportunity Fund if held for 10 years and (2) defer federal taxes on any current capital gain taxes until 2027 while reducing that tax payment by 15%.
+                Opportunity Funds allow investors to (1) pay zero federal taxes on profits from an Opportunity Fund if held for 10 years and (2) defer federal taxes on any current capital gain taxes until 2027 while reducing that tax payment by 10%.
               </p>
             </div>
             <div class="d-none d-md-block col-md-4 text-center">
@@ -235,7 +235,7 @@ get_header('landing');
           </h4>
           <div class="pb-5">
             <h4><span class="color-blue" style="font-weight:700">1. Elimination</span> - No federal taxes on profits from an opportunity fund when held 10+ years</h4>
-            <h4><span class="color-red" style="font-weight:700">2. Deferment and Reduction</span> of original capital gain taxes: Not due until 2027 with a 15% reduction</h4>
+            <h4><span class="color-red" style="font-weight:700">2. Deferment and Reduction</span> of original capital gain taxes: Not due until 2027 with a 10% reduction</h4>
           </div>
           <section class="container-fluid border-top--light mt-5 section-advantage">
             <div class="container position-relative ">
@@ -265,11 +265,11 @@ get_header('landing');
                 <h1 class="pb-2 pb-sm-3">Deferral &amp; Reduction</h1>
                 <p class="color-dark">
                   <span style="font-weight: 700">
-                    Any capital gain invested into an opportunity fund within 180 days of realization will be tax deferred. This current capital gain tax obligation is reduced 15% when paid in 2027 (with inflated dollars).
+                    Any capital gain invested into an opportunity fund within 180 days of realization will be tax deferred. This current capital gain tax obligation is reduced 10% when paid in 2027 (with inflated dollars).
                   </span>
                 </p>
                 <p>
-                  An investor with capital gains from any source, such as the sale of stock, real estate, jewelry, artwork, etc. is not required to pay taxes on that gain until 2027 if it is placed into an Opportunity Fund. When paid in 2027, this original capital gain tax is reduced 15% and paid in inflated dollars.
+                  An investor with capital gains from any source, such as the sale of stock, real estate, jewelry, artwork, etc. is not required to pay taxes on that gain until 2027 if it is placed into an Opportunity Fund. When paid in 2027, this original capital gain tax is reduced 10% and paid in inflated dollars.
                 </p>  
               </dv>
             </div>
@@ -287,7 +287,7 @@ get_header('landing');
 
         <div class="container mt-5">
           <p class="py-5 text-center">
-            If a long term sale results in $1,000,000 profit and $238,000 federal capital gain taxes (23.8%), invest all of the $1,000,000 gain into an Opportunity Fund. Assuming an annual return rate of 9% simple, the post-tax value of the investment after 10 years is $1,900,000. The investor pays <span class="color-blue"><strong>zero federal taxes</strong></span> on this gain. The only tax liability is $202,300, <span class="color-red"><strong>deferred until 2027 and a 15% reduced amount,</strong></span> from what would have currently been paid. As a result, post-tax earnings are more than <strong>double</strong> had they invested elsewhere.
+            If a long term sale results in $1,000,000 profit and $238,000 federal capital gain taxes (23.8%), invest all of the $1,000,000 gain into an Opportunity Fund. Assuming an annual return rate of 9% simple, the post-tax value of the investment after 10 years is $1,900,000. The investor pays <span class="color-blue"><strong>zero federal taxes</strong></span> on this gain. The only tax liability is $214,200, <span class="color-red"><strong>deferred until 2027 and a 10% reduced amount,</strong></span> from what would have currently been paid. As a result, post-tax earnings are more than <strong>double</strong> had they invested elsewhere.
           </p>
           <h2 class="py-4 text-center">
             After-Tax Net Profit Comparison

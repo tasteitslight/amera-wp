@@ -135,12 +135,12 @@ get_header();
             <div class="col-12 col-sm-5 col-md border-all bg-white m-1 bio-card" data-toggle="modal" data-target="#will">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-will.png" />
               <h5>Will Caulfield</h5>
-              <p>Director of Communications, American Group</p>
+              <p>Marketing Director, Investor Relations, American Group</p>
             </div>
             <div class="col-12 col-sm-5 col-md border-all bg-white m-1 bio-card" data-toggle="modal" data-target="#devan">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-devan.png" />
               <h5>Devan Makwana</h5>
-              <p>Lead Developer, American Group</p>
+              <p>Developer, American Group</p>
             </div>
           </div>
           <div class="row mt-5 justify-content-center">

@@ -73,13 +73,13 @@
               
     <div class="row calc__row">
       <div class="col-12 col-md-6 calc__col ">
-        Top Federal Tax on 85% of Original Gain due 2027
+        Top Federal Tax on 90% of Original Gain due 2027
       </div>
       <div class="col-6 col-md-3 calc__col ">
         -
       </div>
       <div class="col-6 col-md-3 calc__col" id="tax85">
-        (202,300) 
+        (214,200) 
       </div>
     </div> <!--End Row-->
               
@@ -103,7 +103,7 @@
         $1,284,580
       </div>
       <div class="col-6 col-md-3 calc__col" id="afterTaxB">
-        $1,697,700
+        $1,685,800
       </div>
     </div> <!--End Row-->
 
@@ -127,7 +127,7 @@
         <strong>$284,580</strong>
       </div>
       <div class="col-6 col-md-3 calc__col" id="netProfitB">
-        <strong>$697,700</strong>
+        <strong>$685,800</strong>
       </div>
     </div> <!--End Row-->
   </div>

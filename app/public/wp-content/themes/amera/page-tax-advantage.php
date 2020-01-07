@@ -34,7 +34,7 @@ get_header();
               were created:
             </h3>
             <p><span class="color-blue" style="font-weight:700">1. Elimination</span> - No federal taxes on profits from an opportunity fund when held 10+ years</p>
-            <p><span class="color-red" style="font-weight:700">2. Deferment and Reduction</span> of original capital gain taxes: Not due until 2027 with a 15% reduction</p>
+            <p><span class="color-red" style="font-weight:700">2. Deferment and Reduction</span> of original capital gain taxes: Not due until 2027 with a 10% reduction</p>
           </div>
         </div>
       </section> <!-- /container -->
@@ -67,11 +67,11 @@ get_header();
             <h1 class="pb-2 pb-sm-3">Deferral &amp; Reduction</h1>
             <p class="color-dark">
               <span style="font-weight: 700">
-                Any capital gain invested into an opportunity fund within 180 days of realization will be tax deferred. This current capital gain tax obligation is reduced 15% when paid in 2027 (with inflated dollars).
+                Any capital gain invested into an opportunity fund within 180 days of realization will be tax deferred. This current capital gain tax obligation is reduced 10% when paid in 2027 (with inflated dollars).
               </span>
             </p>
             <p>
-              An investor with capital gains from any source, such as the sale of stock, real estate, jewelry, artwork, etc. is not required to pay taxes on that gain until 2027 if it is placed into an Opportunity Fund. When paid in 2027, this original capital gain tax is reduced 15% and paid in inflated dollars. <a href="/opportunity-fund#example">Click here for an example.</a>
+              An investor with capital gains from any source, such as the sale of stock, real estate, jewelry, artwork, etc. is not required to pay taxes on that gain until 2027 if it is placed into an Opportunity Fund. When paid in 2027, this original capital gain tax is reduced 10% and paid in inflated dollars. <a href="/opportunity-fund#example">Click here for an example.</a>
             </p>  
           </dv>
         </div>
@@ -110,7 +110,7 @@ get_header();
           <div class="col-sm-4 col-md-3 text-left order-2">
             <p>
               <span class="color-dark"><strong>2027</strong></span> - Deferred tax on original gain is paid in April 2027 dollars
-              and <span class="color-red"><strong>REDUCED</strong></span> by 15%.
+              and <span class="color-red"><strong>REDUCED</strong></span> by 10%.
             </p>
           </div>
         </div>
