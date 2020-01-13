@@ -1,22 +1,26 @@
+
+
 <form id="register" class="ajax-auth"  action="register" method="post">
 <h3 class="pt-4 text-left">Create an American Group account</h3>
 <p class="text-left">Review our investment opportunities and receive our educational newsletter. </p>
   <p class="status"></p>
   <?php wp_nonce_field('ajax-register-nonce', 'signonsecurity'); ?>         
-  <label for="fname">First Name</label>
-  <input id="fname" type="text" name="fname">
-  <label for="lname">Last Name</label>
-  <input id="lname" type="text" name="lname">
-  <label for="email">Email</label>
-  <input id="email" type="text" class="required email" name="email">
-
-  <!--<label for="capitalgainsradio">Have you recognized a capital gain within the past 180 days?</label><br/>
-  <input id="capitalgainsradio" type="radio" name="capitalgainsradio" value="Yes"> Yes&nbsp;&nbsp;&nbsp;
-  <input id="capitalgainsradio" type="radio" name="capitalgainsradio" value="No"> No&nbsp;&nbsp;&nbsp;
-  <input id="capitalgainsradio" type="radio" name="capitalgainsradio" value="Unsure"> I don't know&nbsp;&nbsp;&nbsp;
-  <br/>-->
-
-  <label for="signonpassword">Password</label>
-  <input id="signonpassword" type="password" class="required" name="signonpassword" >
+  <input id="fname" type="text" name="fname" placeholder="First Name">
+  <input id="lname" type="text" name="lname" placeholder="Last Name">
+  <input id="email" type="text" class="required email" name="email" placeholder="Email">
+  <input id="signonpassword" type="password" class="required" name="signonpassword" placeholder="Password">
+  <div class="radios">
+    <input type="radio" id="ac1" name="ac" value="yes">
+    <label for="ac1">I'm an <a href="#" data-toggle="tooltip" data-placement="right" title="Your income is >$200K, or >$300K w/ spouse; OR your net worth is >$1M alone or combined with spouse">Accredited Investor <i class="fa fa-info-circle"></i></a></label>
+    <br/>
+    <input type="radio" id="ac2" name="ac" value="no">
+    <label for="ac2">I'm not an Accredited Investor</label>
+  </div>
   <input class="submit_button" type="submit" value="Submit">
 </form>
+
+<script>
+
+
+
+</script>

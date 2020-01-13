@@ -161,6 +161,12 @@
     modal.find('[href="'+link.attr("href")+'"]').tab('show');
     });
 
+    // Tooltip Initiate
+
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+
     </script>
     
 </body>
