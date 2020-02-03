@@ -13,6 +13,8 @@
 get_header();
 ?>
 
+
+
 <main role="main">
 
       <div class="window-frame"></div>
@@ -198,7 +200,29 @@ get_header();
 
       <?php get_template_part('section', 'help'); ?>   
 
+      <div id="privacyModal" class="border-top">
+            <div class="d-flex justify-content-between">
+                <p class="mr-3 py-2 my-0">This website uses cookies to personalize content and analyse traffic in order to offer you a better experience.</p>
+                <div>
+                    <button type="button" class="button-custom mr-3 mb-2 mb-xl-0" onclick="hidePrivacy()">Accept</button>
+                    <a href="/privacy">Learn More</a>
+                </div>
+            </div>
+        </div>
+        
+
     </main>   
+
+    <script>
+
+        function hidePrivacy() {
+            var x = document.getElementById("privacyModal");
+            x.style.display = "none";
+        }
+
+    </script>
+
+    
 
 <?php
 get_footer();
