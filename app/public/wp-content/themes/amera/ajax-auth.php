@@ -16,11 +16,8 @@
     <input type="radio" id="ac2" name="ac" value="no">
     <label for="ac2">I'm not an Accredited Investor</label>
   </div>
-  <input class="submit_button" type="submit" value="Submit">
+  <input class="submit_button" type="submit" value="Submit" onClick=""disabled>
 </form>
 
 <script>
-
-
-
 </script>

@@ -20,7 +20,7 @@ function ajax_auth_init(){
 
   wp_localize_script( 'ajax-auth-scriptB', 'ajax_auth_objectB', array( 
       'ajaxurl' => admin_url( 'admin-ajax.php' ),
-      'redirecturlB' => '/faq',
+      'redirecturlB' => '/dashboard',
       'loadingmessage' => __('Sending user info, please wait...')
   ));
 
