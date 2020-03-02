@@ -35,7 +35,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 html {
   scroll-behavior: smooth;
-  overflow-y: scroll;
 }
 
 .border-bottom {
@@ -1050,14 +1049,4 @@ ul.sponsor-list li {
 
 .dashboard-reg li.nav-item {
   border:none !important;
-}
-
-// Cookie Modal CSS
-
-#privacyModal{ 
-    position:fixed; 
-    bottom:0; 
-    width:100%; 
-    background-color:white; 
-    padding: 10px 20px 10px 20px;
 }
