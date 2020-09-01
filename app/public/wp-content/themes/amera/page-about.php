@@ -125,18 +125,18 @@ get_header();
             <div class="col-12 col-sm-5 col-md border-all bg-white m-1 bio-card" data-toggle="modal" data-target="#greg">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-greg.png" />
               <h5>Gregory L. Horton</h5>
-              <p>President, American Group</p>
+              <p>CEO, American Group</p>
             </div>
             <div class="col-12 col-sm-5 col-md border-all bg-white m-1 bio-card" data-toggle="modal" data-target="#jacqueline">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-jacqueline.png" />
               <h5>Jacqueline S. Miller</h5>
-              <p>CEO, Cal-American</p>
+              <p>President, Cal-American Corp</p>
             </div>
-            <div class="col-12 col-sm-5 col-md border-all bg-white m-1 bio-card" data-toggle="modal" data-target="#will">
+            <!-- <div class="col-12 col-sm-5 col-md border-all bg-white m-1 bio-card" data-toggle="modal" data-target="#will">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-will.png" />
               <h5>Will Caulfield</h5>
               <p>Marketing Director, Investor Relations, American Group</p>
-            </div>
+            </div> -->
             <div class="col-12 col-sm-5 col-md border-all bg-white m-1 bio-card" data-toggle="modal" data-target="#devan">
               <img class="team--img my-5" src="<?php bloginfo('template_directory'); ?>/assets/img/headshot/headshot-devan.png" />
               <h5>Devan Makwana</h5>

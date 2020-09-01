@@ -1,0 +1,124 @@
+/* Calculator */
+
+@import '../color'; // imports _color.scss
+
+
+.calc__table {
+  text-align: right;
+  font-size: calc(16px + .3vw);
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: .03em;
+}
+
+.calc__col {
+  padding: 10px 5px;
+  border-right: 1px solid $borderLight;
+}
+
+.calc__row--sticky {
+  color:white;
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top:37px;
+  z-index:900;
+}
+
+.calc__row>.calc__col:first-child {
+  text-align:left;
+  padding-left: 10px;
+  background-color: #f8f8f8;
+  font-weight: 700;
+  border-bottom: 1px $borderLight solid;
+  border-left:1px $borderLight solid;
+  border-top: 1px $borderLight solid;
+}
+
+.calc__row>.calc__col:nth-child(2) {
+  background-color: #f8f8f8;
+  border-left: 1px $borderLight solid;
+}
+
+.calc__row>.calc__col:nth-child(3) {
+  background-color: #fff;
+}
+
+.row>.calc__col--spacer {
+  border:none;
+}
+
+
+.row>.calc__col--spacer:nth-child(1) {
+  border-top:1px $borderLight solid;
+  border-left:1px $borderLight solid;
+  border-right:1px $borderLight solid;
+}
+
+.row>.calc__col--spacer:nth-child(2) {
+  border-left:1px $borderLight solid;
+}
+
+.row>.calc__col--spacer:nth-child(3) {
+  border-right:1px $borderLight solid;
+}
+
+.calc__row.final>.calc__col:nth-child(2),
+.calc__row.final>.calc__col:nth-child(3){
+  border-bottom: 1px $borderLight solid;
+}
+
+@media (min-width: 768px) {
+
+  .calc__table {
+    font-size: calc(13px + 0.5vw);
+  }
+
+  .calc__row--sticky {
+    position: static;
+    top:60px;
+  }
+
+  .blueDashBorder{
+    border: 2px dashed #27B0F0;
+  }
+
+  .calc__row>.calc__col:first-child {
+    background-color: transparent;
+    text-align: right;
+    padding-right: 5px;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  .calc__row>.calc__col:nth-child(2) {
+    border-left: none;
+    background-color: transparent;
+  }
+
+  .calc__row>.calc__col:nth-child(3) {
+    border-left: none;
+    background-color: transparent;
+  }
+
+  .calc__col--spacer:first-child {
+    border: none !important;
+  }
+
+  .calc__col--spacer:nth-child(2),
+  .calc__col--spacer:nth-child(3) {
+    border-right: 1px $borderLight solid;
+    border-left: none !important;
+  }
+}
+
+// Interactive Calculator
+
+#netProfitS {
+  color:red;
+}
+
+.final {
+  font-size: 1.2em;
+}

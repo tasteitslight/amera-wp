@@ -47,10 +47,6 @@
           <div class="col-6 col-md-3 col-lg">
             <h6>Resources</h6>
             <ul class="footer-ul">
-              <!-- Calendly link widget begin -->
-              <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-              <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-              <li><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/will-american-group/discovery-call'});return false;">Schedule A Call</a></li>
               <li><a href="/articles">Articles</a></li>
               <li><a href="/glossary">Glossary</a></li>
               <li><a href="/faq">FAQ</a></li>

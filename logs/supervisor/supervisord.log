@@ -777,3 +777,79 @@
 2020-01-13 16:25:25,987 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2020-01-13 16:25:25,989 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2020-01-13 16:25:25,989 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-01-31 19:19:10,736 CRIT Supervisor running as root (no user in config file)
+2020-01-31 19:19:10,736 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2020-01-31 19:19:11,118 INFO RPC interface 'supervisor' initialized
+2020-01-31 19:19:11,119 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-01-31 19:19:11,120 INFO supervisord started with pid 1
+2020-01-31 19:19:12,146 INFO spawned: 'varnishd' with pid 51
+2020-01-31 19:19:12,162 INFO spawned: 'php-fpm' with pid 52
+2020-01-31 19:19:12,212 INFO spawned: 'varnish-plugins-watcher' with pid 53
+2020-01-31 19:19:12,309 INFO spawned: 'nginx' with pid 54
+2020-01-31 19:19:12,414 INFO spawned: 'MailHog' with pid 55
+2020-01-31 19:19:12,461 INFO spawned: 'mysql' with pid 59
+2020-01-31 19:19:12,524 INFO spawned: 'varnish-themes-watcher' with pid 63
+2020-01-31 19:19:13,388 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-01-31 19:19:13,438 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-01-31 19:19:13,444 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-01-31 19:19:13,445 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-01-31 19:19:13,451 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-01-31 19:19:13,455 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-01-31 19:19:13,475 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-02-06 21:15:47,985 CRIT Supervisor running as root (no user in config file)
+2020-02-06 21:15:47,987 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2020-02-06 21:15:48,522 INFO RPC interface 'supervisor' initialized
+2020-02-06 21:15:48,523 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-02-06 21:15:48,554 INFO supervisord started with pid 1
+2020-02-06 21:15:49,634 INFO spawned: 'varnishd' with pid 63
+2020-02-06 21:15:49,676 INFO spawned: 'php-fpm' with pid 64
+2020-02-06 21:15:49,708 INFO spawned: 'varnish-plugins-watcher' with pid 65
+2020-02-06 21:15:49,775 INFO spawned: 'nginx' with pid 66
+2020-02-06 21:15:49,827 INFO spawned: 'MailHog' with pid 69
+2020-02-06 21:15:49,876 INFO spawned: 'mysql' with pid 70
+2020-02-06 21:15:50,023 INFO spawned: 'varnish-themes-watcher' with pid 73
+2020-02-06 21:15:50,793 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-02-06 21:15:50,794 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-02-06 21:15:50,795 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-02-06 21:15:50,799 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-02-06 21:15:50,800 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-02-06 21:15:50,898 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-02-06 21:15:50,901 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-02 19:23:03,997 CRIT Supervisor running as root (no user in config file)
+2020-03-02 19:23:03,997 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2020-03-02 19:23:04,355 INFO RPC interface 'supervisor' initialized
+2020-03-02 19:23:04,356 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-03-02 19:23:04,358 INFO supervisord started with pid 1
+2020-03-02 19:23:05,363 INFO spawned: 'varnishd' with pid 25
+2020-03-02 19:23:05,371 INFO spawned: 'php-fpm' with pid 26
+2020-03-02 19:23:05,373 INFO spawned: 'varnish-plugins-watcher' with pid 27
+2020-03-02 19:23:05,388 INFO spawned: 'nginx' with pid 28
+2020-03-02 19:23:05,422 INFO spawned: 'MailHog' with pid 29
+2020-03-02 19:23:05,435 INFO spawned: 'mysql' with pid 30
+2020-03-02 19:23:05,451 INFO spawned: 'varnish-themes-watcher' with pid 32
+2020-03-02 19:23:06,612 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-02 19:23:06,613 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-02 19:23:06,613 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-02 19:23:06,613 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-02 19:23:06,613 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-02 19:23:06,613 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-02 19:23:06,614 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-31 20:01:29,046 CRIT Supervisor running as root (no user in config file)
+2020-08-31 20:01:29,053 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2020-08-31 20:01:30,156 INFO RPC interface 'supervisor' initialized
+2020-08-31 20:01:30,159 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-08-31 20:01:30,161 INFO supervisord started with pid 1
+2020-08-31 20:01:31,253 INFO spawned: 'varnishd' with pid 75
+2020-08-31 20:01:31,397 INFO spawned: 'php-fpm' with pid 76
+2020-08-31 20:01:32,043 INFO spawned: 'varnish-plugins-watcher' with pid 79
+2020-08-31 20:01:32,549 INFO spawned: 'nginx' with pid 81
+2020-08-31 20:01:33,000 INFO spawned: 'MailHog' with pid 83
+2020-08-31 20:01:33,438 INFO spawned: 'mysql' with pid 84
+2020-08-31 20:01:33,873 INFO spawned: 'varnish-themes-watcher' with pid 85
+2020-08-31 20:01:34,353 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-31 20:01:34,418 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-31 20:01:34,435 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-31 20:01:34,601 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-31 20:01:34,725 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-31 20:01:34,728 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-31 20:01:34,731 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

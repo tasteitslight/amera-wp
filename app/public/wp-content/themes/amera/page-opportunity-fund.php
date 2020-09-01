@@ -21,16 +21,14 @@ get_header();
             Learn why Opportunity Funds are the most exciting investment<br class="pof-br1"/> to develop in recent history.
           </p>
           <div class="row">
-            <div class="col-12 mb-3 m-sm-0 col-sm-6 text-center text-sm-right">
+            <div class="col-12 mb-3 m-sm-0 col-sm-12 text-center">
               <a href="/investments" class="button-custom mt-2">View Investments</a>
             </div>
-            <div class="col-12 col-sm-6 text-center text-sm-left">
-              <!-- Calendly link widget begin -->
+            <!-- <div class="col-12 col-sm-6 text-center text-sm-left">
               <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
               <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
               <a class="button-custom mt-2" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/will-american-group/discovery-call'});return false;">Schedule A Call</a>
-              <!-- Calendly link widget end -->
-            </div>
+            </div> -->
           </div>
         </div>
         <svg class="svg-diagonal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">

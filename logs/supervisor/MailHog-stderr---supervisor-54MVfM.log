@@ -1,0 +1,68 @@
+2020/08/31 20:01:34 Using in-memory storage
+2020/08/31 20:01:34 [SMTP] Binding to address: 0.0.0.0:1025
+2020/08/31 20:01:34 Serving under http://:1080/
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] Starting session
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] [PROTO: INVALID] Started session, switching to ESTABLISH state
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] Sent 35 bytes: '220 mailhog.example ESMTP MailHog\r\n'
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] Received 16 bytes: 'EHLO localhost\r\n'
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] [PROTO: ESTABLISH] Processing line: EHLO localhost
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] [PROTO: ESTABLISH] In state 1, got command 'EHLO', args 'localhost'
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] [PROTO: ESTABLISH] In ESTABLISH state
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] [PROTO: ESTABLISH] Got EHLO command, switching to MAIL state
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] Sent 21 bytes: '250-Hello localhost\r\n'
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] Sent 16 bytes: '250-PIPELINING\r\n'
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] Sent 16 bytes: '250 AUTH PLAIN\r\n'
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] Received 35 bytes: 'MAIL FROM:<www-data@4338bae43d3b>\r\n'
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] [PROTO: MAIL] Processing line: MAIL FROM:<www-data@4338bae43d3b>
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] [PROTO: MAIL] In state 6, got command 'MAIL', args 'FROM:<www-data@4338bae43d3b>'
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] [PROTO: MAIL] In MAIL state
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] [PROTO: MAIL] Got MAIL command, switching to RCPT state
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] Sent 37 bytes: '250 Sender www-data@4338bae43d3b ok\r\n'
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] Received 34 bytes: 'RCPT TO:<mailhog@flywheel.local>\r\n'
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] [PROTO: RCPT] Processing line: RCPT TO:<mailhog@flywheel.local>
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] [PROTO: RCPT] In state 7, got command 'RCPT', args 'TO:<mailhog@flywheel.local>'
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] [PROTO: RCPT] In RCPT state
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] [PROTO: RCPT] Got RCPT command
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] Sent 41 bytes: '250 Recipient mailhog@flywheel.local ok\r\n'
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] Received 6 bytes: 'DATA\r\n'
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] [PROTO: RCPT] Processing line: DATA
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] [PROTO: RCPT] In state 7, got command 'DATA', args ''
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] [PROTO: RCPT] In RCPT state
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] [PROTO: RCPT] Got DATA command, switching to DATA state
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] Sent 37 bytes: '354 End data with <CR><LF>.<CR><LF>\r\n'
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] Received 1024 bytes: 'To: will@caulfield.co\r\nSubject: [American Group] Your site has updated to WordPress 5.2.7\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Mon, 31 Aug 2020 20:04:05 +0000\r\nFrom: WordPress <wordpress@amera.local>\r\nMessage-ID: <c2be866171a43207ec9e69dc39a75b5a@amera.local>\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nHowdy! Your site at http://amera.local has been updated automatically to WordPress 5.2.7.\r\n\r\nFor more on version 5.2.7, see the About WordPress screen:\r\nhttp://amera.local/wp-admin/about.php\r\n\r\nWordPress 5.5 is also now available. Updating is easy and only takes a few moments:\r\nhttp://amera.local/wp-admin/update-core.php\r\n\r\nIf you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help.\r\nhttps://wordpress.org/support/\r\n\r\nKeeping your site updated is important for security. It also makes the internet a safer place for you and your readers.\r\n\r\nThe Word'
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] Received 17 bytes: 'Press Team\r\n\r\n.\r\n'
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] [PROTO: DATA] Got EOF, storing message and switching to MAIL state
+2020/08/31 20:04:05 Parsing Content from string: 'To: will@caulfield.co
+Subject: [American Group] Your site has updated to WordPress 5.2.7
+X-PHP-Originating-Script: 1000:class-phpmailer.php
+Date: Mon, 31 Aug 2020 20:04:05 +0000
+From: WordPress <wordpress@amera.local>
+Message-ID: <c2be866171a43207ec9e69dc39a75b5a@amera.local>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Howdy! Your site at http://amera.local has been updated automatically to WordPress 5.2.7.
+
+For more on version 5.2.7, see the About WordPress screen:
+http://amera.local/wp-admin/about.php
+
+WordPress 5.5 is also now available. Updating is easy and only takes a few moments:
+http://amera.local/wp-admin/update-core.php
+
+If you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help.
+https://wordpress.org/support/
+
+Keeping your site updated is important for security. It also makes the internet a safer place for you and your readers.
+
+The WordPress Team
+'
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] Storing message SFSZoESYvPCG4PmsmpiNa5sST6-7Jq-O3i1UiNggor0=@mailhog.example
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] Sent 80 bytes: '250 Ok: queued as SFSZoESYvPCG4PmsmpiNa5sST6-7Jq-O3i1UiNggor0=@mailhog.example\r\n'
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] Received 6 bytes: 'QUIT\r\n'
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] [PROTO: MAIL] Processing line: QUIT
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] [PROTO: MAIL] In state 6, got command 'QUIT', args ''
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] [PROTO: MAIL] Got QUIT verb, staying in MAIL state
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] Sent 9 bytes: '221 Bye\r\n'
+2020/08/31 20:04:05 [SMTP 127.0.0.1:40770] Session ended

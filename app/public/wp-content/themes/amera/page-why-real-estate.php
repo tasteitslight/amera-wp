@@ -70,7 +70,7 @@ get_header();
         <div class="container py-5">
           <div class="row">
             <div class="col-12 col-sm-6">
-              <h1>First Quarter 2019</h1>
+              <h1>Throughout 2019</h1>
               <p>
                 Real Estate emerges as major player in stock market's most recent period.
               </p>

@@ -1,0 +1,79 @@
+$bluePrime : #00b6ff;
+$blueSecond : #3493ff;
+
+$redPrime : #f17269;
+$redSecond : #cf4238;
+
+$purplePrime : #770ce2;
+$purpleSecond : #380f63;
+
+$fontDark : #130f0d;
+$fontMedDark : #2b2725;
+$fontLight : #73787F;
+$fontLightFooter : #aaaaaa; 
+
+$backgroundGrey : #f8f8f8;
+$backgroundDarkGrey : #e3e3e3;
+$backgroundLanding : #d1e3ee;
+
+$borderLight : #e3e3e3;
+$borderDark : #d3d3d3;
+
+$boxShadow : 0px 3px 3px 0px rgba(0,0,0,.3);
+
+
+.gradient-wtg {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1), $backgroundGrey 100%);
+}
+
+.gradient-gtw {
+  background: linear-gradient(360deg, rgba(255, 255, 255, 1), $backgroundGrey 100%);
+}
+
+.bg-grey {
+  background-color: $backgroundGrey;
+}
+
+.bg-landing {
+  background-color: $backgroundLanding;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.color-white {
+  color: white !important;
+}
+
+.color-dark {
+  color: $fontDark;
+}
+
+.color-red {
+  color: $redPrime;
+}
+
+.color-blue {
+  color: $blueSecond;
+}
+
+.color-grey{
+  color: $fontLight;
+}
+
+.bg-blue {
+  background: linear-gradient(to right, $blueSecond, $bluePrime 100%);
+}
+
+.bg-red {
+  background: linear-gradient(to left, $redPrime, $redSecond 100%);
+}
+
+.bg-purple {
+  background: linear-gradient(to left, $purplePrime, $purpleSecond 100%);
+}
+
+.bg-grey-gradient {
+  background: linear-gradient(to left, $fontLightFooter, $fontLight 100%);
+}

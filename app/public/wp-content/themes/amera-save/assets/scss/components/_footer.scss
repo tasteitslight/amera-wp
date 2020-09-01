@@ -1,0 +1,115 @@
+footer a:hover {
+  color: $blueSecond;
+}
+
+.footer-container-fluid {
+  padding-top:40px;
+  background-color: $backgroundDarkGrey;
+  color: $fontLightFooter;
+  margin-bottom: -40px !important;
+}
+
+.footer-container-fluid--landing {
+  padding-top:40px;
+  background-color: $backgroundDarkGrey;
+  color: $fontLightFooter;
+  margin-bottom: -40px !important;
+}
+
+.footer-email {
+  border-top: 1px #C7CCD2 solid;
+  border-bottom: 1px #C7CCD2 solid;
+  font-size: 25px;
+  padding: 15px 0 15px 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-email>*>*>a {
+  color: $fontLightFooter;
+  margin: 0px 5px;
+  font-size:18px;
+  position:relative;
+  bottom:3px;
+  font-weight:500;
+  vertical-align: middle;
+}
+
+.footer-email>*>*>a:hover {
+  color:$blueSecond;
+}
+
+.footer-social {
+  vertical-align: middle;
+  width:27px;
+  height:27px;
+  position:relative;
+  bottom:2px;
+}
+
+.footer-social-email {
+  background: url("/wp-content/themes/amera/assets/img/svg/social-email-outline.svg");
+}
+
+.footer-social-email:hover {
+  background: url("/wp-content/themes/amera/assets/img/svg/social-email-filled.svg");
+}
+
+.footer-social-twitter {
+  background: url("/wp-content/themes/amera/assets/img/svg/001-twitter-social-outlined-logo.svg");
+}
+
+.footer-social-twitter:hover {
+  background: url("/wp-content/themes/amera/assets/img/svg/001-twitter-social-filled-logo.svg");
+}
+
+.footer-social-fb {
+  background: url("/wp-content/themes/amera/assets/img/svg/002-facebook-logo-outline.svg");
+}
+
+.footer-social-fb:hover {
+  background: url("/wp-content/themes/amera/assets/img/svg/002-facebook-logo-filled.svg");
+}
+
+.footer-social-youtube {
+  background: url("/wp-content/themes/amera/assets/img/svg/social-youtube-outlined.svg");
+}
+
+.footer-social-youtube:hover {
+  background: url("/wp-content/themes/amera/assets/img/svg/social-youtube-filled.svg");
+}
+
+.footer-social-linkedin {
+  background: url("/wp-content/themes/amera/assets/img/svg/social-linkedin-outline.svg");
+}
+
+.footer-social-linkedin:hover {
+  background: url("/wp-content/themes/amera/assets/img/svg/social-linkedin-filled.svg");
+}
+
+.footer-social-insta {
+  background: url("/wp-content/themes/amera/assets/img/svg/social-instagram-outlined.svg");
+}
+
+.footer-social-insta:hover {
+  background: url("/wp-content/themes/amera/assets/img/svg/social-instagram-filled.svg");
+}
+
+.footer-ul {
+  font-size: 16px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer-ul a {
+  font-weight:400;
+  color: $fontLightFooter;
+  font-size:calc( 1em + 0.1vw);
+  -webkit-font-smoothing: antialiased;
+}
+
+.footer-disclaimer p {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: $fontLightFooter;
+  font-size:.8em;
+}
